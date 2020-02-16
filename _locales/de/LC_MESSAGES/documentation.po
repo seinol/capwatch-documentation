@@ -1,0 +1,1283 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020 Fabian Hauser, Farhad Mehta
+# This file is distributed under the same license as the Doc Template
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Doc Template v0.4-3-ge03d6f6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-31 19:18+0100\n"
+"PO-Revision-Date: 2020-01-31 18:14+0100\n"
+"Last-Translator: \n"
+"Language: de\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: /home/fhauser/tmp/test-sphinx/documentation/administration/eigenstaendigkeitserklaerung.md:1
+msgid "Eigenständigkeitserklärung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/administration/eigenstaendigkeitserklaerung.md:3
+msgid "Erklärung zum Engineering Projekt bezüglich Eigenständigkeit der Arbeit:"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/administration/eigenstaendigkeitserklaerung.md:5
+msgid "Wir erklären hiermit,"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/administration/eigenstaendigkeitserklaerung.md:7
+msgid ""
+"dass wir die vorliegende Arbeit selber und ohne fremde Hilfe durchgeführt"
+" haben, ausser derjenigen, welche explizit erwähnt ist,"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/administration/eigenstaendigkeitserklaerung.md:8
+msgid ""
+"dass wir sämtliche verwendeten Quellen erwähnt und gemäss gängigen "
+"wissenschaftlichen Zitierregeln korrekt angegeben haben und"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/administration/eigenstaendigkeitserklaerung.md:9
+msgid "dass die Urheberschaft aller Arbeitsergebnisse korrekt angegeben ist."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/administration/eigenstaendigkeitserklaerung.md:11
+msgid "Ort, Datum:"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/administration/eigenstaendigkeitserklaerung.md:13
+msgid "______________________________________________________"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/administration/eigenstaendigkeitserklaerung.md:15
+msgid "Name, Unterschrift:"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/administration/eigenstaendigkeitserklaerung.md:17
+#: /home/fhauser/tmp/test-sphinx/documentation/administration/eigenstaendigkeitserklaerung.md:19
+#: /home/fhauser/tmp/test-sphinx/documentation/administration/eigenstaendigkeitserklaerung.md:21
+#: /home/fhauser/tmp/test-sphinx/documentation/administration/eigenstaendigkeitserklaerung.md:23
+msgid "__________________________________________________"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:1
+msgid "Anforderungsspezifikationen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:3
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:3
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:3
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:3
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:3
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:3
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:3
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:3
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:3
+msgid "Einführung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:5
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:5
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:5
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:5
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:5
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:5
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:5
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:5
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:5
+msgid "Zweck"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:7
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:7
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:7
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:7
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:7
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:7
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:7
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:7
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:7
+msgid "Zweck des Dokumentes"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:9
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:9
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:9
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:9
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:9
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:9
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:9
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:9
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:9
+msgid "Gültigkeitsbereich"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:11
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:11
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:11
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:11
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:11
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:11
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:11
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:11
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:11
+msgid "Gültigkeitsbereich des Dokumentes"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:13
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:13
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:13
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:13
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:13
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:13
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:13
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:13
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:13
+msgid "Referenzen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:15
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:15
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:15
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:15
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:15
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:15
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:15
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:15
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:15
+msgid "Liste aller verwendeten und referenzierten Dokumente, Bücher, Links, usw."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:17
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:17
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:17
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:17
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:17
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:17
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:17
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:17
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:17
+msgid ""
+"Referenz auf ein Glossar Dokument, wo alle Abkürzungen und unklaren "
+"Begriffe erklärt werden"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:19
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:19
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:19
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:19
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:19
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:19
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:19
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:19
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:19
+msgid ""
+"Die Quellen / Referenzen sollten (falls möglich) automatisch erstellt "
+"werden"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:21
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:21
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:21
+msgid "Übersicht"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:23
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:23
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:23
+msgid ""
+"Übersicht über den restlichen Teil dieses Dokumentes geben und dessen "
+"Aufbau erläutern"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:25
+msgid "Allgemeine Beschreibung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:27
+msgid "Produkt Perspektive"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:29
+msgid "Produkt Perspektive beschreiben"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:31
+msgid "Produkt Funktion"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:33
+msgid "Allgemeine Beschreibung der Funktionen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:35
+msgid "Benutzer Charakteristik"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:37
+msgid "Zielgruppe des Produktes"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:39
+msgid "Einschränkungen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:41
+msgid "Wo sind die Grenzen des Produkts"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:43
+msgid "Annahmen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:45
+msgid ""
+"Was ist unklar und wird angenommen bezüglich des Projektes oder des "
+"Produktes"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:47
+msgid "Abhängigkeiten"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:49
+msgid "Von welchen Faktoren hängt das Produkt ab"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:51
+msgid "Use Cases"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:53
+msgid ""
+"Detailbeschreibung sämtlicher Use Cases. Erfolgt dieser Teil in einem "
+"separaten Dokument kann dieser Punkt weggelassen und unter Punkt 2.7. das"
+" entsprechende Dokument referenziert werden"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:55
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:57
+msgid "Use Case Diagramm"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:59
+msgid "Aktoren & Stakeholder"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:61
+msgid "Aufzählung und Beschreibung der Aktoren & Stakeholder"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:63
+msgid "Beschreibungen (Brief)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:65
+msgid "Alle Use Cases in einzelnen Kapiteln beschreiben im Brief Format"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:67
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:75
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:41
+msgid "Use Case Name"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:69
+msgid "Beschreibung zum Use Case im Brief Format"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:71
+msgid "Beschreibungen (Fully Dressed)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:73
+msgid ""
+"Spezielle und wichtige Use Cases (normalerweise nur einer oder zwei "
+"wichtige Use Cases) in einzelnen Kapiteln beschreiben im Fully Dressed "
+"Format"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:77
+msgid "Beschreibung zum Use Case im Fully Dressed Format"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:79
+msgid "Weitere Anforderungen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:81
+msgid "Qualitätsmerkmale"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:83
+msgid ""
+"Beschreibung der Qualitätsmerkmale der Software (Verweis auf ISO 9126 als"
+" Checkliste)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:85
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:47
+msgid "Schnittstellen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:87
+msgid "Beschreibung der Schnittstellen der Software"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:89
+msgid "Randbedingungen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/anforderungsspezifikation.md:91
+msgid "Auflistung der wichtigsten Randbedingungen mit einer Beschreibung dazu"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:1
+msgid "Domainanalyse"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:25
+msgid "Domain Modell"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:27
+msgid "Strukturdiagramm"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:29
+msgid "UML Domaindiagramm"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:31
+msgid "Wichtige Konzepte"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:33
+msgid "Auflistung und Beschreibung der wichtigsten Konzepte (Klassen)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:35
+msgid ""
+"Die Klassenbeschreibungen können auch als Kern des Glossars dienen, d.h. "
+"ein eigentliches Glossar könnte hier als Tabelle noch angehängt werden"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:37
+msgid "Systemsequenzdiagramme"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:39
+msgid ""
+"Diagramme der wichtigsten, sowie der komplizierteren Use Cases (pro Use "
+"Case ein Kapitel)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:43
+msgid "Systemsequenzdiagramm zum Use Case"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:45
+msgid "Systemoperationen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:47
+msgid "Aufzählung der Systemoperationen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:49
+msgid "Vertrag Systemoperation Name"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/analyse/domainanalyse.md:51
+msgid ""
+"Vertragskonstrukt mit Name, Querverweise, Operationsbeschreibung, "
+"Vorbedingungen und Nachbedingungen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:1
+msgid "Softwarearchitektur"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:25
+msgid "Systemübersicht"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:27
+msgid ""
+"Beschreibt die Softwarearchitektur eines Systems und wie sie sich "
+"präsentiert (am besten mit einem Bild um eine Übersicht zu ermöglichen) "
+"und einzelne Beschreibungen zu den einzelnen Elementen des Systems"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:29
+msgid "Architektonische Ziele & Einschränkungen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:31
+msgid ""
+"Beschreibt die Softwareanforderungen und Objekte, welche einen Einfluss "
+"auf die Architektur haben (z.B. Safety, Security, Privacy, Distribution, "
+"usw.); Beinhaltet auch eine Beschreibung von Design und "
+"Implementationsstrategie, Entwicklungstools, usw. vor allem die Antworten"
+" auf ‚Warum‘-Fragen, z.B. „Warum haben wir eine Data Access Schicht hier "
+"eingezogen?“, oder „Warum kommunizieren wir mit eigenen Messages über "
+"Sockets, und nicht über eine REST-Schnittstelle?“"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:33
+msgid ""
+"Anmerkung: Hier nicht noch einmal die Anforderungen wiederholen, sondern "
+"beschreiben, wie die Anforderungen in der Architektur umgesetzt wurden, "
+"um sie zu erreichen. Häufig sind es die nicht-funktionalen Anforderungen "
+"wie Security, Performance, Usability etc. welche einen Einfluss auf die "
+"Architektur haben. Also beschreiben Sie beispielsweise hier, wie sie die "
+"Architektur aufgebaut haben, um die Sicherheitsanforderungen zu erfüllen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:35
+msgid "Logische Architektur"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:37
+msgid ""
+"Beschreibung der logischen Struktur des Projekts. Pro Subsystem/Package "
+"ein einzelner Abschnitt und ein Übersichtsdiagramm über die einzelnen "
+"Subsysteme/Packages. Aufteilung in Subsysteme/Packages (zum Beispiel: 3"
+"-Layer-Architektur mit GUI, Problem Domain und Datenhaltung)."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:39
+msgid "Subsystem/Package Name"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:41
+msgid ""
+"Beschreibung mit Text und Diagramm der Architektur des "
+"Subsystems/Packages."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:43
+msgid "Klassenstruktur"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:45
+msgid ""
+"Klassendiagramm innerhalb des Packages und tabellarisch die wichtigsten "
+"Klassen beschreiben"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:49
+msgid "Beschreibung der Schnittstellen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:51
+msgid "Wichtige interne Abläufe"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:53
+msgid "Beschreibung von wichtigen internen Abläufen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:55
+msgid "Wichtige Abläufe"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:57
+msgid "Beschreibung von wichtigen Abläufen (packageübergreifend)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:59
+msgid "Prozesse und Threads"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:61
+msgid ""
+"Wenn mehrere Prozesse oder Threads eingesetzt werden wird hier "
+"beschrieben, wie diese ablaufen, miteinander funktionieren, Daten "
+"austauschen, sich synchronisieren, usw."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:63
+msgid "Deployment"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:65
+msgid ""
+"Beschreibung der einzelnen Komponenten und deren Aufteilung (auf welchen "
+"Umgebungen, Servern, usw. laufen die Komponenten)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:67
+msgid "Datenspeicherung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:69
+msgid ""
+"Beschreibung mit Diagramm der Datenspeicherung (Datenmodell, z.B. "
+"Datenbank)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:71
+msgid "Grössen und Leistung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/design/softwarearchitektur.md:73
+msgid ""
+"Einschränkungen der Applikation bezüglich Speicher, Leistung, etc.… (zum "
+"Beispiel: Verwaltung unterstützt maximal 20'000 Einträge)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/index.rst:2
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:1
+msgid "Projektantrag"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:3
+msgid "Kürzel: XXXXXX"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:5
+msgid ""
+"XXXXXX ist die Kurzbezeichnung des Projektes. Diese sollte nicht "
+"nachträglich geändert werden, da sie als Identifikation an verschiedenen "
+"Orten (z.B. git) verwendet wird. Dieser Antrag sollte insgesamt nicht "
+"länger als eine A4-Seite sein, evtl. kleinere Schrift wählen."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:7
+msgid ""
+"Kursiven Text löschen und gegebenenfalls durch gewünschte Angaben "
+"ersetzen."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:9
+msgid "Datum: DD.MM.YYYY"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:11
+msgid "Team"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:13
+msgid "Mitgliederliste des Projektteams mit allen Mailadressen:"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:15
+msgid ""
+"Beratungs- und Review-Termine angeben, an denen alle Teammitglieder "
+"anwesend sein können:"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:17
+msgid "Beispiel:"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:19
+msgid ""
+"Montag 15:10-16:50 und Donnerstags 10:10-11:50, evtl. auch Mittwoch über "
+"Mittag (12-13h)."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:21
+msgid "Es sind Termine mit Betreuern möglich:"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:23
+msgid "Montag 10-17h"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:25
+msgid "Dienstag 8-10h"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:27
+msgid "Mittwoch 8-17h"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:29
+msgid "Donnerstag 8-17h"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:31
+msgid "Freitag 8-17h"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:33
+msgid "Antrag Virtueller Server"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:35
+msgid ""
+"Wenn ein virtueller Server gewünscht wird, dann können Sie ihn selber "
+"bestellen, sobald Ihnen ein Betreuer zugewiesen ist. Wählen Sie den "
+"Ubuntu Linux 14.4 [SE2 Build-Server]."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:37
+msgid "http://fs-i.hsr.ch/vServerKiosk/"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:39
+msgid ""
+"Achtung: bei der Kiosk-Website kann man nur die kurzen HSR-Email-Adressen"
+" angeben, also nur fmehta@hsr.ch, die langen Adressen wie "
+"farhad.mehta@hsr.ch funktionieren auf dieser Seite nicht."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:41
+msgid "Motivation"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:43
+msgid "Was wollen Sie mit dem Projekt erreichen?"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:45
+msgid "Für wen ist das zu entwickelnde System gedacht?"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:47
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:67
+msgid "usw."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:49
+msgid "Programmidee"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:51
+msgid ""
+"Beschreibung der Funktionalität und des Umfangs des zu entwickelndes "
+"Systems (ca. 0.5 Seiten)."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:53
+msgid "Realisierung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:55
+msgid "Auf welcher Plattform"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:57
+msgid "Mit welchen Programmiersprache(n), Bibliotheken und Technologien"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:59
+msgid "Mit welchem Entwicklungssystem"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:61
+msgid "Entwicklerwerkzeuge, die Sie einsetzen wollen (SVN, Jenkins, Redmine…)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:63
+msgid "Welche Art von Benutzerschnittstelle"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektantrag/projektantrag.md:65
+msgid "Welche Art der Datenhaltung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:1
+msgid "Projektplan"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:21
+msgid "Projekt Übersicht"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:23
+msgid "Kurze Beschreibung des Projektes"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:25
+msgid "Zweck und Ziel"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:27
+msgid "Sinn und Zweck des Projektes, sowie Zielsetzung und auch persönliche Ziele"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:29
+msgid "Lieferumfang"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:31
+msgid "Konkreten Lieferumfang des Projektes beschreiben"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:33
+msgid "Annahmen und Einschränkungen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:35
+msgid ""
+"Annahmen die für diesen Projektplan getroffen werden und Einschränkungen "
+"denen er unterliegt"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:37
+msgid "Projektorganisation"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:39
+msgid "Kurze Beschreibung der Projektstruktur"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:41
+msgid "Organisationsstruktur"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:43
+msgid "Projektmitglieder nennen und deren Aufgaben und Verantwortungen aufzählen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:45
+msgid "Externe Schnittstellen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:47
+msgid "Ansprechpartner, verantwortliche Personen, Betreuer, usw. aufzählen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:49
+msgid "Management Abläufe"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:51
+msgid "Kostenvoranschlag"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:53
+msgid ""
+"Wie viel Zeit steht zur Verfügung? In welcher Zeitspanne läuft das "
+"Projekt? Wird das Projekt früher beendet, dafür wöchentlich mehr "
+"gearbeitet?"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:55
+msgid "Zeitliche Planung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:57
+msgid ""
+"Kurze Beschreibung der zeitlichen Planung und mit einer Grafik einen "
+"Überblick über die Phasen, Iterationen und Meilensteine geben. Das Datum "
+"des Eintreffens der Meilensteine sollte in der Phasenübersicht "
+"ersichtlich sein."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:60
+msgid "Phasen / Iterationen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:62
+msgid "Bezeichnung der einzelnen Phasen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:64
+msgid "Kurze Beschreibung und Dauer der Phase angeben"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:66
+msgid "Bezeichnung der einzelnen Iterationen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:68
+msgid "Kurze Beschreibung und Dauer der Iteration angeben"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:70
+msgid "Vorgehen bei Iterationsplanung und Iterationsassessment"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:72
+msgid "Meilensteine"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:74
+msgid "Bezeichnung der einzelnen Meilensteine"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:76
+msgid ""
+"Setzen Sie in Ihrem Projekt 6-8 Meilensteine. Kurze Beschreibung der "
+"Meilensteine mit genauem Datum."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:78
+msgid ""
+"In der Regel auf Ende jeder Iteration einen Meilenstein setzen (diese "
+"Faustregel gilt nur für die SE-2Projekte, in realen Projekten haben Sie "
+"oft deutlich mehr Iterationen als Meilensteine, weil Meilensteine dort "
+"die nach aussen kommunizierten Ereignisse sind)."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:80
+msgid ""
+"Schreiben Sie zu jedem Meilenstein auf, welche Arbeitsprodukte (work "
+"products) Sie dann abliefern werden."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:82
+msgid ""
+"Spezifizieren Sie wenn nötig auch den Fertigstellungsgrad der "
+"Arbeitsprodukte, z.B. „Zentrale Use Cases ‚fully dressed‘, restliche UCs "
+"im ‚brief‘ Format“, oder „Architekturskizze inkl. Definition der "
+"Interfaces zwischen Sub-Systemen und Deployment Diagramm“"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:84
+msgid "Besprechungen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:86
+msgid "regelmässige Besprechungen nennen (wann, wo, wer, Ziel und/oder Grund)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:88
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:21
+msgid "Risikomanagement"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:90
+msgid "Risiken"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:92
+msgid "Verweis auf Dokument TechnischeRisiken.xlsx"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:94
+msgid "Umgang mit Risiken"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:96
+msgid ""
+"Begründungen zur Tabelle. Weitere Beschreibungen zu Massnahmen und "
+"Vorbeugungen. Werden Reserven /Rückstellungen eingeplant? Wieso und wie "
+"viele? Wann werden Risiken qualitätssichernd überprüft (Vorgehen und "
+"Zeitpunkt(e) zur Neubeurteilung der Risiken)?"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:100
+msgid "Arbeitspakete"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:102
+msgid ""
+"Definieren Sie in einem separaten Tool (Redmine oder JIRA, o.ä.) "
+"diejenigen Arbeitspakete, die Ihnen zu Beginn des Projektes schon mal "
+"einfallen. Zu Beginn können Pakete eher generisch ausfallen (z.B. "
+"‚Domainmodell erstellen‘ oder ‚GUI Programmieren‘, oder ‚ Usability "
+"Testing‘)."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:105
+msgid ""
+"Denken Sie daran, dass es in jedem Projekt auch eine ganze Reihe von "
+"‚overhead‘-Tätigkeiten gibt: Projektleitung und -Sitzungen, Aufsetzen der"
+" Server und Werkzeuge, Qualitätsmassnahmen, Schlusspräsentation erstellen"
+" und anderes mehr – alles Tätigkeiten, die nicht direkt zum Software-"
+"Produkt führen. Planen Sie genug Zeit auch für diese Tätigkeiten ein."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:107
+msgid ""
+"Dann sollte es in jeder Projektplanung einige projektspezifische "
+"Arbeitspakete geben, wie sie so nicht in anderen Projekten vorkommen "
+"(z.B. ‚ Level-Editor entwerfen‘, oder ‚Verifikation der Zahlungsangaben "
+"programmieren‘). Wenn es keine solchen Arbeitspakete gibt, ist der "
+"Projektplan zu generisch. Das heisst auch, dass man sich zu wenig "
+"Gedanken über die anfallenden Arbeiten gemacht hat."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:111
+msgid ""
+"Später im Projekt werden Sie die Arbeitspakete noch verfeinern, "
+"verschieben, jemandem zuordnen, neu schätzen, etc. Deswegen empfiehlt "
+"sich der Einsatz eines Werkzeuges wie Redmine."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:113
+msgid ""
+"Dokumentieren Sie URL und Logins auf das Projektmanagement Tool, in "
+"welchem die Meilensteine und die dazugehörigen Arbeitspakete erfasst "
+"sind."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:115
+msgid "Infrastruktur"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:117
+msgid ""
+"Benötigte Infrastruktur aufzählen. Spezielle Geräte, Laptop , Tools usw. "
+"und nötigenfalls aufzeigen für welche Bereiche diese verwendet werden. "
+"Eventuell auch Verfahren beschreiben (auf Tools bezogen)."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:119
+msgid "Qualitätsmassnahmen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:121
+msgid ""
+"Was wird unternommen damit das Produkt des Projektes, sowie dessen "
+"gesamter Verlauf eine hohe Qualität erreicht? Übersicht in einer Tabelle "
+"geben mit Massnahmen, Zeitraum und Ziel der Massnahme"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:124
+msgid "Dokumentation"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:126
+msgid ""
+"Wo befinden sich die Dokumente (SVN oder Git Server) und wie wird deren "
+"Qualität sichergestellt?"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:128
+msgid "Projektmanagement"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:130
+msgid ""
+"Welches Tool wird für Projektmanagement eingesetzt (z.B. Redmine oder "
+"Trac) und wie erfolgt dieser Einsatz? Dazugehörige Links und Logins "
+"(Gastbenutzer)."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:132
+msgid "Entwicklung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:134
+msgid ""
+"Wo befindet sich der Source Code (z.B. SVN oder Git) und wie wird dessen "
+"Qualität sichergestellt?"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:136
+msgid "Vorgehen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:138
+msgid "Vorgehen in der Entwicklung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:140
+msgid "Unit Testing"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:142
+msgid ""
+"Wo werden welche Unit Tests geschrieben um die Qualität sicherzustellen? "
+"Wie wird die Testabdeckung sichergestellt (z.B. durch EclEmma)?"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:144
+msgid "Code Reviews"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:146
+msgid "Werden Code Reviews gemacht und wie werden diese gemacht?"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:148
+msgid "Code Style Guidelines"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:150
+msgid ""
+"Welche Code Style Guidelines werden angewendet? Sie brauchen keine "
+"eigenen Guidelines zu erfinden. Am besten referenzieren Sie existierende "
+"Guidelines, mit denen Sie einverstanden sind. Evtl. noch Abweichungen "
+"dazu dokumentieren"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:154
+msgid "Testen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:156
+msgid "Bezeichnung des Tests (z.B. Integrationstest oder Systemtest)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/projektplan.md:158
+msgid ""
+"Beschreibung der Durchführung, Umsetzung und Umfang der Tests. Wenn "
+"möglich mit Mengenangaben (wieviele Tests)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:1
+msgid "Risikoanalyse"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:23
+msgid "Projekt: Projektname"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:24
+msgid "Erstellt am: Datum der Erstellung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:25
+msgid "Autor: Name des Autors / der Autoren"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:26
+msgid "Gewichteter Schaden: 15 (gemäss Beispiel)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/projektplan/risikoanalyse.md:85
+msgid ""
+"(Merke: Es geht hierbei nur um die Beschreibung der technischen Risiken "
+"des Projektes, d.h. nur projektspezifische Risiken. Allgemeine Risiken "
+"wie Hardware Ausfall, Ausfall Teammitglied, usw. sollen NICHT beschrieben"
+" werden.)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:1
+msgid "Qualitätssicherung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:21
+msgid "Q-Massnahmen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:23
+msgid ""
+"Auflisten, was alles geplant und durchgeführt wurde. Je nach Projekt und "
+"Teamgrösse/-fähigkeiten kann nicht alles abgehakt werden. Beschreiben Sie"
+" bitte genau, was Sie im Bereich Qualitätssicherung alles unternommen "
+"haben"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:25
+msgid "Festlegen der Coding Guidelines"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:27
+msgid "Festlegen der Definition of Done"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:29
+msgid "Bugs immer in Redmine oder JIRA eingetragen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:31
+msgid ""
+"Stunden-Erfassung auf den Arbeitspaketen (damit man besser Soll und Ist "
+"vergleichen kann)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:33
+msgid ""
+"Code-Reviews geplant und durchgeführt? (am besten vor jedem grösseren "
+"Meilenstein)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:35
+msgid ""
+"Unit Tests (Microtesting und Integration Tests) von guter Aussagekraft? "
+"mit guter Abdeckung?"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:37
+msgid ""
+"Metriken laufen bei jedem Build auf CI Server? (und natürlich vernünftige"
+" Grenzwerte definiert)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:39
+msgid ""
+"Static Code Analysis Tools laufen immer auf CI Server? (findbugs, Lint, "
+"checkstyle, ReSharper, ...)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:41
+msgid ""
+"github Workflow mit Feature Branches und Pull Requests als minimales "
+"Vier-Augen-Prinzip"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:43
+msgid ""
+"Usability Testing gemacht? (früh als Paper Prototype, später mit "
+"richtiger Software). Erkenntnisse daraus? Resultierende (Umbau-)Arbeiten?"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:45
+msgid ""
+"Händische Systemtests gemacht? (z.B. mit Umbau von Use Cases zu Test "
+"Cases) Testdurchführungen protokolliert?"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:47
+msgid ""
+"Tests möglichst automatisiert? (Android: Espresso, Web Browser: Selenium,"
+" cypress.io)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:49
+msgid "Dashboard wie z.B. SonarQube eingesetzt?"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:51
+msgid "Sicherung der Geschichte"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:53
+msgid ""
+"Welche Daten wurden wann gesichert, um später die Projekt-Histoy "
+"nachvollziehen zu können"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:55
+msgid ""
+"Kompletter Export der Arbeitspakete/Tickets aus Redmine oder JIRA bei "
+"jedem Meilenstein (als CSV Datei)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:57
+msgid ""
+"Metrik- und Code Analysis-Auswertungen bei jedem Meilenstein sichern "
+"(z.B. als HTML oder PDF, auch CSV Datei)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:59
+msgid "Stunden-Buchhaltung bei jedem Meilenstein sichern (z.B. als CSV Datei)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/qualitaetssicherung.md:61
+msgid "Dokumente (auch Wiki) bei jedem Meilenstein sichern (z.B. als PDF Dateien)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:1
+msgid "Systemtest-Protokoll"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:21
+msgid "Angaben zur Durchführung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:23
+msgid ""
+"Beschreibung der getesteten Version (Release) und der Testumgebung (alles"
+" was es braucht, um den Test reproduzierbar zu machen)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:25
+msgid "Protokoll"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:27
+msgid ""
+"Kopie der Tabelle aus der Systemtestspezifikation für die aktuelle "
+"Durchführung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:54
+msgid "Verbesserungsmöglichkeiten"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:56
+msgid "Diese Kapitel besteht nur falls Verbesserungsmöglichkeiten vorhanden"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:58
+msgid "Bekannte Einschränkungen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:60
+msgid "Bekannte Einschränkungen erwähnen und erläutern"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:62
+msgid "Mögliche Detailverbesserungen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestprotokoll.md:64
+msgid "Daraus resultierende Verbesserungen beschreiben"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:1
+msgid "Systemtest-Spezifikation"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:21
+msgid "Voraussetzungen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:23
+msgid "Bedingungen die für einen Test vorausgesetzt werden"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:25
+msgid "Vorbereitungen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:27
+msgid ""
+"Was muss vor einem Test gemacht werden (z.B. Spezielle Einstellungen oder"
+" Setup)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:29
+msgid "Systemtest"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/qualitaetsmanagement/systemtestspezifikation.md:31
+msgid "Beschreibung der einzelnen Tests der Use Cases"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:1
+msgid "Schlussbericht"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:21
+msgid "Zielerreichung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:23
+msgid "Objektive Zielerreichung beschreiben"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:25
+msgid "Allgemeiner Erfahrungsbericht"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:27
+msgid ""
+"Allgemeine Erfahrungen, welche als Team gesammelt wurden (z.B. in "
+"Meetings, beim Auftreten von Problemen, usw.)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:29
+msgid "Persönliche Erfahrungen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:31
+msgid "Pro Teammitglied ein Kapitel"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:33
+msgid "Name des Teammitgliedes"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/documentation/schlussbericht/schlussbericht.md:35
+msgid "Die Erfahrungen eines Teammitgliedes während der gesamten Projektdauer"
+msgstr ""
+

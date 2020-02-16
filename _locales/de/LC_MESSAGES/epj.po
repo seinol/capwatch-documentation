@@ -1,0 +1,280 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020 Fabian Hauser, Farhad Mehta
+# This file is distributed under the same license as the Doc Template
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Doc Template v0.4-3-ge03d6f6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-31 18:12+0100\n"
+"PO-Revision-Date: 2020-01-31 18:12+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#: /home/fhauser/tmp/test-sphinx/epj/index.rst:2
+msgid "Information EPJ"
+msgstr "Informationen EPJ"
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:1
+msgid "Review Meilensteine"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:3
+msgid ""
+"Diese Page enthält eine Auflistung der Meilensteine mit den Links zu den zugehörigen Dokumenten, Checklisten "
+"und Sitzungsprotokollen."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:5
+msgid "MS1: Review Projektplanung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:7
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:20
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:33
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:44
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:56
+msgid "Dokumente"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:8
+msgid "Projektplan"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:9
+msgid "Risikoanalyse"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:10
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:23
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:34
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:46
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:60
+msgid "Zeitauswertung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:11
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:24
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:35
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:47
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:61
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:70
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:77
+msgid "Checkliste"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:1
+msgid ":download:`1ReviewProjektplanungCheckliste.pdf<checklists/1ReviewProjektplanungCheckliste.pdf>`"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:15
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:28
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:39
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:51
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:65
+msgid "Protokoll"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:16
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:29
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:40
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:52
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:66
+msgid "Protokoll DD.MM.YYYY"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:18
+msgid "MS2: Review Requirements Analyse"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:21
+msgid "Anforderungsspezifikation"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:22
+msgid "Domainanalyse"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:1
+msgid ":download:`2ReviewRequirementsAnalyseCheckliste.pdf<checklists/2ReviewRequirementsAnalyseCheckliste.pdf>`"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:31
+msgid "MS3: Review End of Elaboration"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:1
+msgid ":download:`3DemoReviewEndOfElaboration.pdf<checklists/3DemoReviewEndOfElaboration.pdf>`"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:42
+msgid "MS4: Review Architekturdesign"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:45
+msgid "Softwarearchitektur"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:1
+msgid ":download:`4ReviewArchitekturDesignCheckliste.pdf<checklists/4ReviewArchitekturDesignCheckliste.pdf>`"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:54
+msgid "MS5: Review Qualitätsmassnahmen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:57
+msgid "Qualitätssicherung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:58
+msgid "Systemtestspezifikation"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:59
+msgid "Systemtestprotokoll"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:1
+msgid ":download:`5ChecklisteQS-Massnahmen.pdf<checklists/5ChecklisteQS-Massnahmen.pdf>`"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:68
+msgid "Schlusspräsentation"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:1
+msgid ":download:`6PraesentationFeedback.pdf<checklists/6PraesentationFeedback.pdf>`"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:75
+msgid "Schlussabgabe"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/meilensteinreviews.md:1
+msgid ":download:`7ChecklisteSchlussabgabe.pdf<checklists/7ChecklisteSchlussabgabe.pdf>`"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/projektuebersicht.md:1
+msgid "Projektübersicht"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/projektuebersicht.md:3
+#, python-format
+msgid ""
+"Titel: {{ config.project.title }}<br />Kürzel: {{ config.project.abbreviation }}<br />Projektmitglieder: "
+"{% set comma = joiner() %}{% for member in config.project.members %}{{ comma() }} [{{ member.name }}](mailto:"
+"{{ member.email}}){%- endfor %} {% set comma = joiner() %}([E-Mail an alle](mailto:{% for member in config."
+"project.members %}{{ comma() }}{{ member.email }}{%- endfor %}))"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/projektuebersicht.md:17
+msgid "Applikation und Project Management"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/projektuebersicht.md:19
+msgid "[Issues]({{ config.project.urls.issues }})"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/projektuebersicht.md:20
+msgid "[Source]({{ config.project.urls.source }})"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/projektuebersicht.md:21
+msgid "[CI]({{ config.project.urls.ci }})"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:1
+msgid "Abschlusspräsentation"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:3
+msgid ""
+"Es handelt sich bei den folgenden Kapiteln um Empfehlungen und Vorschläge bezüglich des Inhalts und Aufbaus "
+"der Schlusspräsentation. Bitte auch die aktuellen Anforderungen des Semesters vom Dozenten beachten."
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:5
+msgid "Inhalt & möglicher Aufbau"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:7
+msgid "Idee, Problembeschreibung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:8
+msgid "Spezielle Anforderungen & Konzepte"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:9
+msgid "Domain Modell"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:10
+msgid "Systemarchitektur, Datenhaltung"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:11
+msgid "Design"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:12
+msgid "Team Management"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:13
+msgid "High Risk Tasks"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:14
+msgid "Demonstration"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:15
+msgid "Demo der Komponenten der Software"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:16
+msgid "Probleme & Lösungen"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:17
+msgid ""
+"Spezifische Probleme beschreiben & gefundene Lösungen dazu aufzeigen (nur grössere und interessante Probleme)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:18
+msgid "Projekt Statistiken"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:19
+msgid "Auswertung der Zeit (Arbeitszeit pro Teammitglied, Phasen, Bereiche)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:20
+msgid "evtl. Auswertung über Source Safe (SVN oder Git)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:21
+msgid "Auswertung der Struktur des Code (z.B. aus STAN)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:22
+msgid "Interessante Auswertungen aus der Code Metriken Analyse (z.B. von Eclipse Metrics)"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:23
+msgid "Lessons Learned, Fazit"
+msgstr ""
+
+#: /home/fhauser/tmp/test-sphinx/epj/schlusspraesentation.md:24
+msgid "Was haben wir gelernt? Was ist unser Fazit zum SE2 Projekt?"
+msgstr ""

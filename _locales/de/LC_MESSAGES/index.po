@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020 Fabian Hauser, Farhad Mehta
+# This file is distributed under the same license as the Doc Template
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Doc Template v0.4-3-ge03d6f6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-31 19:06+0100\n"
+"PO-Revision-Date: 2020-01-31 19:07+0100\n"
+"Last-Translator: \n"
+"Language: de\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#: /home/fhauser/tmp/test-sphinx/index.rst:2
+msgid "Project overview |project|"
+msgstr "Projektübersicht |project|"
+
+#: /home/fhauser/tmp/test-sphinx/index.rst
+msgid "Abbreviation"
+msgstr "Kürzel"
+
+#: /home/fhauser/tmp/test-sphinx/index.rst:4
+msgid "|project_abbreviation|"
+msgstr "|project_abbreviation|"
+
+#: /home/fhauser/tmp/test-sphinx/index.rst
+msgid "Description"
+msgstr "Beschreibung"
+
+#: /home/fhauser/tmp/test-sphinx/index.rst:5
+#, fuzzy
+msgid "|project_description|"
+msgstr "|project_abbreviation|"
+
+#: /home/fhauser/tmp/test-sphinx/index.rst
+msgid "Authors"
+msgstr "Authoren"
+
+#: /home/fhauser/tmp/test-sphinx/index.rst:6
+msgid "|author| (`email to all <author_email_>`_)"
+msgstr "|author| (`E-Mail an alle <author_email_>`_)"
+
+#: /home/fhauser/tmp/test-sphinx/index.rst
+msgid "Version"
+msgstr "Version"
+
+#: /home/fhauser/tmp/test-sphinx/index.rst:7
+msgid "|version|"
+msgstr "|version|"
+
+#~ msgid "Abbrev."
+#~ msgstr "Kürzel"

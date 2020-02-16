@@ -1,0 +1,22 @@
+<h3>{{ _('Versions') }}</h3>
+<p>{{ _('Current:') }} <code>{{ release }}</code></p>
+
+<ul>
+    {% if is_version_build %}
+    <li class="toctree-l1"><a href="{{ pathto('../../', 1) }}"><em>master</em></a></li>
+    {% endif %}
+
+    {% for tag in tags %}
+    <li class="toctree-l1">
+        {% if tag == version %}
+          {{ tag }}
+        {% else %}
+          {% if is_version_build %}
+            <a href="{{ pathto(tag_root_path_relative_from_version ~ tag, 1) }}">{{ tag }}</a>
+          {% else %}
+            <a href="{{ pathto(tag_root_path ~ tag, 1) }}">{{ tag }}</a>
+          {% endif %}
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,6 @@
+<h3>{{ _('Alternative Formats') }}</h3>
+<ul>
+    {% if epub_url %}<li class="toctree-l1"><a href="{{ pathto(epub_url, 1) }}">EPUB</a></li>{% endif %}
+    {% if pdf_url  %}<li class="toctree-l1"><a href="{{ pathto(pdf_url, 1) }}">PDF</a></li>{% endif %}
+    <li class="toctree-l1"><a href="{{ repository_url }}">{{ _('Source') }}</a></li>
+</ul>

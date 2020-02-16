@@ -1,0 +1,9 @@
+recommonmark~=0.6.0
+Sphinx~=2.3.0
+alabaster~=0.7.12
+sphinx-markdown-tables~=0.0.12
+sphinxcontrib-spelling~=4.3.0
+sphinx-intl~=2.0.0
+#plantweb~=1.2.1
+git+https://github.com/fabianhauser/plantweb.git@commonmark-integration
+sphinxcontrib-svg2pdfconverter~=1.0.1

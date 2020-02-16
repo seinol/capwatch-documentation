@@ -1,0 +1,127 @@
+variables:
+    BUILD_IMAGE: $CI_REGISTRY_IMAGE/sphinx-build:$CI_COMMIT_REF_SLUG
+
+image: $BUILD_IMAGE
+
+stages:
+  - prebuild
+  - build
+  - test
+  - build_tags
+  - deploy
+
+###############################################################################
+# Build Building Docker Image
+###############################################################################
+build_image:
+  stage: prebuild
+  image: docker:latest
+  only:
+    changes:
+      - Dockerfile.build
+      - .dockerignore
+      - .gitlab-ci.yml
+      - requirements.txt
+  script:
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+    - docker build --tag $BUILD_IMAGE -f  Dockerfile.build .
+    - docker push $BUILD_IMAGE
+
+###############################################################################
+# Build Latest Documentation
+###############################################################################
+
+build_latest_html:
+  stage: build
+  script:
+    - make html
+  artifacts:
+    paths:
+      - _build/html
+
+build_latest_pdf:
+  stage: build
+  script:
+    - make latexpdf
+  artifacts:
+    paths:
+      - _build/latex/*.pdf
+
+build_latest_epub:
+  stage: build
+  script:
+    - make epub
+  artifacts:
+    paths:
+      - _build/epub/*.epub
+
+###############################################################################
+# Tests
+###############################################################################
+
+## Note: Spelling disabled, only works for english
+#test_latest_spelling:
+#  stage: test
+#  script:
+#    - make spelling
+#  allow_failure: true
+
+## Note: Link checking disabled, we have internal / not yet available links
+#test_latest_links:
+#  stage: test
+#  script:
+#    - make linkcheck
+#  allow_failure: true
+
+###############################################################################
+# Build Documentation for All Tags
+###############################################################################
+
+build_tags_html:
+  stage: build_tags
+  script:
+    - make MODE=html versions
+  artifacts:
+    paths:
+      - _versions/*/html
+
+build_tags_pdf:
+  stage: build_tags
+  script:
+    - make MODE=latexpdf versions
+  artifacts:
+    paths:
+      - _versions/*/latex/*.pdf
+
+build_tags_epub:
+  stage: build_tags
+  script:
+    - make MODE=epub versions
+  artifacts:
+    paths:
+      - _versions/*/epub/*.epub
+
+###############################################################################
+# Publish Gitlab Pages
+###############################################################################
+pages:
+  only:
+    - master
+  script:
+    - mv _build/html/ public
+    - mv _build/epub/*.epub public/_static/
+    - mv _build/latex/*.pdf public/_static/
+    - |
+        shopt -s dotglob
+        for tag in $(git tag); do
+          mkdir -p _versions/$tag/html/_static/
+          mv _versions/$tag/epub/*.epub _versions/$tag/html/_static/
+          mv _versions/$tag/latex/*.pdf _versions/$tag/html/_static/
+          mv _versions/$tag/html/* _versions/$tag/
+          rmdir _versions/$tag/html
+        done
+    - mv _versions public/
+  stage: deploy
+  artifacts:
+    paths:
+      - public
