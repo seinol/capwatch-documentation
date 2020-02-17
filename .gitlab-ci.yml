@@ -22,6 +22,7 @@ build_image:
       - .dockerignore
       - .gitlab-ci.yml
       - requirements.txt
+      - conf.py
   script:
     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
     - docker build --tag $BUILD_IMAGE -f  Dockerfile.build .
