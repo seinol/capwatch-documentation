@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Doc Template v0.4-3-ge03d6f6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-31 19:06+0100\n"
-"PO-Revision-Date: 2020-01-31 19:07+0100\n"
+"PO-Revision-Date: 2020-02-25 16:47+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: \n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 
 #: /home/fhauser/tmp/test-sphinx/index.rst:2
 msgid "Project overview |project|"
@@ -43,7 +43,7 @@ msgstr "|project_abbreviation|"
 
 #: /home/fhauser/tmp/test-sphinx/index.rst
 msgid "Authors"
-msgstr "Authoren"
+msgstr "Autoren"
 
 #: /home/fhauser/tmp/test-sphinx/index.rst:6
 msgid "|author| (`email to all <author_email_>`_)"
