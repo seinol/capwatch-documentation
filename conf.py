@@ -52,8 +52,11 @@ nitpicky = True
 locale_dirs = ['_locales']
 
 ### Paths and Filenames #######################################################
+master_doc = 'index'
+
 # Name of the epub output file
 epub_basename = project.lower().replace(' ', '')
+latex_basename = epub_basename
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -69,6 +72,17 @@ exclude_patterns = [
     '.env',
     'node_modules',
     'README.md',
+]
+
+### Latex_output #######################################################
+latex_documents = [
+    (
+        master_doc,
+        f'{latex_basename}.tex',
+        project,
+        ' \\and '.join(author['name'] for author in _authors),
+        'manual',
+    )
 ]
 
 ###############################################################################
