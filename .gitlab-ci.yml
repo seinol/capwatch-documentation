@@ -1,5 +1,6 @@
 variables:
     BUILD_IMAGE: $CI_REGISTRY_IMAGE/sphinx-build:$CI_COMMIT_REF_SLUG
+    GIT_DEPTH: 0
 
 image: $BUILD_IMAGE
 
