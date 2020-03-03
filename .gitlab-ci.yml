@@ -108,6 +108,7 @@ build_tags_epub:
 pages:
   only:
     - master
+    - tags
   script:
     - mv _build/html/ public
     - mv _build/epub/*.epub public/_static/
