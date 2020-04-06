@@ -9,7 +9,7 @@ Project overview |project|
 .. toctree::
   :hidden:
   :titlesonly:
-  :maxdepth: 2
+  :maxdepth: 3
 
   documentation/index.md
   minutes/index.md
