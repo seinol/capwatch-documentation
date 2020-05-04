@@ -10,7 +10,7 @@ RUN apk --update --no-cache add \
   font-misc-cyrillic font-mutt-misc font-screen-cyrillic font-winitzki-cyrillic font-cronyx-cyrillic \
   font-noto-arabic font-noto-armenian font-noto-cherokee font-noto-devanagari font-noto-ethiopic font-noto-georgian \
   font-noto-hebrew font-noto-lao font-noto-malayalam font-noto-tamil font-noto-thaana font-noto-thai \
-  enchant \
+  enchant2 enchant2-dev \
   aspell-de \
   aspell-en
 
