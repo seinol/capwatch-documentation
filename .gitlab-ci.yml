@@ -4,6 +4,9 @@ variables:
 
 image: $BUILD_IMAGE
 
+services:
+  - docker:stable-dind
+
 stages:
   - prebuild
   - build
