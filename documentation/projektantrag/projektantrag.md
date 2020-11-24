@@ -13,7 +13,7 @@
 
 ## Team
 
-*Mitgliederliste des Projektteams mit allen Mailadressen sowie [gitlab.dev.ifs.hsr.ch](https://gitlab.dev.ifs.hsr.ch/) Benutzernamen:*
+*Mitgliederliste des Projektteams mit allen Mailadressen sowie [gitlab.ost.ch](https://gitlab.ost.ch/) Benutzernamen:*
 
 * Vorname Name <email@hsr.ch> (Gitlab-User: `xyz`)
 
