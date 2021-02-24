@@ -15,11 +15,19 @@ _authors = [
 
 language = 'de'
 
-_gitlab_docs_project_url = 'https://gitlab.dev.ifs.hsr.ch/fhauser/test-sphinx'  # No slash at the end!
+# The URL of the GitLab group, e.g. https://gitlab.ost.ch/epj/1984-FS/g00_newspeak :
+_gitlab_team_namespace_url = 'https://gitlab.ost.ch/epj'
+
+# The URL of the GitLab project hosting the product's code:
+_gitlab_code_project_url = f'{_gitlab_team_namespace_url}/documentation-template'  # No slash at the end!
+
+# The URL of the GitLab project hosting the source of THIS documentation:
+_gitlab_docs_project_url = f'{_gitlab_team_namespace_url}/documentation-template'  # No slash at the end!
+
 _project_links = {
-    'Task List': f'{_gitlab_docs_project_url}/issues',
-    'Code Repository': 'https://gitlab.dev.ifs.hsr.ch/fhauser/test-sphinx',
-    'Continuous Integration': 'https://gitlab.dev.ifs.hsr.ch/fhauser/test-sphinx/pipelines',
+    'Task List': f'{_gitlab_team_namespace_url}/issues',
+    'Code Repository': _gitlab_code_project_url,
+    'Continuous Integration': f'{_gitlab_code_project_url}/-/pipelines',
 }
 
 ###############################################################################
