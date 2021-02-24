@@ -15,9 +15,9 @@ _authors = [
 
 language = 'de'
 
-_documentation_gitlab_url = 'https://gitlab.dev.ifs.hsr.ch/fhauser/test-sphinx'  # No slash at the end!
+_gitlab_docs_project_url = 'https://gitlab.dev.ifs.hsr.ch/fhauser/test-sphinx'  # No slash at the end!
 _project_links = {
-    'Task List': f'{_documentation_gitlab_url}/issues',
+    'Task List': f'{_gitlab_docs_project_url}/issues',
     'Code Repository': 'https://gitlab.dev.ifs.hsr.ch/fhauser/test-sphinx',
     'Continuous Integration': 'https://gitlab.dev.ifs.hsr.ch/fhauser/test-sphinx/pipelines',
 }
@@ -164,7 +164,7 @@ html_theme_options = {
 _tags = os.popen('git tag').read().strip().splitlines()
 _branch = os.popen('git rev-parse --abbrev-ref HEAD').read().strip()
 html_context = {
-    'repository_url': f'{_documentation_gitlab_url}/tree/{_branch}',
+    'repository_url': f'{_gitlab_docs_project_url}/tree/{_branch}',
     'tags': _tags,
     'tag_root_path': '_versions/',  # with trailing slash!
     'tag_root_path_relative_from_version': '../../_versions/',  # with trailing slash!
