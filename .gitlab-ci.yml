@@ -119,6 +119,7 @@ pages:
     - mv _build/latex/*.pdf public/_static/
     - |
         shopt -s dotglob
+        mkdir -p _versions
         for tag in $(git tag); do
           mkdir -p _versions/$tag/html/_static/
           mv _versions/$tag/epub/*.epub _versions/$tag/html/_static/
