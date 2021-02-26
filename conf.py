@@ -15,11 +15,19 @@ _authors = [
 
 language = 'de'
 
-_documentation_gitlab_url = 'https://gitlab.dev.ifs.hsr.ch/fhauser/test-sphinx'  # No slash at the end!
+# The URL of the GitLab group, e.g. https://gitlab.ost.ch/epj/1984-FS/g00_newspeak :
+_gitlab_team_namespace_url = 'https://gitlab.ost.ch/epj'
+
+# The URL of the GitLab project hosting the product's code:
+_gitlab_code_project_url = f'{_gitlab_team_namespace_url}/documentation-template'  # No slash at the end!
+
+# The URL of the GitLab project hosting the source of THIS documentation:
+_gitlab_docs_project_url = f'{_gitlab_team_namespace_url}/documentation-template'  # No slash at the end!
+
 _project_links = {
-    'Task List': f'{_documentation_gitlab_url}/issues',
-    'Code Repository': 'https://gitlab.dev.ifs.hsr.ch/fhauser/test-sphinx',
-    'Continuous Integration': 'https://gitlab.dev.ifs.hsr.ch/fhauser/test-sphinx/pipelines',
+    'Task List': f'{_gitlab_team_namespace_url}/issues',
+    'Code Repository': _gitlab_code_project_url,
+    'Continuous Integration': f'{_gitlab_code_project_url}/-/pipelines',
 }
 
 ###############################################################################
@@ -164,7 +172,7 @@ html_theme_options = {
 _tags = os.popen('git tag').read().strip().splitlines()
 _branch = os.popen('git rev-parse --abbrev-ref HEAD').read().strip()
 html_context = {
-    'repository_url': f'{_documentation_gitlab_url}/tree/{_branch}',
+    'repository_url': f'{_gitlab_docs_project_url}/tree/{_branch}',
     'tags': _tags,
     'tag_root_path': '_versions/',  # with trailing slash!
     'tag_root_path_relative_from_version': '../../_versions/',  # with trailing slash!
