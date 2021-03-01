@@ -2,20 +2,14 @@
 
 | Projektkürzel | Datum      |
 | ------------- | ---------- |
-| XXXXXXXX      | DD.MM.YYYY |
-
-*XXXXXX ist die Kurzbezeichnung des Projektes. Diese sollte nicht nachträglich geändert werden, da sie als Identifikation an verschiedenen Orten (z.B. git) verwendet wird.*
-
-*Dieser Antrag sollte insgesamt nicht länger als eine A4-Seite sein.*
-
-*Kursiven Text löschen und gegebenenfalls durch gewünschte Angaben ersetzen.*
-
+| CAPWATCH      | 16.12.2020 |
 
 ## Team
-
-*Mitgliederliste des Projektteams mit allen Mailadressen sowie [gitlab.ost.ch](https://gitlab.ost.ch/) Benutzernamen:*
-
-* Vorname Name <email@hsr.ch> (Gitlab-User: `xyz`)
+- Pascal Schlumpf pascal.schlumpf@ost.ch
+- Christoph Scheiwiller christoph.scheiwiller@ost.ch
+- Jonas Hauser jonas.hauser@ost.ch
+- Rafael Fuhrer rafael.fuhrer@ost.ch
+- Pascal Schneider pascal.schneider@ost.ch
 
 ## Beratungs- und Review-Zeitslots
 
@@ -24,59 +18,56 @@
 ```
  X  = Slot ist dem Team möglich
 (X) = Slot ist für das Team nicht optimal, wäre aber möglich
+ O  = Treffen online möglich
+ P  = Treffen physisch (Campus OST-RJ) möglich
+ OP = Treffen online sowie physisch (Campus OST-RJ) möglich 
     = Slot ist nicht möglich
 ```
 
 
 |   *Zeitslot*    | Montag | Dienstag | Mittwoch | Donnerstag | Freitag |
 | --------------- | ------ | -------- | -------- | ---------- | ------- |
-| **08:00-09:00** | X      | X        | X        | X          | X       |
-| **09:00-10:00** | X      | X        | X        | X          | X       |
-| **10:00-11:00** | X      | X        | X        | X          | X       |
-| **11:00-12:00** | X      | X        | X        | X          | X       |
-| **12:00-13:00** | X      | X        | X        | X          | X       |
-| **13:00-14:00** | X      | X        | X        | X          | X       |
-| **14:00-15:00** | X      | X        | X        | X          | X       |
-| **15:00-16:00** | X      | X        | X        | X          | X       |
-| **16:00-17:00** | X      | X        | X        | X          | X       |
-| **17:00-18:00** | X      | X        | X        | X          | X       |
-| **18:00-19:00** | X      | X        | X        | X          | X       |
+| **08:00-09:00** |       |       |       |         |      |
+| **09:00-10:00** |       |       |       |         |      |
+| **10:00-11:00** |       |       |       |         |      |
+| **11:00-12:00** |       |       |       |         |      |
+| **12:00-13:00** | (XO)  |       |       |         |      |
+| **13:00-14:00** |  XO   |       |       |         |      |
+| **14:00-15:00** |  XO   |       |       |         |      |
+| **15:00-16:00** |  XO   |       |       |         |      |
+| **16:00-17:00** |  XO   |       |       |         |      |
+| **17:00-18:00** |       |       |       |         |      |
+| **18:00-19:00** |       |       |       |         |      |
+                    
+                    
+## Motivation       
+                    
+Real-time Daten zur Anzahl Personen in einem Raum oder Gebäude, welche eine Personenbeschränkung aufgrund einer Pandemie oder einem sonstigen Grund haben, wie z.B. Geschäfte, Saunen, Bäder, Sportanlagen etc. um das persönliche Einkaufs- und Konsumverhalten besser planen bzw. anpassen zu können.
+Es entstehen dabei sowohl Vorteile für die Anbieter und die Konsumenten. Die Anbieter können Dienstleistungsendpässe vermeiden, welche zu einen Besucherverlust führen könnten. Die Konsumenten profitieren von kurzen Wartezeiten und somit auch besseren Verkaufsdienstleistung wie z.B. Beratungen.
+                    
+## Projektidee      
+                    
+Eine Webapplikation, in der man seine Lieblingsgeschäfte, Saunas, etc. abonnieren kann. Die Daten werden bei einem Abonnement dann in Echtzeit aktualisiert.
+Die Daten werden von den Dienstleistern über eine API an das Backend geliefert und in einer Datenbank abgelegt. Das Backend besteht aus insgesamt zwei zentralen API's. Die zweite Schnittstelle ist für die Datenauslieferung an das Frontend bzw. die Webseite, welche schlussendlich der Benutzer verwendet für die Abonnements.
+Das Frontend ist ein reiner, einseitiger Empfänger ohne Authentifizierung (Speicherung in einem lokalen Speicher beim Benutzer) in einer ersten Version.
 
-*Hinweis: Sie sollten **mindestens** 5 Slots ausgewählt haben.*
-
-## Motivation
-
-*Was wollen Sie mit dem Projekt erreichen?*
-
-*Für wen ist das zu entwickelnde System gedacht?*
-
-*usw.*
-
-## Programmidee
-
-*Beschreibung der Funktionalität und des Umfangs des zu entwickelndes Systems (ca. 0.5 Seiten).*
-
-## Realisierung
-
-*Auf welcher Plattform*
-
-*Mit welchen Programmiersprache(n), Bibliotheken und Technologien*
-
-*Mit welchem Entwicklungssystem*
-
-*Entwicklerwerkzeuge, die Sie einsetzen wollen (SVN, Jenkins, Redmine…)*
-
-*Welche Art von Benutzerschnittstelle*
-
-*Welche Art der Datenhaltung*
-
-*usw.*
+Mögliche weitere Features:
+- Automatische selektion von Abonnements (z. B. basierend auf dem Standort)
+- Auhentifizierung des Benutzers
+- Benutzerprofile serverseitig speichern
+- Vertikale Skalierung (mehr Workload verarbeiten können)
+- Personalisierte Notifikationen an Benutzer (z.B. per E-Mail)
+- Prognosen und Vorhersagen
+- Möglichkeit zum Reservieren
 
 
-## *Antrag Virtueller Server*
+Projektidee besprochen mit: Thomas Kälin
+                    
+## Realisierung     
 
-*Wenn ein virtueller Server gewünscht wird, dann können Sie ihn selber bestellen, sobald Ihnen ein Betreuer zugewiesen ist. Wählen Sie den `Ubuntu Linux 14.4 [SE2 Build-Server]`.*
+Frontend: React oder Angular mit Typecript (evtl. PWA)
 
-[http://fs-i.hsr.ch/vServerKiosk/](http://fs-i.hsr.ch/vServerKiosk/)
+Backend: Java oder Node.JS Framework für API-Entwicklung  
 
-*Achtung: bei der Kiosk-Website kann man nur die kurzen HSR-Email-Adressen angeben, also **nur** [fmehta@hsr.ch](mailto:fmehta@hsr.ch), die langen Adressen wie [farhad.mehta@hsr.ch](mailto:farhad.mehta@hsr.ch) funktionieren auf dieser Seite nicht.*
+Datenbank: noch nicht festgelegt
+                    
