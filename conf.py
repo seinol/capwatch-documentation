@@ -5,24 +5,27 @@ from recommonmark.transform import AutoStructify
 ###############################################################################
 # Project Configuration (Simple)
 ###############################################################################
-project = 'Doc Template'
-_abbreviation = 'doctemplate'
-_description = 'Template für das Engineering Projekt'
+project = 'Doc Capwatch'
+_abbreviation = 'Capwatch'
+_description = 'Dokumentation für das Capwatch Projekt'
 _authors = [
-  {'name': 'Fabian Hauser', 'email': 'fhauser@hsr.ch'},
-  {'name': 'Farhad Mehta',  'email': 'fmehta@hsr.ch' },
+  {'name': 'Rafael Fuhrer', 'email': 'rafael.fuhrer@ost.ch'},
+  {'name': 'Jonas Hauser',  'email': 'jonas.hauser@ost.ch' },
+  {'name': 'Christoph Scheiwiler',  'email': 'christoph.scheiwiler@ost.ch' },
+  {'name': 'Pascal Schlumpf',  'email': 'pascal.schlumpf@ost.ch' },
+  {'name': 'Pascal Schneider',  'email': 'pascal.schneider@ost.ch' }
 ]
 
 language = 'de'
 
 # The URL of the GitLab group, e.g. https://gitlab.ost.ch/epj/1984-FS/g00_newspeak :
-_gitlab_team_namespace_url = 'https://gitlab.ost.ch/epj'
+_gitlab_team_namespace_url = 'https://gitlab.ost.ch/epj/2021-FS/g03_capwatch'
 
 # The URL of the GitLab project hosting the product's code:
-_gitlab_code_project_url = f'{_gitlab_team_namespace_url}/documentation-template'  # No slash at the end!
+_gitlab_code_project_url = f'{_gitlab_team_namespace_url}/capwatch-documentation'  # No slash at the end!
 
 # The URL of the GitLab project hosting the source of THIS documentation:
-_gitlab_docs_project_url = f'{_gitlab_team_namespace_url}/documentation-template'  # No slash at the end!
+_gitlab_docs_project_url = f'{_gitlab_team_namespace_url}/capwatch-documentation'  # No slash at the end!
 
 _project_links = {
     'Task List': f'{_gitlab_team_namespace_url}/issues',
