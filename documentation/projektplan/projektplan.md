@@ -99,18 +99,9 @@
 
 ## Arbeitspakete
 
-*Definieren Sie in einem separaten Tool (Redmine oder JIRA, o.ä.) diejenigen Arbeitspakete, die Ihnen zu Beginn des Projektes schon mal einfallen.*
-*Zu Beginn können Pakete eher generisch ausfallen (z.B. ‚Domainmodell erstellen‘ oder ‚GUI Programmieren‘, oder ‚ Usability Testing‘).*
+Zur Planung der Arbeit, sowie dem Tracken der aufgewendeten Arbeitszeit verwenden wir GitLab. Für die Auswertung der Zeiterfassung kommt [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz.
 
-*Denken Sie daran, dass es in jedem Projekt auch eine ganze Reihe von ‚overhead‘-Tätigkeiten gibt: Projektleitung und -Sitzungen, Aufsetzen der Server und Werkzeuge, Qualitätsmassnahmen, Schlusspräsentation erstellen und anderes mehr – alles Tätigkeiten, die nicht direkt zum Software-Produkt führen. Planen Sie genug Zeit auch für diese Tätigkeiten ein.*
-
-*Dann sollte es in jeder Projektplanung einige projektspezifische Arbeitspakete geben, wie sie so nicht in anderen Projekten vorkommen (z.B. ‚ Level-Editor entwerfen‘, oder ‚Verifikation der Zahlungsangaben programmieren‘).*
-*Wenn es keine solchen Arbeitspakete gibt, ist der Projektplan zu generisch.*
-*Das heisst auch, dass man sich zu wenig Gedanken über die anfallenden Arbeiten gemacht hat.*
-
-*Später im Projekt werden Sie die Arbeitspakete noch verfeinern, verschieben, jemandem zuordnen, neu schätzen, etc. Deswegen empfiehlt sich der Einsatz eines Werkzeuges wie Redmine.*
-
-*Dokumentieren Sie URL und Logins auf das Projektmanagement Tool, in welchem die Meilensteine und die dazugehörigen Arbeitspakete erfasst sind.*
+[Board der Arbeitspakete](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/boards)
 
 ## Infrastruktur
 
