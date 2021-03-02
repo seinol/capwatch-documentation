@@ -71,7 +71,60 @@
 
 #### Meilensteine
 
-##### *Bezeichnung der einzelnen Meilensteine*
+**M1 Projektplan**
+- Projektorganisation
+- Arbeitspakete definiert
+- Phasen & Meilensteine
+- Qualitätsmassnahmen
+- Richtlinien für Code und Dokumentation
+- Build Server
+- Infrastruktur bereitgestellt
+- Zeitplanung erstellt
+
+**M2 Anforderungen**
+- Use Cases erstellt
+- Nichtfunktionale Anforderungen formuliert
+- Schnittstellen beschreiben
+- Uner Interfaces Skizzen
+- Domainmodell Diagramme gezeichnet
+
+**M3 End of Elaboration / Prototyp**
+- Architekturprototyp erstellt
+- Architekturprototyp getestet
+- Architekturprototyp Dokumentation vorbereitet
+- Anforderungen vollständig definiert
+- Test- und Reviewprozess definiert
+- Risikoanalyse nachgeführt
+- Entwicklungsumgebung komplett eingerichtet
+
+**M4 Architektur**
+- Physische/Logische Architektur
+- Schnittstellen 
+- Persistenz
+- UI / UX
+- Ausbau-Szenario definiert und berücksichtigt
+- Performance-Szenario
+- Verwendete Technologien
+- Architektur entscheidungen
+
+**M5 Qualität**
+- Dokumentationreview
+- Codereview
+- Testcases
+- verwendung von Tools
+- Weitere Qualitätssichernde Massnahmen
+
+**M6 Beta Version**
+- Gesamter Funktionsumfang implementiert
+- Anforderungen getestet
+- Qualitätsichernde Massnahme durchgeführt
+
+**M7 Finale Abgabe**
+- Code-Repository in abgabefähigem Zustand
+- Dokumentation-Repository in abgabefähigem Zustand
+- Fehler aus Beta Version behoben
+- Projektpräsentation vorbereitet
+- Produktpräsentation
 
 *Setzen Sie in Ihrem Projekt 6-8 Meilensteine. Kurze Beschreibung der Meilensteine mit genauem Datum.*
  
