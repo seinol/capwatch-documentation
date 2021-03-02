@@ -4,32 +4,31 @@
 
 ### Zweck
 
-*Zweck des Dokumentes*
+In diesem Dokument werden Risiken identifiziert und beurteilt. Aufgrund der Beurteilung werden Definiert wie mit den Risiken zu verfahren ist.
 
 ### Gültigkeitsbereich
 
-*Gültigkeitsbereich des Dokumentes*
+Dieses Dokument ist für das EPJ capwatch gültig. Eine Überprüfung der Risiken ist während des Projektes mehrfach durchzuführen.
 
 ### Referenzen
 
-*Liste aller verwendeten und referenzierten Dokumente, Bücher, Links, usw.*
-
-*Referenz auf ein Glossar Dokument, wo alle Abkürzungen und unklaren Begriffe erklärt werden*
-
-*Die Quellen / Referenzen sollten (falls möglich) automatisch erstellt werden*
+Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 
 ## Risikomanagement
 
-- Projekt: *Projektname*
-- Erstellt am: *Datum der Erstellung*
-- Autor: *Name des Autors / der Autoren*
-- Gewichteter Schaden: *15 (gemäss Beispiel)*
+- Projekt: CapWatch
+- Erstellt am: 02.03.2021
+- Autor: Christoph Scheiwiller
+- Gewichteter Schaden: *13*
 
-| Nr | Titel | Beschreibung | max. Schaden [h] | Eintritts&shy;wahrscheinlichkeit | Gewichteter Schaden | Vorbeugung | Verhalten beim Eintreten |
+| Nr | Titel | Beschreibung | Schaden [1-3] | Eintritts&shy;wahrscheinlichkeit [1-3] | Gewichteter Schaden [1-9] | Vorbeugung | Verhalten beim Eintreten |
 |----|-------|--------------|------------------|-----------------------------|---------------------|------------|--------------------------|
-| R1 | *...* | *...*        | *10*             | *80%*                       | *8*                 | *...*      | *...*                    |
-| R2 | *...* | *...*        | *10*             | *60%*                       | *6*                 | *...*      | *...*                    |
-| R3 | *...* | *...*        | *2*              | *50%*                       | *1*                 | *...*      | *...*                    |
-|    |       |              |                  | **Summe**                   | *15*                |            |                          |
+| R1 | Internetausfall | Durch die Coronapandemie müssen alle Besprechungen online durchgeführt werden.        | *1*             | *2*                       | *1*                 | Dokumentation relevanter Inhalte während Besprechungen      | Meatingprotokoll lesen                    |
+| R2 | Softwarearchitektur | Fehler im Designprozess werden erst währen der umsetzung bemerkt.        | *1*             | *2*                       | *2*                 | Prototyp erstellen      | Fehleranalyse & überarbeitung der Softwarearchitektur                    |
+| R3 | Ungenügende Spezifikation | Anforderungen wurden nicht klar definiert und müssen während der Implementierung überarbeitet werden oder in den nächsten Sprint verschoben werden        | *2*              | *2*                       | *4*                 | Anforderung reviewen      | Anforderungsanalyse überarbeiten                    |
+| R4 | Zeitmanagement | Die Geplante Zeit für ein Feature wird massiv überschritten        | *3*              | *2*                       | *6*                 | Gemeinsames schätzen der Aufwände      | Verschiebung von Features in späteren Sprint                    |
+|    |       |              |                  | **Summe**                   | *13*                |            |                          |
 
-(Merke: Es geht hierbei nur um die Beschreibung der technischen Risiken des Projektes, d.h. nur projektspezifische Risiken. Allgemeine Risiken wie Hardware Ausfall, Ausfall Teammitglied, usw. sollen NICHT beschrieben werden.)
+## Risiko Überwachung
+
+Die Risiken sollen nach jedem Sprint überprüft werden.
