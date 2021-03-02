@@ -54,8 +54,9 @@
 
 ### Zeitliche Planung
 
-*Kurze Beschreibung der zeitlichen Planung und mit einer Grafik einen Überblick über die Phasen, Iterationen und Meilensteine geben.*
-*Das Datum des Eintreffens der Meilensteine sollte in der Phasenübersicht ersichtlich sein.*
+Die grobe Zeitplanung wurde mit RUP durchgefüht. In der Entwicklung wird mit Sprints gearbeitet. Es gibt in jedem Sprint einen Meilenstein welcher abgeschlossen werden msus.
+
+![RUP-time-table](/images/RUP-time-table.png)
 
 #### Phasen / Iterationen
 
