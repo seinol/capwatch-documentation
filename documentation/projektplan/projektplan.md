@@ -71,7 +71,7 @@
 
 #### Meilensteine
 
-**M1 Projektplan**
+**M1 Projektplan** (04.03.2021)
 - Projektorganisation
 - Arbeitspakete definiert
 - Phasen & Meilensteine
@@ -81,14 +81,14 @@
 - Infrastruktur bereitgestellt
 - Zeitplanung erstellt
 
-**M2 Anforderungen**
+**M2 Anforderungen** (18.03.2021)
 - Use Cases erstellt
 - Nichtfunktionale Anforderungen formuliert
 - Schnittstellen beschreiben
 - Uner Interfaces Skizzen
 - Domainmodell Diagramme gezeichnet
 
-**M3 End of Elaboration / Prototyp**
+**M3 End of Elaboration / Prototyp** (01.04.2021)
 - Architekturprototyp erstellt
 - Architekturprototyp getestet
 - Architekturprototyp Dokumentation vorbereitet
@@ -97,7 +97,7 @@
 - Risikoanalyse nachgeführt
 - Entwicklungsumgebung komplett eingerichtet
 
-**M4 Architektur**
+**M4 Architektur** (15.04.2021)
 - Physische/Logische Architektur
 - Schnittstellen 
 - Persistenz
@@ -107,19 +107,19 @@
 - Verwendete Technologien
 - Architektur entscheidungen
 
-**M5 Qualität**
+**M5 Qualität** (29.04.2021)
 - Dokumentationreview
 - Codereview
 - Testcases
 - verwendung von Tools
 - Weitere Qualitätssichernde Massnahmen
 
-**M6 Beta Version**
+**M6 Beta Version** (13.06.2021)
 - Gesamter Funktionsumfang implementiert
 - Anforderungen getestet
 - Qualitätsichernde Massnahme durchgeführt
 
-**M7 Finale Abgabe**
+**M7 Finale Abgabe** (27.06.2021)
 - Code-Repository in abgabefähigem Zustand
 - Dokumentation-Repository in abgabefähigem Zustand
 - Fehler aus Beta Version behoben
