@@ -74,7 +74,7 @@
 ##### *Bezeichnung der einzelnen Meilensteine*
 
 *Setzen Sie in Ihrem Projekt 6-8 Meilensteine. Kurze Beschreibung der Meilensteine mit genauem Datum.*
- 
+
 *In der Regel auf Ende jeder Iteration einen Meilenstein setzen (diese Faustregel gilt nur für die SE-2Projekte, in realen Projekten haben Sie oft deutlich mehr Iterationen als Meilensteine, weil Meilensteine dort die nach aussen kommunizierten Ereignisse sind).*
 
 *Schreiben Sie zu jedem Meilenstein auf, welche Arbeitsprodukte (work products) Sie dann abliefern werden.*
@@ -83,7 +83,20 @@
 
 ### Besprechungen
 
-*regelmässige Besprechungen nennen (wann, wo, wer, Ziel und/oder Grund)*
+**Ort:** Bis auf weiteres finden alle Besprechungen im MS Teams statt.
+
+| Wann                       | Wer                       | Grund                                                        |
+| -------------------------- | ------------------------- | ------------------------------------------------------------ |
+| Jeden Montag 16:00 Uhr     | Team / Advisor bei bedarf | Fragen zu Projektablauf oder Vorgehen                        |
+| Jeden Donnerstag 16:00 Uhr | Alle im Team              | Aktueller Stand, Offene Fragen besprechen, Weiteres Vorgehen |
+| 08.03.2021 16:00 Uhr       | Team / Advisor            | Review  1                                                    |
+| 22.03.2021 16:00 Uhr       | Team / Advisor            | Review 2                                                     |
+| 05.04.2021 16:00 Uhr       | Team / Advisor            | Review 3                                                     |
+| 19.04.2021 16:00 Uhr       | Team / Advisor            | Review 4                                                     |
+| 03.05.2021 16:00 Uhr       | Team / Advisor            | Review  5                                                    |
+| 31.05.2021 16:00 Uhr       | Team / Advisor            | Review 6                                                     |
+
+
 
 ## Risikomanagement
 
