@@ -8,7 +8,7 @@ In diesem Dokument werden Risiken identifiziert und beurteilt. Aufgrund dieser B
 
 ### Gültigkeitsbereich
 
-Dieses Dokument ist für das EPJ capwatch gültig. Eine Überprüfung der Risiken ist während des Projektes mehrfach durchzuführen.
+Dieses Dokument ist für das EPJ CapWatch gültig. Eine Überprüfung der Risiken ist während des Projektes mehrfach durchzuführen.
 
 ### Referenzen
 
