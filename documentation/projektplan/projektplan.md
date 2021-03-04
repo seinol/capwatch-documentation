@@ -64,7 +64,7 @@ Betreut wird das Projekt durch den Advisor Herrn Thomas Kälin.
 
 Wir im Team verwenden Microsoft Teams für die Meetings und die Dateiablage. Microsoft OneNote wird für diverse Notizen,
 Meeting-Protokolle und weiteres genutzt, was nicht direkt in die offizielle Dokumentation muss. Zusätzlich verwenden wir
-alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
+alle, für unser Projekt sinnvollen, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
 
 - Repositories in Subgruppen
 - Issues mit Kanban Board
