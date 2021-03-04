@@ -42,7 +42,7 @@ Konsumenten profitieren von kurzen Wartezeiten und somit auch besseren Verkaufsd
 
 Die Ziele des Teams sind eine allgemein gut funktionierende, erweiterbare, performante und benutzerfreundliche Plattform
 für die Endkunden, wie aber auch für die Datenlieferanten. Die Weblösung soll einfach zu bedien sein und das Leben
-vereinfache, vor allem in der Zeit einer Pandemie wo Einschränkungen vom Konsumverhalten der Bevölkerung gefordert wird.
+vereinfachen, vor allem in der Zeit einer Pandemie wo Einschränkungen vom Konsumverhalten der Bevölkerung gefordert wird.
 
 ### Lieferumfang
 
