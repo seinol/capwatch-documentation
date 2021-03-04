@@ -230,7 +230,7 @@ Der Sourcecode vom Backend und Frontend befindet sich in einer
 eigenen [Subgruppe](https://gitlab.ost.ch/epj/2021-FS/g03_capwatch/development)
 in unserem GitLab Projekt als jeweils eigene Repositories.
 
-Spezielle Qualitätsmassnhamen spezifischen für den Sourcecode wurden bereits durch die allgemeinen Qualitätsmassnahmen
+Spezielle Qualitätsmassnhamen spezifisch für den Sourcecode wurden bereits durch die allgemeinen Qualitätsmassnahmen
 an das ganze Projekt definiert.
 
 #### Vorgehen
