@@ -121,7 +121,7 @@ In der ersten einwöchigen Phase werden die Anwendungsfälle grob beschrieben. D
 
 ###### *Elaboration*
 
-In der Elaboration wird währen vier Wochen wird ein Architekturprototyp erstellt. Die Anwendungsfälle werden deteiliert beschrieben. Projektplanung sowie Risikoanalyse werden durchgeführt.
+In der Elaboration wird während vier Wochen wird ein Architekturprototyp erstellt. Die Anwendungsfälle werden deteiliert beschrieben. Projektplanung sowie Risikoanalyse werden durchgeführt.
 
 ###### *Construction*
 
