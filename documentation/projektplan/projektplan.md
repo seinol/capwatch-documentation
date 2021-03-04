@@ -105,83 +105,39 @@ zwingend eingehalten.
 
 ### Zeitliche Planung
 
-<!-- TODO Christoph, Rafael -->
+Die grobe Zeitplanung wurde nach den Vorgaben von RUP durchgeführt. In der Entwicklung wird mit Sprints gearbeitet. Es gibt in jedem Sprint einen Meilenstein welcher abgeschlossen werden muss.
 
-*Kurze Beschreibung der zeitlichen Planung und mit einer Grafik einen Überblick über die Phasen, Iterationen und
-Meilensteine geben.*
-*Das Datum des Eintreffens der Meilensteine sollte in der Phasenübersicht ersichtlich sein.*
+![rup-time-table](/images/rup-time-table.png)
 
 #### Phasen / Iterationen
 
-##### *Bezeichnung der einzelnen Phasen*
+Für die grobe Planung gehen wir nach dem RUP-Modell vor. Der Entwicklungsprozess erfolgt mit Scrum.
 
-*Kurze Beschreibung und Dauer der Phase angeben*
+##### *RUP-Phasen*
 
-###### *Bezeichnung der einzelnen Iterationen*
+###### *Inception*
 
-*Kurze Beschreibung und Dauer der Iteration angeben*
+In der ersten einwöchigen Phase werden die Anwendungsfälle grob beschrieben. Damit haben wir ein klares Zeil für die Applikaton CapWatch definiert.
 
-*Vorgehen bei Iterationsplanung und Iterationsassessment*
+###### *Elaboration*
+
+In der Elaboration wird während vier Wochen wird ein Architekturprototyp erstellt. Die Anwendungsfälle werden deteiliert beschrieben. Projektplanung sowie Risikoanalyse werden durchgeführt.
+
+###### *Construction*
+
+In dieser Phase wird das Produkt wird das Produkt CapWatch entwickelt und getestet. Während acht wochen entsteht die Applikaton auf Grundlage der vorher Definieren Anwendungsfälle.
+
+###### *Transition*
+
+Die Applikaton CapWatch ist in der ersten Version zur Auslieferung bereit. Während zwei Wochen kann die Software eingeführt und getestet werden.
+
+##### *Scrum*
+
+Nach dem Erreichen von Meilenstein 1 beginnen wir iterativ mit Scrum zu arbeiten. Es wurden sechs Sprints definiert. Jeder Sprint dauert zwei Wochen, mit Ausnahme des 5. Sprints, welcher drei Wochen dauert. Am Ende jedes Sprints ist der vorgegebene Meilenstein zu erreichen. 
 
 #### Meilensteine
 
-**M1 Projektplan** (06.03.2021)
-- Projektorganisation
-- Arbeitspakete definiert
-- Phasen & Meilensteine
-- Qualitätsmassnahmen
-- Richtlinien für Code und Dokumentation
-- Build Server & Continuous Integration geplant
-- Infrastruktur bereitgestellt
-- Zeitplanung erstellt
-
-**M2 Anforderungen** (20.03.2021)
-- Funktionale Anforderungen formuliert
-- Use Cases erstellt
-- Nichtfunktionale Anforderungen formuliert
-- Schnittstellen beschreiben
-- Uner Interfaces Skizzen
-- Domainmodell Diagramme gezeichnet
-
-**M3 End of Elaboration / Prototyp** (03.04.2021)
-- Architekturprototyp erstellt
-- Architekturprototyp getestet
-- Architekturprototyp Dokumentation vorbereitet
-- Anforderungen vollständig definiert
-- Test- und Reviewprozess definiert
-- Risikoanalyse nachgeführt
-- Entwicklungsumgebung komplett eingerichtet
-
-**M4 Architektur** (17.04.2021)
-- Physische/Logische Architektur
-- Schnittstellen zwischen Packages (geringe Kopplung)
-- Persistenz
-- UI / UX
-- Ausbau-Szenarien definiert und berücksichtigt
-- Performance-Szenario - stabiles verhalten mit mehr User und Last
-- Verwendete Technologien
-- Architektur entscheidungen dokumentiert
-- Besondere Merkmale der Architektur
-
-**M5 Qualität** (01.05.2021)
-- Dokumentationreview
-- Regelmässige Codereview durchgeführt
-- Testcases geplant und dokumentiert und umgesetzt
-- Verwendung von Tools zur sicherstellung der Code-Qualität (bsp. Coderichtlinien)
-- Weitere Qualitätssichernde Massnahmen
-
-**M6 Beta Version** (15.05.2021)
-- Gesamter Funktionsumfang implementiert
-- Funktionale Anforderungen getestet
-- Qualitätsichernde Massnahme durchgeführt
-- Vorhandene Bugs idnetifiziert
-
-**M7 Finale Abgabe** (29.05.2021)
-- Code-Repository in abgabefähigem Zustand
-- Dokumentation-Repository in abgabefähigem Zustand
-- Fehler aus Beta Version behoben
-- Projektpräsentation vorbereitet
-- Produktpräsentation vorbereitet
+##### *Bezeichnung der einzelnen Meilensteine*
 
 *Setzen Sie in Ihrem Projekt 6-8 Meilensteine. Kurze Beschreibung der Meilensteine mit genauem Datum.*
 
@@ -291,10 +247,11 @@ klein ist und der Aufwand dafür zu gross wäre. Das ganze Frontend wird manuell
 
 #### Unit Testing
 
-<!-- TODO Schneider? -->
+Automatisierte UnitTests werden ausschliesslich im Backend geschrieben. Der Grund hierfür ist, dass jegliche Business-Logik, welche auf die Daten angewandt werden muss, bei der Aufbereitung der Daten vor dem Bereitstellen durch die jeweiligen API's ausgeführt wird. Das FrontEnd wird lediglich die Rückgaben aus den API's visuell zur Verfügung stellen.
 
-*Wo werden welche Unit Tests geschrieben um die Qualität sicherzustellen? Wie wird die Testabdeckung sichergestellt (
-z.B. durch EclEmma)?*
+Die Tests im Backend werden technologisch mit [xUnit](https://www.nuget.org/packages/xunit/), [FluentAssertions](https://www.nuget.org/packages/FluentAssertions/6.0.0-alpha0002) und [FakeItEasy](https://www.nuget.org/packages/FakeItEasy/7.0.0-beta.2) umgesetzt.
+
+Um sicherzustellen, dass die Testabdeckung ausreichend ist, wird die in Visual Studio Enterprise verfügbare Funktionalität "Analyze Code Coverage for All Tests" verwendet.
 
 #### Code Reviews
 
@@ -304,16 +261,28 @@ nach dem Code Review erst die Zusammenführung auf einen Mainbranch gemacht.
 
 #### Code Style Guidelines
 
-<!-- TODO Schneider? -->
+Die folgenden Guidelines gelten als Ausgangspunkt, wie der Quellcode im Front- und Backend formatiert werden soll. Etwaige Abweichungen, welche sich als sinnvoll herausstellen, müssen im Team besprochen und von diesem abgenommen werden.
 
-*Welche Code Style Guidelines werden angewendet? Sie brauchen keine eigenen Guidelines zu erfinden.*
-*Am besten referenzieren Sie existierende Guidelines, mit denen Sie einverstanden sind.*
-*Evtl. noch Abweichungen dazu dokumentieren*
+| Programmiersprache | Grundlage |
+| ------------------ | --------- |
+| .NET               | [C# Coding Conventions von Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) |
+| HTML / CSS         | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) |
+| TypeScript         | [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html) |
+
+#### Software Engineering Prinzipien
+
+Um Maintainability und Qualität der Code Basis zu gewährleisten werden gängige Software Engineering principles stets berücksichtigt. Diese umfassen KISS, YAGNI, DRY, BDUF und S.O.L.I.D.
 
 ### Testen
 
-<!-- TODO Schneider? -->
+#### Unit tests
 
-#### *Bezeichnung des Tests (z.B. Integrationstest oder Systemtest)*
+Siehe Kapitel *Unit Testing* unter *Entwicklung*
 
-*Beschreibung der Durchführung, Umsetzung und Umfang der Tests. Wenn möglich mit Mengenangaben (wieviele Tests)*
+#### Integration tests
+
+Integrationstests werden manuell nach Fertigstellung jedes Sprintumfangs durchgeführt. Hierfür wird beim Erstellen der Detailspezifikationen eine Liste an benötigten Tests erstellt, welche in eine Gesamtliste an durchzuführenden Integrationstests eingepflegt wird.
+
+#### Performance tests
+
+Da beim Backend über die Update API der Geschäfte theoretisch relativ viel Traffic eingehen kann, wird das Backend vor jedem Release auf seine Performance getestet. Hierfür verwenden wir [Apache JMeter](https://jmeter.apache.org/).
