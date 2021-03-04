@@ -105,23 +105,35 @@ zwingend eingehalten.
 
 ### Zeitliche Planung
 
-<!-- TODO Christoph, Rafael -->
+Die grobe Zeitplanung wurde nach den Vorgaben von RUP durchgeführt. In der Entwicklung wird mit Sprints gearbeitet. Es gibt in jedem Sprint einen Meilenstein welcher abgeschlossen werden muss.
 
-*Kurze Beschreibung der zeitlichen Planung und mit einer Grafik einen Überblick über die Phasen, Iterationen und
-Meilensteine geben.*
-*Das Datum des Eintreffens der Meilensteine sollte in der Phasenübersicht ersichtlich sein.*
+![rup-time-table](/images/rup-time-table.png)
 
 #### Phasen / Iterationen
 
-##### *Bezeichnung der einzelnen Phasen*
+Für die grobe Planung gehen wir nach dem RUP-Modell vor. Der Entwicklungsprozess erfolgt mit Scrum.
 
-*Kurze Beschreibung und Dauer der Phase angeben*
+##### *RUP-Phasen*
 
-###### *Bezeichnung der einzelnen Iterationen*
+###### *Inception*
 
-*Kurze Beschreibung und Dauer der Iteration angeben*
+In der ersten einwöchigen Phase werden die Anwendungsfälle grob beschrieben. Damit haben wir ein klares Zeil für die Applikaton CapWatch definiert.
 
-*Vorgehen bei Iterationsplanung und Iterationsassessment*
+###### *Elaboration*
+
+In der Elaboration wird während vier Wochen wird ein Architekturprototyp erstellt. Die Anwendungsfälle werden deteiliert beschrieben. Projektplanung sowie Risikoanalyse werden durchgeführt.
+
+###### *Construction*
+
+In dieser Phase wird das Produkt wird das Produkt CapWatch entwickelt und getestet. Während acht wochen entsteht die Applikaton auf Grundlage der vorher Definieren Anwendungsfälle.
+
+###### *Transition*
+
+Die Applikaton CapWatch ist in der ersten Version zur Auslieferung bereit. Während zwei Wochen kann die Software eingeführt und getestet werden.
+
+##### *Scrum*
+
+Nach dem Erreichen von Meilenstein 1 beginnen wir iterativ mit Scrum zu arbeiten. Es wurden sechs Sprints definiert. Jeder Sprint dauert zwei Wochen, mit Ausnahme des 5. Sprints, welcher drei Wochen dauert. Am Ende jedes Sprints ist der vorgegebene Meilenstein zu erreichen. 
 
 #### Meilensteine
 
