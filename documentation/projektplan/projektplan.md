@@ -4,7 +4,7 @@
 
 ### Zweck
 
-Dieses Dokument gibt eine Übersicht über die Art und Weise wie wir unser Projekt Capwatch durchführen werden.
+Dieses Dokument gibt eine Übersicht über die Art und Weise wie wir unser Projekt CapWatch durchführen werden.
 
 ### Gültigkeitsbereich
 
