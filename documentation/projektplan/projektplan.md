@@ -145,16 +145,18 @@ Sub-Systemen und Deployment Diagramm“*
 
 **Ort:** Bis auf weiteres finden alle Besprechungen in Microsoft Teams statt.
 
-| Wann                       | Wer                       | Grund                                                        |
-| -------------------------- | ------------------------- | ------------------------------------------------------------ |
-| Jeden Montag 16:00 Uhr     | Team / Advisor bei bedarf | Fragen zu Projektablauf oder Vorgehen                        |
-| Jeden Donnerstag 16:00 Uhr | Alle im Team              | Aktueller Stand, Offene Fragen besprechen, Weiteres Vorgehen |
-| 08.03.2021 16:00 Uhr       | Team / Advisor            | Review 1                                                     |
-| 22.03.2021 16:00 Uhr       | Team / Advisor            | Review 2                                                     |
-| 05.04.2021 16:00 Uhr       | Team / Advisor            | Review 3                                                     |
-| 19.04.2021 16:00 Uhr       | Team / Advisor            | Review 4                                                     |
-| 03.05.2021 16:00 Uhr       | Team / Advisor            | Review 5                                                     |
-| 31.05.2021 16:00 Uhr       | Team / Advisor            | Review 6                                                     |
+| Wann                                        | Wer                       | Grund                                                        |
+| ------------------------------------------- | ------------------------- | ------------------------------------------------------------ |
+| Jeden Montag 16:00 Uhr                      | Team / Advisor bei bedarf | Fragen zu Projektablauf oder Vorgehen                        |
+| Jeden Donnerstag 16:00 Uhr                  | Alle im Team              | Aktueller Stand, Offene Fragen besprechen, Weiteres Vorgehen |
+| Jeweils bei Sprintbeginn Montag 10:00 Uhr   | Alle im Team              | Sprint Planning                                              |
+| Jeweils bei Sprintende Donnerstag 17:00 Uhr | Alle im Team              | Sprint Review und anschliessend Sprint Retrospektive         |
+| 08.03.2021 16:00 Uhr                        | Team / Advisor            | Review 1                                                     |
+| 22.03.2021 16:00 Uhr                        | Team / Advisor            | Review 2                                                     |
+| 05.04.2021 16:00 Uhr                        | Team / Advisor            | Review 3                                                     |
+| 19.04.2021 16:00 Uhr                        | Team / Advisor            | Review 4                                                     |
+| 03.05.2021 16:00 Uhr                        | Team / Advisor            | Review 5                                                     |
+| 31.05.2021 16:00 Uhr                        | Team / Advisor            | Review 6                                                     |
 
 ## Risikomanagement
 
