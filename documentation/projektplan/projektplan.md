@@ -188,7 +188,7 @@ diese verwendet werden. Eventuell auch Verfahren beschreiben (auf Tools bezogen)
 
 Erstens werden für den Umgang mit Git diverse Richtlinien definiert um eine professionelle und einfache Zusammenarbeit
 im Softwareentwicklungsprozess mit dem ganzen Team zu erreichen. \
-Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzliche keine Änderungen in den Git Repositories verwendet
+Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzlich keine Änderungen in den Git Repositories verwendet
 werden, welche nicht mindestens von einem weiteren Teammitglied validiert und bestätigt wurden. Ausnahmen dabei sind
 triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen. Drittens werden mit jedem
 Build und auch mit jedem Deployment der Applikationen (auch Dokumentationen) Sicherheit- und Integration-checks
