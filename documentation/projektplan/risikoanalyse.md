@@ -19,15 +19,15 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 - Projekt: CapWatch
 - Erstellt am: 02.03.2021
 - Autor: Christoph Scheiwiller
-- Gewichteter Schaden: *13*
+- Gewichteter Schaden: *14*
 
 | Nr | Titel | Beschreibung | Schaden [1-3] | Eintritts&shy;wahrscheinlichkeit [1-3] | Gewichteter Schaden [1-9] | Vorbeugung | Verhalten beim Eintreten |
 |----|-------|--------------|------------------|-----------------------------|---------------------|------------|--------------------------|
-| R1 | Internetausfall | Durch die Coronapandemie müssen alle Besprechungen online durchgeführt werden.        | *1*             | *2*                       | *1*                 | Dokumentation relevanter Inhalte während Besprechungen      | Meetingprotokoll lesen                    |
+| R1 | Internetausfall | Durch die Coronapandemie müssen alle Besprechungen online durchgeführt werden.        | *1*             | *2*                       | *4*                 | Dokumentation relevanter Inhalte während Besprechungen      | Meetingprotokoll lesen                    |
 | R2 | Softwarearchitektur | Fehler im Designprozess werden erst währen der Umsetzung bemerkt.        | *1*             | *2*                       | *2*                 | Prototyp erstellen      | Fehleranalyse & Überarbeitung der Softwarearchitektur                    |
 | R3 | Ungenügende Spezifikation | Anforderungen wurden nicht klar definiert und müssen während der Implementierung überarbeitet werden oder in den nächsten Sprint verschoben werden        | *2*              | *2*                       | *4*                 | Anforderung reviewen      | Anforderungsanalyse überarbeiten                    |
 | R4 | Zeitmanagement | Die Geplante Zeit für ein Feature wird massiv überschritten        | *3*              | *2*                       | *6*                 | Gemeinsames schätzen der Aufwände      | Verschiebung von Features in späteren Sprint                    |
-|    |       |              |                  | **Summe**                   | *13*                |            |                          |
+|    |       |              |                  | **Summe**                   | *14*                |            |                          |
 
 ## Risiko Überwachung
 
