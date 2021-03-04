@@ -4,7 +4,7 @@
 
 ### Zweck
 
-In diesem Dokument werden Risiken identifiziert und beurteilt. Aufgrund der Beurteilung werden Definiert wie mit den Risiken zu verfahren ist.
+In diesem Dokument werden Risiken identifiziert und beurteilt. Aufgrund dieser Beurteilung wird definiert wie mit den Risiken zu verfahren ist.
 
 ### Gültigkeitsbereich
 
