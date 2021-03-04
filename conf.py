@@ -13,7 +13,7 @@ _authors = [
   {'name': 'Jonas Hauser',  'email': 'jonas.hauser@ost.ch' },
   {'name': 'Christoph Scheiwiller',  'email': 'christoph.scheiwiller@ost.ch' },
   {'name': 'Pascal Schlumpf',  'email': 'pascal.schlumpf@ost.ch' },
-  {'name': 'Pascal Schneider',  'email': 'pascal.schneider@ost.ch' }
+  {'name': 'Pascal Schneider',  'email': 'pascal.schneider@ost.ch' },
 ]
 
 language = 'de'
