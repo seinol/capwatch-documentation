@@ -265,7 +265,7 @@ Um Maintainability und Qualität der Code Basis zu gewährleisten werden gängig
 
 #### Unit tests
 
-Siehe Kapitel "Unit Testing" unter "Entwicklung"
+Siehe Kapitel *Unit Testing* unter *Entwicklung*
 
 #### Integration tests
 
