@@ -180,24 +180,20 @@ diese verwendet werden. Eventuell auch Verfahren beschreiben (auf Tools bezogen)
 
 ## Qualitätsmassnahmen
 
-<!-- TODO Rafael: definitive Definition welche Integrationen verwendet werden (SonarQube etc.), siehe "Drittens -->
-
 Erstens werden für den Umgang mit Git diverse Richtlinien definiert um eine professionelle und einfache Zusammenarbeit
 im Softwareentwicklungsprozess mit dem ganzen Team zu erreichen. \
 Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzliche keine Änderungen in den Git Repositories verwendet
 werden, welche nicht mindestens von einem weiteren Teammitglied validiert und bestätigt wurden. Ausnahmen dabei sind
 triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen. Drittens werden mit jedem
-Build und auch mit jedem Deployment der Applikationen (auch Dokumentationen) Sicherheit- und Integration-checks
-durchgeführt durch TBD TBD TBD.
+Build und auch mit jedem Deployment der Applikationen Sicherheit- und Integration-checks durchgeführt durch SonarQube
+und Renovate.
 
 Um den erfolgreichen Verlauf des Projekts zu garantieren ist der Projektleiter dafür verantwortlich, wöchentlich die
 Einhaltung der Qualitätsmassnahmen zu überprüfen und Abweichungen den Teammitgliedern mitzuteilen. Der Projektleiter
 arbeitet nach einer wöchentlichen Checkliste, damit nichts vergessen wird.\
-Das Team arbeitet nach dem Erreichen vom Meilenstein TBD TBD TBD <!-- TODO Jonas --> nach Scrum und garantiert somit pro
-Sprint fertige Teile des Produkts vorweisen zu können.
+Das Team arbeitet nach dem Erreichen vom Meilenstein 1 nach Scrum und garantiert somit pro Sprint fertige Teile des
+Produkts vorweisen zu können.
 
-<!-- TODO Jonas: muss dies noch explizit gemacht werden? -->
-*Übersicht in einer Tabelle geben mit Massnahmen, Zeitraum und Ziel der Massnahme*
 
 ### Dokumentation
 
