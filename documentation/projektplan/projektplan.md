@@ -141,6 +141,8 @@ Sub-Systemen und Deployment Diagramm“*
 
 ### Besprechungen
 
+Hier sind alle fixierten Termine aufgeführt. Falls nötig können auch spontane Besprechungen dazukommen, wobei nicht alle Gruppenmitglieder anwesend sein müssen. 
+
 **Ort:** Bis auf weiteres finden alle Besprechungen in Microsoft Teams statt.
 
 | Wann                       | Wer                       | Grund                                                        |
