@@ -37,12 +37,12 @@ Abonnements. Das Frontend ist ein reiner, einseitiger Empfänger ohne Authentifi
 Real-time Daten zur Anzahl Personen in einem Raum oder Gebäude, welche eine Personenbeschränkung aufgrund einer Pandemie
 oder einem sonstigen Grund haben, wie z. B. Geschäfte, Saunen, Bäder, Sportanlagen etc. um das persönliche Einkaufs- und
 Konsumverhalten besser planen bzw. anpassen zu können. Es entstehen dabei sowohl Vorteile für die Anbieter und die
-Konsumenten. Die Anbieter können Dienstleistungsengpässe vermeiden, welche zu einem Besucherverlust führen könnten. Die
+Konsumenten. Die Anbieter können Dienstleistungsendpässe vermeiden, welche zu einem Besucherverlust führen könnten. Die
 Konsumenten profitieren von kurzen Wartezeiten und somit auch besseren Verkaufsdienstleistung wie z. B. Beratungen.
 
 Die Ziele des Teams sind eine allgemein gut funktionierende, erweiterbare, performante und benutzerfreundliche Plattform
 für die Endkunden, wie aber auch für die Datenlieferanten. Die Weblösung soll einfach zu bedien sein und das Leben
-vereinfachen, vor allem in der Zeit einer Pandemie wo Einschränkungen vom Konsumverhalten der Bevölkerung gefordert wird.
+vereinfache, vor allem in der Zeit einer Pandemie wo Einschränkungen vom Konsumverhalten der Bevölkerung gefordert wird.
 
 ### Lieferumfang
 
@@ -59,12 +59,12 @@ hat somit in der Erstellung einige Einschränkungen.
 
 Das Projekt wird durch fünf Software-Engineering Studenten der Ostschweizer Fachhochschule am Campus Rapperswil. Alle
 Projektbeteiligten studieren im berufsbegleitenden Studiumsmodell und arbeiten nebenbei bis zu 70 Prozent für ihre
-Arbeitgeber. Einige Teammitglieder haben Spezialgebiete, nach welchen auch die Verantwortlichkeiten verteilt werden.
+Arbeitgeber. Einige Teammitglieder haben spezialgebiete, nach welchen auch die Verantwortlichkeiten verteilt werden.
 Betreut wird das Projekt durch den Advisor Herrn Thomas Kälin.
 
 Wir im Team verwenden Microsoft Teams für die Meetings und die Dateiablage. Microsoft OneNote wird für diverse Notizen,
 Meeting-Protokolle und weiteres genutzt, was nicht direkt in die offizielle Dokumentation muss. Zusätzlich verwenden wir
-alle, für unser Projekt sinnvollen, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
+alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
 
 - Repositories in Subgruppen
 - Issues mit Kanban Board
@@ -81,7 +81,7 @@ alle, für unser Projekt sinnvollen, Funktionen von GitLab. Die Nutzung von folg
 | -------------------------- | ------------------------- |
 | Jonas Hauser               | Projektleitung, Kommunikation, Arbeitsorganisation, Qualitätssicherung und Meetingmoderator  |
 | Rafael Fuhrer              | Alles rund um Systemumgebungen wie z. B. CI/CD, GitLab und Deploy-Server            |
-| Pascal Schneider           | Lead für Software-Architektur und -Design und API-Design            |
+| Pascal Schneider           | Lead für Software-Architektur und -Design und API-Design, GitLab Issue Time-Tracking            |
 | Christoph Scheiwiller      | <!-- TODO --!>            |
 | Pascal Schlumpf            | Daten- bzw. Datenbank-spezialist            |
 
@@ -113,8 +113,6 @@ Meilensteine geben.*
 
 #### Phasen / Iterationen
 
-<!-- TODO Jonas -->
-
 ##### *Bezeichnung der einzelnen Phasen*
 
 *Kurze Beschreibung und Dauer der Phase angeben*
@@ -145,18 +143,16 @@ Sub-Systemen und Deployment Diagramm“*
 
 **Ort:** Bis auf weiteres finden alle Besprechungen in Microsoft Teams statt.
 
-| Wann                                        | Wer                       | Grund                                                        |
-| ------------------------------------------- | ------------------------- | ------------------------------------------------------------ |
-| Jeden Montag 16:00 Uhr                      | Team / Advisor bei bedarf | Fragen zu Projektablauf oder Vorgehen                        |
-| Jeden Donnerstag 16:00 Uhr                  | Alle im Team              | Aktueller Stand, Offene Fragen besprechen, Weiteres Vorgehen |
-| Jeweils bei Sprintbeginn Montag 10:00 Uhr   | Alle im Team              | Sprint Planning                                              |
-| Jeweils bei Sprintende Donnerstag 17:00 Uhr | Alle im Team              | Sprint Review und anschliessend Sprint Retrospektive         |
-| 08.03.2021 16:00 Uhr                        | Team / Advisor            | Review 1                                                     |
-| 22.03.2021 16:00 Uhr                        | Team / Advisor            | Review 2                                                     |
-| 05.04.2021 16:00 Uhr                        | Team / Advisor            | Review 3                                                     |
-| 19.04.2021 16:00 Uhr                        | Team / Advisor            | Review 4                                                     |
-| 03.05.2021 16:00 Uhr                        | Team / Advisor            | Review 5                                                     |
-| 31.05.2021 16:00 Uhr                        | Team / Advisor            | Review 6                                                     |
+| Wann                       | Wer                       | Grund                                                        |
+| -------------------------- | ------------------------- | ------------------------------------------------------------ |
+| Jeden Montag 16:00 Uhr     | Team / Advisor bei bedarf | Fragen zu Projektablauf oder Vorgehen                        |
+| Jeden Donnerstag 16:00 Uhr | Alle im Team              | Aktueller Stand, Offene Fragen besprechen, Weiteres Vorgehen |
+| 08.03.2021 16:00 Uhr       | Team / Advisor            | Review 1                                                     |
+| 22.03.2021 16:00 Uhr       | Team / Advisor            | Review 2                                                     |
+| 05.04.2021 16:00 Uhr       | Team / Advisor            | Review 3                                                     |
+| 19.04.2021 16:00 Uhr       | Team / Advisor            | Review 4                                                     |
+| 03.05.2021 16:00 Uhr       | Team / Advisor            | Review 5                                                     |
+| 31.05.2021 16:00 Uhr       | Team / Advisor            | Review 6                                                     |
 
 ## Risikomanagement
 
@@ -188,7 +184,7 @@ diese verwendet werden. Eventuell auch Verfahren beschreiben (auf Tools bezogen)
 
 Erstens werden für den Umgang mit Git diverse Richtlinien definiert um eine professionelle und einfache Zusammenarbeit
 im Softwareentwicklungsprozess mit dem ganzen Team zu erreichen. \
-Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzlich keine Änderungen in den Git Repositories verwendet
+Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzliche keine Änderungen in den Git Repositories verwendet
 werden, welche nicht mindestens von einem weiteren Teammitglied validiert und bestätigt wurden. Ausnahmen dabei sind
 triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen. Drittens werden mit jedem
 Build und auch mit jedem Deployment der Applikationen (auch Dokumentationen) Sicherheit- und Integration-checks
@@ -216,8 +212,8 @@ dem letzten Review auf dem Produktionsbranch überprüft.
 
 Wir verwenden die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von GitLab selbst
 mit integriertem Time-Tracking. Die Issues durchlaufen einen klaren Workflow der
-als [Kanban Board](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/boards) angezeigt wird. Jedes Issue durchläuft
-folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem groben
+als [Kanban Board](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/boards) angezeigt wird. Jedes Issue durch
+läuft folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem groben
 Format erstellt und warten dann im Status "
 open" auf deren Einplanung in einen Sprint, wodurch sie den den Status "planned" wechseln. Das Arbeitspaket wird beim
 Start in den Status "work in progress" versetzt und vor Beendigung in den Status "review", um einen Review und je nach
@@ -230,14 +226,16 @@ Der Sourcecode vom Backend und Frontend befindet sich in einer
 eigenen [Subgruppe](https://gitlab.ost.ch/epj/2021-FS/g03_capwatch/development)
 in unserem GitLab Projekt als jeweils eigene Repositories.
 
-Spezielle Qualitätsmassnhamen spezifisch für den Sourcecode wurden bereits durch die allgemeinen Qualitätsmassnahmen
+Spezielle Qualitätsmassnhamen spezifischen für den Sourcecode wurden bereits durch die allgemeinen Qualitätsmassnahmen
 an das ganze Projekt definiert.
 
 #### Vorgehen
 
-<!-- TODO Jonas: weglassen? -->
-
-*Vorgehen in der Entwicklung*
+Wir entwickeln vollständige mit dem Prinzip der Agile Softwareentwicklung mit Scrum und entwickeln demnach in
+Iterationen nach und nach teile der Applikationen. Der Sourcecode wird klassisch und nach Features entwickelt ohne dabei
+zuerst Tests zu schreiben (kein Test Driven Development). Die Logik der Features wird zuerst implementiert und danach
+werden die Unit Tests dazu geschrieben. Im Frontend verzichten wir auf automatisierte Tests, weil der Projektumfang zu
+klein ist und der Aufwand dafür zu gross wäre. Das ganze Frontend wird manuell getestet.
 
 #### Unit Testing
 
@@ -248,7 +246,9 @@ z.B. durch EclEmma)?*
 
 #### Code Reviews
 
-*Werden Code Reviews gemacht und wie werden diese gemacht?*
+Wie bereits im Kapitel zu den allgemeinen Qualitätsmassnahmen beschrieben, erstellen wir grundsätzlich immer Pull
+Requests die von mindestens einem weiteren Mitarbeiter überprüft wird. Es wird immer mit Supportbranches gearbeitet und
+nach dem Code Review erst die Zusammenführung auf einen Mainbranch gemacht.
 
 #### Code Style Guidelines
 
