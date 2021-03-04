@@ -62,9 +62,10 @@ Projektbeteiligten studieren im berufsbegleitenden Studiumsmodell und arbeiten n
 Arbeitgeber. Einige Teammitglieder haben spezialgebiete, nach welchen auch die Verantwortlichkeiten verteilt werden.
 Betreut wird das Projekt durch den Advisor Herrn Thomas Kälin.
 
-Wir im Team verwenden Microsoft Teams für die Meetings und die Dateiablage. 
-Microsoft OneNote wird für diverse Notizen, Meeting-Protokolle und weiteres genutzt, was nicht direkt in die offizielle Dokumentation muss.
-Zusätzlich verwenden wir alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
+Wir im Team verwenden Microsoft Teams für die Meetings und die Dateiablage. Microsoft OneNote wird für diverse Notizen,
+Meeting-Protokolle und weiteres genutzt, was nicht direkt in die offizielle Dokumentation muss. Zusätzlich verwenden wir
+alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
+
 - Repositories in Subgruppen
 - Issues mit Kanban Board
 - Merge- bzw. Pull-Requests
@@ -97,13 +98,15 @@ Tester an.
 
 ### Kostenvoranschlag
 
-Unser Projekt wird auf 14 Studiumwochen aufgeteilt, was dem Standard der Vorgaben für das Engineer Projekt entspricht. Dies bedeutet ein
-durchschnittliches Arbeitspensum von ungefähr 8.6 Stunden pro Person pro Woche. Je nach Arbeitsaufwand pro Woche kann dieser Wert
-stark variieren. Der Endwert von mindestens 120 Stunden pro Person nach 14 Wochen wird aber zwingend eingehalten.
+Unser Projekt wird auf 14 Studiumwochen aufgeteilt, was dem Standard der Vorgaben für das Engineer Projekt entspricht.
+Dies bedeutet ein durchschnittliches Arbeitspensum von ungefähr 8.6 Stunden pro Person pro Woche. Je nach Arbeitsaufwand
+pro Woche kann dieser Wert stark variieren. Der Endwert von mindestens 120 Stunden pro Person nach 14 Wochen wird aber
+zwingend eingehalten.
 
 ### Zeitliche Planung
 
 <!-- TODO Christoph, Rafael -->
+
 *Kurze Beschreibung der zeitlichen Planung und mit einer Grafik einen Überblick über die Phasen, Iterationen und
 Meilensteine geben.*
 *Das Datum des Eintreffens der Meilensteine sollte in der Phasenübersicht ersichtlich sein.*
@@ -111,6 +114,7 @@ Meilensteine geben.*
 #### Phasen / Iterationen
 
 <!-- TODO Jonas -->
+
 ##### *Bezeichnung der einzelnen Phasen*
 
 *Kurze Beschreibung und Dauer der Phase angeben*
@@ -139,17 +143,17 @@ Sub-Systemen und Deployment Diagramm“*
 
 ### Besprechungen
 
-**Ort:** Bis auf weiteres finden alle Besprechungen im MS Teams statt.
+**Ort:** Bis auf weiteres finden alle Besprechungen in Microsoft Teams statt.
 
 | Wann                       | Wer                       | Grund                                                        |
 | -------------------------- | ------------------------- | ------------------------------------------------------------ |
 | Jeden Montag 16:00 Uhr     | Team / Advisor bei bedarf | Fragen zu Projektablauf oder Vorgehen                        |
 | Jeden Donnerstag 16:00 Uhr | Alle im Team              | Aktueller Stand, Offene Fragen besprechen, Weiteres Vorgehen |
-| 08.03.2021 16:00 Uhr       | Team / Advisor            | Review  1                                                    |
+| 08.03.2021 16:00 Uhr       | Team / Advisor            | Review 1                                                     |
 | 22.03.2021 16:00 Uhr       | Team / Advisor            | Review 2                                                     |
 | 05.04.2021 16:00 Uhr       | Team / Advisor            | Review 3                                                     |
 | 19.04.2021 16:00 Uhr       | Team / Advisor            | Review 4                                                     |
-| 03.05.2021 16:00 Uhr       | Team / Advisor            | Review  5                                                    |
+| 03.05.2021 16:00 Uhr       | Team / Advisor            | Review 5                                                     |
 | 31.05.2021 16:00 Uhr       | Team / Advisor            | Review 6                                                     |
 
 ## Risikomanagement
@@ -178,17 +182,45 @@ diese verwendet werden. Eventuell auch Verfahren beschreiben (auf Tools bezogen)
 
 ## Qualitätsmassnahmen
 
-*Was wird unternommen damit das Produkt des Projektes, sowie dessen gesamter Verlauf eine hohe Qualität erreicht?*
+<!-- TODO Rafael: definitive Definition welche Integrationen verwendet werden (SonarQube etc.), siehe "Drittens -->
+
+Erstens werden für den Umgang mit Git diverse Richtlinien definiert um eine professionelle und einfache Zusammenarbeit
+im Softwareentwicklungsprozess mit dem ganzen Team zu erreichen. \
+Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzliche keine Änderungen in den Git Repositories verwendet
+werden, welche nicht mindestens von einem weiteren Teammitglied validiert und bestätigt wurden. Ausnahmen dabei sind
+triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen. Drittens werden mit jedem
+Build und auch mit jedem Deployment der Applikationen (auch Dokumentationen) Sicherheit- und Integration-checks
+durchgeführt durch TBD TBD TBD.
+
+Um den erfolgreichen Verlauf des Projekts zu garantieren ist der Projektleiter dafür verantwortlich, wöchentlich die
+Einhaltung der Qualitätsmassnahmen zu überprüfen und Abweichungen den Teammitgliedern mitzuteilen. Der Projektleiter
+arbeitet nach einer wöchentlichen Checkliste, damit nichts vergessen wird.\
+Das Team arbeitet nach dem Erreichen vom Meilenstein TBD TBD TBD <!-- TODO Jonas --> nach Scrum und garantiert somit pro
+Sprint fertige Teile des Produkts vorweisen zu können.
+
+<!-- TODO Jonas: muss dies noch explizit gemacht werden? -->
 *Übersicht in einer Tabelle geben mit Massnahmen, Zeitraum und Ziel der Massnahme*
 
 ### Dokumentation
 
-*Wo befinden sich die Dokumente (SVN oder Git Server) und wie wird deren Qualität sichergestellt?*
+Die Dokumentation wird basierend auf dem offiziellen Template der Ost erstellt mit Markdown und der Produktionsbranch (
+master) wird jeweils als Basis für den aktuellen Stand der Dokumentation verwendet. Neue Bereiche oder
+Dokumentationsvorschläge werden über Supportbranches (feature und bugfix) erstellt, validiert und in den
+Produktionsbranch zusammengeführt. Jeder neuer Teil der Dokumentation wird jeweils immer von mindestens zwei
+Teammitgliedern überprüft. Vor jedem Reviewtermin mit dem Advisor werden nochmals erneut alle geänderten Bereiche seit
+dem letzten Review auf dem Produktionsbranch überprüft.
 
 ### Projektmanagement
 
-*Welches Tool wird für Projektmanagement eingesetzt (z.B. Redmine oder Trac) und wie erfolgt dieser Einsatz?
-Dazugehörige Links und Logins (Gastbenutzer).*
+Wir verwenden die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von GitLab selbst
+mit integriertem Time-Tracking. Die Issues durchlaufen einen klaren Workflow der
+als [Kanban Board](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/boards) angezeigt wird. Jedes Issue durch
+läuft folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem groben
+Format erstellt und warten dann im Status "
+open" auf deren Einplanung in einen Sprint, wodurch sie den den Status "planned" wechseln. Das Arbeitspaket wird beim
+Start in den Status "work in progress" versetzt und vor Beendigung in den Status "review", um einen Review und je nach
+dem auch Testing durchzuführen. Im Status "closed" ist das Issue dann komplett fertig und somit auch in einem
+archivierten Standpunkt.
 
 ### Entwicklung
 
@@ -200,6 +232,8 @@ Dazugehörige Links und Logins (Gastbenutzer).*
 
 #### Unit Testing
 
+<!-- TODO Schneider -->
+
 *Wo werden welche Unit Tests geschrieben um die Qualität sicherzustellen? Wie wird die Testabdeckung sichergestellt (
 z.B. durch EclEmma)?*
 
@@ -209,11 +243,15 @@ z.B. durch EclEmma)?*
 
 #### Code Style Guidelines
 
+<!-- TODO Schneider -->
+
 *Welche Code Style Guidelines werden angewendet? Sie brauchen keine eigenen Guidelines zu erfinden.*
 *Am besten referenzieren Sie existierende Guidelines, mit denen Sie einverstanden sind.*
 *Evtl. noch Abweichungen dazu dokumentieren*
 
 ### Testen
+
+<!-- TODO Schneider -->
 
 #### *Bezeichnung des Tests (z.B. Integrationstest oder Systemtest)*
 
