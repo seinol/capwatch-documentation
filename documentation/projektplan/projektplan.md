@@ -37,7 +37,7 @@ Abonnements. Das Frontend ist ein reiner, einseitiger Empfänger ohne Authentifi
 Real-time Daten zur Anzahl Personen in einem Raum oder Gebäude, welche eine Personenbeschränkung aufgrund einer Pandemie
 oder einem sonstigen Grund haben, wie z. B. Geschäfte, Saunen, Bäder, Sportanlagen etc. um das persönliche Einkaufs- und
 Konsumverhalten besser planen bzw. anpassen zu können. Es entstehen dabei sowohl Vorteile für die Anbieter und die
-Konsumenten. Die Anbieter können Dienstleistungsendpässe vermeiden, welche zu einem Besucherverlust führen könnten. Die
+Konsumenten. Die Anbieter können Dienstleistungsengpässe vermeiden, welche zu einem Besucherverlust führen könnten. Die
 Konsumenten profitieren von kurzen Wartezeiten und somit auch besseren Verkaufsdienstleistung wie z. B. Beratungen.
 
 Die Ziele des Teams sind eine allgemein gut funktionierende, erweiterbare, performante und benutzerfreundliche Plattform
