@@ -52,28 +52,25 @@ vereinfache, vor allem in der Zeit einer Pandemie wo Einschränkungen vom Konsum
 
 ### Annahmen und Einschränkungen
 
-Der Projektplan unterliegt keinen Annahmen oder Einschränkungen. Die Dokumentation wird im Readme-Format erstellt und
+Das Projekt unterliegt keinen speziellen Annahmen oder Einschränkungen. Die Dokumentation wird im Markdown-Format erstellt und
 hat somit in der Erstellung einige Einschränkungen.
 
 ## Projektorganisation
 
 Das Projekt wird durch fünf Software-Engineering Studenten der Ostschweizer Fachhochschule am Campus Rapperswil
 durchgeführt. Alle Projektbeteiligten studieren im berufsbegleitenden Studiumsmodell und arbeiten nebenbei bis zu 70
-Prozent für ihre Arbeitgeber. Einige Teammitglieder haben spezialgebiete, nach welchen auch die Verantwortlichkeiten
+Prozent für ihre Arbeitgeber. Einige Teammitglieder haben Spezialgebiete, nach welchen auch die Verantwortlichkeiten
 verteilt werden. Betreut wird das Projekt durch den Advisor Herrn Thomas Kälin.
 
 Wir im Team verwenden Microsoft Teams für die Meetings und die Dateiablage. Microsoft OneNote wird für diverse Notizen,
 Meeting-Protokolle und weiteres genutzt, was nicht direkt in die offizielle Dokumentation muss. Zusätzlich verwenden wir
 alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
-
 - Repositories in Subgruppen
 - Issues mit Kanban Board
 - Merge- bzw. Pull-Requests
 - CI / CD
 - Analytics
-- Integration von diversen Tools (genauere Beschreibung zu einem späteren Zeitpunkt)
-
-<!-- TODO Liste oben überprüfen -->
+- Integration von diversen Tools (SonarQube und Renovate)
 
 ### Organisationsstruktur
 
@@ -82,7 +79,7 @@ alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folge
 | Jonas Hauser               | Projektleitung, Kommunikation, Arbeitsorganisation, Qualitätssicherung und Meetingmoderator  |
 | Rafael Fuhrer              | Alles rund um Systemumgebungen wie z. B. CI/CD, GitLab und Deploy-Server            |
 | Pascal Schneider           | Lead für Software-Architektur und -Design und API-Design, GitLab Issue Time-Tracking            |
-| Christoph Scheiwiller      | <!-- TODO --!>            |
+| Christoph Scheiwiller      | Codequalität (Guidelines und Testing) |
 | Pascal Schlumpf            | Daten- bzw. Datenbank-spezialist            |
 
 Alle beteiligten sind gleichberechtigte Teammitglieder und wir verfolgen eine komplett flache Hierarchie untereinander.
@@ -91,65 +88,105 @@ Der Projektleiter ist in keinem Fall ein Mitarbeiter mit höheren Befugnissen od
 ### Externe Schnittstellen
 
 Wir werden unterstützt und betreut durch den Advisor Herrn Thomas Kälin. In einzelnen Fällen ziehen wir die Expertise
-von anderen Studenten und oder anderen Advisoren und Modulverantwortlichen hinzu oder fragen bestimmte Zielgruppen als
+von anderen Studenten und anderen Advisoren und Modulverantwortlichen hinzu oder fragen bestimmte Zielgruppen als
 Tester an.
 
 ## Management Abläufe
 
 ### Kostenvoranschlag
 
-Unser Projekt wird auf 14 Studiumwochen aufgeteilt, was dem Standard der Vorgaben für das Engineer Projekt entspricht.
+Unser Projekt wird auf 14 Studiumswochen aufgeteilt, was dem Standard der Vorgaben für das Engineer Projekt entspricht.
 Dies bedeutet ein durchschnittliches Arbeitspensum von ungefähr 8.6 Stunden pro Person pro Woche. Je nach Arbeitsaufwand
 pro Woche kann dieser Wert stark variieren. Der Endwert von mindestens 120 Stunden pro Person nach 14 Wochen wird aber
 zwingend eingehalten.
 
 ### Zeitliche Planung
 
-Die grobe Zeitplanung wurde nach den Vorgaben von RUP durchgeführt. In der Entwicklung wird mit Sprints gearbeitet. Es gibt in jedem Sprint einen Meilenstein welcher abgeschlossen werden muss.
+Die grobe Zeitplanung wurde nach den Vorgaben von RUP durchgeführt. In der Entwicklung wird mit Sprints gearbeitet. Es gibt in jedem Sprint einen Meilenstein, welcher abgeschlossen werden muss.
 
 ![rup-time-table](/images/rup-time-table.png)
 
 #### Phasen / Iterationen
 
-Für die grobe Planung gehen wir nach dem RUP-Modell vor. Der Entwicklungsprozess erfolgt mit Scrum.
+Für die grobe Planung gehen wir nach dem RUP-Modell vor. Der Entwicklungsprozess erfolgt nach Scrum.
 
 ##### *RUP-Phasen*
 
 ###### *Inception*
 
-In der ersten einwöchigen Phase werden die Anwendungsfälle grob beschrieben. Damit haben wir ein klares Zeil für die Applikaton CapWatch definiert.
+In der ersten einwöchigen Phase werden die Anwendungsfälle grob beschrieben, damit haben wir ein klares Ziel für die Applikaton CapWatch definiert.
 
 ###### *Elaboration*
 
-In der Elaboration wird während vier Wochen wird ein Architekturprototyp erstellt. Die Anwendungsfälle werden deteiliert beschrieben. Projektplanung sowie Risikoanalyse werden durchgeführt.
+In der Elaboration wird während vier Wochen ein Architekturprototyp erstellt. Die Anwendungsfälle werden detailiert beschrieben. Projektplanung sowie Risikoanalyse werden durchgeführt.
 
 ###### *Construction*
 
-In dieser Phase wird das Produkt wird das Produkt CapWatch entwickelt und getestet. Während acht wochen entsteht die Applikaton auf Grundlage der vorher Definieren Anwendungsfälle.
+In dieser Phase wird das Produkt das Produkt CapWatch entwickelt und getestet. Während acht Wochen entsteht die Applikaton auf Grundlage der vorher definierten Anwendungsfälle.
 
 ###### *Transition*
 
-Die Applikaton CapWatch ist in der ersten Version zur Auslieferung bereit. Während zwei Wochen kann die Software eingeführt und getestet werden.
+Die Applikation CapWatch ist in der ersten Version zur Auslieferung bereit. Während zwei Wochen kann die Software eingeführt und getestet werden.
 
 ##### *Scrum*
 
-Nach dem Erreichen von Meilenstein 1 beginnen wir iterativ mit Scrum zu arbeiten. Es wurden sechs Sprints definiert. Jeder Sprint dauert zwei Wochen, mit Ausnahme des 5. Sprints, welcher drei Wochen dauert. Am Ende jedes Sprints ist der vorgegebene Meilenstein zu erreichen. 
+Nach dem Erreichen des ersten Meilenstein beginnen wir iterativ mit Scrum zu arbeiten. Es wurden sechs Sprints definiert. Jeder Sprint dauert zwei Wochen, mit Ausnahme des fünften Sprints, welcher drei Wochen dauert. Am Ende jedes Sprints ist der vorgegebene Meilenstein zu erreichen. 
 
 #### Meilensteine
 
-##### *Bezeichnung der einzelnen Meilensteine*
+**M1 Projektplan** (06.03.2021)
+- Projektorganisation
+- Arbeitspakete definiert
+- Phasen & Meilensteine
+- Qualitätsmassnahmen
+- Richtlinien für Code und Dokumentation
+- Build Server & Continuous Integration geplant
+- Infrastruktur geplant
+- Zeitplanung erstellt
 
-*Setzen Sie in Ihrem Projekt 6-8 Meilensteine. Kurze Beschreibung der Meilensteine mit genauem Datum.*
+**M2 Anforderungen** (20.03.2021)
+- Use Cases erstellt
+- Funktionale Anforderungen formuliert
+- Nichtfunktionale Anforderungen formuliert
+- Schnittstellen beschreiben
+- Wireframes erstellt
+- Domainmodell Diagramme gezeichnet
 
-*In der Regel auf Ende jeder Iteration einen Meilenstein setzen (diese Faustregel gilt nur für die SE-2Projekte, in
-realen Projekten haben Sie oft deutlich mehr Iterationen als Meilensteine, weil Meilensteine dort die nach aussen
-kommunizierten Ereignisse sind).*
+**M3 End of Elaboration / Prototyp** (03.04.2021)
+- Architekturprototyp erstellt
+- Architekturprototyp getestet
+- Architekturprototyp Dokumentation vorbereitet
+- Anforderungen vollständig definiert
+- Test- und Reviewprozess definiert
+- Risikoanalyse nachgeführt
+- Entwicklungsumgebung komplett eingerichtet
 
-*Schreiben Sie zu jedem Meilenstein auf, welche Arbeitsprodukte (work products) Sie dann abliefern werden.*
+**M4 Architektur** (17.04.2021)
+- Physische/Logische Architektur
+- Persistenz
+- User Interface
+- Ausbau-Szenarien berücksichtigt
+- Performance-Szenarien
+- Verwendete Technologien
+- Architektur Entscheidungen dokumentiert
+- Besondere Merkmale der Architektur
 
-*Spezifizieren Sie wenn nötig auch den Fertigstellungsgrad der Arbeitsprodukte, z.B. „Zentrale Use Cases ‚fully
-dressed‘, restliche UCs im ‚brief‘ Format“, oder „Architekturskizze inkl. Definition der Interfaces zwischen
-Sub-Systemen und Deployment Diagramm“*
+**M5 Qualität** (01.05.2021)
+- Dokumentationsreview
+- Testcases geplant, dokumentiert und umgesetzt
+- Verwendung von Tools zur Sicherstellung der Codequalität (Bsp. Coderichtlinien)
+
+**M6 Beta Version** (15.05.2021)
+- Gesamter Funktionsumfang implementiert
+- Funktionale Anforderungen getestet
+- Manuelle Tests durchgeführt
+- Vorhandene Bugs identifiziert
+
+**M7 Finale Abgabe** (29.05.2021)
+- Code-Repositories in abgabefähigem Zustand
+- Dokumentations-Repository in abgabefähigem Zustand
+- Fehler aus Beta Version behoben
+- Projekt- und Produktpräsentation vorbereitet
 
 ### Besprechungen
 
@@ -161,6 +198,8 @@ Hier sind alle fixierten Termine aufgeführt. Falls nötig können auch spontane
 | -------------------------- | ------------------------- | ------------------------------------------------------------ |
 | Jeden Montag 16:00 Uhr     | Team / Advisor bei bedarf | Fragen zu Projektablauf oder Vorgehen                        |
 | Jeden Donnerstag 16:00 Uhr | Alle im Team              | Aktueller Stand, Offene Fragen besprechen, Weiteres Vorgehen |
+| Jeweils zu Beginn des Sprints 10:00 Uhr | Alle im Team | Sprint Planning |
+| Jeweils am Ende des Sprints 17:00 Uhr | Alle im Team | Sprint Review und anschliessend Retrospektive |
 | 08.03.2021 16:00 Uhr       | Team / Advisor            | Review 1                                                     |
 | 22.03.2021 16:00 Uhr       | Team / Advisor            | Review 2                                                     |
 | 05.04.2021 16:00 Uhr       | Team / Advisor            | Review 3                                                     |
@@ -173,9 +212,11 @@ Hier sind alle fixierten Termine aufgeführt. Falls nötig können auch spontane
 ### Risiken
 
 *Verweis auf Dokument TechnischeRisiken.xlsx*
+<!-- TODO Christoph -->
 
 ### Umgang mit Risiken
 
+<!-- TODO Christoph -->
 *Begründungen zur Tabelle. Weitere Beschreibungen zu Massnahmen und Vorbeugungen.*
 *Werden Reserven /Rückstellungen eingeplant? Wieso und wie viele?*
 *Wann werden Risiken qualitätssichernd überprüft (Vorgehen und Zeitpunkt(e) zur Neubeurteilung der Risiken)?*
@@ -189,6 +230,7 @@ Zeiterfassung kommt [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Ei
 
 ## Infrastruktur
 
+<!-- TODO Raffi -->
 *Benötigte Infrastruktur aufzählen. Spezielle Geräte, Laptop , Tools usw. und nötigenfalls aufzeigen für welche Bereiche
 diese verwendet werden. Eventuell auch Verfahren beschreiben (auf Tools bezogen).*
 
@@ -196,37 +238,36 @@ diese verwendet werden. Eventuell auch Verfahren beschreiben (auf Tools bezogen)
 
 Erstens werden für den Umgang mit Git diverse Richtlinien definiert um eine professionelle und einfache Zusammenarbeit
 im Softwareentwicklungsprozess mit dem ganzen Team zu erreichen. \
-Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzliche keine Änderungen in den Git Repositories verwendet
+Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzlich keine Änderungen in den Git Repositories verwendet
 werden, welche nicht mindestens von einem weiteren Teammitglied validiert und bestätigt wurden. Ausnahmen dabei sind
 triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen. Drittens werden mit jedem
 Build und auch mit jedem Deployment der Applikationen Sicherheit- und Integration-checks durchgeführt durch SonarQube
 und Renovate.
 
-Um den erfolgreichen Verlauf des Projekts zu garantieren ist der Projektleiter dafür verantwortlich, wöchentlich die
+Um den erfolgreichen Verlauf des Projekts zu garantieren, ist der Projektleiter dafür verantwortlich, wöchentlich die
 Einhaltung der Qualitätsmassnahmen zu überprüfen und Abweichungen den Teammitgliedern mitzuteilen. Der Projektleiter
 arbeitet nach einer wöchentlichen Checkliste, damit nichts vergessen wird.\
-Das Team arbeitet nach dem Erreichen vom Meilenstein 1 nach Scrum und garantiert somit pro Sprint fertige Teile des
+Das Team arbeitet nach dem Erreichen des ersten Meilensteins nach Scrum und garantiert somit pro Sprint fertige Teile des
 Produkts vorweisen zu können.
 
 ### Dokumentation
 
-Die Dokumentation wird, basierend auf dem offiziellen Template der Ost, erstellt mit Markdown. Der Produktionsbranch (
+Die Dokumentation wird mit Markdown erstellt, basierend auf dem offiziellen Template der Ost. Der Produktionsbranch (
 master) wird jeweils als Basis für den aktuellen Stand der Dokumentation verwendet. Neue Bereiche oder
 Dokumentationsvorschläge werden über Supportbranches (feature und bugfix) erstellt, validiert und in den
-Produktionsbranch zusammengeführt. Jeder neuer Teil der Dokumentation wird jeweils immer von mindestens zwei
-Teammitgliedern überprüft. Vor jedem Reviewtermin mit dem Advisor werden nochmals erneut alle geänderten Bereiche seit
+Produktionsbranch zusammengeführt. Jeder neuer Teil der Dokumentation wird jeweils immer von mindestens einem
+Teammitglied überprüft. Vor jedem Reviewtermin mit dem Advisor werden nochmals erneut alle geänderten Bereiche seit
 dem letzten Review auf dem Produktionsbranch überprüft.
 
 ### Projektmanagement
 
 Wir verwenden die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von GitLab selbst
 mit integriertem Time-Tracking. Die Issues durchlaufen einen klaren Workflow der
-als [Kanban Board](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/boards) angezeigt wird. Jedes Issue durch
-läuft folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem groben
-Format erstellt und warten dann im Status *open* auf deren Einplanung in einen Sprint, wodurch sie den Status
+als [Kanban Board](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/boards) angezeigt wird. Jedes Issue durchläuft folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem groben
+Format erstellt und warten dann im Status *open* auf deren Einplanung in einen Sprint, wodurch sie in den Status
 *planned* wechseln. Das Arbeitspaket wird beim Start in den Status *work in progress* versetzt und vor Beendigung in
 den Status *review*, um einen Review und je nachdem auch Testing durchzuführen. Im Status *closed* ist das Issue dann
-komplett fertig und somit auch in einem archivierten Standpunkt.
+komplett fertig und somit auch auf einem archivierten Stand.
 
 ### Entwicklung
 
@@ -234,13 +275,13 @@ Der Sourcecode vom Backend und Frontend befindet sich in einer
 eigenen [Subgruppe](https://gitlab.ost.ch/epj/2021-FS/g03_capwatch/development)
 in unserem GitLab Projekt als jeweils eigene Repositories.
 
-Spezielle Qualitätsmassnhamen spezifischen für den Sourcecode wurden bereits durch die allgemeinen Qualitätsmassnahmen
+Spezielle Qualitätsmassnahmen spezifisch für den Sourcecode wurden bereits durch die allgemeinen Qualitätsmassnahmen
 an das ganze Projekt definiert.
 
 #### Vorgehen
 
-Wir entwickeln vollständige mit dem Prinzip der Agile Softwareentwicklung mit Scrum und entwickeln demnach in
-Iterationen nach und nach teile der Applikationen. Der Sourcecode wird klassisch und nach Features entwickelt ohne dabei
+Wir entwickeln vollständig nach dem Prinzip der agilen Softwareentwicklung mit Scrum und entwickeln demnach in
+Iterationen nach und nach Teile der Applikationen. Der Sourcecode wird klassisch und nach Features entwickelt ohne dabei
 zuerst Tests zu schreiben (kein Test Driven Development). Die Logik der Features wird zuerst implementiert und danach
 werden die Unit Tests dazu geschrieben. Im Frontend verzichten wir auf automatisierte Tests, weil der Projektumfang zu
 klein ist und der Aufwand dafür zu gross wäre. Das ganze Frontend wird manuell getestet.
@@ -256,7 +297,7 @@ Um sicherzustellen, dass die Testabdeckung ausreichend ist, wird die in Visual S
 #### Code Reviews
 
 Wie bereits im Kapitel zu den allgemeinen Qualitätsmassnahmen beschrieben, erstellen wir grundsätzlich immer Pull
-Requests die von mindestens einem weiteren Mitarbeiter überprüft wird. Es wird immer mit Supportbranches gearbeitet und
+Requests die von mindestens einem weiteren Teammitglied überprüft wird. Es wird immer mit Supportbranches gearbeitet und
 nach dem Code Review erst die Zusammenführung auf einen Mainbranch gemacht.
 
 #### Code Style Guidelines
@@ -271,7 +312,7 @@ Die folgenden Guidelines gelten als Ausgangspunkt, wie der Quellcode im Front- u
 
 #### Software Engineering Prinzipien
 
-Um Maintainability und Qualität der Code Basis zu gewährleisten werden gängige Software Engineering principles stets berücksichtigt. Diese umfassen KISS, YAGNI, DRY, BDUF und S.O.L.I.D.
+Um Maintainability und Qualität der Code Basis zu gewährleisten werden gängige Software Engineering Prinzipien stets berücksichtigt. Diese umfassen KISS, YAGNI, DRY, BDUF und S.O.L.I.D.
 
 ### Testen
 
