@@ -71,24 +71,25 @@
 
 #### Meilensteine
 
-**M1 Projektplan** (04.03.2021)
+**M1 Projektplan** (06.03.2021)
 - Projektorganisation
 - Arbeitspakete definiert
 - Phasen & Meilensteine
 - Qualitätsmassnahmen
 - Richtlinien für Code und Dokumentation
-- Build Server
+- Build Server & Continuous Integration geplant
 - Infrastruktur bereitgestellt
 - Zeitplanung erstellt
 
-**M2 Anforderungen** (18.03.2021)
+**M2 Anforderungen** (20.03.2021)
+- Funktionale Anforderungen formuliert
 - Use Cases erstellt
 - Nichtfunktionale Anforderungen formuliert
 - Schnittstellen beschreiben
 - Uner Interfaces Skizzen
 - Domainmodell Diagramme gezeichnet
 
-**M3 End of Elaboration / Prototyp** (01.04.2021)
+**M3 End of Elaboration / Prototyp** (03.04.2021)
 - Architekturprototyp erstellt
 - Architekturprototyp getestet
 - Architekturprototyp Dokumentation vorbereitet
@@ -97,34 +98,36 @@
 - Risikoanalyse nachgeführt
 - Entwicklungsumgebung komplett eingerichtet
 
-**M4 Architektur** (15.04.2021)
+**M4 Architektur** (17.04.2021)
 - Physische/Logische Architektur
-- Schnittstellen 
+- Schnittstellen zwischen Packages (geringe Kopplung)
 - Persistenz
 - UI / UX
-- Ausbau-Szenario definiert und berücksichtigt
-- Performance-Szenario
+- Ausbau-Szenarien definiert und berücksichtigt
+- Performance-Szenario - stabiles verhalten mit mehr User und Last
 - Verwendete Technologien
-- Architektur entscheidungen
+- Architektur entscheidungen dokumentiert
+- Besondere Merkmale der Architektur
 
-**M5 Qualität** (29.04.2021)
+**M5 Qualität** (01.05.2021)
 - Dokumentationreview
-- Codereview
-- Testcases
-- verwendung von Tools
+- Regelmässige Codereview durchgeführt
+- Testcases geplant und dokumentiert und umgesetzt
+- Verwendung von Tools zur sicherstellung der Code-Qualität (bsp. Coderichtlinien)
 - Weitere Qualitätssichernde Massnahmen
 
-**M6 Beta Version** (13.06.2021)
+**M6 Beta Version** (15.05.2021)
 - Gesamter Funktionsumfang implementiert
-- Anforderungen getestet
+- Funktionale Anforderungen getestet
 - Qualitätsichernde Massnahme durchgeführt
+- Vorhandene Bugs idnetifiziert
 
-**M7 Finale Abgabe** (27.06.2021)
+**M7 Finale Abgabe** (29.05.2021)
 - Code-Repository in abgabefähigem Zustand
 - Dokumentation-Repository in abgabefähigem Zustand
 - Fehler aus Beta Version behoben
 - Projektpräsentation vorbereitet
-- Produktpräsentation
+- Produktpräsentation vorbereitet
 
 *Setzen Sie in Ihrem Projekt 6-8 Meilensteine. Kurze Beschreibung der Meilensteine mit genauem Datum.*
  
