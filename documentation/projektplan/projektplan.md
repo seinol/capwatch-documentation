@@ -4,25 +4,17 @@
 
 ### Zweck
 
-<!-- TODO TBD -->
-
-*Zweck des Dokumentes*
+Dieses Dokument gibt eine Übersicht über die Art und Weise wie wir unser Projekt Capwatch durchführen werden.
 
 ### Gültigkeitsbereich
 
-<!-- TODO TBD -->
-
-*Gültigkeitsbereich des Dokumentes*
+Dieses Dokument ist für die Stakeholder dieses Projektes. Dazu gehören die Betreuer sowie die Entwickler. Es wurde im Rahmen des Engineering Projekts der Fachhochschule Ost erstellt.
 
 ### Referenzen
 
-<!-- TODO TBD -->
+Gitlab Dokumentation: https://docs.gitlab.com/ee/
 
-*Liste aller verwendeten und referenzierten Dokumente, Bücher, Links, usw.*
-
-*Referenz auf ein Glossar Dokument, wo alle Abkürzungen und unklaren Begriffe erklärt werden*
-
-*Die Quellen / Referenzen sollten (falls möglich) automatisch erstellt werden*
+gtt Dokumentation: https://github.com/kriskbx/gitlab-time-tracker
 
 ## Projekt Übersicht
 
