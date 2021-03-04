@@ -249,7 +249,7 @@ nach dem Code Review erst die Zusammenführung auf einen Mainbranch gemacht.
 
 #### Code Style Guidelines
 
-Die folgenden Guidelines gelten als Ausgangspunkt, wie der Quellcode im Front- und BackEnd formatiert werden soll. Etwaige Abweichungen welche sich als sinnvoll herausstellen, müssen im Team besprochen und von diesem abgenommen werden.
+Die folgenden Guidelines gelten als Ausgangspunkt, wie der Quellcode im Front- und Backend formatiert werden soll. Etwaige Abweichungen, welche sich als sinnvoll herausstellen, müssen im Team besprochen und von diesem abgenommen werden.
 
 | Programmiersprache | Grundlage |
 | ------------------ | --------- |
