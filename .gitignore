@@ -2,6 +2,8 @@
 _build
 _versions
 
+.idea
+
 *.mo
 
 node_modules/
@@ -135,3 +137,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#ghostwriter
+*.md.backup
