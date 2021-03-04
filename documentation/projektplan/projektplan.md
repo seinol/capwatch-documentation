@@ -224,15 +224,22 @@ archivierten Standpunkt.
 
 ### Entwicklung
 
-*Wo befindet sich der Source Code (z.B. SVN oder Git) und wie wird dessen Qualität sichergestellt?*
+Der Sourcecode vom Backend und Frontend befindet sich in einer
+eigenen [Subgruppe](https://gitlab.ost.ch/epj/2021-FS/g03_capwatch/development)
+in unserem GitLab Projekt als jeweils eigene Repositories.
+
+Spezielle Qualitätsmassnhamen spezifischen für den Sourcecode wurden bereits durch die allgemeinen Qualitätsmassnahmen
+an das ganze Projekt definiert.
 
 #### Vorgehen
+
+<!-- TODO Jonas: weglassen? -->
 
 *Vorgehen in der Entwicklung*
 
 #### Unit Testing
 
-<!-- TODO Schneider -->
+<!-- TODO Schneider? -->
 
 *Wo werden welche Unit Tests geschrieben um die Qualität sicherzustellen? Wie wird die Testabdeckung sichergestellt (
 z.B. durch EclEmma)?*
@@ -243,7 +250,7 @@ z.B. durch EclEmma)?*
 
 #### Code Style Guidelines
 
-<!-- TODO Schneider -->
+<!-- TODO Schneider? -->
 
 *Welche Code Style Guidelines werden angewendet? Sie brauchen keine eigenen Guidelines zu erfinden.*
 *Am besten referenzieren Sie existierende Guidelines, mit denen Sie einverstanden sind.*
@@ -251,7 +258,7 @@ z.B. durch EclEmma)?*
 
 ### Testen
 
-<!-- TODO Schneider -->
+<!-- TODO Schneider? -->
 
 #### *Bezeichnung des Tests (z.B. Integrationstest oder Systemtest)*
 
