@@ -133,7 +133,7 @@ Die Applikaton CapWatch ist in der ersten Version zur Auslieferung bereit. Währ
 
 ##### *Scrum*
 
-Ab der zweiten Woche beginnen wir iterativ mit Scrum zu arbeiten. Es wurden sechs Sprints definiert. Jeder Sprint dauert zwei Wochen, mit Ausnahme des 5. Sprints, welcher drei Wochen dauert. Am Ende jedes Sprnts ist der vorgegebene Meilenstein zu erreichen. 
+Nach dem Erreichen von Meilenstein 1 beginnen wir iterativ mit Scrum zu arbeiten. Es wurden sechs Sprints definiert. Jeder Sprint dauert zwei Wochen, mit Ausnahme des 5. Sprints, welcher drei Wochen dauert. Am Ende jedes Sprints ist der vorgegebene Meilenstein zu erreichen. 
 
 #### Meilensteine
 
