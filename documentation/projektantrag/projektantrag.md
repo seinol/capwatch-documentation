@@ -42,21 +42,21 @@
                     
 ## Motivation       
                     
-Real-time Daten zur Anzahl Personen in einem Raum oder Gebäude, welche eine Personenbeschränkung aufgrund einer Pandemie oder einem sonstigen Grund haben, wie z.B. Geschäfte, Saunen, Bäder, Sportanlagen etc. um das persönliche Einkaufs- und Konsumverhalten besser planen bzw. anpassen zu können.
-Es entstehen dabei sowohl Vorteile für die Anbieter und die Konsumenten. Die Anbieter können Dienstleistungsendpässe vermeiden, welche zu einen Besucherverlust führen könnten. Die Konsumenten profitieren von kurzen Wartezeiten und somit auch besseren Verkaufsdienstleistung wie z.B. Beratungen.
+Real-time Daten zur Anzahl Personen in einem Raum oder Gebäude, welche eine Personenbeschränkung aufgrund einer Pandemie oder einem sonstigen Grund haben, wie z. B. Geschäfte, Saunen, Bäder, Sportanlagen etc. um das persönliche Einkaufs- und Konsumverhalten besser planen bzw. anpassen zu können.
+Es entstehen dabei sowohl Vorteile für die Anbieter und die Konsumenten. Die Anbieter können Dienstleistungsendpässe vermeiden, welche zu einem Besucherverlust führen könnten. Die Konsumenten profitieren von kurzen Wartezeiten und somit auch besseren Verkaufsdienstleistung wie z. B. Beratungen.
                     
 ## Projektidee      
                     
 Eine Webapplikation, in der man seine Lieblingsgeschäfte, Saunas, etc. abonnieren kann. Die Daten werden bei einem Abonnement dann in Echtzeit aktualisiert.
-Die Daten werden von den Dienstleistern über eine API an das Backend geliefert und in einer Datenbank abgelegt. Das Backend besteht aus insgesamt zwei zentralen API's. Die zweite Schnittstelle ist für die Datenauslieferung an das Frontend bzw. die Webseite, welche schlussendlich der Benutzer verwendet für die Abonnements.
+Die Daten werden von den Dienstleistern über eine API an das Backend geliefert und in einer Datenbank abgelegt. Das Backend besteht aus insgesamt zwei zentralen API’s. Die zweite Schnittstelle ist für die Datenauslieferung an das Frontend bzw. die Webseite, welche schlussendlich der Benutzer verwendet für die Abonnements.
 Das Frontend ist ein reiner, einseitiger Empfänger ohne Authentifizierung (Speicherung in einem lokalen Speicher beim Benutzer) in einer ersten Version.
 
 Mögliche weitere Features:
 - Automatische selektion von Abonnements (z. B. basierend auf dem Standort)
-- Auhentifizierung des Benutzers
+- Authentifizierung des Benutzers
 - Benutzerprofile serverseitig speichern
 - Vertikale Skalierung (mehr Workload verarbeiten können)
-- Personalisierte Notifikationen an Benutzer (z.B. per E-Mail)
+- Personalisierte Notifikationen an Benutzer (z. B. per E-Mail)
 - Prognosen und Vorhersagen
 - Möglichkeit zum Reservieren
 
