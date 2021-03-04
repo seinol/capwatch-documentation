@@ -54,9 +54,9 @@
 
 ### Zeitliche Planung
 
-Die grobe Zeitplanung wurde mit RUP durchgefüht. In der Entwicklung wird mit Sprints gearbeitet. Es gibt in jedem Sprint einen Meilenstein welcher abgeschlossen werden msus.
+Die grobe Zeitplanung wurde nach den Vorgaben von RUP durchgeführt. In der Entwicklung wird mit Sprints gearbeitet. Es gibt in jedem Sprint einen Meilenstein welcher abgeschlossen werden muss.
 
-![RUP-time-table](/images/RUP-time-table.png)
+![rup-time-table](/images/rup-time-table.png)
 
 #### Phasen / Iterationen
 
