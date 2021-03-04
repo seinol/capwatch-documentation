@@ -217,7 +217,7 @@ dem letzten Review auf dem Produktionsbranch überprüft.
 Wir verwenden die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von GitLab selbst
 mit integriertem Time-Tracking. Die Issues durchlaufen einen klaren Workflow der
 als [Kanban Board](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/boards) angezeigt wird. Jedes Issue durch
-läuft folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem groben
+folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem groben
 Format erstellt und warten dann im Status "
 open" auf deren Einplanung in einen Sprint, wodurch sie den den Status "planned" wechseln. Das Arbeitspaket wird beim
 Start in den Status "work in progress" versetzt und vor Beendigung in den Status "review", um einen Review und je nach
