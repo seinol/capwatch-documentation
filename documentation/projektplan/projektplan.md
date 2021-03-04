@@ -57,10 +57,10 @@ hat somit in der Erstellung einige Einschränkungen.
 
 ## Projektorganisation
 
-Das Projekt wird durch fünf Software-Engineering Studenten der Ostschweizer Fachhochschule am Campus Rapperswil. Alle
-Projektbeteiligten studieren im berufsbegleitenden Studiumsmodell und arbeiten nebenbei bis zu 70 Prozent für ihre
-Arbeitgeber. Einige Teammitglieder haben spezialgebiete, nach welchen auch die Verantwortlichkeiten verteilt werden.
-Betreut wird das Projekt durch den Advisor Herrn Thomas Kälin.
+Das Projekt wird durch fünf Software-Engineering Studenten der Ostschweizer Fachhochschule am Campus Rapperswil
+durchgeführt. Alle Projektbeteiligten studieren im berufsbegleitenden Studiumsmodell und arbeiten nebenbei bis zu 70
+Prozent für ihre Arbeitgeber. Einige Teammitglieder haben spezialgebiete, nach welchen auch die Verantwortlichkeiten
+verteilt werden. Betreut wird das Projekt durch den Advisor Herrn Thomas Kälin.
 
 Wir im Team verwenden Microsoft Teams für die Meetings und die Dateiablage. Microsoft OneNote wird für diverse Notizen,
 Meeting-Protokolle und weiteres genutzt, was nicht direkt in die offizielle Dokumentation muss. Zusätzlich verwenden wir
@@ -194,10 +194,9 @@ arbeitet nach einer wöchentlichen Checkliste, damit nichts vergessen wird.\
 Das Team arbeitet nach dem Erreichen vom Meilenstein 1 nach Scrum und garantiert somit pro Sprint fertige Teile des
 Produkts vorweisen zu können.
 
-
 ### Dokumentation
 
-Die Dokumentation wird basierend auf dem offiziellen Template der Ost erstellt mit Markdown und der Produktionsbranch (
+Die Dokumentation wird, basierend auf dem offiziellen Template der Ost, erstellt mit Markdown. Der Produktionsbranch (
 master) wird jeweils als Basis für den aktuellen Stand der Dokumentation verwendet. Neue Bereiche oder
 Dokumentationsvorschläge werden über Supportbranches (feature und bugfix) erstellt, validiert und in den
 Produktionsbranch zusammengeführt. Jeder neuer Teil der Dokumentation wird jeweils immer von mindestens zwei
@@ -210,11 +209,10 @@ Wir verwenden die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/
 mit integriertem Time-Tracking. Die Issues durchlaufen einen klaren Workflow der
 als [Kanban Board](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/boards) angezeigt wird. Jedes Issue durch
 läuft folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem groben
-Format erstellt und warten dann im Status "
-open" auf deren Einplanung in einen Sprint, wodurch sie den den Status "planned" wechseln. Das Arbeitspaket wird beim
-Start in den Status "work in progress" versetzt und vor Beendigung in den Status "review", um einen Review und je nach
-dem auch Testing durchzuführen. Im Status "closed" ist das Issue dann komplett fertig und somit auch in einem
-archivierten Standpunkt.
+Format erstellt und warten dann im Status *open* auf deren Einplanung in einen Sprint, wodurch sie den Status
+*planned* wechseln. Das Arbeitspaket wird beim Start in den Status *work in progress* versetzt und vor Beendigung in
+den Status *review*, um einen Review und je nachdem auch Testing durchzuführen. Im Status *closed* ist das Issue dann
+komplett fertig und somit auch in einem archivierten Standpunkt.
 
 ### Entwicklung
 
