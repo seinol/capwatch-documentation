@@ -4,13 +4,19 @@
 
 ### Zweck
 
+<!-- TODO TBD -->
+
 *Zweck des Dokumentes*
 
 ### Gültigkeitsbereich
 
+<!-- TODO TBD -->
+
 *Gültigkeitsbereich des Dokumentes*
 
 ### Referenzen
+
+<!-- TODO TBD -->
 
 *Liste aller verwendeten und referenzierten Dokumente, Bücher, Links, usw.*
 
@@ -20,45 +26,91 @@
 
 ## Projekt Übersicht
 
-*Kurze Beschreibung des Projektes*
+Eine Webapplikation, in der man seine Lieblingsgeschäfte, Saunas, etc. abonnieren kann. Die Daten werden bei einem
+Abonnement dann in Echtzeit aktualisiert. Die Daten werden von den Dienstleistern über eine API an das Backend geliefert
+und in einer Datenbank abgelegt. Das Backend besteht aus insgesamt zwei zentralen API’s. Die zweite Schnittstelle ist
+für die Datenauslieferung an das Frontend bzw. die Webseite, welche schlussendlich der Benutzer verwendet für die
+Abonnements. Das Frontend ist ein reiner, einseitiger Empfänger ohne Authentifizierung in einer ersten Version.
 
 ### Zweck und Ziel
 
-*Sinn und Zweck des Projektes, sowie Zielsetzung und auch persönliche Ziele*
+Real-time Daten zur Anzahl Personen in einem Raum oder Gebäude, welche eine Personenbeschränkung aufgrund einer Pandemie
+oder einem sonstigen Grund haben, wie z. B. Geschäfte, Saunen, Bäder, Sportanlagen etc. um das persönliche Einkaufs- und
+Konsumverhalten besser planen bzw. anpassen zu können. Es entstehen dabei sowohl Vorteile für die Anbieter und die
+Konsumenten. Die Anbieter können Dienstleistungsendpässe vermeiden, welche zu einem Besucherverlust führen könnten. Die
+Konsumenten profitieren von kurzen Wartezeiten und somit auch besseren Verkaufsdienstleistung wie z. B. Beratungen.
+
+Die Ziele des Teams sind eine allgemein gut funktionierende, erweiterbare, performante und benutzerfreundliche Plattform
+für die Endkunden, wie aber auch für die Datenlieferanten. Die Weblösung soll einfach zu bedien sein und das Leben
+vereinfache, vor allem in der Zeit einer Pandemie wo Einschränkungen vom Konsumverhalten der Bevölkerung gefordert wird.
 
 ### Lieferumfang
 
-*Konkreten Lieferumfang des Projektes beschreiben*
+- Offizielle Dokumentation des Projektes in Form des Templates der OST
+- Frontend für den Endbenutzer
+- Backend-API bestehend aus zwei logisch getrennten API’s
 
 ### Annahmen und Einschränkungen
 
-*Annahmen die für diesen Projektplan getroffen werden und Einschränkungen denen er unterliegt*
+Der Projektplan unterliegt keinen Annahmen oder Einschränkungen. Die Dokumentation wird im Readme-Format erstellt und
+hat somit in der Erstellung einige Einschränkungen.
 
 ## Projektorganisation
 
-*Kurze Beschreibung der Projektstruktur*
+Das Projekt wird durch fünf Software-Engineering Studenten der Ostschweizer Fachhochschule am Campus Rapperswil. Alle
+Projektbeteiligten studieren im berufsbegleitenden Studiumsmodell und arbeiten nebenbei bis zu 70 Prozent für ihre
+Arbeitgeber. Einige Teammitglieder haben spezialgebiete, nach welchen auch die Verantwortlichkeiten verteilt werden.
+Betreut wird das Projekt durch den Advisor Herrn Thomas Kälin.
+
+Wir im Team verwenden Microsoft Teams für die Meetings und die Dateiablage. 
+Microsoft OneNote wird für diverse Notizen, Meeting-Protokolle und weiteres genutzt, was nicht direkt in die offizielle Dokumentation muss.
+Zusätzlich verwenden wir alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
+- Repositories in Subgruppen
+- Issues mit Kanban Board
+- Merge- bzw. Pull-Requests
+- CI / CD
+- Analytics
+- Integration von diversen Tools (genauere Beschreibung zu einem späteren Zeitpunkt)
+
+<!-- TODO Liste oben überprüfen -->
 
 ### Organisationsstruktur
 
-*Projektmitglieder nennen und deren Aufgaben und Verantwortungen aufzählen*
+| Name                       | Verantwortlichkeiten      |
+| -------------------------- | ------------------------- |
+| Jonas Hauser               | Projektleitung, Kommunikation, Arbeitsorganisation, Qualitätssicherung und Meetingmoderator  |
+| Rafael Fuhrer              | Alles rund um Systemumgebungen wie z. B. CI/CD, GitLab und Deploy-Server            |
+| Pascal Schneider           | Lead für Software-Architektur und -Design und API-Design            |
+| Christoph Scheiwiller      | <!-- TODO --!>            |
+| Pascal Schlumpf            | Daten- bzw. Datenbank-spezialist            |
+
+Alle beteiligten sind gleichberechtigte Teammitglieder und wir verfolgen eine komplett flache Hierarchie untereinander.
+Der Projektleiter ist in keinem Fall ein Mitarbeiter mit höheren Befugnissen oder höherer Entscheidungsmacht.
 
 ### Externe Schnittstellen
 
-*Ansprechpartner, verantwortliche Personen, Betreuer, usw. aufzählen*
+Wir werden unterstützt und betreut durch den Advisor Herrn Thomas Kälin. In einzelnen Fällen ziehen wir die Expertise
+von anderen Studenten und oder anderen Advisoren und Modulverantwortlichen hinzu oder fragen bestimmte Zielgruppen als
+Tester an.
 
 ## Management Abläufe
 
 ### Kostenvoranschlag
 
-*Wie viel Zeit steht zur Verfügung? In welcher Zeitspanne läuft das Projekt? Wird das Projekt früher beendet, dafür wöchentlich mehr gearbeitet?*
+Unser Projekt wird auf 14 Studiumwochen aufgeteilt, was dem Standard der Vorgaben für das Engineer Projekt entspricht. Dies bedeutet ein
+durchschnittliches Arbeitspensum von ungefähr 8.6 Stunden pro Person pro Woche. Je nach Arbeitsaufwand pro Woche kann dieser Wert
+stark variieren. Der Endwert von mindestens 120 Stunden pro Person nach 14 Wochen wird aber zwingend eingehalten.
 
 ### Zeitliche Planung
 
-*Kurze Beschreibung der zeitlichen Planung und mit einer Grafik einen Überblick über die Phasen, Iterationen und Meilensteine geben.*
+<!-- TODO Christoph, Rafael -->
+*Kurze Beschreibung der zeitlichen Planung und mit einer Grafik einen Überblick über die Phasen, Iterationen und
+Meilensteine geben.*
 *Das Datum des Eintreffens der Meilensteine sollte in der Phasenübersicht ersichtlich sein.*
 
 #### Phasen / Iterationen
 
+<!-- TODO Jonas -->
 ##### *Bezeichnung der einzelnen Phasen*
 
 *Kurze Beschreibung und Dauer der Phase angeben*
@@ -75,11 +127,15 @@
 
 *Setzen Sie in Ihrem Projekt 6-8 Meilensteine. Kurze Beschreibung der Meilensteine mit genauem Datum.*
 
-*In der Regel auf Ende jeder Iteration einen Meilenstein setzen (diese Faustregel gilt nur für die SE-2Projekte, in realen Projekten haben Sie oft deutlich mehr Iterationen als Meilensteine, weil Meilensteine dort die nach aussen kommunizierten Ereignisse sind).*
+*In der Regel auf Ende jeder Iteration einen Meilenstein setzen (diese Faustregel gilt nur für die SE-2Projekte, in
+realen Projekten haben Sie oft deutlich mehr Iterationen als Meilensteine, weil Meilensteine dort die nach aussen
+kommunizierten Ereignisse sind).*
 
 *Schreiben Sie zu jedem Meilenstein auf, welche Arbeitsprodukte (work products) Sie dann abliefern werden.*
 
-*Spezifizieren Sie wenn nötig auch den Fertigstellungsgrad der Arbeitsprodukte, z.B. „Zentrale Use Cases ‚fully dressed‘, restliche UCs im ‚brief‘ Format“, oder „Architekturskizze inkl. Definition der Interfaces zwischen Sub-Systemen und Deployment Diagramm“*
+*Spezifizieren Sie wenn nötig auch den Fertigstellungsgrad der Arbeitsprodukte, z.B. „Zentrale Use Cases ‚fully
+dressed‘, restliche UCs im ‚brief‘ Format“, oder „Architekturskizze inkl. Definition der Interfaces zwischen
+Sub-Systemen und Deployment Diagramm“*
 
 ### Besprechungen
 
@@ -96,8 +152,6 @@
 | 03.05.2021 16:00 Uhr       | Team / Advisor            | Review  5                                                    |
 | 31.05.2021 16:00 Uhr       | Team / Advisor            | Review 6                                                     |
 
-
-
 ## Risikomanagement
 
 ### Risiken
@@ -112,13 +166,15 @@
 
 ## Arbeitspakete
 
-Zur Planung der Arbeit, sowie dem Tracken der aufgewendeten Arbeitszeit verwenden wir GitLab. Für die Auswertung der Zeiterfassung kommt [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz.
+Zur Planung der Arbeit, sowie dem Tracken der aufgewendeten Arbeitszeit verwenden wir GitLab. Für die Auswertung der
+Zeiterfassung kommt [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz.
 
 [Board der Arbeitspakete](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/boards)
 
 ## Infrastruktur
 
-*Benötigte Infrastruktur aufzählen. Spezielle Geräte, Laptop , Tools usw. und nötigenfalls aufzeigen für welche Bereiche diese verwendet werden. Eventuell auch Verfahren beschreiben (auf Tools bezogen).*
+*Benötigte Infrastruktur aufzählen. Spezielle Geräte, Laptop , Tools usw. und nötigenfalls aufzeigen für welche Bereiche
+diese verwendet werden. Eventuell auch Verfahren beschreiben (auf Tools bezogen).*
 
 ## Qualitätsmassnahmen
 
@@ -131,7 +187,8 @@ Zur Planung der Arbeit, sowie dem Tracken der aufgewendeten Arbeitszeit verwende
 
 ### Projektmanagement
 
-*Welches Tool wird für Projektmanagement eingesetzt (z.B. Redmine oder Trac) und wie erfolgt dieser Einsatz? Dazugehörige Links und Logins (Gastbenutzer).*
+*Welches Tool wird für Projektmanagement eingesetzt (z.B. Redmine oder Trac) und wie erfolgt dieser Einsatz?
+Dazugehörige Links und Logins (Gastbenutzer).*
 
 ### Entwicklung
 
@@ -143,7 +200,8 @@ Zur Planung der Arbeit, sowie dem Tracken der aufgewendeten Arbeitszeit verwende
 
 #### Unit Testing
 
-*Wo werden welche Unit Tests geschrieben um die Qualität sicherzustellen? Wie wird die Testabdeckung sichergestellt (z.B. durch EclEmma)?*
+*Wo werden welche Unit Tests geschrieben um die Qualität sicherzustellen? Wie wird die Testabdeckung sichergestellt (
+z.B. durch EclEmma)?*
 
 #### Code Reviews
 
