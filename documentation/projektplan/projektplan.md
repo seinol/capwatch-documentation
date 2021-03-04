@@ -59,7 +59,7 @@ hat somit in der Erstellung einige Einschränkungen.
 
 Das Projekt wird durch fünf Software-Engineering Studenten der Ostschweizer Fachhochschule am Campus Rapperswil. Alle
 Projektbeteiligten studieren im berufsbegleitenden Studiumsmodell und arbeiten nebenbei bis zu 70 Prozent für ihre
-Arbeitgeber. Einige Teammitglieder haben spezialgebiete, nach welchen auch die Verantwortlichkeiten verteilt werden.
+Arbeitgeber. Einige Teammitglieder haben Spezialgebiete, nach welchen auch die Verantwortlichkeiten verteilt werden.
 Betreut wird das Projekt durch den Advisor Herrn Thomas Kälin.
 
 Wir im Team verwenden Microsoft Teams für die Meetings und die Dateiablage. Microsoft OneNote wird für diverse Notizen,
