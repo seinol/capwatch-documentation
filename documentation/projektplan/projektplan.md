@@ -134,7 +134,7 @@ Nach dem Erreichen des ersten Meilenstein beginnen wir iterativ mit Scrum zu arb
 
 #### Meilensteine
 
-**M1 Projektplan** (06.03.2021)
+**M1 Project Plan** (06.03.2021)
 - Projektorganisation
 - Arbeitspakete definiert
 - Phasen & Meilensteine
@@ -144,7 +144,7 @@ Nach dem Erreichen des ersten Meilenstein beginnen wir iterativ mit Scrum zu arb
 - Infrastruktur geplant
 - Zeitplanung erstellt
 
-**M2 Anforderungen** (20.03.2021)
+**M2 Requirements** (20.03.2021)
 - Use Cases erstellt
 - Funktionale Anforderungen formuliert
 - Nichtfunktionale Anforderungen formuliert
@@ -161,7 +161,7 @@ Nach dem Erreichen des ersten Meilenstein beginnen wir iterativ mit Scrum zu arb
 - Risikoanalyse nachgeführt
 - Entwicklungsumgebung komplett eingerichtet
 
-**M4 Architektur** (17.04.2021)
+**M4 Architecture** (17.04.2021)
 - Physische/Logische Architektur
 - Persistenz
 - User Interface
@@ -171,7 +171,7 @@ Nach dem Erreichen des ersten Meilenstein beginnen wir iterativ mit Scrum zu arb
 - Architektur Entscheidungen dokumentiert
 - Besondere Merkmale der Architektur
 
-**M5 Qualität** (01.05.2021)
+**M5 Quality** (01.05.2021)
 - Dokumentationsreview
 - Testcases geplant, dokumentiert und umgesetzt
 - Verwendung von Tools zur Sicherstellung der Codequalität (Bsp. Coderichtlinien)
@@ -182,7 +182,7 @@ Nach dem Erreichen des ersten Meilenstein beginnen wir iterativ mit Scrum zu arb
 - Manuelle Tests durchgeführt
 - Vorhandene Bugs identifiziert
 
-**M7 Finale Abgabe** (29.05.2021)
+**M7 Final Submission** (29.05.2021)
 - Code-Repositories in abgabefähigem Zustand
 - Dokumentations-Repository in abgabefähigem Zustand
 - Fehler aus Beta Version behoben
