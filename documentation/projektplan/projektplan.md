@@ -4,13 +4,19 @@
 
 ### Zweck
 
+<!-- TODO TBD -->
+
 *Zweck des Dokumentes*
 
 ### Gültigkeitsbereich
 
+<!-- TODO TBD -->
+
 *Gültigkeitsbereich des Dokumentes*
 
 ### Referenzen
+
+<!-- TODO TBD -->
 
 *Liste aller verwendeten und referenzierten Dokumente, Bücher, Links, usw.*
 
@@ -241,10 +247,11 @@ klein ist und der Aufwand dafür zu gross wäre. Das ganze Frontend wird manuell
 
 #### Unit Testing
 
-<!-- TODO Schneider? -->
+Automatisierte UnitTests werden ausschliesslich im Backend geschrieben. Der Grund hierfür ist, dass jegliche Business-Logik, welche auf die Daten angewandt werden muss, bei der Aufbereitung der Daten vor dem Bereitstellen durch die jeweiligen API's ausgeführt wird. Das FrontEnd wird lediglich die Rückgaben aus den API's visuell zur Verfügung stellen.
 
-*Wo werden welche Unit Tests geschrieben um die Qualität sicherzustellen? Wie wird die Testabdeckung sichergestellt (
-z.B. durch EclEmma)?*
+Die Tests im Backend werden technologisch mit [xUnit](https://www.nuget.org/packages/xunit/), [FluentAssertions](https://www.nuget.org/packages/FluentAssertions/6.0.0-alpha0002) und [FakeItEasy](https://www.nuget.org/packages/FakeItEasy/7.0.0-beta.2) umgesetzt.
+
+Um sicherzustellen, dass die Testabdeckung ausreichend ist, wird die in Visual Studio Enterprise verfügbare Funktionalität "Analyze Code Coverage for All Tests" verwendet.
 
 #### Code Reviews
 
@@ -254,16 +261,28 @@ nach dem Code Review erst die Zusammenführung auf einen Mainbranch gemacht.
 
 #### Code Style Guidelines
 
-<!-- TODO Schneider? -->
+Die folgenden Guidelines gelten als Ausgangspunkt, wie der Quellcode im Front- und Backend formatiert werden soll. Etwaige Abweichungen, welche sich als sinnvoll herausstellen, müssen im Team besprochen und von diesem abgenommen werden.
 
-*Welche Code Style Guidelines werden angewendet? Sie brauchen keine eigenen Guidelines zu erfinden.*
-*Am besten referenzieren Sie existierende Guidelines, mit denen Sie einverstanden sind.*
-*Evtl. noch Abweichungen dazu dokumentieren*
+| Programmiersprache | Grundlage |
+| ------------------ | --------- |
+| .NET               | [C# Coding Conventions von Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) |
+| HTML / CSS         | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) |
+| TypeScript         | [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html) |
+
+#### Software Engineering Prinzipien
+
+Um Maintainability und Qualität der Code Basis zu gewährleisten werden gängige Software Engineering principles stets berücksichtigt. Diese umfassen KISS, YAGNI, DRY, BDUF und S.O.L.I.D.
 
 ### Testen
 
-<!-- TODO Schneider? -->
+#### Unit tests
 
-#### *Bezeichnung des Tests (z.B. Integrationstest oder Systemtest)*
+Siehe Kapitel *Unit Testing* unter *Entwicklung*
 
-*Beschreibung der Durchführung, Umsetzung und Umfang der Tests. Wenn möglich mit Mengenangaben (wieviele Tests)*
+#### Integration tests
+
+Integrationstests werden manuell nach Fertigstellung jedes Sprintumfangs durchgeführt. Hierfür wird beim Erstellen der Detailspezifikationen eine Liste an benötigten Tests erstellt, welche in eine Gesamtliste an durchzuführenden Integrationstests eingepflegt wird.
+
+#### Performance tests
+
+Da beim Backend über die Update API der Geschäfte theoretisch relativ viel Traffic eingehen kann, wird das Backend vor jedem Release auf seine Performance getestet. Hierfür verwenden wir [Apache JMeter](https://jmeter.apache.org/).
