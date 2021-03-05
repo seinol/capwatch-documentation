@@ -87,7 +87,7 @@ Tester an.
 
 ### Kostenvoranschlag
 
-Unser Projekt wird auf 14 Studiumswochen aufgeteilt, was dem Standard der Vorgaben für das Engineer Projekt entspricht.
+Unser Projekt wird auf 15 Studiumswochen aufgeteilt, was dem Standard der Vorgaben für das Engineer Projekt entspricht.
 Dies bedeutet ein durchschnittliches Arbeitspensum von ungefähr 8.6 Stunden pro Person pro Woche. Je nach Arbeitsaufwand
 pro Woche kann dieser Wert stark variieren. Der Endwert von mindestens 120 Stunden pro Person nach 14 Wochen wird aber
 zwingend eingehalten.
@@ -203,15 +203,16 @@ Hier sind alle fixierten Termine aufgeführt. Falls nötig können auch spontane
 
 ### Risiken
 
-*Verweis auf Dokument TechnischeRisiken.xlsx*
-<!-- TODO Christoph -->
+Die Risikoanalyse wurde im Dokument risikoanalyse.md detailiert beschreiben.
 
 ### Umgang mit Risiken
 
-<!-- TODO Christoph -->
-*Begründungen zur Tabelle. Weitere Beschreibungen zu Massnahmen und Vorbeugungen.*
-*Werden Reserven /Rückstellungen eingeplant? Wieso und wie viele?*
-*Wann werden Risiken qualitätssichernd überprüft (Vorgehen und Zeitpunkt(e) zur Neubeurteilung der Risiken)?*
+Dir Risiken R1-R3 haben ein geringes Schadenspotenzial und werden deshalb nicht genauer angeschaut.
+Risiko R4 Zeitmanagement m einem gewichteten Schaden von 6 fast die hälfte des möglichen Schadenspotenziales aus, desshalb wurde die Zeitplanung genau besprochen. 
+Im weiteren Projektverlauf soll dem Risiko R4 Zeitmanagement bei der Aufwandschätzung der Stories beachtung geschenkt werden.
+Mit oben genannten Massnahmen sind wir zuversichtlich das Risiko möglichst gut im Griff zu haben und haben desshalb keine Reserven eingeplant.
+Die Risiken werden nach jedem Sprint ausgewertet, dabei können Risiken wegfallen und neue hinzugefügt werden.
+Dadurch soll sichergestellt werden, dass mögliche neue Risiken beachtet und eingeschätzt werden können und nicht mehr relevante Risiken entfernt werden können.
 
 ## Arbeitspakete
 
