@@ -223,9 +223,11 @@ Zeiterfassung kommt [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Ei
 
 ## Infrastruktur
 
-<!-- TODO Raffi -->
-*Benötigte Infrastruktur aufzählen. Spezielle Geräte, Laptop , Tools usw. und nötigenfalls aufzeigen für welche Bereiche
-diese verwendet werden. Eventuell auch Verfahren beschreiben (auf Tools bezogen).*
+Für die Verwaltung des Quellcodes und der Projektdokumentation verwenden wir das von der OST bereitgestellte GitLab, inklusive der zur Verfügung gestellten Continuous Integration Lösung. 
+Für das Deployment verwenden wir eine einzelne virtuelle Maschine, basierend auf Ubuntu, welche uns ebenfalls von der OST zur Verfügung gestellt wird. 
+Über die CI Lösung werden automatisch Docker Images generiert, welche dann auf der Deployment-VM ausgeführt werden können. \
+Die Entwicklung erfolgt auf unseren persönlichen Notebooks oder Desktop-PCs. Weitere spezielle Geräte werden nicht benötigt.\
+Zur Unterstützung verwenden wir im CI-Prozess zusätzlich das Codequalitätstool [SonarQube](https://www.sonarqube.org/) und das Tool [Renovate](https://github.com/renovatebot/renovate) für das automatisierte Updaten von Dependencies. 
 
 ## Qualitätsmassnahmen
 
