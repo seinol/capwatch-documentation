@@ -207,12 +207,12 @@ Die Risikoanalyse wurde im Dokument risikoanalyse.md detailiert beschreiben.
 
 ### Umgang mit Risiken
 
-Dir Risiken R1-R3 haben ein geringes Schadenspotenzial und werden deshalb nicht genauer angeschaut.
-Risiko R4 Zeitmanagement m einem gewichteten Schaden von 6 fast die hälfte des möglichen Schadenspotenziales aus, desshalb wurde die Zeitplanung genau besprochen. 
-Im weiteren Projektverlauf soll dem Risiko R4 Zeitmanagement bei der Aufwandschätzung der Stories beachtung geschenkt werden.
-Mit oben genannten Massnahmen sind wir zuversichtlich das Risiko möglichst gut im Griff zu haben und haben desshalb keine Reserven eingeplant.
-Die Risiken werden nach jedem Sprint ausgewertet, dabei können Risiken wegfallen und neue hinzugefügt werden.
-Dadurch soll sichergestellt werden, dass mögliche neue Risiken beachtet und eingeschätzt werden können und nicht mehr relevante Risiken entfernt werden können.
+Die Risiken R1-R3 haben ein geringes Schadenspotenzial und werden deshalb nicht genauer angeschaut.
+Risiko R4 Zeitmanagement mit einem gewichteten Schaden von 6 macht fast die Hälfte des möglichen Schadenspotenzials aus, desshalb wurde die Zeitplanung genau besprochen. 
+Im weiteren Projektverlauf soll dem Risiko R4 Zeitmanagement bei der Aufwandschätzung der Stories Beachtung geschenkt und ausreichende Reserven in die Sprints eingeplant werden.
+Mit oben genannten Massnahmen sind wir zuversichtlich das Risiko möglichst gut im Griff zu haben.
+Die Risiken werden nach jedem Sprint ausgewertet, dabei können Risiken wegfallen und neue hinzukommen.
+Dadurch soll sichergestellt werden, dass mögliche neue Risiken beachtet und eingeschätzt werden und nicht mehr relevante Risiken entfernt werden.
 
 ## Arbeitspakete
 
