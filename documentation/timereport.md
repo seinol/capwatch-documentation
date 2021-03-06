@@ -1,62 +1,62 @@
 # Time Report
 
-Der obere Report ist manuell geschrieben, da es noch gewisse Probleme mit GitLab gibt. Zum einen tauchen die Zeiten von Jonas Hauser nicht im Report auf, zum anderen wurde eine Korrekturbuchung von Rafael Fuhrer bei Pascal Schneider verbucht.
+Der obere Report ist manuell geschrieben, da es noch gewisse Probleme mit GitLab gibt. Zum Einen tauchen die Zeiten von Jonas Hauser nicht im Report auf, zum Anderen wurde eine Korrekturbuchung von Rafael Fuhrer bei Pascal Schneider verbucht.
 
-### TIME STATS (Korrigiert)
+### TIME STATS (korrigiert)
 
 * **total estimate**: 
-* **total spent**: 2d 6h 30m
-* **spent**: 2d 7h
+* **total spent**: 87h 15m
 
-* **jonas.hauser**: 20h
+* **jonas.hauser**: 21h
 * **pascal.schlumpf**: 12h 45m
 * **rafael.fuhrer**: 16h 45m
-* **pascal.schneider**: 16h 15m
+* **pascal.schneider**: 17h 15m
 * **christoph.scheiwiller**: 19h 30m
 
 ### ISSUES
 
-| user                  | title                                                     | spent  |
-| --------------------- | --------------------------------------------------------- | ------ |
-| jonas.hauser          | Admin (OneNote, Termine etc.)                             | 1h     |
-| jonas.hauser          | Meeting: Projektplan                                      | 1h     |
-| jonas.hauser          | Projekt aufsetzen in GitLab und Dokumentationsvorlage erstellen | 1h 15m |
-| jonas.hauser          | Projekt fertig aufsetzen und alles dokumentieren und kommunizieren | 1h 15m |
-| jonas.hauser          | Alle Termine erstellen | 45m |
-| jonas.hauser          | PR's überprüfen und diverses | 30m |
-| jonas.hauser          | Dokumentation diverses | 4h |
+| user                  | title                                                                       | spent  |
+| --------------------- | --------------------------------------------------------------------------- | ------ |
+| jonas.hauser          | Admin (OneNote, Termine etc.)                                               | 1h     |
+| jonas.hauser          | Meeting: Projektplan                                                        | 1h     |
+| jonas.hauser          | Projekt aufsetzen in GitLab und Dokumentationsvorlage erstellen             | 1h 15m |
+| jonas.hauser          | Projekt fertig aufsetzen und alles dokumentieren und kommunizieren          | 1h 15m |
+| jonas.hauser          | Alle Termine erstellen                                                      | 45m    |
+| jonas.hauser          | PR's überprüfen und diverses                                                | 30m    |
+| jonas.hauser          | Dokumentation diverses                                                      | 4h     |
 | jonas.hauser          | Dokumentation diverses, Pull Requests validieren und Teammitgliedern helfen | 3h 15m |
-| jonas.hauser          | Problembehandlung von GTT | 15m |
-| rafael.fuhrer         | Doku Repo forken und vorbereiten | 1h |
-| rafael.fuhrer         | Austausch mit Jonas & Doku Repo konfigurieren | 2h |
-| rafael.fuhrer         | Try to fix doku.. | 1h |
-| rafael.fuhrer         | Try to fix the doku (once more)... | 6h |
-| pascal.schneider      | Meeting: Projektplan | 1h
-| pascal.schneider      | Issue- und Time-Tracking | 5h |
-| pascal.schneider      | Code Reviews | 15m |
-| pascal.schneider      | UnitTesting und Style Guidelines festlegen und dokumentieren | 3h |
-| pascal.schneider      | Code Review | 15m |
-| pascal.schlumpf       | Meeting: Projektplan | 1h |
-| pascal.schlumpf       | Doku Besprechungen erstellt | 2h |
-| pascal.schlumpf       | Doku Technologien erstellt | 2h |
-| pascal.schlumpf       | Doku | 1h |
-| christoph.scheiwiller | Meeting: Projektplan | 1h |
-| christoph.scheiwiller | Zeitplan | 2h 15m |
-| christoph.scheiwiller | Risiko-Management | 1h 45m |
-| christoph.scheiwiller | Milestones | 1h 45m |
-| christoph.scheiwiller | Riskmanagement | 2h |
-| christoph.scheiwiller | Zeitplan | 1h 15m |
-| christoph.scheiwiller | Risiko-Management | 30m |
-| christoph.scheiwiller | Zeitplan | 1h 15m |
-| christoph.scheiwiller | Milestones | 30m |
-| christoph.scheiwiller | Risiko-Management | 30m |
-| alle                  | Meeting: Erster Austausch mit Thomas, Austausch in Gruppe | 1h 15m |
-| alle                  | Meeting: Teamsync | 30m |
-| alle                  | Meeting: Austausch mit Thomas | 30m |
-| alle                  | Meeting: Teamsync | 30m |
-| alle                  | Meeting: Teamsync und Review | 1h |
-| alle                  | Meeting: Finaler Review R1 im Team | 3h |
-
+| jonas.hauser          | Problembehandlung von GTT                                                   | 15m    |
+| jonas.hauser          | Abschlussarbeiten M1                                                        | 1h     |
+| rafael.fuhrer         | Doku Repo forken und vorbereiten                                            | 1h     |
+| rafael.fuhrer         | Austausch mit Jonas & Doku Repo konfigurieren                               | 2h     |
+| rafael.fuhrer         | Try to fix doku..                                                           | 1h     |
+| rafael.fuhrer         | Try to fix the doku (once more)...                                          | 6h     |
+| pascal.schneider      | Meeting: Projektplan                                                        | 1h     |
+| pascal.schneider      | Issue- und Time-Tracking                                                    | 5h     |
+| pascal.schneider      | Code Reviews                                                                | 15m    |
+| pascal.schneider      | UnitTesting und Style Guidelines festlegen und dokumentieren                | 3h     |
+| pascal.schneider      | Code Review                                                                 | 15m    |
+| pascal.schneider      | Abschlussarbeiten M1                                                        | 1h     |
+| pascal.schlumpf       | Meeting: Projektplan                                                        | 1h     |
+| pascal.schlumpf       | Doku Besprechungen erstellt                                                 | 2h     |
+| pascal.schlumpf       | Doku Technologien erstellt                                                  | 2h     |
+| pascal.schlumpf       | Doku                                                                        | 1h     |
+| christoph.scheiwiller | Meeting: Projektplan                                                        | 1h     |
+| christoph.scheiwiller | Zeitplan                                                                    | 2h 15m |
+| christoph.scheiwiller | Risiko-Management                                                           | 1h 45m |
+| christoph.scheiwiller | Milestones                                                                  | 1h 45m |
+| christoph.scheiwiller | Riskmanagement                                                              | 2h     |
+| christoph.scheiwiller | Zeitplan                                                                    | 1h 15m |
+| christoph.scheiwiller | Risiko-Management                                                           | 30m    |
+| christoph.scheiwiller | Zeitplan                                                                    | 1h 15m |
+| christoph.scheiwiller | Milestones                                                                  | 30m    |
+| christoph.scheiwiller | Risiko-Management                                                           | 30m    |
+| alle                  | Meeting: Erster Austausch mit Thomas, Austausch in Gruppe                   | 1h 15m |
+| alle                  | Meeting: Teamsync                                                           | 30m    |
+| alle                  | Meeting: Austausch mit Thomas                                               | 30m    |
+| alle                  | Meeting: Teamsync                                                           | 30m    |
+| alle                  | Meeting: Teamsync und Review                                                | 1h     |
+| alle                  | Meeting: Finaler Review R1 im Team                                          | 3h     |
 
 ### TIME STATS (Auswertung gtt)
 
