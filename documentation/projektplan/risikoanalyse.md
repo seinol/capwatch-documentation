@@ -21,13 +21,14 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 - Autor: Christoph Scheiwiller
 - Gewichteter Schaden: *14*
 
-| Nr | Titel | Beschreibung | Schaden [1-3] | Eintritts&shy;wahrscheinlichkeit [1-3] | Gewichteter Schaden [1-9] | Vorbeugung | Verhalten beim Eintreten |
+| Nr | Titel | Beschreibung | Schadenspotenzial [1-3] | Eintritts&shy;wahrscheinlichkeit [1-3] | Gewichteter Schaden* [1-9] | Vorbeugung | Verhalten beim Eintreten |
 |----|-------|--------------|------------------|-----------------------------|---------------------|------------|--------------------------|
-| R1 | Internetausfall | Durch die Coronapandemie müssen alle Besprechungen online durchgeführt werden.        | *1*             | *2*                       | *2*                 | Dokumentation relevanter Inhalte während Besprechungen      | Meetingprotokoll lesen                    |
-| R2 | Softwarearchitektur | Fehler im Designprozess werden erst währen der Umsetzung bemerkt.        | *1*             | *2*                       | *2*                 | Prototyp erstellen      | Fehleranalyse & Überarbeitung der Softwarearchitektur                    |
+| R1 | Internetausfall | Durch die Coronapandemie müssen alle Besprechungen online durchgeführt werden. Dabei sind wir auf eine funktionierende Internetverbindung angewiesen.       | *1*             | *2*                       | *2*                 | Dokumentation relevanter Inhalte während Besprechungen      | Meetingprotokoll lesen                    |
+| R2 | Softwarearchitektur | Fehler im Designprozess werden erst während der Umsetzung bemerkt.        | *1*             | *2*                       | *2*                 | Prototyp erstellen      | Fehleranalyse & Überarbeitung der Softwarearchitektur                    |
 | R3 | Ungenügende Spezifikation | Anforderungen wurden nicht klar definiert und müssen während der Implementierung überarbeitet werden oder in den nächsten Sprint verschoben werden        | *2*              | *2*                       | *4*                 | Anforderung reviewen      | Anforderungsanalyse überarbeiten                    |
 | R4 | Zeitmanagement | Die Geplante Zeit für ein Feature wird massiv überschritten        | *3*              | *2*                       | *6*                 | Gemeinsames schätzen der Aufwände      | Verschiebung von Features in späteren Sprint                    |
 |    |       |              |                  | **Summe**                   | *14*                |            |                          |
+**Gewichteter Schaden = Schadenspotenzial * Eintritts&shy;wahrscheinlichkeit*
 
 ## Risiko Überwachung
 
