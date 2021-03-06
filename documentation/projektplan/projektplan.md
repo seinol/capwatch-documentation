@@ -222,10 +222,11 @@ Zeiterfassung kommt [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Ei
 
 ## Infrastruktur
 
-Für die Verwaltung des Quellcodes und der Projektdokumentation verwenden wir das von der OST bereitgestellte Gitlab inklusive der zur Verfügung gestellten CI Lösung.Für das Deployment verwenden wir eine einzelne Ubuntu VM welche uns ebenfalls von der OST zur Verfügung gestellt wird. Über die CI Lösung werden automatisch Docker Images generiert, welche dann auf der Deployment-VM ausgeführt werden können. \
-Die Entwicklung erfolgt auf unseren Notebooks. Weitere spezielle Geräte werden nicht benötigt.\
-Zur Unterstützung verwenden wir im CI Prozess zusätzlich das Codequalitätstool [SonarQube](https://www.sonarqube.org/) und das Tool [Renovate](https://github.com/renovatebot/renovate) für das automatisierte Updaten von Dependencies. 
-
+Für die Verwaltung des Quellcodes und der Projektdokumentation verwenden wir das von der OST bereitgestellte GitLab, inklusive der zur Verfügung gestellten Continuous Integration Lösung. 
+Für das Deployment verwenden wir eine einzelne virtuelle Maschine, basierend auf Ubuntu, welche uns ebenfalls von der OST zur Verfügung gestellt wird. 
+Über die CI Lösung werden automatisch Docker Images generiert, welche dann auf der Deployment-VM ausgeführt werden können. \
+Die Entwicklung erfolgt auf unseren persönlichen Notebooks oder Desktop-PCs. Weitere spezielle Geräte werden nicht benötigt.\
+Zur Unterstützung verwenden wir im CI-Prozess zusätzlich das Codequalitätstool [SonarQube](https://www.sonarqube.org/) und das Tool [Renovate](https://github.com/renovatebot/renovate) für das automatisierte Updaten von Dependencies. 
 
 ## Qualitätsmassnahmen
 
