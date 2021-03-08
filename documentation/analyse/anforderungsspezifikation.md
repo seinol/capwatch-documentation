@@ -48,34 +48,48 @@
 
 *Von welchen Faktoren hängt das Produkt ab*
 
-## Use Cases
+## Funktionale Anforderungen
 
-*Detailbeschreibung sämtlicher Use Cases. Erfolgt dieser Teil in einem separaten Dokument kann dieser Punkt weggelassen und unter Punkt 2.7. das entsprechende Dokument referenziert werden*
+### Anlieferer
 
-### Use Case Diagramm
+***Als Anlieferer möchte ich mich registrieren können, damit ich den Kunden die aktuellen Besucherzahlen liefern kann.***
+```eval_rst
++-----------------+-----------+--------------------------------------+
+| Anforderungs-ID | Kategorie | Beschreibung                         |
++=================+===========+======================================+
+| AL-1            | MUSS      | Der Anlieferer muss sich per REST    |
+|                 |           | Request registrieren können, indem   |
+|                 |           | er Firmenname, Ortschaft und einem   |
+|                 |           | Logo als Attachment mitsendet. Er    |
+|                 |           | erhält als Antwort eine Bestätigung  |
+|                 |           | oder Fehlermeldung.                  |
++-----------------+-----------+--------------------------------------+
+| AL-2            | MUSS      | Der Anlieferer liefert per REST Call |
+|                 |           | die aktuelle Auslastung mit          |
+|                 |           | Timestamp und Maximal erlaubter      |
+|                 |           | Auslastung an.                       |
++-----------------+-----------+--------------------------------------+
+```
+### Anwender
 
-*Use Case Diagramm*
+***Als Anwender möchte ich das aktuelle Besuchsaufkommen informieren können.***
 
-### Aktoren & Stakeholder
-
-*Aufzählung und Beschreibung der Aktoren & Stakeholder*
-
-### Beschreibungen (Brief)
-
-*Alle Use Cases in einzelnen Kapiteln beschreiben im Brief Format*
-
-#### *Use Case Name*
-
-*Beschreibung zum Use Case im Brief Format*
-
-### Beschreibungen (Fully Dressed)
-
-*Spezielle und wichtige Use Cases (normalerweise nur einer oder zwei wichtige Use Cases) in einzelnen Kapiteln beschreiben im Fully Dressed Format*
-
-#### *Use Case Name*
-
-*Beschreibung zum Use Case im Fully Dressed Format*
-
+```eval_rst
++-----------------+-----------+--------------------------------------+
+| Anforderungs-ID | Kategorie | Beschreibung                         |
++=================+===========+======================================+
+| AW-1            | MUSS      | Als Anwender kann ich eine Liste     |
+|                 |           | aller verfügbaren Firmen anzeigen    |
+|                 |           | lassen.                              |
++-----------------+-----------+--------------------------------------+
+| AW-2            | MUSS      | Als Anwender kann ich nach einer     |
+|                 |           | Firma suchen.                        |
++-----------------+-----------+--------------------------------------+
+| AW-3            | KANN      | Als Anwender kann ich eine Firma als |
+|                 |           | Favorit markieren. Favorit werden zu |
+|                 |           | Beginn der Liste angezeigt.          |
++-----------------+-----------+--------------------------------------+
+```
 ## Weitere Anforderungen
 
 ### Qualitätsmerkmale
