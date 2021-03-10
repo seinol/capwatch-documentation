@@ -79,6 +79,13 @@ alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folge
 Alle beteiligten sind gleichberechtigte Teammitglieder und wir verfolgen eine komplett flache Hierarchie untereinander.
 Der Projektleiter ist in keinem Fall ein Mitarbeiter mit höheren Befugnissen oder höherer Entscheidungsmacht.
 
+Da wir Scrum als Projektmanagement Methode verwenden, haben wir ausserdem die folgenden Scrum Rollen besetzt.
+
+| Name                       | Scrum Rolle               |
+|--------------------------- | ------------------------- |
+| Jonas Hauser               | Scrum Master              |
+| Pascal Schlumpf            | Product Owner             |
+
 ### Externe Schnittstellen
 
 Wir werden unterstützt und betreut durch den Advisor Herrn Thomas Kälin. In einzelnen Fällen ziehen wir die Expertise
