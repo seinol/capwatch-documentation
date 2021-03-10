@@ -267,6 +267,8 @@ triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht wer
 Build und auch mit jedem Deployment der Applikationen Sicherheit- und Integration-checks durchgeführt durch SonarQube
 und Renovate.
 
+Jedes Product Backlog Item wird ausserdem mit einer Definition of Done versehen, welche dem Bearbeitenden und dem Reviewer dabei hilft, die Vollständigkeit dieses Product Backlog Items zu prüfen. 
+
 Um den erfolgreichen Verlauf des Projekts zu garantieren, ist der Projektleiter dafür verantwortlich, wöchentlich die
 Einhaltung der Qualitätsmassnahmen zu überprüfen und Abweichungen den Teammitgliedern mitzuteilen. Der Projektleiter
 arbeitet nach einer wöchentlichen Checkliste, damit nichts vergessen wird.\
