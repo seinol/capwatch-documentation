@@ -360,7 +360,7 @@ berücksichtigt. Diese umfassen KISS, YAGNI, DRY, BDUF und S.O.L.I.D.
 
 ### Testen
 
-#### Unit tests
+#### Unit Tests
 
 Siehe Kapitel *Unit Testing* unter *Entwicklung*.
 
@@ -374,3 +374,7 @@ Integrationstests eingepflegt wird.
 
 Da beim Backend über die Update API der Geschäfte theoretisch relativ viel Traffic eingehen kann, wird das Backend vor
 jedem Release auf seine Performance getestet. Hierfür verwenden wir [Apache JMeter](https://jmeter.apache.org/).
+
+#### Usability Tests
+
+Um die Benutzerfreundlichkeit unseres Projekts sicherzustellen, werden wir auf manuell durchgeführte Usability Tests setzen, da diese mit vergleichsweise wenig Aufwand sehr viel wertvolles Feedback zur Qualität und zu möglichen Verbesserungen liefern.
