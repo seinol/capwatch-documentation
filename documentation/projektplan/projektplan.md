@@ -18,7 +18,8 @@ Wenn wir die Planung nachträglich überarbeiten, wird diese Version von allen Z
 ### Referenzen
 
 [Gitlab Dokumentation](https://docs.gitlab.com/ee/) \
-[GitLab Time Tracker (gtt)](https://github.com/kriskbx/gitlab-time-tracker)
+[GitLab Time Tracker (gtt)](https://github.com/kriskbx/gitlab-time-tracker) \
+[Youtrack](https://www.jetbrains.com/de-de/youtrack/)
 
 ## Projekt Übersicht
 
@@ -63,12 +64,21 @@ Meeting-Protokolle und weiteres genutzt, was nicht direkt in die offizielle Doku
 alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
 
 - Repositories in Subgruppen
-- Issues mit Kanban Board
 - Merge- bzw. Pull-Requests
 - CI / CD
 - Analytics
 - Integration von diversen Tools (SonarQube und Renovate)
+
+Die Nutzung der folgenden Gitlab Funktionen wurden wegen diverser Probleme (siehe Abschnitt Arbeitspakete) verworfen:
+
+- Issues mit Kanban Board
 - Script für den Time Tracking Report (gtt)
+
+Als Ersatz zu den oben erwähnten, gestrichenen Gitlab Funktionen verwenden wir [Youtrack](https://www.jetbrains.com/de-de/youtrack/) von Jetbrains mit den folgenden Funktionen:
+
+- Issues mit Kanban Board
+- Integriertes Timetracking
+
 
 ### Organisationsstruktur
 
@@ -213,7 +223,7 @@ Die Aufwandsschätzungen der Taks werden in absoluten Stunden vorgenommen.
 ### Besprechungen
 
 Hier sind alle fixierten Termine aufgeführt. Falls nötig können auch spontane Besprechungen dazukommen, wobei nicht alle
-Gruppenmitglieder anwesend sein müssen. Diese spontanen Besprechungen können von jedem Gruppenmitglied einberufen werden und ersetzen bei uns das Daily Standup Meeting, da dies bei uns keinen Sinn machen würde. 
+Gruppenmitglieder anwesend sein müssen. Diese spontanen Besprechungen können von jedem Gruppenmitglied einberufen werden und ersetzen bei uns das Daily Standup Meeting, da dieses bei uns keinen Sinn machen würde. 
 
 **Ort:** Bis auf Weiteres finden alle Besprechungen digital in Microsoft Teams statt.
 
@@ -257,10 +267,10 @@ mögliche neue Risiken beachtet und eingeschätzt werden und nicht mehr relevant
 
 ## Arbeitspakete
 
-Zur Planung der Arbeit, sowie dem Tracken der aufgewendeten Arbeitszeit verwenden wir GitLab. Für die Auswertung der
-Zeiterfassung kommt [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz.
+Zur Planung der Arbeit, sowie dem Tracking der aufgewendeten Arbeitszeit haben wir ursprünglich Gitlab angedacht. Für die Auswertung der Zeiterfassung hätte [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz kommen sollen. 
 
-[Board der Arbeitspakete](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/boards)
+Leider hat sich in der ersten Projektwoche gezeigt, dass die uns von Gitlab zur Verfügung gestellten Tools nur unzureichend funktionieren. Nach einem nicht lösbaren Problem mit dem Timetracking, haben wir nach Absprache mit unserem Advisor den umstieg auf [Youtrack](https://www.jetbrains.com/de-de/youtrack/) beschlossen. 
+
 
 ## Infrastruktur
 
@@ -302,9 +312,8 @@ letzten Review auf dem Produktionsbranch überprüft.
 
 ### Projektmanagement
 
-Wir verwenden die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von GitLab selbst
-mit integriertem Time-Tracking. Die Issues durchlaufen einen klaren Workflow der
-als [Kanban Board](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/boards) angezeigt wird. Jedes Issue
+Wir wollten ursprünglich die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von GitLab selbst verwenden. Wegen den im Punkt Arbeitspakete beschriebenen Probleme kommt seit der zweiten Projektwoche aber Youtrack zum Einsatz.Die Issues durchlaufen einen klaren Workflow der
+als [Kanban Board](https://capwatch.myjetbrains.com/youtrack/agiles/120-2/current) angezeigt wird. Jedes Issue
 durchläuft folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem
 groben Format erstellt und warten dann im Status *open* auf deren Einplanung in einen Sprint, wodurch sie in den Status
 *planned* wechseln. Das Arbeitspaket wird beim Start in den Status *work in progress* versetzt und vor Beendigung in den
