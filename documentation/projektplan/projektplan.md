@@ -64,8 +64,6 @@ Meeting-Protokolle und weiteres genutzt, was nicht direkt in die offizielle Doku
 alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
 
 - Repositories in Subgruppen
-- Merge- bzw. Pull-Requests
-- CI / CD
 - Analytics
 - Integration von diversen Tools (SonarQube und Renovate)
 
@@ -288,18 +286,28 @@ und das Tool [Renovate](https://github.com/renovatebot/renovate) für das automa
 Erstens werden für den Umgang mit Git diverse Richtlinien definiert um eine professionelle und einfache Zusammenarbeit
 im Softwareentwicklungsprozess mit dem ganzen Team zu erreichen. \
 Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzlich keine Änderungen in den Git Repositories verwendet
-werden, welche nicht mindestens von einem weiteren Teammitglied validiert und bestätigt wurden. Ausnahmen dabei sind
-triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen. Drittens werden mit jedem
-Build und auch mit jedem Deployment der Applikationen Sicherheit- und Integration-checks durchgeführt durch SonarQube
-und Renovate.
+werden, welche nicht mindestens von einem weiteren Teammitglied in einem Review validiert und bestätigt wurden. Ausnahmen dabei sind triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen. Drittens werden mit jedem Build und auch mit jedem Deployment der Applikationen Sicherheit- und Integration-checks durchgeführt durch SonarQube und Renovate.
+
+Um diese Massnahmen für die Verbesserung der Qualität umsetzen zu können, verwenden wir die folgenden Gitlab Features:
+
+- Merge- bzw. Pull-Requests
+- CI / CD
 
 Jedes Product Backlog Item wird ausserdem mit einer Definition of Done versehen, welche dem Bearbeitenden und dem Reviewer dabei hilft, die Vollständigkeit dieses Product Backlog Items zu prüfen. 
+
+Zusätzlich setzen wir die folgenden Techniken ein, um eine hohe Qualität innerhalb des Projekts zu gewährleisten:
+
+- Spezifikation von funktionalen und nicht funktionalen Requirements
+- Einsatz von Unit, Usability, Integrations und Performance Tests
+- Nutzung der Report Funktion (Dashboards) von Youtrack zur Informationsgewinnung
 
 Um den erfolgreichen Verlauf des Projekts zu garantieren, ist der Projektleiter dafür verantwortlich, wöchentlich die
 Einhaltung der Qualitätsmassnahmen zu überprüfen und Abweichungen den Teammitgliedern mitzuteilen. Der Projektleiter
 arbeitet nach einer wöchentlichen Checkliste, damit nichts vergessen wird.\
 Das Team arbeitet nach dem Erreichen des ersten Meilensteins nach Scrum und garantiert somit pro Sprint fertige Teile
 des Produkts vorweisen zu können.
+
+
 
 ### Dokumentation
 
