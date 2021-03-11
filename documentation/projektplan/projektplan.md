@@ -11,6 +11,10 @@ Dieses Dokument gibt eine Übersicht über die Art und Weise wie wir unser Proje
 Dieses Dokument ist für die Stakeholder dieses Projektes. Dazu gehören die Betreuer, sowie die Entwickler. Es wurde im
 Rahmen des Engineering Projekts der Fachhochschule Ost erstellt.
 
+### Vorgehen zur Überarbeitung der Planung
+
+Wenn wir die Planung nachträglich überarbeiten, wird diese Version von allen Zusammen in einem Meeting geprüft und abgenommen. 
+
 ### Referenzen
 
 [Gitlab Dokumentation](https://docs.gitlab.com/ee/) \
