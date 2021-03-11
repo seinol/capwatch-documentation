@@ -80,23 +80,40 @@ Als Ersatz zu den oben erwähnten, gestrichenen Gitlab Funktionen verwenden wir 
 
 ### Organisationsstruktur
 
-| Name                       | Verantwortlichkeiten      |
-| -------------------------- | ------------------------- |
-| Jonas Hauser               | Projektleitung, Kommunikation, Arbeitsorganisation, Qualitätssicherung und Meeting-Moderator  |
-| Rafael Fuhrer              | Alles rund um Systemumgebungen wie z. B. CI/CD, GitLab und Deploy-Server            |
-| Pascal Schneider           | Lead für Software-Architektur und -Design und API-Design, GitLab Issue Time-Tracking            |
-| Christoph Scheiwiller      | Allgemeine Codequalität (Guidelines und Testing) |
-| Pascal Schlumpf            | Daten- bzw. Datenbank-spezialist            |
+```eval_rst
++-----------------------+---------------------------------------------+
+| Name                  | Verantwortlichkeiten                        |
++=======================+=============================================+
+| Jonas Hauser          | Projektleitung, Kommunikation,              |
+|                       | Arbeitsorganisation, Qualitätssicherung und |
+|                       | Meeting-Moderator                           |
++-----------------------+---------------------------------------------+
+| Rafael Fuhrer         | Alles rund um Systemumgebungen wie z. B.    |
+|                       | CI/CD, GitLab und Deploy-Server             |
++-----------------------+---------------------------------------------+
+| Pascal Schneider      | Lead für Software-Architektur und -Design   |
+|                       | und API-Design, GitLab Issue Time-Tracking  |
++-----------------------+---------------------------------------------+
+| Christoph Scheiwiller | Allgemeine Codequalität (Guidelines und     |
+|                       | Testing)                                    |
++-----------------------+---------------------------------------------+
+| Pascal Schlumpf       | Daten- bzw. Datenbank-spezialist            |
++-----------------------+---------------------------------------------+
+```
 
 Alle beteiligten sind gleichberechtigte Teammitglieder und wir verfolgen eine komplett flache Hierarchie untereinander.
 Der Projektleiter ist in keinem Fall ein Mitarbeiter mit höheren Befugnissen oder höherer Entscheidungsmacht.
 
 Da wir Scrum als Projektmanagement Methode verwenden, haben wir ausserdem die folgenden Scrum Rollen besetzt.
 
-| Name                       | Scrum Rolle               |
-|--------------------------- | ------------------------- |
-| Jonas Hauser               | Scrum Master              |
-| Pascal Schlumpf            | Product Owner             |
+```eval_rst
+=============== =============
+Name            Scrum Rolle
+=============== =============
+Jonas Hauser    Scrum Master
+Pascal Schlumpf Product Owner
+=============== =============
+```
 
 ### Externe Schnittstellen
 
@@ -225,27 +242,56 @@ Gruppenmitglieder anwesend sein müssen. Diese spontanen Besprechungen können v
 
 **Ort:** Bis auf Weiteres finden alle Besprechungen digital in Microsoft Teams statt.
 
-| Wann                                    | Wer                       | Grund                                                        |
-| --------------------------------------- | ------------------------- | ------------------------------------------------------------ |
-| Jeden Montag 16:00 Uhr                  | Team / Advisor bei bedarf | Fragen zu Projektablauf oder Vorgehen                        |
-| Jeden Donnerstag 16:00 Uhr              | Alle im Team              | Aktueller Stand, Offene Fragen besprechen, Weiteres Vorgehen |
-| Jeweils vor dem Beginn des Sprints ab 09:30 Uhr | Scrum Master & Product Owner | Ausführung von Scrum spezifischen Arbeiten |
-| Jeweils zu Beginn des Sprints 10:00 Uhr | Alle im Team              | Sprint Planning                                              |
-| Jeweils am Ende des Sprints 17:00 Uhr   | Alle im Team              | Sprint Review und anschliessend Retrospektive                |
-| 08.03.2021 16:00 Uhr                    | Team / Advisor            | Review 1                                                     |
-| 22.03.2021 16:00 Uhr                    | Team / Advisor            | Review 2                                                     |
-| 05.04.2021 16:00 Uhr                    | Team / Advisor            | Review 3                                                     |
-| 19.04.2021 16:00 Uhr                    | Team / Advisor            | Review 4                                                     |
-| 03.05.2021 16:00 Uhr                    | Team / Advisor            | Review 5                                                     |
-| 31.05.2021 16:00 Uhr                    | Team / Advisor            | Review 6                                                     |
+```eval_rst
++----------------------+----------------------+----------------------+
+| Wann                 | Wer                  | Grund                |
++======================+======================+======================+
+| Jeden Montag 16:00   | Team / Advisor bei   | Fragen zu            |
+| Uhr                  | bedarf               | Projektablauf oder   |
+|                      |                      | Vorgehen             |
++----------------------+----------------------+----------------------+
+| Jeden Donnerstag     | Alle im Team         | Aktueller Stand,     |
+| 16:00 Uhr            |                      | Offene Fragen        |
+|                      |                      | besprechen, Weiteres |
+|                      |                      | Vorgehen             |
++----------------------+----------------------+----------------------+
+| Jeweils zu Beginn    | Alle im Team         | Sprint Planning      |
+| des Sprints 10:00    |                      |                      |
+| Uhr                  |                      |                      |
++----------------------+----------------------+----------------------+
+| Jeweils am Ende des  | Alle im Team         | Sprint Review und    |
+| Sprints 17:00 Uhr    |                      | anschliessend        |
+|                      |                      | Retrospektive        |
++----------------------+----------------------+----------------------+
+| 08.03.2021 16:00 Uhr | Team / Advisor       | Review 1             |
++----------------------+----------------------+----------------------+
+| 22.03.2021 16:00 Uhr | Team / Advisor       | Review 2             |
++----------------------+----------------------+----------------------+
+| 05.04.2021 16:00 Uhr | Team / Advisor       | Review 3             |
++----------------------+----------------------+----------------------+
+| 19.04.2021 16:00 Uhr | Team / Advisor       | Review 4             |
++----------------------+----------------------+----------------------+
+| 03.05.2021 16:00 Uhr | Team / Advisor       | Review 5             |
++----------------------+----------------------+----------------------+
+| 31.05.2021 16:00 Uhr | Team / Advisor       | Review 6             |
++----------------------+----------------------+----------------------+
+```
 
 Um zu verhindern, dass unsere Scrum-Events zeitlich aus dem Ruder laufen, haben wir die folgenden Timeboxings für die Events definiert.
 
-|Scrum Event | Time Boxing | Bemerkung |
-|------------|-------------|-----------|
-| Sprint Planning | 1 Stunde | -       |
-| Sprint Review   | 45 Minuten | variabel, wird evtl. nochmals angepasst|
-| Sprint Retrospektive | 30 Minuten | variabel, wird evtl. nochmals angepasst|
+```eval_rst
++----------------------+----------------------+----------------------+
+| Scrum Event          | Timeboxing           | Bemerkung            |
++======================+======================+======================+
+| Sprint Planning      | 1 Stunde             | -                    |
++----------------------+----------------------+----------------------+
+| Sprint Review        | 45 Minuten           | variabel, wird evtl. |
+|                      |                      | nochmals angepasst   |
++----------------------+----------------------+----------------------+
+| Sprint Retrospektive | 30 Minuten           | variabel, wird evtl. |
+|                      |                      | nochmals angepasst   |
++----------------------+----------------------+----------------------+
+```
 
 ## Risikomanagement
 
