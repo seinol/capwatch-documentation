@@ -144,6 +144,9 @@ Nach dem Erreichen des ersten Meilensteins beginnen wir iterativ mit Scrum zu ar
 definiert. Jeder Sprint dauert zwei Wochen, mit Ausnahme des fünften Sprints, welcher drei Wochen dauert. Am Ende jedes
 Sprints ist der vorgegebene Meilenstein zu erreichen.
 
+Für die Priorisierung der Tasks im Backlog verwenden wir die MoSCoW Methode.
+Die Aufwandsschätzungen der Taks werden in absoluten Stunden vorgenommen. 
+
 #### Meilensteine
 
 **M1 Project Plan** (06.03.2021)
