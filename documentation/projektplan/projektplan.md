@@ -11,10 +11,15 @@ Dieses Dokument gibt eine Übersicht über die Art und Weise wie wir unser Proje
 Dieses Dokument ist für die Stakeholder dieses Projektes. Dazu gehören die Betreuer, sowie die Entwickler. Es wurde im
 Rahmen des Engineering Projekts der Fachhochschule Ost erstellt.
 
+### Vorgehen zur Überarbeitung der Planung
+
+Wenn wir die Planung nachträglich überarbeiten, wird diese Version von allen Zusammen in einem Meeting geprüft und abgenommen. 
+
 ### Referenzen
 
 [Gitlab Dokumentation](https://docs.gitlab.com/ee/) \
-[GitLab Time Tracker (gtt)](https://github.com/kriskbx/gitlab-time-tracker)
+[GitLab Time Tracker (gtt)](https://github.com/kriskbx/gitlab-time-tracker) \
+[Youtrack](https://www.jetbrains.com/de-de/youtrack/)
 
 ## Projekt Übersicht
 
@@ -59,25 +64,56 @@ Meeting-Protokolle und weiteres genutzt, was nicht direkt in die offizielle Doku
 alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
 
 - Repositories in Subgruppen
-- Issues mit Kanban Board
-- Merge- bzw. Pull-Requests
-- CI / CD
 - Analytics
 - Integration von diversen Tools (SonarQube und Renovate)
+
+Die Nutzung der folgenden Gitlab Funktionen wurden wegen diverser Probleme (siehe Abschnitt Arbeitspakete) verworfen:
+
+- Issues mit Kanban Board
 - Script für den Time Tracking Report (gtt)
+
+Als Ersatz zu den oben erwähnten, gestrichenen Gitlab Funktionen verwenden wir [Youtrack](https://www.jetbrains.com/de-de/youtrack/) von Jetbrains mit den folgenden Funktionen:
+
+- Issues mit Kanban Board
+- Integriertes Timetracking
+
 
 ### Organisationsstruktur
 
-| Name                       | Verantwortlichkeiten      |
-| -------------------------- | ------------------------- |
-| Jonas Hauser               | Projektleitung, Kommunikation, Arbeitsorganisation, Qualitätssicherung und Meeting-Moderator  |
-| Rafael Fuhrer              | Alles rund um Systemumgebungen wie z. B. CI/CD, GitLab und Deploy-Server            |
-| Pascal Schneider           | Lead für Software-Architektur und -Design und API-Design, GitLab Issue Time-Tracking            |
-| Christoph Scheiwiller      | Allgemeine Codequalität (Guidelines und Testing) |
-| Pascal Schlumpf            | Daten- bzw. Datenbank-spezialist            |
+```eval_rst
++-----------------------+---------------------------------------------+
+| Name                  | Verantwortlichkeiten                        |
++=======================+=============================================+
+| Jonas Hauser          | Projektleitung, Kommunikation,              |
+|                       | Arbeitsorganisation, Qualitätssicherung und |
+|                       | Meeting-Moderator                           |
++-----------------------+---------------------------------------------+
+| Rafael Fuhrer         | Alles rund um Systemumgebungen wie z. B.    |
+|                       | CI/CD, GitLab und Deploy-Server             |
++-----------------------+---------------------------------------------+
+| Pascal Schneider      | Lead für Software-Architektur und -Design   |
+|                       | und API-Design, GitLab Issue Time-Tracking  |
++-----------------------+---------------------------------------------+
+| Christoph Scheiwiller | Allgemeine Codequalität (Guidelines und     |
+|                       | Testing)                                    |
++-----------------------+---------------------------------------------+
+| Pascal Schlumpf       | Daten- bzw. Datenbank-spezialist            |
++-----------------------+---------------------------------------------+
+```
 
 Alle beteiligten sind gleichberechtigte Teammitglieder und wir verfolgen eine komplett flache Hierarchie untereinander.
 Der Projektleiter ist in keinem Fall ein Mitarbeiter mit höheren Befugnissen oder höherer Entscheidungsmacht.
+
+Da wir Scrum als Projektmanagement Methode verwenden, haben wir ausserdem die folgenden Scrum Rollen besetzt.
+
+```eval_rst
+=============== =============
+Name            Scrum Rolle
+=============== =============
+Jonas Hauser    Scrum Master
+Pascal Schlumpf Product Owner
+=============== =============
+```
 
 ### Externe Schnittstellen
 
@@ -132,6 +168,9 @@ eingeführt und getestet werden.
 Nach dem Erreichen des ersten Meilensteins beginnen wir iterativ mit Scrum zu arbeiten. Es wurden sechs Sprints
 definiert. Jeder Sprint dauert zwei Wochen, mit Ausnahme des fünften Sprints, welcher drei Wochen dauert. Am Ende jedes
 Sprints ist der vorgegebene Meilenstein zu erreichen.
+
+Für die Priorisierung der Tasks im Backlog verwenden wir die MoSCoW Methode.
+Die Aufwandsschätzungen der Taks werden in absoluten Stunden vorgenommen. 
 
 #### Meilensteine
 
@@ -199,22 +238,60 @@ Sprints ist der vorgegebene Meilenstein zu erreichen.
 ### Besprechungen
 
 Hier sind alle fixierten Termine aufgeführt. Falls nötig können auch spontane Besprechungen dazukommen, wobei nicht alle
-Gruppenmitglieder anwesend sein müssen.
+Gruppenmitglieder anwesend sein müssen. Diese spontanen Besprechungen können von jedem Gruppenmitglied einberufen werden und ersetzen bei uns das Daily Standup Meeting, da dieses bei uns keinen Sinn machen würde. 
 
 **Ort:** Bis auf Weiteres finden alle Besprechungen digital in Microsoft Teams statt.
 
-| Wann                                    | Wer                       | Grund                                                        |
-| --------------------------------------- | ------------------------- | ------------------------------------------------------------ |
-| Jeden Montag 16:00 Uhr                  | Team / Advisor bei bedarf | Fragen zu Projektablauf oder Vorgehen                        |
-| Jeden Donnerstag 16:00 Uhr              | Alle im Team              | Aktueller Stand, Offene Fragen besprechen, Weiteres Vorgehen |
-| Jeweils zu Beginn des Sprints 10:00 Uhr | Alle im Team              | Sprint Planning                                              |
-| Jeweils am Ende des Sprints 17:00 Uhr   | Alle im Team              | Sprint Review und anschliessend Retrospektive                |
-| 08.03.2021 16:00 Uhr                    | Team / Advisor            | Review 1                                                     |
-| 22.03.2021 16:00 Uhr                    | Team / Advisor            | Review 2                                                     |
-| 05.04.2021 16:00 Uhr                    | Team / Advisor            | Review 3                                                     |
-| 19.04.2021 16:00 Uhr                    | Team / Advisor            | Review 4                                                     |
-| 03.05.2021 16:00 Uhr                    | Team / Advisor            | Review 5                                                     |
-| 31.05.2021 16:00 Uhr                    | Team / Advisor            | Review 6                                                     |
+```eval_rst
++----------------------+----------------------+----------------------+
+| Wann                 | Wer                  | Grund                |
++======================+======================+======================+
+| Jeden Montag 16:00   | Team / Advisor bei   | Fragen zu            |
+| Uhr                  | bedarf               | Projektablauf oder   |
+|                      |                      | Vorgehen             |
++----------------------+----------------------+----------------------+
+| Jeden Donnerstag     | Alle im Team         | Aktueller Stand,     |
+| 16:00 Uhr            |                      | Offene Fragen        |
+|                      |                      | besprechen, Weiteres |
+|                      |                      | Vorgehen             |
++----------------------+----------------------+----------------------+
+| Jeweils zu Beginn    | Alle im Team         | Sprint Planning      |
+| des Sprints 10:00    |                      |                      |
+| Uhr                  |                      |                      |
++----------------------+----------------------+----------------------+
+| Jeweils am Ende des  | Alle im Team         | Sprint Review und    |
+| Sprints 17:00 Uhr    |                      | anschliessend        |
+|                      |                      | Retrospektive        |
++----------------------+----------------------+----------------------+
+| 08.03.2021 16:00 Uhr | Team / Advisor       | Review 1             |
++----------------------+----------------------+----------------------+
+| 22.03.2021 16:00 Uhr | Team / Advisor       | Review 2             |
++----------------------+----------------------+----------------------+
+| 05.04.2021 16:00 Uhr | Team / Advisor       | Review 3             |
++----------------------+----------------------+----------------------+
+| 19.04.2021 16:00 Uhr | Team / Advisor       | Review 4             |
++----------------------+----------------------+----------------------+
+| 03.05.2021 16:00 Uhr | Team / Advisor       | Review 5             |
++----------------------+----------------------+----------------------+
+| 31.05.2021 16:00 Uhr | Team / Advisor       | Review 6             |
++----------------------+----------------------+----------------------+
+```
+
+Um zu verhindern, dass unsere Scrum-Events zeitlich aus dem Ruder laufen, haben wir die folgenden Timeboxings für die Events definiert.
+
+```eval_rst
++----------------------+----------------------+----------------------+
+| Scrum Event          | Timeboxing           | Bemerkung            |
++======================+======================+======================+
+| Sprint Planning      | 1 Stunde             | -                    |
++----------------------+----------------------+----------------------+
+| Sprint Review        | 45 Minuten           | variabel, wird evtl. |
+|                      |                      | nochmals angepasst   |
++----------------------+----------------------+----------------------+
+| Sprint Retrospektive | 30 Minuten           | variabel, wird evtl. |
+|                      |                      | nochmals angepasst   |
++----------------------+----------------------+----------------------+
+```
 
 ## Risikomanagement
 
@@ -234,10 +311,10 @@ mögliche neue Risiken beachtet und eingeschätzt werden und nicht mehr relevant
 
 ## Arbeitspakete
 
-Zur Planung der Arbeit, sowie dem Tracken der aufgewendeten Arbeitszeit verwenden wir GitLab. Für die Auswertung der
-Zeiterfassung kommt [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz.
+Zur Planung der Arbeit, sowie dem Tracking der aufgewendeten Arbeitszeit haben wir ursprünglich Gitlab angedacht. Für die Auswertung der Zeiterfassung hätte [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz kommen sollen. 
 
-[Board der Arbeitspakete](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/boards)
+Leider hat sich in der ersten Projektwoche gezeigt, dass die uns von Gitlab zur Verfügung gestellten Tools nur unzureichend funktionieren. Nach einem nicht lösbaren Problem mit dem Timetracking, haben wir nach Absprache mit unserem Advisor den umstieg auf [Youtrack](https://www.jetbrains.com/de-de/youtrack/) beschlossen. 
+
 
 ## Infrastruktur
 
@@ -255,16 +332,25 @@ und das Tool [Renovate](https://github.com/renovatebot/renovate) für das automa
 Erstens werden für den Umgang mit Git diverse Richtlinien definiert um eine professionelle und einfache Zusammenarbeit
 im Softwareentwicklungsprozess mit dem ganzen Team zu erreichen. \
 Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzlich keine Änderungen in den Git Repositories verwendet
-werden, welche nicht mindestens von einem weiteren Teammitglied validiert und bestätigt wurden. Ausnahmen dabei sind
-triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen. Drittens werden mit jedem
-Build und auch mit jedem Deployment der Applikationen Sicherheit- und Integration-checks durchgeführt durch SonarQube
-und Renovate.
+werden, welche nicht mindestens von einem weiteren Teammitglied in einem Review validiert und bestätigt wurden. Ausnahmen dabei sind triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen. Drittens werden mit jedem Build und auch mit jedem Deployment der Applikationen Sicherheit- und Integrationchecks durchgeführt durch SonarQube und Renovate.
+
+Um diese Massnahmen für die Verbesserung der Qualität umsetzen zu können, verwenden wir die folgenden Gitlab Features:
+
+- Merge- bzw. Pull-Requests
+- CI / CD
+
+Jedes Product Backlog Item wird ausserdem mit einer Definition of Done versehen, welche dem Bearbeitenden und dem Reviewer dabei hilft, die Vollständigkeit dieses Product Backlog Items zu prüfen. 
+
+Zusätzlich setzen wir die folgenden Techniken ein, um eine hohe Qualität innerhalb des Projekts zu gewährleisten:
+
+- Spezifikation von funktionalen und nicht funktionalen Requirements
+- Einsatz von Unit, Usability, Integrations und Performance Tests
+- Nutzung der Report Funktion (Dashboards) von Youtrack zur Informationsgewinnung
 
 Um den erfolgreichen Verlauf des Projekts zu garantieren, ist der Projektleiter dafür verantwortlich, wöchentlich die
 Einhaltung der Qualitätsmassnahmen zu überprüfen und Abweichungen den Teammitgliedern mitzuteilen. Der Projektleiter
 arbeitet nach einer wöchentlichen Checkliste, damit nichts vergessen wird.\
-Das Team arbeitet nach dem Erreichen des ersten Meilensteins nach Scrum und garantiert somit pro Sprint fertige Teile
-des Produkts vorweisen zu können.
+Das Team arbeitet nach dem Erreichen des ersten Meilensteins nach Scrum und garantiert somit pro Sprint fertige Teile des Produkts vorweisen zu können.
 
 ### Dokumentation
 
@@ -277,9 +363,8 @@ letzten Review auf dem Produktionsbranch überprüft.
 
 ### Projektmanagement
 
-Wir verwenden die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von GitLab selbst
-mit integriertem Time-Tracking. Die Issues durchlaufen einen klaren Workflow der
-als [Kanban Board](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/boards) angezeigt wird. Jedes Issue
+Wir wollten ursprünglich die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von GitLab selbst verwenden. Wegen den im Punkt Arbeitspakete beschriebenen Probleme kommt seit der zweiten Projektwoche aber Youtrack zum Einsatz. Die Issues durchlaufen einen klaren Workflow der
+als [Kanban Board](https://capwatch.myjetbrains.com/youtrack/agiles/120-2/current) angezeigt wird. Jedes Issue
 durchläuft folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem
 groben Format erstellt und warten dann im Status *open* auf deren Einplanung in einen Sprint, wodurch sie in den Status
 *planned* wechseln. Das Arbeitspaket wird beim Start in den Status *work in progress* versetzt und vor Beendigung in den
@@ -342,7 +427,7 @@ berücksichtigt. Diese umfassen KISS, YAGNI, DRY, BDUF und S.O.L.I.D.
 
 ### Testen
 
-#### Unit tests
+#### Unit Tests
 
 Siehe Kapitel *Unit Testing* unter *Entwicklung*.
 
@@ -356,3 +441,7 @@ Integrationstests eingepflegt wird.
 
 Da beim Backend über die Update API der Geschäfte theoretisch relativ viel Traffic eingehen kann, wird das Backend vor
 jedem Release auf seine Performance getestet. Hierfür verwenden wir [Apache JMeter](https://jmeter.apache.org/).
+
+#### Usability Tests
+
+Um die Benutzerfreundlichkeit unseres Projekts sicherzustellen, werden wir auf manuell durchgeführte Usability Tests setzen, da diese mit vergleichsweise wenig Aufwand sehr viel wertvolles Feedback zur Qualität und zu möglichen Verbesserungen liefern.
