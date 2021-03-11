@@ -50,46 +50,75 @@
 
 ## Funktionale Anforderungen
 
-### Anlieferer
+Wir haben uns aufgrund des einfachen Geschäftsfalles dagegen entschieden Use Cases einzusetzen, da diese einen ziemlichen Overhead mit sich bringen. Wir setzen dafür auf einen schlanken Mix aus User Story und MUSS/KANN Anforderungen.
+
+### Anlieferer / Anbieter
 
 ***Als Anlieferer möchte ich mich registrieren können, damit ich den Kunden die aktuellen Besucherzahlen liefern kann.***
 ```eval_rst
 +-----------------+-----------+--------------------------------------+
 | Anforderungs-ID | Kategorie | Beschreibung                         |
 +=================+===========+======================================+
-| AL-1            | MUSS      | Der Anlieferer muss sich per REST    |
-|                 |           | Request registrieren können, indem   |
-|                 |           | er Firmenname, Ortschaft und einem   |
-|                 |           | Logo als Attachment mitsendet. Er    |
-|                 |           | erhält als Antwort eine Bestätigung  |
-|                 |           | oder Fehlermeldung.                  |
-+-----------------+-----------+--------------------------------------+
-| AL-2            | MUSS      | Der Anlieferer liefert per REST Call |
-|                 |           | die aktuelle Auslastung mit          |
+| AL-1            | MUSS      | Der Anlieferer liefert regelmässig   |
+|                 |           | die aktuelle Auslastung mit Token,   |
 |                 |           | Timestamp und Maximal erlaubter      |
 |                 |           | Auslastung an.                       |
 +-----------------+-----------+--------------------------------------+
+| AL-2            | KANN      | Der Anlieferer muss sich per Request |
+|                 |           | registrieren können, indem er        |
+|                 |           | Firmenname, Ortschaft und einem Logo |
+|                 |           | als Attachment mit sendet. Er erhält |
+|                 |           | als Antwort einen Token oder eine    |
+|                 |           | Fehlermeldung.                       |
++-----------------+-----------+--------------------------------------+
 ```
-### Anwender
+### Konsument
 
-***Als Anwender möchte ich das aktuelle Besuchsaufkommen informieren können.***
-
+***Als Konsument möchte ich mich über das aktuelle Besuchsaufkommen informieren können.***
 ```eval_rst
 +-----------------+-----------+--------------------------------------+
 | Anforderungs-ID | Kategorie | Beschreibung                         |
 +=================+===========+======================================+
-| AW-1            | MUSS      | Als Anwender kann ich eine Liste     |
+| AW-1            | MUSS      | Als Konsument kann ich eine Liste    |
 |                 |           | aller verfügbaren Firmen anzeigen    |
 |                 |           | lassen.                              |
 +-----------------+-----------+--------------------------------------+
-| AW-2            | MUSS      | Als Anwender kann ich nach einer     |
+| AW-2            | MUSS      | Als Konsument kann ich nach einer    |
 |                 |           | Firma suchen.                        |
 +-----------------+-----------+--------------------------------------+
-| AW-3            | KANN      | Als Anwender kann ich eine Firma als |
-|                 |           | Favorit markieren. Favorit werden zu |
-|                 |           | Beginn der Liste angezeigt.          |
+| AW-3            | MUSS      | Als Konsument kann ich eine Firma    |
+|                 |           | als Favorit markieren. Favoriten     |
+|                 |           | können in der Favoritenansicht       |
+|                 |           | angezeigt werden.                    |
++-----------------+-----------+--------------------------------------+
+| AW-4            | KANN      | Als Konsument werden mir automatisch |
+|                 |           | die nächsten Läden in meiner         |
+|                 |           | Umgebung zuoberst in der Auflistung  |
+|                 |           | angezeigt.                           |
++-----------------+-----------+--------------------------------------+
+| AW-5            | KANN      | Ich kann mich als Konsument          |
+|                 |           | registrieren und anschliessend nach  |
+|                 |           | einem Login über mehrere Geräte      |
+|                 |           | hinweg auf meine Favoriten           |
+|                 |           | zugreifen.                           |
++-----------------+-----------+--------------------------------------+
+| AW-6            | KANN      | Als Konsument kann ich meine         |
+|                 |           | E-Mailadresse hinterlegen und mich   |
+|                 |           | so über wichtige Ereignisse          |
+|                 |           | informieren lassen.                  |
++-----------------+-----------+--------------------------------------+
+| AW-7            | KANN      | Als Konsument kann ich über eine     |
+|                 |           | Detailansicht einer Firma die        |
+|                 |           | Prognosen und Verläufe des           |
+|                 |           | Besucheraufkommens anzeigen lassen.  |
++-----------------+-----------+--------------------------------------+
+| AW-8            | KANN      | Als Konsument kann ich mir bei einer |
+|                 |           | Firma einen begrenzten Zeitraum      |
+|                 |           | reservieren.                         |
 +-----------------+-----------+--------------------------------------+
 ```
+Für das Minimal Viable Product sind die MUSS-Anforderungen relevant. Falls Kapazität vorhanden ist, können aber auch schon KANN-Anforderungen umgesetzt werden.
+
 ## Weitere Anforderungen
 
 ### Qualitätsmerkmale
