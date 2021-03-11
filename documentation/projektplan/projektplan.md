@@ -206,7 +206,7 @@ Sprints ist der vorgegebene Meilenstein zu erreichen.
 ### Besprechungen
 
 Hier sind alle fixierten Termine aufgeführt. Falls nötig können auch spontane Besprechungen dazukommen, wobei nicht alle
-Gruppenmitglieder anwesend sein müssen.
+Gruppenmitglieder anwesend sein müssen. Diese spontanen Besprechungen können von jedem Gruppenmitglied einberufen werden und ersetzen bei uns das Daily Standup Meeting, da dies bei uns keinen Sinn machen würde. 
 
 **Ort:** Bis auf Weiteres finden alle Besprechungen digital in Microsoft Teams statt.
 
@@ -214,6 +214,7 @@ Gruppenmitglieder anwesend sein müssen.
 | --------------------------------------- | ------------------------- | ------------------------------------------------------------ |
 | Jeden Montag 16:00 Uhr                  | Team / Advisor bei bedarf | Fragen zu Projektablauf oder Vorgehen                        |
 | Jeden Donnerstag 16:00 Uhr              | Alle im Team              | Aktueller Stand, Offene Fragen besprechen, Weiteres Vorgehen |
+| Jeweils vor dem Beginn des Sprints ab 09:30 Uhr | Scrum Master & Product Owner | Ausführung von Scrum spezifischen Arbeiten |
 | Jeweils zu Beginn des Sprints 10:00 Uhr | Alle im Team              | Sprint Planning                                              |
 | Jeweils am Ende des Sprints 17:00 Uhr   | Alle im Team              | Sprint Review und anschliessend Retrospektive                |
 | 08.03.2021 16:00 Uhr                    | Team / Advisor            | Review 1                                                     |
@@ -222,6 +223,14 @@ Gruppenmitglieder anwesend sein müssen.
 | 19.04.2021 16:00 Uhr                    | Team / Advisor            | Review 4                                                     |
 | 03.05.2021 16:00 Uhr                    | Team / Advisor            | Review 5                                                     |
 | 31.05.2021 16:00 Uhr                    | Team / Advisor            | Review 6                                                     |
+
+Um zu verhindern, dass unsere Scrum-Events zeitlich aus dem Ruder laufen, haben wir die folgenden Timeboxings für die Events definiert.
+
+|Scrum Event | Time Boxing | Bemerkung |
+|------------|-------------|-----------|
+| Sprint Planning | 1 Stunde | -       |
+| Sprint Review   | 45 Minuten | variabel, wird evtl. nochmals angepasst|
+| Sprint Retrospektive | 30 Minuten | variabel, wird evtl. nochmals angepasst|
 
 ## Risikomanagement
 
