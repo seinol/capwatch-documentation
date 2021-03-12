@@ -28,9 +28,9 @@ _gitlab_code_project_url = f'{_gitlab_team_namespace_url}/development'  # No sla
 _gitlab_docs_project_url = f'{_gitlab_team_namespace_url}/documentation-and-various/documentation'  # No slash at the end!
 
 _project_links = {
-    'Task List': f'{_gitlab_team_namespace_url}/issues',
+    'Task List': f'https://capwatch.myjetbrains.com/youtrack/projects/f28d89fe-6545-4dfd-87fb-283c2bc605a3',
     'Code Repository': _gitlab_code_project_url,
-    'Continuous Integration': f'{_gitlab_code_project_url}/-/pipelines',
+    'Continuous Integration': f'{_gitlab_code_project_url}/documentation-and-various/documentation/-/pipelines',
 }
 
 ###############################################################################
