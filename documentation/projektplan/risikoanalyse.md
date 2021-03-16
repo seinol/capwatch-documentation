@@ -20,13 +20,13 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 - Erstellt am: 02.03.2021
 - Autor: Christoph Scheiwiller
 - Gewichteter Schaden Projekt: *31 Stunden*
-- Durchschnitt Schadenspotenzial: *4 Stunden**
+- Durchschnitt Schadenspotenzial: *4 Stunden** (gerundet)
 
 ```eval_rst
-+----+----------------------+-------------------------------------------+-------------------+-----------------------------+-----------------------+--------------------------+-------------------------------+
++----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
 | Nr | Titel                | Beschreibung                              | Schadenspotenzial | Eintrittswahrschein- | Gewichteter   | Vorbeugung               | Verhalten beim Eintreten      |
-|                           |                                           |     [1-3] Stunden | lichkeit       [1-3] | Schaden**     |                          |                               |
-|                           |                                           |                   |                      | [1-9] Stunden |                          |                               |
+|    |                      |                                           |     [1-3] Stunden | lichkeit       [1-3] | Schaden**     |                          |                               |
+|    |                      |                                           |                   |                      | [1-9] Stunden |                          |                               |
 +====+======================+===========================================+===================+======================+===============+==========================+===============================+
 | R1 | Internetausfall      | Durch die Coronapandemie müssen alle      |                 1 |                    2 |             2 | Dokumentation relevanter | Meetingprotokoll lesen        |
 |    |                      | Besprechungen online durchgeführt werden. |                   |                      |               | Inhalte während          |                               |
