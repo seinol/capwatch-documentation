@@ -420,6 +420,11 @@ werden.
 | HTML / CSS         | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) |
 | TypeScript         | [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html) |
 
+##### Abweichungen von Grundlage - .NET
+
+* Wir verwenden nicht die Standard Code Editor Einstellungen von Visual Studio, sondern diejenigen aus dem Einstellungs-Backup *Exported-2021-02-04.vssettings*
+* Wir verwenden LINQ ausschliesslich in der Methoden-Syntax
+
 #### Software-Engineering Prinzipien
 
 Um Maintainability und Qualität der Code Basis zu gewährleisten werden gängige Software-Engineering Prinzipien stets
