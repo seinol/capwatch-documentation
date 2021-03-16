@@ -19,7 +19,7 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 - Projekt: CapWatch
 - Erstellt am: 02.03.2021
 - Autor: Christoph Scheiwiller
-- Gewichteter Schaden Projekt: *29 Stunden*
+- Gewichteter Schaden Projekt: *31 Stunden*
 - Durchschnitt Schadenspotenzial: *4 Stunden**
 
 ```eval_rst
@@ -61,7 +61,11 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 |    |                      | unbestimmte Zeit aus.                     |                   |                      |               |                          | Teammitglieder verteilen oder |    
 |    |                      |                                           |                   |                      |               |                          | Sprint Umfang kürzen.         |
 +----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
-|    |                      |                                           |                   |                Summe |            29 |                          |                               |
+| R9 | Ausfall der von der  | Die durch die Ost bereitgestellte         |                 3 |                    1 |             3 | Spiegeln des Repository  | Wechsel auf das Github        |
+|    | Ost bereitgestellten | Infrastruktur (z.B. Gitlab) fällt aus und |                   |                      |               | auf Github               | Repository                    |    
+|    | Infrastruktur        | es kommt zu Datenverlust.                 |                   |                      |               |                          |                               |
++----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
+|    |                      |                                           |                   |                Summe |            31 |                          |                               |
 +----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
 ```
 **Durchschnitt Schadenspotenzial (Gerundet) = Gewichteter Schaden Projekt / Anzahl Risiken* \
