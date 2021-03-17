@@ -123,7 +123,7 @@ Für das Minimal Viable Product sind die MUSS-Anforderungen relevant. Falls Kapa
 
 ### Threat Model nach OWASP
 
-![threat_model_diagram](..\..\images\threat_model_diagram.png)
+![threat_model_diagram](../../images/threat_model_diagram.png)
 
 
 
