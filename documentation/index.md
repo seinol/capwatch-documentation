@@ -10,6 +10,7 @@
     projektplan/risikoanalyse.md
     analyse/anforderungsspezifikation.md
     analyse/domainanalyse.md
+    analyse/api-documentation.md
     design/softwarearchitektur.md
     qualitaetsmanagement/qualitaetssicherung.md
     qualitaetsmanagement/systemtestspezifikation.md
