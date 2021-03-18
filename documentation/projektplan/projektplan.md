@@ -442,7 +442,7 @@ werden.
 ###### React + Typescript und JSX
 
 * Wir verwenden die Standard IDE Einstellungen von JetBrains Webstorm (auch die Standardformatierung)
-* Bei React, zusammen mit TypeScript, haben wir keine spezifischen Abweichungen der Cheatsheets vordefiniert
+* Bei React, zusammen mit TypeScript, haben wir keine spezifischen Abweichungen von den Cheatsheets definiert
 * Bei JSX haben wir keine spezifischen Abweichungen von der offiziellen React JSX Dokumentation vordefiniert
 
 #### Software-Engineering Prinzipien
