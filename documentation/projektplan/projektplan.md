@@ -285,7 +285,7 @@ Um zu verhindern, dass unsere Scrum-Events zeitlich aus dem Ruder laufen, haben 
 +======================+======================+======================+
 | Sprint Planning      | 1 Stunde             | -                    |
 +----------------------+----------------------+----------------------+
-| Sprint Review        | 45 Minuten           | variabel, wird evtl. |
+| Sprint Review        | 1 Stunde             | variabel, wird evtl. |
 |                      |                      | nochmals angepasst   |
 +----------------------+----------------------+----------------------+
 | Sprint Retrospektive | 30 Minuten           | variabel, wird evtl. |
@@ -433,7 +433,12 @@ werden.
 
 ###### .Net
 
-* Wir verwenden nicht die Standard IDE Einstellungen von Microsoft Visual Studio, sondern diejenigen aus dem Einstellungs-Backup *Exported-2021-02-04.vssettings*
+* Wir verwenden nicht die Standard IDE Einstellungen von Microsoft Visual Studio, sondern diejenigen aus dem Einstellungs-Backup  
+
+```
+Exported-2021-02-04.vssettings
+```
+
 * Wir verwenden LINQ ausschliesslich in der Methoden-Syntax
 
 ###### HTML / CSS
