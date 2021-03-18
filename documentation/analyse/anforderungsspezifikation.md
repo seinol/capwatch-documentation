@@ -141,7 +141,7 @@ Da wir aktuell noch keine Anhaltspunkte haben, werden grobe Schätzungen gemacht
 - **Änderbarkeit**
 
   - **Analysierbarkeit:** Ein mit dem Projekt nicht vertrauter Entwickler sollte bei einem einfach Problem innerhalb von 15min die betroffene Codestelle gefunden haben. 
-  - **Modifizierbarkeit:** Der Zeitaufwand für kleine Verbesserungen oder Anpassungen an Umgebungsänderungen sollte unter einer Stunde sein.
+  - **Modifizierbarkeit:** Der Zeitaufwand für kleine Verbesserungen oder Anpassungen an Umgebungsänderungen sollte tief sein.
   - **Stabilität:** Unser Produkt ist unter einer Last von 100 Anfragen pro Sekunde noch schnell genug, dass man aus Kundensicht keine Einschränkungen bemerkt.
   
 - **Benutzbarkeit:**
