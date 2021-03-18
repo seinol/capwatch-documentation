@@ -432,7 +432,7 @@ werden.
 ###### HTML / CSS
 
 * Wir verwenden die Standard IDE Einstellungen von JetBrains Webstorm (auch die Standardformatierung)
-* Bei HTML und CSS haben wir keine spezifischen Abweichungen der Code Guidelines vordefiniert
+* Bei HTML und CSS haben wir keine spezifischen Abweichungen von den Code Guidelines definiert
 
 ###### TypeScript
 
