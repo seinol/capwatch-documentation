@@ -21,10 +21,11 @@ Pflichtfelder: *name*, *street*, *zipCode*, *city*, *maxCapacity*
 ```json
 {
 	"name": "<Name>",
+	"type": "<Typ>",
 	"street": "<Strasse, Nr>"
 	"zipCode": "<Postleitzahl>",
 	"city": "<Ort>",
-	"maxCapacity": "<Maximale Anzahl Besucher>",
+	"maxCapacity": <Maximale Anzahl Besucher>,
 	"logo": "<Logo>"
 }
 ```
@@ -63,11 +64,12 @@ Pflichtfelder: *secret*, *currentCapacity*
 {
 	"secret": "<GUID>",
 	"name": "<Name>",
+	"type": "<Typ>",
 	"zipCode": "<Postleitzahl>",
 	"city": "<Ort>"
-	"maxCapacity": "<Maximale Anzahl Besucher>",
+	"maxCapacity": <Maximale Anzahl Besucher>,
 	"logo": "<Logo>",
-	"currentCapacity": "<Aktuelle Anzahl Besucher>"
+	"currentCapacity": <Aktuelle Anzahl Besucher>
 }
 ```
 
@@ -99,8 +101,9 @@ Status Code: 2xx
 		{
 			"id": <ID>,
 			"name": "<Name>",
-			"maxCapacity": "<Maximale Anzahl Besucher>",
-			"currentCapacity": "<Aktuelle Anzahl Besucher>"
+			"type": "<Typ>",
+			"maxCapacity": <Maximale Anzahl Besucher>,
+			"currentCapacity": <Aktuelle Anzahl Besucher>
 		}
 	],
 	"links": {
@@ -129,11 +132,12 @@ Lädt die Detailinformationen für ein Geschäft, inklusive der aktuellen Auslas
 	"data": {
 			"id": <ID>,
 			"name": "<Name>",
+			"type": "<Typ>",
 			"zipCode": "<Postleitzahl>",
 			"city": "<Ort>",
-			"maxCapacity": "<Maximale Anzahl Besucher>",
+			"maxCapacity": <Maximale Anzahl Besucher>,
 			"logo": "<Logo>",
-			"currentCapacity": "<Aktuelle Anzahl Besucher>"
+			"currentCapacity": <Aktuelle Anzahl Besucher>
 	},
 	"links": {
 		"refresh": "/stores/{id}"
