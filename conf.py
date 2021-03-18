@@ -107,7 +107,7 @@ extensions = [
     'plantweb.directive',
     'plantweb.commonmark',
     'sphinxcontrib.rsvgconverter',
-    'sphinx.ext.imgconverter',
+#    'sphinx.ext.imgconverter',
 ]
 
 #### Spelling ################################################################
