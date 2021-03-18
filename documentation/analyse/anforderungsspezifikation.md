@@ -4,11 +4,11 @@
 
 ### Zweck
 
-Dieses Dokument gibt einen groben Überblick über das Produkt CapWatch, sowie die geplanten Anforderungen, die es erfüllen muss und solche die optional noch umgesetzt werden können.
+Dieses Dokument gibt einen groben Überblick über das Produkt CapWatch, sowie die geplanten Anforderungen die es erfüllen muss und solche die optional noch umgesetzt werden können.
 
 ### Gültigkeitsbereich
 
-Dieses Dokument ist gültig für das Engineering Projekt im Frühlingssemester 2021 an der Fachhochschule OST. Es ist für die Stakeholder dieses Projektes ausgelegt. Dazu gehören die Betreuer, sowie die Entwickler.
+Dieses Dokument ist gültig für das Engineering Projekt im Frühlingssemester 2021 an der Fachhochschule OST. Es ist für die Betreuer und Entwickler dieses Projektes ausgelegt.
 
 ### Referenzen
 
@@ -24,11 +24,11 @@ Im Abschnitt "Allgemeine Beschreibung" werden allgemeine Informationen zum Produ
 
 ### Produkt Perspektive
 
-Im Zuge der Corona Pandemie ist es plötzlich an sehr vielen Orten zu Einschränkungen der erlaubten Anzahl Personen innerhalb eines definierten Bereichs gekommen. Das führte dazu, dass man einkaufen gehen wollte und die Ampel auf Rot war und man somit gezwungen war zu warten. Dieses Problem kann gemindert werden, indem man sich zuhause im Voraus darüber informieren kann ob es ein guter Zeitpunkt ist, jetzt einkaufen zu gehen. Da die Systeme zur Personenzählung nun fest installiert sind, ist es gut möglich, dass sie auch in Zukunft bleiben werden.  Hier setzt unser Produkt an, indem es die ganzen gesammelten Daten konsolidiert und auf einer einfachen Benutzeroberfläche abrufbar macht. Dies hilft sowohl den Firmen wie auch den Kunden. 
+Im Zuge der Corona Pandemie ist es plötzlich an sehr vielen Orten zu Einschränkungen der erlaubten Anzahl Personen innerhalb eines definierten Bereichs gekommen. Das führte dazu, dass man einkaufen gehen wollte und die Eintrittsbegrenzungssystem auf Rot war. Dadurch war man gezwungen zu warten und hat Zeit verloren. Dieses Problem kann gemindert werden, indem man sich zuhause im Voraus darüber informieren kann ob es ein guter Zeitpunkt ist, jetzt einkaufen zu gehen. Da die Systeme zur Personenzählung nun fest installiert sind, ist es gut möglich, dass sie auch in Zukunft bleiben werden.  Hier setzt unser Produkt an, indem es die ganzen gesammelten Daten konsolidiert und auf einer einfachen Benutzeroberfläche abrufbar macht. Dies hilft sowohl den Firmen wie auch den Kunden. 
 
 ### Produkt Funktion
 
-CapWatch ist dazu da, um als Kunde einen einfachen Überblick zu bekommen wie viele Personen sich aktuell in einem Laden/ Restaurant/ Sauna aufhalten. Da die Firmen aktuell gezwungen sind, das aktuelle Besucheraufkommen zu erfassen und zu steuern, wollen wir diese Daten bündeln und somit den Kunden die Möglichkeit geben, das eigene Verhalten anzupassen und so unnötige Wartezeiten zu vermeiden.
+CapWatch ist dazu da, um als Kunde einen einfachen Überblick zu bekommen wie viele sich Personen aktuell in einem Laden/ Restaurant/ Sauna aufhalten. Da die Firmen aktuell gezwungen sind, das aktuelle Besucheraufkommen zu erfassen und zu steuern, wollen wir diese Daten bündeln und somit den Kunden die Möglichkeit geben das eigene Verhalten anzupassen und so unnötige Wartezeiten zu vermeiden.
 
 ### Benutzer Charakteristik
 
@@ -36,7 +36,7 @@ Jede Person die eine Einrichtung mit Personenbeschränkung besuchen möchte und 
 
 ### Einschränkungen
 
-In der Grundausführung ist unser Produkt nur eine Zusammenfassung der vorhandenen Daten, welche in einer Übersicht angezeigt werden können. Es werden keine Informationen gesammelt und es sind jeweils nur die aktuellsten Daten verfügbar.
+In der Grundausführung ist unser Produkt nur eine Zusammenfassung der vorhandenen Daten, welche in einer Übersicht angezeigt werden können. Die von den Firmen Angelieferten Daten werden nicht ausgewertet. Es sind jeweils nur die aktuellsten Daten einsehbar. Bei den Kunden werden die Favoriten lokal im Browser gespeichert.
 
 ### Annahmen
 
@@ -65,7 +65,7 @@ Wir haben uns aufgrund des einfachen Geschäftsfalles dagegen entschieden Use Ca
 +-----------------+-----------+--------------------------------------+
 | AL-2            | KANN      | Der Anlieferer muss sich per Request |
 |                 |           | registrieren können, indem er        |
-|                 |           | Firmenname, Ortschaft und ein Logo |
+|                 |           | Firmenname, Ortschaft und ein Logo   |
 |                 |           | als Attachment mitschickt. Er erhält |
 |                 |           | als Antwort einen Token oder eine    |
 |                 |           | Fehlermeldung.                       |
@@ -117,7 +117,7 @@ Wir haben uns aufgrund des einfachen Geschäftsfalles dagegen entschieden Use Ca
 +-----------------+-----------+--------------------------------------+
 ```
 
-Für das Minimal Viable Product sind die MUSS-Anforderungen relevant. Falls Kapazität vorhanden ist, können aber auch noch KANN-Anforderungen umgesetzt werden.
+Für das Minimal Viable Product sind die MUSS-Anforderungen relevant. Falls Kapazität vorhanden ist, können aber auch noch KANN-Anforderungen umgesetzt werden. Es kann sein, dass nicht alle KANN Anforderungen umgesetzt werden können.
 
 ## Weitere Anforderungen
 
@@ -141,8 +141,8 @@ Da wir aktuell noch keine Anhaltspunkte haben, werden grobe Schätzungen gemacht
 - **Änderbarkeit**
 
   - **Analysierbarkeit:** Ein mit dem Projekt nicht vertrauter Entwickler sollte bei einem einfach Problem innerhalb von 15min die betroffene Codestelle gefunden haben. 
-  - **Modifizierbarkeit:** Der Aufwand für kleine Verbesserungen oder Anpassungen an Umgebungsänderungen sollte klein sein.
-  - **Stabilität:** Unser Produkt ist unter einer Last von 100 Anfragen pro Sekunde noch erreichbar.
+  - **Modifizierbarkeit:** Der Zeitaufwand für kleine Verbesserungen oder Anpassungen an Umgebungsänderungen sollte unter einer Stunde sein.
+  - **Stabilität:** Unser Produkt ist unter einer Last von 100 Anfragen pro Sekunde noch schnell genug, dass man aus Kundensicht keine Einschränkungen bemerkt.
   
 - **Benutzbarkeit:**
 
