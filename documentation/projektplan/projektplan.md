@@ -435,9 +435,6 @@ werden.
 
 * Wir verwenden nicht die Standard IDE Einstellungen von Microsoft Visual Studio, sondern diejenigen aus dem Einstellungs-Backup  
 
-```
-Exported-2021-02-04.vssettings
-```
 
 * Wir verwenden LINQ ausschliesslich in der Methoden-Syntax
 
