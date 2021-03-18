@@ -4,7 +4,7 @@
 
 ### Zweck
 
-Dieses Dokument gibt einen groben Überblick über das Produkt CapWatch sowie die geplanten Anforderungen die es erfüllen muss und solche die optional noch umgesetzt werden können.
+Dieses Dokument gibt einen groben Überblick über das Produkt CapWatch, sowie die geplanten Anforderungen, die es erfüllen muss und solche die optional noch umgesetzt werden können.
 
 ### Gültigkeitsbereich
 
@@ -28,7 +28,7 @@ Im Zuge der Corona Pandemie ist es plötzlich an sehr vielen Orten zu Einschrän
 
 ### Produkt Funktion
 
-CapWatch ist dazu da, um als Kunde einen einfach Überblick zu bekommen wie viele Personen aktuell in einem Laden/ Restaurant/ Sauna vorhanden sind. Da die Firmen aktuell gezwungen sind, das aktuelle Besucheraufkommen zu erfassen und zu steuern, wollen wir diese Daten bündeln und somit den Kunden die Möglichkeit geben das eigene Verhalten anzupassen und so unnötige Wartezeiten zu vermeiden.
+CapWatch ist dazu da, um als Kunde einen einfachen Überblick zu bekommen wie viele Personen sich aktuell in einem Laden/ Restaurant/ Sauna aufhalten. Da die Firmen aktuell gezwungen sind, das aktuelle Besucheraufkommen zu erfassen und zu steuern, wollen wir diese Daten bündeln und somit den Kunden die Möglichkeit geben, das eigene Verhalten anzupassen und so unnötige Wartezeiten zu vermeiden.
 
 ### Benutzer Charakteristik
 
@@ -48,7 +48,7 @@ Wir sind von Firmen abhängig, die uns aktuelle Daten liefern wollen und können
 
 ## Funktionale Anforderungen
 
-Wir haben uns aufgrund des einfachen Geschäftsfalles dagegen entschieden Use Cases einzusetzen, da diese einen ziemlichen Mehraufwand mit sich bringen. Wir setzen dafür auf einen schlanken Mix aus User Story und MUSS/KANN Anforderungen.
+Wir haben uns aufgrund des einfachen Geschäftsfalles dagegen entschieden Use Cases einzusetzen, da diese einen ziemlichen Mehraufwand mit sich bringen würden. Wir setzen dafür auf einen schlanken Mix aus User Story und MUSS/KANN Anforderungen.
 
 ### Anlieferer / Anbieter
 
@@ -65,8 +65,8 @@ Wir haben uns aufgrund des einfachen Geschäftsfalles dagegen entschieden Use Ca
 +-----------------+-----------+--------------------------------------+
 | AL-2            | KANN      | Der Anlieferer muss sich per Request |
 |                 |           | registrieren können, indem er        |
-|                 |           | Firmenname, Ortschaft und einem Logo |
-|                 |           | als Attachment mit sendet. Er erhält |
+|                 |           | Firmenname, Ortschaft und ein Logo |
+|                 |           | als Attachment mitschickt. Er erhält |
 |                 |           | als Antwort einen Token oder eine    |
 |                 |           | Fehlermeldung.                       |
 +-----------------+-----------+--------------------------------------+
@@ -117,7 +117,7 @@ Wir haben uns aufgrund des einfachen Geschäftsfalles dagegen entschieden Use Ca
 +-----------------+-----------+--------------------------------------+
 ```
 
-Für das Minimal Viable Product sind die MUSS-Anforderungen relevant. Falls Kapazität vorhanden ist, können aber auch schon KANN-Anforderungen umgesetzt werden.
+Für das Minimal Viable Product sind die MUSS-Anforderungen relevant. Falls Kapazität vorhanden ist, können aber auch noch KANN-Anforderungen umgesetzt werden.
 
 ## Weitere Anforderungen
 
@@ -127,22 +127,22 @@ Für das Minimal Viable Product sind die MUSS-Anforderungen relevant. Falls Kapa
 
 
 
-Um unser Produkt bestmöglich gegen die Gefahren von aussen abzusichern erstellen wir ein Threat Model. Dieses wird laufend aktualisiert. Hierzu machen wir uns Gedanken zu folgenden Punkten:
+Um unser Produkt bestmöglich gegen die Gefahren von aussen abzusichern, erstellen wir ein Threat Model. Dieses wird laufend aktualisiert. Hierzu machen wir uns Gedanken zu folgenden Punkten:
 
-- **Was sind unsere Assets:** In unserem MVP sind in unserem System nur Daten vorhanden die uneingeschränkt über unsere Webseite einsehbar sind. In der Datenbank sind nur regelmässigen Einträge mit Timestamp, Anzahl Personen  und maximal Erlaubter Anzahl Personen vorhanden. Diese Metriken sind völlig anonym und werden als Zahlen angeliefert, Rückschlüsse auf einzelne Personen sind unmöglich. Zusätzlich speichern wir noch die Token der Firmen, die uns Daten anliefern. Diese Daten sind schützenswert, da es als Angreifer mit dem Token möglich ist unser System zu überlasten. In der späteren Ausbaustufe, in der wir Kundendaten erfassen und speichern, ist die Datenbank mit Kundendaten ein wichtiges Asset.
-- **Threat Agents und mögliche Angriffe:** Interne Angriffe können die Kundendaten abgreifen um die gespeicherten E-Mailadressen weiterzuverwenden. Dies ist möglich über einen Zugriff der Kundendatenbank, die nicht genügend gut per Zugriffsrechte abgesichert ist. Ein externer Angreifer, welcher eine Organisierte Verbrecherbande oder ein einzelner Hacker sein kann, müsste sich die Zugangsdaten der Datenbank beschaffen um direkt darauf zuzugreifen oder er schafft es über die API an mehr Daten als vorgesehen zu kommen.
+- **Was sind unsere Assets:** In unserem MVP sind in unserem System nur Daten vorhanden die uneingeschränkt über unsere Webseite einsehbar sind. In der Datenbank sind nur regelmässigen Einträge mit Timestamp, Anzahl Personen  und maximal Erlaubter Anzahl Personen vorhanden. Diese Metriken sind völlig anonym und werden als Zahlen angeliefert, Rückschlüsse auf einzelne Personen sind unmöglich. Zusätzlich speichern wir noch die Token der Firmen, die uns Daten anliefern. Diese Daten sind schützenswert, da es als Angreifer mit dem Token möglich wäre unser System zu überlasten. In der späteren Ausbaustufe, in der wir Kundendaten erfassen und speichern, ist die Datenbank mit Kundendaten ein wichtiges Asset.
+- **Threat Agents und mögliche Angriffe:** Interne Angriffe können die Kundendaten abgreifen um die gespeicherten E-Mailadressen weiterzuverwenden. Dies wäre möglich über einen Zugriff der Kundendatenbank, die nicht genügend gut per Zugriffsrechte abgesichert worden ist. Ein externer Angreifer, welcher eine Organisierte Verbrecherbande oder ein einzelner Hacker sein kann, müsste sich die Zugangsdaten der Datenbank beschaffen um direkt darauf zuzugreifen oder er schafft es über die API an mehr Daten als eigentlich vorgesehen zu kommen.
 - **Mögliche Schwachstellen:** Bei der Entwicklung unseres Produktes können mehrere Schwachstellen entstehen. Dazu gehören unsauber aufgesetzte Berechtigungen, fehlende Inputsäuberung und Inputvalidierung, überdimensionierte Schnittstellen mit zu vielen Feldern sowie schwache Passwörter und fehlende Passwortverwaltung.
 - **Gegenmassnahmen:** Den internen Angriff kann man mit einem Berechtigungsmodell, welches nach dem Prinzip so wenig wie nötig aufgesetzt ist, mitigieren. Den Zugriff auf eine Kundendatenbank wird über einen Supportuser gelöst, welcher nur mit Begründung und Dokumentation der Tätigkeiten benutzt werden kann. Um die externen Angriffe zu erschweren kommen sichere Passwörter und klar definierte Schnittstellen zum Einsatz. Die Schnittstellen dürfen nur die klar definierten Felder verwenden und der Inhalt der Anfragen wird vor der Verarbeitung gesäubert um unerwünschte Effekte zu vermeiden.
 
 ### Qualitätsmerkmale
 
-Da wir aktuell noch keine Anhaltspunkte haben, werden grobe Schätzungen gemacht. Wenn wir mehr Informationen haben, werden die Werte angepasst.
+Da wir aktuell noch keine Anhaltspunkte haben, werden grobe Schätzungen gemacht. Wenn wir mehr Informationen haben, werden die Werte noch angepasst.
 
 - **Änderbarkeit**
 
   - **Analysierbarkeit:** Ein mit dem Projekt nicht vertrauter Entwickler sollte bei einem einfach Problem innerhalb von 15min die betroffene Codestelle gefunden haben. 
   - **Modifizierbarkeit:** Der Aufwand für kleine Verbesserungen oder Anpassungen an Umgebungsänderungen sollte klein sein.
-  - **Stabilität:** Unser Produkt ist unter einer Last von 100 Anfragen noch erreichbar.
+  - **Stabilität:** Unser Produkt ist unter einer Last von 100 Anfragen pro Sekunde noch erreichbar.
   
 - **Benutzbarkeit:**
 
