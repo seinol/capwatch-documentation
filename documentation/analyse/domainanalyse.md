@@ -25,7 +25,7 @@ Da C# bereits als Backendtechnologie festgelegt wurde, werden im Domain Model be
 
 ### Wichtige Konzepte
 
-####Shop
+#### Shop
 Shop ist die einzige Klasse, welche für den MVP relevant ist. In dieser Klasse sind Name, Adresse und Logo enthalten, sowie die aktuelle/maximale Auslastung. Die Applikation unterstützt nur Shops in der Schweiz.
 
 #### Consumer
@@ -34,7 +34,7 @@ Die Klasse Consumer wird für den Login und das Speichern von Favoriten des Kons
 #### CapacityHistory
 Um die erwartete Auslastung zu berechnen, wird die Auslastung mit einem Zeitstempel als History abgelegt, um damit die durchschnittliche Auslastung zu berechnen.  
 
-####Reservation
+#### Reservation
 Der Konsument kann sich bei einem Shop einen Timeslot reservieren und erhält dafür eine Reservations-ID.
 
 ## Systemsequenzdiagramme
