@@ -156,7 +156,7 @@ Da wir aktuell noch keine Anhaltspunkte haben, werden grobe Schätzungen gemacht
 - **Effizienz**
 
   - **Zeitverhalten:** Der Kunde soll innerhalb von einer Sekunde das Resultat einer Abfrage zur Verfügung haben.
-  - **Verbrauchsverhalten:** Unser Produkt kann mit 100 Requests pro Sekunde umgehen.
+  - **Verbrauchsverhalten:** Unser Produkt läuft bei 100 Requests pro Sekunde immer noch flüssig.
 
 - **Funktionalität**
 
@@ -171,7 +171,7 @@ Da wir aktuell noch keine Anhaltspunkte haben, werden grobe Schätzungen gemacht
 
 ### Schnittstellen
 
-Gibt noch ein Dokument mit API-Beschreibung
+Im Dokument api-documentation.md gibt es noch eine genaue Beschreibung der Schnittstellen.
 
 - **Webapplikation**
   - Schnittstelle zu Backend um Besucherdaten abzufragen (1. Schritt)
@@ -187,6 +187,6 @@ Gibt noch ein Dokument mit API-Beschreibung
 
 ### Randbedingungen
 
-Wir sind abhängig von der Serverinfrastruktur der Ost. Wir haben keinen Einfluss darauf und vertrauen darauf, dass sie uns zur Verfügung steht.
+Wir sind abhängig von der Serverinfrastruktur der Ost. Wir haben keinen Einfluss darauf und vertrauen darauf, dass sie uns ohne längere Unterbrüche und vor allem bei der Präsentation zur Verfügung steht.
 
 Ansonsten gibt es keine Randbedingungen.
