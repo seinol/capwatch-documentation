@@ -8,7 +8,7 @@ Dieses Projekt gibt eine Übersicht über die Domain des Projektes CapWatch.
 
 ### Gültigkeitsbereich
 
-Dieses Dokument ist für die Stakeholder dieses Projektes. Dazu gehören die Betreuer, sowie die Entwickler. Es wurde im Rahmen des Engineering Projekts der Fachhochschule Ost erstellt.
+Dieses Dokument ist für die Stakeholder dieses Projektes, sowie die Entwickler erstellt worden. Es wurde im Rahmen des Engineering Projekts der Fachhochschule Ost erarbeitet.
 
 ### Übersicht
 
@@ -21,10 +21,12 @@ Dieses Dokument ist für die Stakeholder dieses Projektes. Dazu gehören die Bet
 
 ![domain-model](/images/domain-model.png)
 
+Da C# bereits als Backendtechnologie festgelegt wurde, werden im Domain Model bereits Technologie spezifische Datentypen verwendet.
+
 ### Wichtige Konzepte
 
 ####Shop
-Shop ist die einzige Klasse welche für den MVP relevant ist. In dieser Klasse sind Name, Adresse und Logo enthalten, sowie die aktuelle/maximale Auslastung. Die Applikation unterstützt nur Shops in der Schweiz.
+Shop ist die einzige Klasse, welche für den MVP relevant ist. In dieser Klasse sind Name, Adresse und Logo enthalten, sowie die aktuelle/maximale Auslastung. Die Applikation unterstützt nur Shops in der Schweiz.
 
 #### Consumer
 Die Klasse Consumer wird für den Login und das Speichern von Favoriten des Konsumenten verwendet.
@@ -36,6 +38,8 @@ Um die erwartete Auslastung zu berechnen, wird die Auslastung mit einem Zeitstem
 Der Konsument kann sich bei einem Shop einen Timeslot reservieren und erhält dafür eine Reservations-ID.
 
 ## Systemsequenzdiagramme
+
+Es wurden nur die Sequenzdiagramme für den MVP erstellt, wenn notwendig werden weitere vor der Umsetzung eines Features designt.
 
 ### Datenalieferung Shop
 Der Shop liefert Daten zur aktuellen Auslastung an CapWatch.\
