@@ -24,11 +24,11 @@ Im Abschnitt "Allgemeine Beschreibung" werden allgemeine Informationen zum Produ
 
 ### Produkt Perspektive
 
-Im Zuge der Corona Pandemie ist es plötzlich an sehr vielen Orten zu Einschränkungen der erlaubten Anzahl Personen innerhalb eines definierten Bereichs gekommen. Das führte dazu, dass man einkaufen gehen wollte und die Eintrittsbegrenzungssystem auf Rot war. Dadurch war man gezwungen zu warten und hat Zeit verloren. Dieses Problem kann gemindert werden, indem man sich zuhause im Voraus darüber informieren kann ob es ein guter Zeitpunkt ist, jetzt einkaufen zu gehen. Da die Systeme zur Personenzählung nun fest installiert sind, ist es gut möglich, dass sie auch in Zukunft bleiben werden.  Hier setzt unser Produkt an, indem es die ganzen gesammelten Daten konsolidiert und auf einer einfachen Benutzeroberfläche abrufbar macht. Dies hilft sowohl den Firmen wie auch den Kunden. 
+Im Zuge der Corona Pandemie ist es plötzlich an sehr vielen Orten zu Einschränkungen der erlaubten Anzahl Personen innerhalb eines definierten Bereichs gekommen. Das führte dazu, dass man einkaufen gehen wollte und die Eintrittsbegrenzungssystem auf Rot war. Dadurch war man gezwungen zu warten und hat Zeit verloren. Dieses Problem kann gemindert werden, indem man sich zuhause im Voraus darüber informieren kann, ob es gerade ein guter Zeitpunkt ist, jetzt einkaufen zu gehen. Da die Systeme zur Personenzählung nun fest installiert sind, ist es gut möglich, dass sie auch in Zukunft bleiben werden.  Hier setzt unser Produkt an, indem es die ganzen gesammelten Daten konsolidiert und auf einer einfachen Benutzeroberfläche abrufbar macht. Dies hilft sowohl den Firmen wie auch den Kunden. 
 
 ### Produkt Funktion
 
-CapWatch ist dazu da, um als Kunde einen einfachen Überblick zu bekommen wie viele sich Personen aktuell in einem Laden/ Restaurant/ Sauna aufhalten. Da die Firmen aktuell gezwungen sind, das aktuelle Besucheraufkommen zu erfassen und zu steuern, wollen wir diese Daten bündeln und somit den Kunden die Möglichkeit geben das eigene Verhalten anzupassen und so unnötige Wartezeiten zu vermeiden.
+CapWatch ist dazu da, um als Kunde einen einfachen Überblick zu bekommen wie viele sich Personen aktuell in einem Laden/ Restaurant/ Sauna aufhalten. Da die Firmen aktuell gezwungen sind, das aktuelle Besucheraufkommen zu erfassen und zu steuern, wollen wir diese Daten bündeln und somit den Kunden die Möglichkeit geben, das eigene Verhalten anzupassen und so unnötige Wartezeiten zu vermeiden.
 
 ### Benutzer Charakteristik
 
@@ -36,7 +36,7 @@ Jede Person die eine Einrichtung mit Personenbeschränkung besuchen möchte und 
 
 ### Einschränkungen
 
-In der Grundausführung ist unser Produkt nur eine Zusammenfassung der vorhandenen Daten, welche in einer Übersicht angezeigt werden können. Die von den Firmen Angelieferten Daten werden nicht ausgewertet. Es sind jeweils nur die aktuellsten Daten einsehbar. Bei den Kunden werden die Favoriten lokal im Browser gespeichert.
+In der Grundausführung ist unser Produkt nur eine Zusammenfassung der vorhandenen Daten, welche in einer Übersicht angezeigt werden können. Die von den Firmen angelieferten Daten werden nicht ausgewertet. Es sind jeweils nur die aktuellsten Daten einsehbar. Bei den Kunden werden die Favoriten lokal im Browser gespeichert.
 
 ### Annahmen
 
@@ -48,7 +48,7 @@ Wir sind von Firmen abhängig, die uns aktuelle Daten liefern wollen und können
 
 ## Funktionale Anforderungen
 
-Wir haben uns aufgrund des einfachen Geschäftsfalles dagegen entschieden Use Cases einzusetzen, da diese einen ziemlichen Mehraufwand mit sich bringen würden. Wir setzen dafür auf einen schlanken Mix aus User Story und MUSS/KANN Anforderungen.
+Wir haben uns aufgrund des einfachen Geschäftsfalles dagegen entschieden Use Cases einzusetzen, da diese einen ziemlichen Mehraufwand mit sich bringen würden. Wir setzen dafür auf einen schlanken Mix aus User Stories und MUSS/KANN Anforderungen.
 
 ### Anlieferer / Anbieter
 
@@ -146,7 +146,7 @@ Da wir aktuell noch keine Anhaltspunkte haben, werden grobe Schätzungen gemacht
   
 - **Benutzbarkeit:**
 
-  Die Benutzbarkeit messen wir mit Benutzerumfragen wobei wir eine Durchschnittliche Bewertung von 4 von 5 Sternen erreichen wollen. Gemessene Kriterien sind:
+  Die Benutzbarkeit messen wir mit Benutzerumfragen wobei wir eine durchschnittliche Bewertung von 4 von 5 Sternen erreichen wollen. Gemessene Kriterien sind:
 
   - Attraktivität 
   - Bedienbarkeit
