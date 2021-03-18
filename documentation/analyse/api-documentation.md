@@ -10,7 +10,7 @@
 +--------------+----------------+
 | HTTP Methode | URI            |
 +==============+================+
-| POST         | /shops         |
+| POST         | /stores        |
 +--------------+----------------+
 ```
 
@@ -24,7 +24,8 @@ Pflichtfelder: *name*, *street*, *zipCode*, *city*, *maxCapacity*
 	"street": "<Strasse, Nr>"
 	"zipCode": "<Postleitzahl>",
 	"city": "<Ort>",
-	"maxCapacity": "<Maximale Anzahl Besucher>"
+	"maxCapacity": "<Maximale Anzahl Besucher>",
+	"logo": "<Logo>"
 }
 ```
 
@@ -33,11 +34,11 @@ Pflichtfelder: *name*, *street*, *zipCode*, *city*, *maxCapacity*
 ```json
 {
 	"data": {
-		"shopId": <Shop ID>,
-		"shopSecret": "<GUID>"
+		"id": <ID>,
+		"secret": "<GUID>"
 	},
 	"links": {
-		"update": "/shops/{id}"
+		"update": "/stores/{id}"
 	}
 }
 ```
@@ -50,30 +51,22 @@ Diese API dient hauptsächlich dazu die aktuelle Anzahl Besucher zu melden, kann
 +--------------+----------------+
 | HTTP Methode | URI            |
 +==============+================+
-| PUT          | /shops/{id}    |
+| PUT          | /stores/{id}   |
 +--------------+----------------+
-```
-
-#### Header Parameter
-
-```eval_rst
-+--------------+-------------------------+
-| Parameter    | Beschreibung            |
-+==============+=========================+
-| shop_secret  | GUID zur Authorisierung |
-+--------------+-------------------------+
 ```
 
 #### Body Parameter
 
-Pflicht-Felder: *currentCapacity*
+Pflichtfelder: *secret*, *currentCapacity*
 
 ```json
 {
+	"secret": "<GUID>",
 	"name": "<Name>",
 	"zipCode": "<Postleitzahl>",
 	"city": "<Ort>"
 	"maxCapacity": "<Maximale Anzahl Besucher>",
+	"logo": "<Logo>",
 	"currentCapacity": "<Aktuelle Anzahl Besucher>"
 }
 ```
@@ -81,7 +74,7 @@ Pflicht-Felder: *currentCapacity*
 #### Rückgabe
 
 ```
-Status Code: 200
+Status Code: 2xx
 ```
 
 ## Konsument
@@ -94,7 +87,7 @@ Status Code: 200
 +--------------+----------------+
 | HTTP Methode | URI            |
 +==============+================+
-| GET          | /shops         |
+| GET          | /stores        |
 +--------------+----------------+
 ```
 
@@ -104,26 +97,28 @@ Status Code: 200
 {
 	"data": [
 		{
-			"shopId": <Shop ID>,
-			"name": "<Name>"
+			"id": <ID>,
+			"name": "<Name>",
+			"maxCapacity": "<Maximale Anzahl Besucher>",
+			"currentCapacity": "<Aktuelle Anzahl Besucher>"
 		}
 	],
 	"links": {
-		"refresh": "/shops",
-		"details": "/shops/{id}"
+		"refresh": "/stores",
+		"details": "/stores/{id}"
 	}
 }
 ```
 
 ### Detailinformationen über ein Geschäft laden
 
-Lädt die Detailinformationen, inklusive aktueller Auslastung, für ein Geschäft.
+Lädt die Detailinformationen für ein Geschäft, inklusive der aktuellen Auslastung.
 
 ```eval_rst
 +--------------+----------------+
 | HTTP Methode | URI            |
 +==============+================+
-| GET          | /shops/{id}    |
+| GET          | /stores/{id}   |
 +--------------+----------------+
 ```
 
@@ -132,15 +127,16 @@ Lädt die Detailinformationen, inklusive aktueller Auslastung, für ein Geschäf
 ```json
 {
 	"data": {
-			"shopId": <Shop ID>,
+			"id": <ID>,
 			"name": "<Name>",
 			"zipCode": "<Postleitzahl>",
 			"city": "<Ort>",
 			"maxCapacity": "<Maximale Anzahl Besucher>",
+			"logo": "<Logo>",
 			"currentCapacity": "<Aktuelle Anzahl Besucher>"
 	},
 	"links": {
-		"refresh": "/shops/{id}"
+		"refresh": "/stores/{id}"
 	}
 }
 ```
