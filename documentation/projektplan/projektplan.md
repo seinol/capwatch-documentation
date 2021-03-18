@@ -443,7 +443,7 @@ werden.
 
 * Wir verwenden die Standard IDE Einstellungen von JetBrains Webstorm (auch die Standardformatierung)
 * Bei React, zusammen mit TypeScript, haben wir keine spezifischen Abweichungen von den Cheatsheets definiert
-* Bei JSX haben wir keine spezifischen Abweichungen von der offiziellen React JSX Dokumentation vordefiniert
+* Bei JSX haben wir keine spezifischen Abweichungen von der offiziellen React JSX Dokumentation definiert
 
 #### Software-Engineering Prinzipien
 
