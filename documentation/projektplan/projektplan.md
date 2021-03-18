@@ -419,11 +419,31 @@ werden.
 | .NET               | [C# Coding Conventions von Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) |
 | HTML / CSS         | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) |
 | TypeScript         | [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html) |
+| React              | [React + Typescript Cheatsheets](https://github.com/typescript-cheatsheets/react) |
+| JSX                | [React JSX](https://reactjs.org/docs/introducing-jsx.html)
 
-##### Abweichungen von Grundlage - .NET
+##### Abweichungen von den Grundlagen
 
-* Wir verwenden nicht die Standard Code Editor Einstellungen von Visual Studio, sondern diejenigen aus dem Einstellungs-Backup *Exported-2021-02-04.vssettings*
+###### .Net
+
+* Wir verwenden nicht die Standard IDE Einstellungen von Microsoft Visual Studio, sondern diejenigen aus dem Einstellungs-Backup *Exported-2021-02-04.vssettings*
 * Wir verwenden LINQ ausschliesslich in der Methoden-Syntax
+
+###### HTML / CSS
+
+* Wir verwenden die Standard IDE Einstellungen von JetBrains Webstorm (auch die Standardformatierung)
+* Bei HTML und CSS haben wir keine spezifischen Abweichungen von den Code Guidelines definiert
+
+###### TypeScript
+
+* Wir verwenden die Standard IDE Einstellungen von JetBrains Webstorm (auch die Standardformatierung)
+* Bei der Aufsetzung vom Frontend-Repository wird TSLint installiert und konfiguriert
+
+###### React + Typescript und JSX
+
+* Wir verwenden die Standard IDE Einstellungen von JetBrains Webstorm (auch die Standardformatierung)
+* Bei React, zusammen mit TypeScript, haben wir keine spezifischen Abweichungen von den Cheatsheets definiert
+* Bei JSX haben wir keine spezifischen Abweichungen von der offiziellen React JSX Dokumentation definiert
 
 #### Software-Engineering Prinzipien
 
