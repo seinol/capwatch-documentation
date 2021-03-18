@@ -306,10 +306,10 @@ in jedem Sprint vier Stunden als Reserve eingerechnet um sicherstellen zu könne
 
 Risiken welche einen gewichteten Schaden grösser als die geplanten vier Stunden Reserve aufweisen, werden hier nochmals im Detail angeschaut.
 
-R4 Zeitmanagement: Im Sprint Planning sollen Tasks, welche im nächsten Sprint eingeplant wurden, von den Entwicklern
+Ri5 Zeitmanagement: Im Sprint Planning sollen Tasks, welche im nächsten Sprint eingeplant wurden, von den Entwicklern
 ausführlich analysiert und diskutiert werden. Danach wird gemeinsam eine Aufwandsschätzung vorgenommen, um eine zuverlässige Schätzung zu erhalten.
 
-R6 Frontend Technologie: Aktuell ist in der Frontend-Technologie React das Wissen nur von einem einzelnen Teammitglied sichergestellt, wir haben uns aber trotzdem dafür entschieden,
+Ri8 Frontend Technologie: Aktuell ist in der Frontend-Technologie React das Wissen nur von einem einzelnen Teammitglied sichergestellt, wir haben uns aber trotzdem dafür entschieden,
 das Frontend mit React zu implementieren. Um das Risiko zu minimieren, wird von den Teammitgliedern erwartet,
 dass sich jeder in die React Dokumentation einliest, um sich in die Grundlagen einzuarbeiten.
 Zusätzlich wird ein Prototyp in React erstellt, um erste Erfahrungen zu sammeln und Probleme frühzeitig zu erkennen.
