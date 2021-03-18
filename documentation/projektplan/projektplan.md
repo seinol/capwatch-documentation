@@ -309,7 +309,7 @@ Risiken welche einen gewichteten Schaden grösser als die geplanten vier Stunden
 R4 Zeitmanagement: Im Sprint Planning sollen Tasks, welche im nächsten Sprint eingeplant wurden, von den Entwicklern
 ausführlich analysiert und diskutiert werden. Danach wird gemeinsam eine Aufwandsschätzung vorgenommen, um eine zuverlässige Schätzung zu erhalten.
 
-R6 Frontend Technologie: Aktuell ist in der Frontend-Technologie React kaum Wissen vorhanden, wir haben uns aber trotzdem dafür entschieden,
+R6 Frontend Technologie: Aktuell ist in der Frontend-Technologie React das Wissen nur von einem einzelnen Teammitglied sichergestellt, wir haben uns aber trotzdem dafür entschieden,
 das Frontend mit React zu implementieren. Um das Risiko zu minimieren, wird von den Teammitgliedern erwartet,
 dass sich jeder in die React Dokumentation einliest, um sich in die Grundlagen einzuarbeiten.
 Zusätzlich wird ein Prototyp in React erstellt, um erste Erfahrungen zu sammeln und Probleme frühzeitig zu erkennen.
