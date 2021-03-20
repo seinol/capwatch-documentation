@@ -76,4 +76,4 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 Die Risiken sollen nach jedem Sprint überprüft werden.
 
 Risikoüberprüfung durchgeführt:
-- 13.03.2021 (Christoph Scheiwiller) : Risiken ergänzt / neuberechnung Schadenspotenzial
+- 13.03.2021 (Christoph Scheiwiller): Risiken ergänzt / Neuberechnung Schadenspotenzial
