@@ -1,7 +1,7 @@
 # Zeitauswertung
 
 ### Total
-* **total estimate**: 31h
+* **total estimate**: 166h
 * **total spent**: 172h 20m
 
 ### Pro Projektteilnehmer
