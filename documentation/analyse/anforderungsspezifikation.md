@@ -184,6 +184,24 @@ Im Dokument bzw. Bereich "API Dokumentation" gibt es noch eine genaue Beschreibu
 - **Datenbank**
   - Schnittstelle zu Backend um Daten entgegenzunehmen oder zu liefern
 
+### Screendesigns
+
+Wir haben direkt Screendesigns entwickelt, weil ein Grobdesign (z.B. Wireframes) für solch einen kleinen Funktionsumfang nicht optimal ist und nur einen unnötigen Mehraufwand beudeuten würde.
+Unsere Plattform wird Mobile First entwickelt, weil wir viel mehr Benutzer unterwegs bzw. auf ihrem Mobiltelefon erwarten. 
+
+Nur die Startpage auf Mobile ist relevant für das Minimum Viable Product.
+
+#### Mobile / Responsive
+
+![Mobile - Startpage](/images/mobile_startpage.png) \
+![Mobile - Login*](/images/mobile_registration.png) \
+![Mobile - Registration*](/images/mobile_registration.png)
+
+#### Desktop
+
+![Desktop - Startpage](/images/desktop_startpage.png) \
+![Desktop - Login / Registration*](/images/mobile_registration.png) \
+
 ### Randbedingungen
 
 Wir sind abhängig von der Serverinfrastruktur der Ost. Wir haben keinen Einfluss darauf und vertrauen darauf, dass sie uns ohne längere Unterbrüche und vor allem bei der Präsentation zur Verfügung steht.
