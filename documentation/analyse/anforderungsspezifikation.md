@@ -125,8 +125,9 @@ Für das Minimal Viable Product (MVP) sind die MUSS-Anforderungen relevant. Fall
 
 ![threat_model_diagram](../../images/threat_model_diagram.png)
 
+Da wir neben dem Projekt gerade das Modul Secure Software besuchen, haben wir das Threat Model aus der Übung in diese Dokumentation übernommen. Es bietet sich gerade an die Übungen mit unserer Software zu machen.
 
-Um unser Produkt bestmöglich gegen die Gefahren von aussen abzusichern, erstellen wir ein Threat Model. Dieses wird laufend aktualisiert. Hierzu machen wir uns Gedanken zu folgenden Punkten:
+Um unser Produkt bestmöglich gegen die Gefahren von aussen abzusichern, erstellen wir ein Threat Model. Dieses wird laufend aktualisiert und es können laufend neue nicht Funktionale Anforderungen daraus entstehen. Hierzu machen wir uns Gedanken zu folgenden Punkten:
 
 - **Was sind unsere Assets:** In unserem MVP sind in unserem System nur Daten vorhanden die uneingeschränkt über unsere Webseite einsehbar sind. In der Datenbank sind nur regelmässigen Einträge mit Timestamp, Anzahl Personen  und maximal erlaubter Anzahl Personen vorhanden. Diese Metriken sind völlig anonym und werden als Zahlen angeliefert, Rückschlüsse auf einzelne Personen sind unmöglich. Zusätzlich speichern wir noch die Token der Firmen, die uns Daten anliefern. Diese Daten sind schützenswert, da es als Angreifer mit dem Token möglich wäre unser System zu überlasten. In der späteren Ausbaustufe, in der wir Kundendaten erfassen und speichern, ist die Datenbank mit Kundendaten ein wichtiges Asset.
 - **Threat Agents und mögliche Angriffe:** Interne Angriffe können die Kundendaten abgreifen um die gespeicherten E-Mailadressen weiterzuverwenden. Dies wäre möglich über einen Zugriff der Kundendatenbank, die nicht genügend gut per Zugriffsrechte abgesichert worden ist. Ein externer Angreifer, welcher eine Organisierte Verbrecherbande oder ein einzelner Hacker sein kann, müsste sich die Zugangsdaten der Datenbank beschaffen um direkt darauf zuzugreifen oder er schafft es über die API an mehr Daten als eigentlich vorgesehen zu kommen.
@@ -135,38 +136,45 @@ Um unser Produkt bestmöglich gegen die Gefahren von aussen abzusichern, erstell
 
 ### Qualitätsmerkmale
 
-Da wir aktuell noch keine Anhaltspunkte haben, werden grobe Schätzungen gemacht. Wenn wir mehr Informationen haben, werden die Werte noch angepasst.
+Hier werden die Nicht Funktionalen Anforderungen, aufgeteilt in MUSS und KANN Anforderungen, aufgelistet. Die Auflistung ist nicht abschliessend und kann stetig erweitert werden.
 
-- **Änderbarkeit**
-
-  - **Analysierbarkeit:** Ein mit dem Projekt nicht vertrauter, erfahrener Entwickler sollte bei einem einfach Problem innerhalb von 15min die betroffene Codestelle gefunden haben. 
-  - **Modifizierbarkeit:** Der Zeitaufwand für kleine Verbesserungen oder Anpassungen an Umgebungsänderungen sollte tief sein.
-  - **Stabilität:** Unser Produkt ist unter einer Last von 100 Anfragen pro Sekunde noch schnell genug, dass man aus Kundensicht keine Einschränkungen bemerkt.
-  
-- **Benutzbarkeit:**
-
-  Die Benutzbarkeit messen wir mit Benutzerumfragen, wobei wir eine durchschnittliche Bewertung von 4 von 5 Sternen erreichen wollen. Gemessene Kriterien sind:
-
-  - Attraktivität 
-  - Bedienbarkeit
-  - Erlernbarkeit
-  - Verständlichkeit
-
-- **Effizienz**
-
-  - **Zeitverhalten:** Der Kunde soll innerhalb von einer Sekunde das Resultat einer Abfrage zur Verfügung haben.
-  - **Verbrauchsverhalten:** Unser Produkt läuft bei 100 Requests pro Sekunde immer noch flüssig.
-
-- **Funktionalität**
-
-  - **Richtigkeit:** Die Ergebnisse sollte nicht älter als 15min sein.
-  - **Ordnungsmässigkeit:** Wir stellen die Anforderungen des Datenschutzgesetzes (DSG) sicher.
-  - **Sicherheit:** Die häufigsten Angriffspunkte und Schwachstellen nach OWASP sind berücksichtig worden.
-
-- **Zuverlässigkeit**
-
-  - **Reife:** Sofern die Infrastruktur funktioniert, soll unser Produkt nur kurzfristig nicht erreichbar sein. 
-  - **Fehlertoleranz:** Antizipierbare Fehler dürfen die Leistung des Systems nicht vermindern.
+```rst
++-----------------+-----------+--------------------------------------+
+| Anforderungs-ID | Kategorie | Beschreibung                         |
++=================+===========+======================================+
+| NF-1            | MUSS      | In Benutzerumfragen wollen wir eine  |
+|                 |           | Durchschnittliche Bewertung 4 von 5  |
+|                 |           | Sternen erreichen in den Punkten:    |
+|                 |           | Attraktivität, Bedienbarkeit,        |
+|                 |           | Erlernbarkeit und Verständlichkeit   |
++-----------------+-----------+--------------------------------------+
+| NF-2            | MUSS      | Der Kunde soll innerhalb von einer   |
+|                 |           | Sekunde das Resultat einer Abfrage   |
+|                 |           | zur Verfügung haben.                 |
++-----------------+-----------+--------------------------------------+
+| NF-3            | MUSS      | Unser Produkt ist unter einer Last   |
+|                 |           | von 100 Anfragen pro Sekunde noch    |
+|                 |           | schnell genug, dass man aus          |
+|                 |           | Kundensicht keine Einschränkungen    |
+|                 |           | bemerkt.                             |
++-----------------+-----------+--------------------------------------+
+| NF-4            | MUSS      | Wir stellen die Anforderungen des    |
+|                 |           | Datenschutzgesetzes (DSG) sicher.    |
++-----------------+-----------+--------------------------------------+
+| NF-5            | MUSS      | Die häufigsten Angriffspunkte und    |
+|                 |           | Schwachstellen nach OWASP sind       |
+|                 |           | berücksichtig worden.                |
++-----------------+-----------+--------------------------------------+
+| NF-6            | KANN      | Ein mit dem Projekt nicht            |
+|                 |           | vertrauter, erfahrener Entwickler    |
+|                 |           | sollte bei einem einfach Problem     |
+|                 |           | innerhalb von 15min die betroffene   |
+|                 |           | Codestelle gefunden haben.           |
++-----------------+-----------+--------------------------------------+
+| NF-7            | KANN      | Die Ergebnisse sollte nicht älter    |
+|                 |           | als 15min sein.                      |
++-----------------+-----------+--------------------------------------+
+```
 
 ### Schnittstellen
 
@@ -193,14 +201,11 @@ Nur die Startpage auf Mobile ist relevant für das Minimum Viable Product.
 
 #### Mobile / Responsive
 
-![Mobile - Startpage](/images/mobile_startpage.png) \
-![Mobile - Login*](/images/mobile_registration.png) \
-![Mobile - Registration*](/images/mobile_registration.png)
+![Mobile - Startpage](../../images/mobile_startpage.png)  
 
 #### Desktop
 
-![Desktop - Startpage](/images/desktop_startpage.png) \
-![Desktop - Login / Registration*](/images/mobile_registration.png) \
+![Desktop - Startpage](../../images/desktop_startpage.png)  
 
 ### Randbedingungen
 
