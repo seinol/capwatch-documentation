@@ -4,33 +4,30 @@
 
 ### Zweck
 
-*Zweck des Dokumentes*
+Dieses Dokument beschreibt in welcher Form Systemtests an der CapWatch Software durchgeführt werden sollen.
 
 ### Gültigkeitsbereich
 
-*Gültigkeitsbereich des Dokumentes*
+Dieses Dokument ist für die Stakeholder dieses Projektes, sowie die Entwickler erstellt worden. Es wurde im Rahmen des Engineering Projekts der Fachhochschule Ost erarbeitet.
+
+Die beschriebenen Systemtests reflektieren was auf dem aktuellen Entwicklungsstand der Software möglich ist.
 
 ### Referenzen
 
-*Liste aller verwendeten und referenzierten Dokumente, Bücher, Links, usw.*
-
-*Referenz auf ein Glossar Dokument, wo alle Abkürzungen und unklaren Begriffe erklärt werden*
-
-*Die Quellen / Referenzen sollten (falls möglich) automatisch erstellt werden*
+Die verwendeten Anforderungsbezeichungen beziehen sich auf das Dokument *anforderungsspezifikation.md*
 
 ## Voraussetzungen
 
-*Bedingungen die für einen Test vorausgesetzt werden*
-
-## Vorbereitungen
-
-*Was muss vor einem Test gemacht werden (z.B. Spezielle Einstellungen oder Setup)*
+Vollumfängliches Deployment der Software CapWatch muss vorhanden sein.
 
 ## Systemtest
 
-*Beschreibung der einzelnen Tests der Use Cases*
-
-| Use Case        | Beschreibung                                 |
-| --------------- | -------------------------------------------- |
-| *Use Case Name* | *Beschreibung des Tests für diesen Use Case* |
-| *...*           | *...*                                        |
+```eval_rst
++----------------+-----------------------------------------------------------------------------------------------------+
+| Anforderung    | Beschreibung                                                                                        |
++----------------+-----------------------------------------------------------------------------------------------------+
+| AW-1           | Die URL des CapWatch Frontend aufrufen. Es wird informiert, dass noch keine Geschäfte erfasst sind. |
+| AW-1           | Auf Datenbank manuell Geschäfte hinzufügen. URL des CapWatch Frontend aufrufen. Es wird eine Liste  | 
+|                | von Geschäften mit Informationen zur Auslastung angezeigt.                                          |
++----------------+-----------------------------------------------------------------------------------------------------+
+```
