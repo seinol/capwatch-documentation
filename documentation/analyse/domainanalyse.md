@@ -39,5 +39,5 @@ Der Konsument kann sich bei einem Store einen Timeslot reservieren und erhält d
 
 ## Systemsequenzdiagramme
 
-Da unser Produkt einfach Aufgebaut ist, bringen uns Systemsequenzdiagramme keinen Mehrwert. Darum werden sie in dieser Dokumentation bewusst weggelassen.
+Die aktuell geplanten Funktionalitäten sind einfach im Aufbau, Systemsequenzdiagramme bringen daher keinen Mehrwert. Aus diesem Grund werden sie in dieser Dokumentation bewusst weggelassen.
 

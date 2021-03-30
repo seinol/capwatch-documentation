@@ -59,7 +59,7 @@ Wir haben uns aufgrund des einfachen Geschäftsfalles dagegen entschieden Use Ca
 | Anforderungs-ID | Kategorie | Beschreibung                         |
 +=================+===========+======================================+
 | AL-1            | MUSS      | Der Anlieferer liefert regelmässig   |
-|                 |           | die aktuelle Auslastung mit Token,   |
+|                 |           | die aktuelle Auslastung mit Secret,  |
 |                 |           | Timestamp und Maximal erlaubter      |
 |                 |           | Auslastung an.                       |
 +-----------------+-----------+--------------------------------------+
@@ -67,7 +67,7 @@ Wir haben uns aufgrund des einfachen Geschäftsfalles dagegen entschieden Use Ca
 |                 |           | registrieren können, indem er        |
 |                 |           | Firmenname, Ortschaft und ein Logo   |
 |                 |           | als Attachment mitschickt. Er erhält |
-|                 |           | als Antwort einen Token oder eine    |
+|                 |           | als Antwort ein Secret oder eine     |
 |                 |           | Fehlermeldung.                       |
 +-----------------+-----------+--------------------------------------+
 ```
@@ -125,28 +125,28 @@ Für das Minimal Viable Product (MVP) sind die MUSS-Anforderungen relevant. Fall
 
 ![threat_model_diagram](../../images/threat_model_diagram.png)
 
-Da wir neben dem Projekt gerade das Modul Secure Software besuchen, haben wir das Threat Model aus der Übung in diese Dokumentation übernommen. Es bietet sich gerade an die Übungen mit unserer Software zu machen.
 
-Um unser Produkt bestmöglich gegen die Gefahren von aussen abzusichern, erstellen wir ein Threat Model. Dieses wird laufend aktualisiert und es können laufend neue nicht Funktionale Anforderungen daraus entstehen. Hierzu machen wir uns Gedanken zu folgenden Punkten:
+Da wir neben dem Engineering-Projekt gerade das Modul Secure Software besuchen, bot es sich zu Übungszwecken an ein Threat Model für CapWatch zu erstellen. Dieses Threat Model hilft um das Produkt bestmöglich gegen Gefahren von ausserhalb abzusichern. Es wird laufend aktualisiert und es können laufend neue nicht Funktionale Anforderungen daraus entstehen. Hierzu machen wir uns Gedanken zu folgenden Punkten:
 
-- **Was sind unsere Assets:** In unserem MVP sind in unserem System nur Daten vorhanden die uneingeschränkt über unsere Webseite einsehbar sind. In der Datenbank sind nur regelmässigen Einträge mit Timestamp, Anzahl Personen  und maximal erlaubter Anzahl Personen vorhanden. Diese Metriken sind völlig anonym und werden als Zahlen angeliefert, Rückschlüsse auf einzelne Personen sind unmöglich. Zusätzlich speichern wir noch die Token der Firmen, die uns Daten anliefern. Diese Daten sind schützenswert, da es als Angreifer mit dem Token möglich wäre unser System zu überlasten. In der späteren Ausbaustufe, in der wir Kundendaten erfassen und speichern, ist die Datenbank mit Kundendaten ein wichtiges Asset.
+- **Was sind unsere Assets:** In unserem MVP sind in unserem System nur Daten vorhanden die uneingeschränkt über unsere Webseite einsehbar sind. In der Datenbank sind nur regelmässigen Einträge mit Timestamp, Anzahl Personen  und maximal erlaubter Anzahl Personen vorhanden. Diese Metriken sind völlig anonym und werden als Zahlen angeliefert, Rückschlüsse auf einzelne Personen sind unmöglich. Zusätzlich speichern wir noch die Secrets der Firmen, die uns Daten anliefern. Diese Daten sind schützenswert, da es als Angreifer mit dem Secret möglich wäre unser System zu überlasten. In der späteren Ausbaustufe, in der wir Kundendaten erfassen und speichern, ist die Datenbank mit Kundendaten ein wichtiges Asset.
 - **Threat Agents und mögliche Angriffe:** Interne Angriffe können die Kundendaten abgreifen um die gespeicherten E-Mailadressen weiterzuverwenden. Dies wäre möglich über einen Zugriff der Kundendatenbank, die nicht genügend gut per Zugriffsrechte abgesichert worden ist. Ein externer Angreifer, welcher eine Organisierte Verbrecherbande oder ein einzelner Hacker sein kann, müsste sich die Zugangsdaten der Datenbank beschaffen um direkt darauf zuzugreifen oder er schafft es über die API an mehr Daten als eigentlich vorgesehen zu kommen.
 - **Mögliche Schwachstellen:** Bei der Entwicklung unseres Produktes können mehrere Schwachstellen entstehen. Dazu gehören unsauber aufgesetzte Berechtigungen, fehlende Inputsäuberung und Inputvalidierung, überdimensionierte Schnittstellen mit zu vielen Feldern sowie schwache Passwörter und fehlende Passwortverwaltung.
 - **Gegenmassnahmen:** Den internen Angriff kann man mit einem Berechtigungsmodell, welches nach dem Prinzip so wenig wie nötig aufgesetzt ist, mitigieren. Den Zugriff auf eine Kundendatenbank wird über einen Supportuser gelöst, welcher nur mit Begründung und Dokumentation der Tätigkeiten benutzt werden kann. Um die externen Angriffe zu erschweren kommen sichere Passwörter und klar definierte Schnittstellen zum Einsatz. Die Schnittstellen dürfen nur die klar definierten Felder verwenden und der Inhalt der Anfragen wird vor der Verarbeitung gesäubert um unerwünschte Effekte zu vermeiden.
 
 ### Qualitätsmerkmale
 
-Hier werden die Nicht Funktionalen Anforderungen, aufgeteilt in MUSS und KANN Anforderungen, aufgelistet. Die Auflistung ist nicht abschliessend und kann stetig erweitert werden.
+Die Nicht Funktionalen Anforderungen, aufgeteilt in MUSS und KANN Anforderungen, werden im Folgenden Abschnitt aufgelistet. Die Auflistung ist nicht abschliessend und wird ständig den aktuellen Gegebenheiten angepasst.
 
-```rst
+```reStructuredText
 +-----------------+-----------+--------------------------------------+
 | Anforderungs-ID | Kategorie | Beschreibung                         |
 +=================+===========+======================================+
 | NF-1            | MUSS      | In Benutzerumfragen wollen wir eine  |
-|                 |           | Durchschnittliche Bewertung 4 von 5  |
-|                 |           | Sternen erreichen in den Punkten:    |
-|                 |           | Attraktivität, Bedienbarkeit,        |
-|                 |           | Erlernbarkeit und Verständlichkeit   |
+|                 |           | Durchschnittliche Bewertung von      |
+|                 |           | mindestens 4 von 5 Sternen erreichen |
+|                 |           | in den Punkten: Attraktivität,       |
+|                 |           | Bedienbarkeit, Erlernbarkeit und     |
+|                 |           | Verständlichkeit                     |
 +-----------------+-----------+--------------------------------------+
 | NF-2            | MUSS      | Der Kunde soll innerhalb von einer   |
 |                 |           | Sekunde das Resultat einer Abfrage   |
@@ -162,8 +162,8 @@ Hier werden die Nicht Funktionalen Anforderungen, aufgeteilt in MUSS und KANN An
 |                 |           | Datenschutzgesetzes (DSG) sicher.    |
 +-----------------+-----------+--------------------------------------+
 | NF-5            | MUSS      | Die häufigsten Angriffspunkte und    |
-|                 |           | Schwachstellen nach OWASP sind       |
-|                 |           | berücksichtig worden.                |
+|                 |           | Schwachstellen nach OWASP werden     |
+|                 |           | berücksichtigt.                      |
 +-----------------+-----------+--------------------------------------+
 | NF-6            | KANN      | Ein mit dem Projekt nicht            |
 |                 |           | vertrauter, erfahrener Entwickler    |
