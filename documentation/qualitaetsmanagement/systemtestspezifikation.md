@@ -14,13 +14,15 @@ Die beschriebenen Systemtests reflektieren was auf dem aktuellen Entwicklungssta
 
 ### Referenzen
 
-Die verwendeten Anforderungsbezeichungen beziehen sich auf das Dokument *anforderungsspezifikation.md*
+Die verwendeten Anforderungsbezeichungen beziehen sich auf das Dokument [Anforderungsspezifikation](../analyse/anforderungsspezifikation.md)
 
 ## Voraussetzungen
 
 Vollumfängliches Deployment der Software CapWatch muss vorhanden sein.
 
 ## Systemtest
+
+Die folgende Liste von Tests bezieht sich vorerst auf die Funktionalität des Architekturprototypen und wird parallel zur Software entsprechend weiterentwickelt.
 
 ```eval_rst
 +----------------+-----------------------------------------------------------------------------------------------------+
