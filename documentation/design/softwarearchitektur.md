@@ -4,70 +4,24 @@
     
 ### Zweck
 
-*Zweck des Dokumentes*
+Dieses Dokument dient als Übersicht über die Architektur des Softwareprojekts CapWatch. 
 
 ### Gültigkeitsbereich
 
-*Gültigkeitsbereich des Dokumentes*
-
-### Referenzen
-
-*Liste aller verwendeten und referenzierten Dokumente, Bücher, Links, usw.*
-
-*Referenz auf ein Glossar Dokument, wo alle Abkürzungen und unklaren Begriffe erklärt werden*
-
-*Die Quellen / Referenzen sollten (falls möglich) automatisch erstellt werden*
+Dieses Dokument ist gültig für das Engineering Projekt im Frühlingssemester 2021 an der Fachhochschule OST. Es ist für die Betreuer und Entwickler dieses Projektes ausgelegt.
 
 ### Übersicht
 
-*Übersicht über den restlichen Teil dieses Dokumentes geben und dessen Aufbau erläutern*
+Zunächst wird eine Grobübersicht über das Gesamtsystem gegeben. Danach werden unsere Überlegungen zur gewählten Architektur dargestellt. Abschliessend werden auf die einzelnen Subsysteme, das Deployment und die Datenspeicherung im Detail eingegangen.
 
 ## Systemübersicht
 
-*Beschreibt die Softwarearchitektur eines Systems und wie sie sich präsentiert (am besten mit einem Bild um eine Übersicht zu ermöglichen) und einzelne Beschreibungen zu den einzelnen Elementen des Systems*
+Das Gesamtsystem besteht aus einer MongoDB Datenbankinstanz, einem C# Backend welches über eine REST-Schnittstelle mit dem React Frontend und externen Systemen kommuniziert.
 
-## Architektonische Ziele & Einschränkungen
+Das Backend ist nach hexagonaler Architektur konzipiert. Hierbei steht die Domain im Zentrum und beinhaltet die Entitäten um welche sich das System dreht. Darum herum liegt die Application welche die Businesslogik beinhaltet und Interfaces definiert welche von den umliegenden Schichten implementiert und genutzt werden. Ausserhalb ist auf der einen Seite die Datenbankanbindung unserer MongoDB Instanz welche die CRUD Operationen implementiert und auf der anderen Seite die REST API welche die nötigen Web-Schnittstellen zur Verfügung stellt.
 
-*Beschreibt die Softwareanforderungen und Objekte, welche einen Einfluss auf die Architektur haben (z.B. Safety, Security, Privacy, Distribution, usw.); Beinhaltet auch eine Beschreibung von Design und Implementationsstrategie, Entwicklungstools, usw. vor allem die Antworten auf ‚Warum‘-Fragen, z.B. „Warum haben wir eine Data Access Schicht hier eingezogen?“, oder „Warum kommunizieren wir mit eigenen Messages über Sockets, und nicht über eine REST-Schnittstelle?“*
+![system-overview](../../images/system-overview.jpg)
 
-*Anmerkung: Hier nicht noch einmal die Anforderungen wiederholen, sondern beschreiben, wie die Anforderungen in der Architektur umgesetzt wurden, um sie zu erreichen. Häufig sind es die nicht-funktionalen Anforderungen wie Security, Performance, Usability etc. welche einen Einfluss auf die Architektur haben. Also beschreiben Sie beispielsweise hier, wie sie die Architektur aufgebaut haben, um die Sicherheitsanforderungen zu erfüllen*
+## Architekturdetails
 
-## Logische Architektur
-
-*Beschreibung der logischen Struktur des Projekts. Pro Subsystem/Package ein einzelner Abschnitt und ein Übersichtsdiagramm über die einzelnen Subsysteme/Packages. Aufteilung in Subsysteme/Packages (zum Beispiel: 3-Layer-Architektur mit GUI, Problem Domain und Datenhaltung).*
-
-### *Subsystem/Package Name*
-
-*Beschreibung mit Text und Diagramm der Architektur des Subsystems/Packages.*
-
-#### Klassenstruktur
-
-*Klassendiagramm innerhalb des Packages und tabellarisch die wichtigsten Klassen beschreiben*
-
-#### Schnittstellen
-
-*Beschreibung der Schnittstellen*
-
-#### Wichtige interne Abläufe
-
-*Beschreibung von wichtigen internen Abläufen*
-
-### Wichtige Abläufe
-
-*Beschreibung von wichtigen Abläufen (packageübergreifend)*
-
-## Prozesse und Threads
-
-*Wenn mehrere Prozesse oder Threads eingesetzt werden wird hier beschrieben, wie diese ablaufen, miteinander funktionieren, Daten austauschen, sich synchronisieren, usw.*
-
-## Deployment
-
-*Beschreibung der einzelnen Komponenten und deren Aufteilung (auf welchen Umgebungen, Servern, usw. laufen die Komponenten)*
-
-## Datenspeicherung
-
-*Beschreibung mit Diagramm der Datenspeicherung (Datenmodell, z.B. Datenbank)*
-
-## Grössen und Leistung
-
-*Einschränkungen der Applikation bezüglich Speicher, Leistung, etc.… (zum Beispiel: Verwaltung unterstützt maximal 20'000 Einträge)*
+Die näheren Details zur Architektur werden in den kommenden Wochen ausgearbeitet und stehen zu diesem Zeitpunkt noch nicht zur Verfügung. Ebenfalls wird unser Entscheidungsprozess bezüglich der gewählten Architektur noch näher beschrieben.
