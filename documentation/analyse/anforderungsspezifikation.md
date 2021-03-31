@@ -135,14 +135,14 @@ Da wir neben dem Engineering-Projekt gerade das Modul Secure Software besuchen, 
 
 ### Qualitätsmerkmale
 
-Die Nicht Funktionalen Anforderungen, aufgeteilt in MUSS und KANN Anforderungen, werden im Folgenden Abschnitt aufgelistet. Die Auflistung ist nicht abschliessend und wird ständig den aktuellen Gegebenheiten angepasst.
+Die Nicht Funktionalen Anforderungen, aufgeteilt in MUSS und KANN Anforderungen, werden im folgenden Abschnitt aufgelistet. Die Auflistung ist nicht abschliessend und wird ständig den aktuellen Gegebenheiten angepasst.
 
 ```reStructuredText
 +-----------------+-----------+--------------------------------------+
 | Anforderungs-ID | Kategorie | Beschreibung                         |
 +=================+===========+======================================+
 | NF-1            | MUSS      | In Benutzerumfragen wollen wir eine  |
-|                 |           | Durchschnittliche Bewertung von      |
+|                 |           | durchschnittliche Bewertung von      |
 |                 |           | mindestens 4 von 5 Sternen erreichen |
 |                 |           | in den Punkten: Attraktivität,       |
 |                 |           | Bedienbarkeit, Erlernbarkeit und     |
