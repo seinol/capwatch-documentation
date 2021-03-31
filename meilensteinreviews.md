@@ -7,18 +7,14 @@ Diese Page enth√§lt eine Auflistung der Meilensteine mit den Links zu den zugeh√
 - Dokumente
     - [Projektplan](../documentation/projektplan/projektplan.md)
     - [Risikoanalyse](../documentation/projektplan/risikoanalyse.md)
-    - *Zeitauswertung*
-- Protokoll
-    - *Protokoll DD.MM.YYYY*
+    - [Zeitauswertung](./documentation/timereport.md)
 
 ## MS2: Review Requirements Analyse
 
 - Dokumente
     - [Anforderungsspezifikation](../documentation/analyse/anforderungsspezifikation.md)
     - [Domainanalyse](../documentation/analyse/domainanalyse.md)
-    - *Zeitauswertung*
-- Protokoll
-    - *Protokoll DD.MM.YYYY*
+    - [Zeitauswertung](./documentation/timereport.md)
 
 ## MS3: Review End of Elaboration
 

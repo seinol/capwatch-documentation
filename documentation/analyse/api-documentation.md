@@ -1,10 +1,10 @@
 # API Dokumentation
 
-## Geschäfte
+## Anlieferer
 
-### Als neues Geschäft registrieren
+### Als neuer Anlieferer registrieren
 
-Über diese API können sich neue Geschäfte in CapWatch registrieren um bei Konsumenten in der Auflistung zu erscheinen.
+Über diese API können sich neue Anlieferer in CapWatch registrieren um bei Konsumenten in der Auflistung zu erscheinen.
 
 ```eval_rst
 +--------------+----------------+
@@ -44,9 +44,9 @@ Pflichtfelder: *name*, *street*, *zipCode*, *city*, *maxCapacity*
 }
 ```
 
-### Geschäft aktualisieren und aktuelle Besucherzahlen melden
+### Anlieferer aktualisieren und aktuelle Besucherzahlen melden
 
-Diese API dient hauptsächlich dazu die aktuelle Anzahl Besucher zu melden, kann aber auch dazu verwendet werden um die Informationen über das Geschäft zu aktualisieren.
+Diese API dient hauptsächlich dazu die aktuelle Anzahl Besucher zu melden, kann aber auch dazu verwendet werden um die Informationen über den Anlieferer zu aktualisieren.
 
 ```eval_rst
 +--------------+----------------+
@@ -81,9 +81,9 @@ Status Code: 2xx
 
 ## Konsument
 
-### Liste aller Geschäfte abrufen
+### Liste aller Anlieferer abrufen
 
-Über diese API wird eine Liste aller Geschäfte geladen, für welche Auslastungsinformationen vorhanden sind.
+Über diese API wird eine Liste aller Anlieferer geladen, für welche Auslastungsinformationen vorhanden sind.
 
 ```eval_rst
 +--------------+----------------+
@@ -113,9 +113,9 @@ Status Code: 2xx
 }
 ```
 
-### Detailinformationen über ein Geschäft laden
+### Detailinformationen über einen Anlieferer laden
 
-Lädt die Detailinformationen für ein Geschäft, inklusive der aktuellen Auslastung.
+Lädt die Detailinformationen für einen Anlieferer, inklusive der aktuellen Auslastung.
 
 ```eval_rst
 +--------------+----------------+

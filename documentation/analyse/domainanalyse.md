@@ -1,7 +1,7 @@
 # Domainanalyse
 
 ## Einführung
-    
+
 ### Zweck
 
 Dieses Projekt gibt eine Übersicht über die Domain des Projektes CapWatch.
@@ -19,34 +19,25 @@ Dieses Dokument ist für die Stakeholder dieses Projektes, sowie die Entwickler 
 
 ### Strukturdiagramm
 
-![domain-model](/images/domain-model.png)
+![domain-model](../../images/domain-model.png)
 
 Da C# bereits als Backendtechnologie festgelegt wurde, werden im Domain Model bereits Technologiespezifische Datentypen verwendet.
 
 ### Wichtige Konzepte
 
-#### Shop*
-Shop* ist die einzige Klasse, welche für den MVP relevant ist. In dieser Klasse sind Name, Adresse und Logo enthalten, sowie die aktuelle/maximale Auslastung. Die Applikation unterstützt nur Shops in der Schweiz.
+#### Store
+Store ist die einzige Klasse, welche für den MVP relevant ist. In dieser Klasse sind Name, Adresse und Logo enthalten, sowie die aktuelle/maximale Auslastung. Die Applikation unterstützt nur Stores in der Schweiz.
 
-*unter anderem teilweise auch als **Store** bezeichnet
 #### Consumer
 Die Klasse Consumer wird für den Login und das Speichern von Favoriten des Konsumenten verwendet.
 
 #### CapacityHistory
-Um die erwartete und durschnittliche Auslastung zu berechnen, wird die Auslastung mit einem Zeitstempel als History abgelegt.  
+Um die erwartete und durchschnittliche Auslastung zu berechnen, wird die Auslastung mit einem Zeitstempel als History abgelegt.  
 
 #### Reservation
-Der Konsument kann sich bei einem Shop einen Timeslot reservieren und erhält dafür eine Reservations-ID.
+Der Konsument kann sich bei einem Store einen Timeslot reservieren und erhält dafür eine Reservations-ID.
 
 ## Systemsequenzdiagramme
 
-Es wurden nur die Sequenzdiagramme für den MVP erstellt, wenn notwendig werden weitere vor der Umsetzung eines Features designt.
-
-### Datenalieferung Shop
-Der Shop liefert Daten zur aktuellen Auslastung an CapWatch.\
-![systemsequenzdiagramm-capacity-delivery-service.png](/images/systemsequenzdiagramm-capacity-delivery-service.png)
-
-### 
-Konsumenten können die aktuelle Auslastung der Shops abrufen.\
-![systemsequenzdiagramm-capacity-consumer-service.png](/images/systemsequenzdiagramm-capacity-consumer-service.png)
+Die aktuell geplanten Funktionalitäten sind einfach im Aufbau, Systemsequenzdiagramme bringen daher keinen Mehrwert. Aus diesem Grund werden sie in dieser Dokumentation bewusst weggelassen.
 
