@@ -20,9 +20,8 @@ Das Gesamtsystem besteht aus einer MongoDB Datenbankinstanz, einem C# Backend we
 
 Das Backend ist nach hexagonaler Architektur konzipiert. Hierbei steht die Domain im Zentrum und beinhaltet die Entitäten um welche sich das System dreht. Darum herum liegt die Application welche die Businesslogik beinhaltet und Interfaces definiert welche von den umliegenden Schichten implementiert und genutzt werden. Ausserhalb ist auf der einen Seite die Datenbankanbindung unserer MongoDB Instanz welche die CRUD Operationen implementiert und auf der anderen Seite die REST API welche die nötigen Web-Schnittstellen zur Verfügung stellt.
 
-![system-overview](../../images/system-overview.jpg) 
-![project-references](../../images/project-references.jpg)
+![system-overview](../../images/system-overview.jpg)
 
 ## Architekturdetails
 
-Die näheren Details zur Architektur werden in den kommenden Wochen ausgearbeitet und stehen zu diesem Zeitpunkt noch nicht zur Verfügung.
+Die näheren Details zur Architektur werden in den kommenden Wochen ausgearbeitet und stehen zu diesem Zeitpunkt noch nicht zur Verfügung. Ebenfalls wird unser Entscheidungsprozess bezüglich der gewählten Architektur noch näher beschrieben.
