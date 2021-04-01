@@ -199,13 +199,7 @@ Unsere Plattform wird Mobile First entwickelt, weil wir viel mehr Benutzer unter
 
 Nur die Startpage auf Mobile ist relevant für das Minimum Viable Product.
 
-#### Mobile / Responsive
-
-![Mobile - Startpage](../../images/mobile_startpage.png)  
-
-#### Desktop
-
-![Desktop - Startpage](../../images/desktop_startpage.png)  
+Alle Screendesigns werden unter [diesem Link in Figma](https://www.figma.com/file/0vTe4KLJXtXvXXM7i5plLx/CapWatch?node-id=0%3A1) produziert und abgelegt.
 
 ### Randbedingungen
 
