@@ -19,8 +19,8 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 - Projekt: CapWatch
 - Erstellt am: 02.03.2021
 - Autor: Christoph Scheiwiller
-- Gewichteter Schaden Projekt gesamt: *32 Stunden*
-- Durchschnitt Schadenspotenzial pro Strint (gerundet): *6 Stunden** 
+- Gewichteter Schaden Projekt gesamt: *29 Stunden*
+- Durchschnitt Schadenspotenzial pro Sprint (gerundet): *6 Stunden** 
 
 ```eval_rst
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
@@ -56,7 +56,7 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 |     |                      | es kann auf viel bestehendes Wissen       |                   |                      |               |                          |                               |
 |     |                      | zurückgegriffen werden.                   |                   |                      |               |                          |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
-| Ri8 | Frontend Technologie | Das Frontend wird mit React implementiert,|                 3 |                    2 |             6 | Einlesen in React        | Erlernen der Technologie auch |
+| Ri8 | Frontend Technologie | Das Frontend wird mit React implementiert,|                 3 |                    1 |             3 | Einlesen in React        | Erlernen der Technologie auch |
 |     |                      | damit wurde bis anhin kaum Erfahrung      |                   |                      |               | Dokumentation            | auf private Zeit um den       |
 |     |                      | gesammelt.                                |                   |                      |               |                          | Projektplan nicht zu gefährden|
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
@@ -65,7 +65,7 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 |     |                      |                                           |                   |                      |               | bereit zur Besprechung   |                               |
 |     |                      |                                           |                   |                      |               | im Team.                 |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
-|     |                      |                                           |                   |                Summe |            32 |                          |                               |
+|     |                      |                                           |                   |                Summe |            29 |                          |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
 ```
 **Durchschnitt Schadenspotenzial (aufgerundet) = Gewichteter Schaden Projekt / Anzahl Sprints* \
@@ -77,3 +77,7 @@ Die Risiken sollen nach jedem Sprint überprüft werden.
 
 Risikoüberprüfung durchgeführt:
 - 13.03.2021 (Christoph Scheiwiller): Risiken ergänzt / Neuberechnung Schadenspotenzial
+- 02.04.2021 (Pascal Schlumpf): Risiken neu beurteilt  
+   - Ri4 bleibt gleich da im Prototyp die MUSS-Anforderungen nicht vollständig umgesetzt worden sind 
+   - Ri5 bleibt trotz ersten Erfahrungen gleich. Wir müssen unsere Erkenntnisse in den nächsten Sprint einfliessen lassen und schauen ob wir uns verbessert haben. Erst dann können wir die Eintrittswahrscheinlichkeit reduzieren 
+   - Bei Ri8 reduziert sich die Eintrittswahrscheinlichkeit, da im Prototyp schon viel neues Wissen erlangt worden ist 
