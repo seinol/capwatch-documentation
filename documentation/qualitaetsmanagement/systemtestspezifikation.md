@@ -28,9 +28,9 @@ Die folgende Liste von Tests bezieht sich vorerst auf die Funktionalität des Ar
 +----------------+-----------------------------------------------------------------------------------------------------+
 | Anforderung    | Beschreibung                                                                                        |
 +================+=====================================================================================================+
-| AW-1           | Die URL des CapWatch Frontend aufrufen. Es wird informiert, dass noch keine Geschäfte erfasst sind. |
+| AW-1-1         | Die URL des CapWatch Frontend aufrufen. Es wird informiert, dass noch keine Geschäfte erfasst sind. |
 +----------------+-----------------------------------------------------------------------------------------------------+
-| AW-1           | Auf Datenbank manuell Geschäfte hinzufügen. URL des CapWatch Frontend aufrufen. Es wird eine Liste  | 
+| AW-1-2         | Auf Datenbank manuell Geschäfte hinzufügen. URL des CapWatch Frontend aufrufen. Es wird eine Liste  | 
 |                | von Geschäften mit Informationen zur Auslastung angezeigt.                                          |
 +----------------+-----------------------------------------------------------------------------------------------------+
 ```
