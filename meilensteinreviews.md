@@ -1,6 +1,6 @@
 # Review Meilensteine
 
-Diese Page enthält eine Auflistung der Meilensteine mit den Links zu den zugehörigen Dokumenten, Checklisten und Sitzungsprotokollen.
+Dieses Dokument enthält eine Auflistung der Meilensteine mit den Links zu den zugehörigen Dokumenten, Checklisten und Sitzungsprotokollen.
 
 ## MS1: Review Projektplanung
 

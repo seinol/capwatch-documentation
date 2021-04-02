@@ -1,15 +1,27 @@
 # Zeitauswertung
 
 ### Total
-* **total estimate**: 166h
-* **total spent**: 172h 20m
+
+* **total estimate**: <TODO>
+* **total spent**: 243h 45m
 
 ### Pro Projektteilnehmer
-* **jonas.hauser**: 37h
-* **pascal.schlumpf**: 31h 35m
-* **rafael.fuhrer**: 33h 30m
-* **pascal.schneider**: 34h 30m
-* **christoph.scheiwiler**: 35h 45m
+
+```eval_rst
++-----------------------+---------+
+| Projektteilnehmer     | Zeit    |
++=======================+=========+
+| Christoph Scheiwiller | 45h 40m |
++-----------------------+---------+
+| Jonas Hauser          | 56h 50m |
++-----------------------+---------+
+| Pascal Schlumpf       | 45h 05m |
++-----------------------+---------+
+| Pascal Schneider      | 46h 50m |
++-----------------------+---------+
+| Rafael Fuhrer         | 49h 20m |
++-----------------------+---------+
+```
 
 ### Aufgewendete Zeit
 
