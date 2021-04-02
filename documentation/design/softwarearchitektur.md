@@ -24,6 +24,8 @@ Das Backend ist nach hexagonaler Architektur konzipiert. Hierbei steht die Domai
 
 ## Architekturdetails
 
+Wir haben uns dazu entschieden keine Designklassendiagramme zu zeichnen, da diese uns gegenüber dem Strukturdiagramm im Domain Modell keinen Mehrwert bringen.
+
 Die näheren Details zur Architektur werden in den kommenden Wochen ausgearbeitet und stehen zu diesem Zeitpunkt noch nicht zur Verfügung. Ebenfalls wird unser Entscheidungsprozess bezüglich der gewählten Architektur noch näher beschrieben.
 
 ## Deployment
