@@ -14,7 +14,7 @@ Die beschriebenen Systemtests reflektieren was auf dem aktuellen Entwicklungssta
 
 ### Referenzen
 
-Die verwendeten Anforderungsbezeichungen beziehen sich auf das Dokument [Anforderungsspezifikation](../analyse/anforderungsspezifikation.md)
+Die verwendeten Anforderungsbezeichnungen beziehen sich auf das Dokument [Anforderungsspezifikation](../analyse/anforderungsspezifikation.md).
 
 ## Voraussetzungen
 
