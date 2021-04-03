@@ -19,7 +19,7 @@ Zunächst wird eine Grobübersicht über das Gesamtsystem gegeben. Danach werden
 Das Gesamtsystem besteht aus einer MongoDB Datenbankinstanz und einem C# Backend, welches über eine REST-Schnittstelle mit dem React Frontend und externen Systemen kommuniziert.
 
 Das Backend ist nach hexagonaler Architektur konzipiert. Hierbei steht die Domain im Zentrum und beinhaltet die Entitäten, um welche sich das System dreht. Nach der Domainschicht liegt die Application, welche die Businesslogik beinhaltet und Interfaces definiert, welche von den umliegenden Schichten implementiert und genutzt werden. 
-Ganz aussen ist auf der einen Seite die Datenbankanbindung unserer MongoDB Instanz, welche die CRUD Operationen implementiert. Auf der anderen Seite die REST API, welche die nötigen Web-Schnittstellen zur Verfügung stellt.
+Ganz aussen ist auf der einen Seite die Datenbankanbindung unserer MongoDB Instanz, welche die CRUD Operationen mithilfe eines ORM implementiert. Auf der anderen Seite die REST API, welche die nötigen Web-Schnittstellen zur Verfügung stellt.
 
 ![system-overview](../../images/system-overview.jpg)
 
