@@ -68,8 +68,10 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 |     |                      |                                           |                   |                Summe |            29 |                          |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
 ```
-**Durchschnitt Schadenspotenzial (aufgerundet) = Gewichteter Schaden Projekt / Anzahl Sprints* \
-***Gewichteter Schaden = Schadenspotenzial * Eintritts&shy;wahrscheinlichkeit*
+
+**Durchschnitt Schadenspotenzial (aufgerundet) = Gewichteter Schaden Projekt / Anzahl Sprints*
+
+***Gewichteter Schaden = Schadenspotenzial * Eintrittswahrscheinlichkeit*
 
 ## Risikoüberwachung
 
@@ -77,7 +79,7 @@ Die Risiken sollen nach jedem Sprint überprüft werden.
 
 Risikoüberprüfung durchgeführt:
 - 13.03.2021 (Christoph Scheiwiller): Risiken ergänzt / Neuberechnung Schadenspotenzial
-- 02.04.2021 (Pascal Schlumpf): Risiken neu beurteilt  
-   - Ri4 bleibt gleich da im Prototyp die MUSS-Anforderungen nicht vollständig umgesetzt worden sind 
-   - Ri5 bleibt trotz ersten Erfahrungen gleich. Wir müssen unsere Erkenntnisse in den nächsten Sprint einfliessen lassen und schauen ob wir uns verbessert haben. Erst dann können wir die Eintrittswahrscheinlichkeit reduzieren 
-   - Bei Ri8 reduziert sich die Eintrittswahrscheinlichkeit, da im Prototyp schon viel neues Wissen erlangt worden ist 
+- 02.04.2021 (Pascal Schlumpf): Risiken neu beurteilt
+   - Ri4 bleibt gleich, weil im Prototyp die MUSS-Anforderungen nicht vollständig umgesetzt wurden.
+   - Ri5 bleibt trotz ersten Erfahrungen gleich. Wir müssen unsere Erkenntnisse in den nächsten Sprint einfliessen lassen und überprüfen, ob wir uns verbessert haben. Erst dann können wir die Eintrittswahrscheinlichkeit reduzieren.
+   - Bei Ri8 reduziert sich die Eintrittswahrscheinlichkeit, weil im Prototyp schon viel neues Wissen erlangt wurde.

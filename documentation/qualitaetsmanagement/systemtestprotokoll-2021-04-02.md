@@ -1,10 +1,10 @@
-# Systemtest-Protokoll
+# Systemtest-Protokoll 2. April 2021
 
 ## Einführung
 
 ### Zweck
 
-Dieses Dokument dient dazu eine Übersicht zu geben welche Systemtests wann durchgeführt wurden und was das Resultat war.
+Dieses Dokument dient dazu, eine Übersicht zu geben welche Systemtests wann durchgeführt wurden und was das Resultat war.
 
 ### Gültigkeitsbereich
 
@@ -16,12 +16,12 @@ Dieses Dokument ist für die Stakeholder dieses Projektes, sowie die Entwickler 
 
 ## Angaben zur Durchführung
 
-Testdatum: 2021-04-02
+**Testdatum:** 2021-04-02
 
-Getestet wurde auf folgendem Stand der jeweiligen Git Repositories
+Getestet wurde auf folgendem Stand der jeweiligen Git Repositories.
 
-- Frontend: f04ca76a
-- Backend: af817389
+- **Frontend:** f04ca76a
+- **Backend:** af817389
 
 Um den Test durchzuführen wurde in beiden Repositories über Docker-Compose die Software gestartet.
 
@@ -29,11 +29,9 @@ Um den Test durchzuführen wurde in beiden Repositories über Docker-Compose die
 
 ```eval_rst
 +----------------+---------------+--------------------------------------------------------+----------------------------------+
-| Anforderung    | implementiert | Fehler/Unschönheit                                     | Status                           |
+| Anforderung    | Implementiert | Kommentare                                             | Status                           |
 +================+===============+========================================================+==================================+
-| AW-1-1         | nein          | Der Benutzer weiss nicht warum nichts angezeigt wird   | wird im folgenden Sprint behoben |
-+----------------+---------------+--------------------------------------------------------+----------------------------------+
-| AW-1-2         | ja            |                                                        | gut                              |
+| AW-1-2         | ja            |                                                        | erfüllt                          |
 +----------------+---------------+--------------------------------------------------------+----------------------------------+
 ```
 
