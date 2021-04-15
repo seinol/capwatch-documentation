@@ -20,12 +20,14 @@ Diese Dokumentation kann je nach Situation dem Entwicklungsstand des Codes leich
 
 Wir haben uns entschieden zur Visualisierung unserer Architektur das C4 Modell zu verwenden, da dieses mit übersichtlichen und einfach zu verstehenden Diagrammen sehr viel Information über ein System übermittelt. Dies hilft insbesondere Personen, die sich neu in das Projekt einlesen, sich schnell zurecht zu finden.
 
-### System Kontext Diagramm
+### System Kontext Diagramm der Software CapWatch
 
 ![system context](../../diagrams/structurizr/images/structurizr-65674-SystemContext.png)
 ![system context key](../../diagrams/structurizr/images/structurizr-65674-SystemContext-key.png)
 
-### Container Diagramm
+### Container Diagramm der Software CapWatch (*)
+
+_(*) Das Wort Container wir hier in der Definition nach C4 Modell verwendet und und nicht im Kontext von Docker._
 
 ![container](../../diagrams/structurizr/images/structurizr-65674-CapWatchContainers.png)
 ![container](../../diagrams/structurizr/images/structurizr-65674-CapWatchContainers-key.png)
@@ -36,9 +38,11 @@ Das Gesamtsystem besteht aus einer MongoDB Datenbankinstanz und einem C# Backend
 
 Das Frontend besteht aus einer Single-Page Applikation welche mit React in TypeScript geschrieben ist. Diese wird von einem Nginx Webserver an den Konsumenten geliefert. Das Frontend ist grob in drei Schichten unterteilt. Zuoberst befindet sich die GUI Schicht, die sich um die Darstellung der Information kümmert. Darunter befinden sich Komponenten welche die Daten für die GUI Schicht bereitstellen. Diese Daten werden von der untersten Schicht, den Services, von der Backend API abgeholt und an die Komponenten weitergeleitet.
 
+Für React haben wir uns entschieden, da Angular unserer Meinung nach zu gross für unseren Projektumfang ist. Bei der Wahl zwischen Vue und React gewann letzteres dann, da das teaminterne Interesse and er Technologie und auch das existierende Vorwissen grösser war. Überdies ist React parallel zum Projekt auch Thema in der _Web Engineering und Design 3_ Vorlesung welche von einem Projektmitarbeiter besucht wird.
+
 ![frontend-overview](../../diagrams/frontend-overview.jpg)
 
-### Komponenten Diagramm
+### Komponenten Diagramm der API Backend Applikation
 
 ![container](../../diagrams/structurizr/images/structurizr-65674-BackendComponents.png)
 ![container](../../diagrams/structurizr/images/structurizr-65674-BackendComponents-key.png)
@@ -53,8 +57,10 @@ Das Store Repository wird von der Applikationsschicht definiert und vom MongoDB 
 
 #### Architektur Backend
 
-Das Backend ist nach hexagonaler Architektur konzipiert. Hierbei steht die Domain im Zentrum und beinhaltet die Entitäten, um welche sich das System dreht. Nach der Domainschicht liegt die Application, welche die Businesslogik beinhaltet und Interfaces definiert, welche von den umliegenden Schichten implementiert und genutzt werden.
+Das Backend ist nach hexagonaler Architektur in C# konzipiert. Hierbei steht die Domain im Zentrum und beinhaltet die Entitäten, um welche sich das System dreht. Nach der Domainschicht liegt die Application, welche die Businesslogik beinhaltet und Interfaces definiert, welche von den umliegenden Schichten implementiert und genutzt werden.
 Ganz aussen ist auf der einen Seite ein Adapter für die Datenbankanbindung unserer MongoDB Instanz, welche die CRUD Operationen mithilfe eines ORM implementiert. Auf der anderen Seite die REST API, welche die nötigen Web-Schnittstellen zur Verfügung stellt.
+
+Unsere Entscheidung fiel auf C#, da der Mehrheit des Teams die Technologie besser liegt als Java. Dazu kommt, dass unser Architekt aus seiner Berufstätigkeit viel Wissen in dieser Technologie, insbesondere im Bezug auf Web API Applikationen, mitbringt.
 
 ![system-overview](../../diagrams/system-overview.jpg)
 
@@ -95,7 +101,11 @@ Weiter lädt das Frontend aktuell regelmässig die Liste der Stores und deren Au
 
 ## Performance-Szenario
 
-Das CapWatch Backend ist stateless und kann somit mit geringem Aufwand mehrfach hochgefahren und die verschiedenen Instanzen mit einem Load Balancer gleichmässig bedient werden.
+Das Frontend braucht unsererseits nur Performance bis die React Applikation einmal beim Konsumenten in den Browser geladen ist. Danach läuft diese dort als Single-Page Applikation und es ist nur noch die Performance der API relevant. Nichtsdestotrotz wird das Frontend natürlich so performant wie möglich geschrieben, damit auch Anwender mit weniger starken Systemen ein gutes Erlebnis haben. Dazu wird der Virtual DOM so sinnvoll wie möglich eingesetzt und es werden nur Komponenten gezeichnet die sich verändert haben.
+
+Das CapWatch Backend ist zustandslos und kann somit mit geringem Aufwand mehrfach hochgefahren und die verschiedenen Instanzen mit einem Load Balancer gleichmässig bedient werden.
+
+Falls bei der Datenbank Performance Probleme relevant werden sollten, wären die beiden möglichen Optionen Replication und Sharding. Bei der Replication werden die gesamten Daten der Datenbank auf mehreren Systemen redundant gehalten und die Anfragen werden zwischen diesen Systemen verteilt. Beim Sharding werden die Daten ebenfalls auf mehrere Systeme verteilt, allerdings ist hier auf jedem System nur ein Teil der Daten und Anfragen werden auf das jeweils richtige System geleitet. Mit diesen Lösungen haben wir noch keine Erfahrungen und wir müssten noch einiges an Wissen gewinnen, sollte dies nötig werden. Aus diesem Grund können wir auch keine Aussage dazu machen wie aufwändig das Umsetzen einer dieser beiden Lösungen wäre.
 
 ## Weggelassene Dokumentation
 
