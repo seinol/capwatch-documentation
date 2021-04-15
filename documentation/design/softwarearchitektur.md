@@ -18,7 +18,7 @@ Diese Dokumentation kann je nach Situation dem Entwicklungsstand des Codes leich
 
 ## C4 Modell
 
-Wir haben uns entschieden zur Visualisierung unserer Architektur das C4 Modell zu verwenden, da dieses mit übersichtlichen und einfach zu verstehenden Diagrammen sehr viel Information über ein System übermittelt. Dies hilft insbesondere Personen, die sich neu in das Projekt einlesen sich schnell zurecht zu finden.
+Wir haben uns entschieden zur Visualisierung unserer Architektur das C4 Modell zu verwenden, da dieses mit übersichtlichen und einfach zu verstehenden Diagrammen sehr viel Information über ein System übermittelt. Dies hilft insbesondere Personen, die sich neu in das Projekt einlesen, sich schnell zurecht zu finden.
 
 ### System Kontext Diagramm
 
@@ -34,7 +34,7 @@ Das Gesamtsystem besteht aus einer MongoDB Datenbankinstanz und einem C# Backend
 
 #### Architektur Frontend
 
-Das Frontend besteht aus einer Single-Page Applikation welche mit React in TypeScript geschrieben ist. Diese wird von einem Nginx Webserver an den Konsumenten geliefert. Das Frontend ist in grob drei Schichten unterteilt. Zu oberst die GUI Schicht, die sich um die Darstellung der Information kümmert. Darunter befinden sich Komponenten welche die Daten für die GUI Schicht bereitstellen. Diese Daten werden von der untersten Schicht, den Services, von der Backend API abgeholt und an die Komponenten weitergeleitet.
+Das Frontend besteht aus einer Single-Page Applikation welche mit React in TypeScript geschrieben ist. Diese wird von einem Nginx Webserver an den Konsumenten geliefert. Das Frontend ist grob in drei Schichten unterteilt. Zuoberst befindet sich die GUI Schicht, die sich um die Darstellung der Information kümmert. Darunter befinden sich Komponenten welche die Daten für die GUI Schicht bereitstellen. Diese Daten werden von der untersten Schicht, den Services, von der Backend API abgeholt und an die Komponenten weitergeleitet.
 
 ![frontend-overview](../../diagrams/frontend-overview.jpg)
 
@@ -49,7 +49,7 @@ Der Store Controller bietet klassische REST Schnittstellen an über welche Infor
 
 #### Store Repository
 
-Das Store Repository wird von der Applikationsschicht definiert und vom MongoDB Adapter implementiert. Es stellt ein Satz von Standardoperationen zur Verfügung mit welchen für Stores alle benötigten CRUD Operationen durchgeführt werden können.
+Das Store Repository wird von der Applikationsschicht definiert und vom MongoDB Adapter implementiert. Es stellt einen Satz von Standardoperationen zur Verfügung mit welchen für Stores alle benötigten CRUD Operationen durchgeführt werden können.
 
 #### Architektur Backend
 
@@ -58,7 +58,7 @@ Ganz aussen ist auf der einen Seite ein Adapter für die Datenbankanbindung unse
 
 ![system-overview](../../diagrams/system-overview.jpg)
 
-Wir haben uns für eine hexagonale Architektur entschieden, da es diese sehr einfach macht Adapter auszutauschen. Die Architektur macht auch das Testen einzelner Teile der Applikation unkompliziert, was uns im Hinblick auf hohe Softwarequalität gestützt auf umfassende Unit Tests vieles erleichtert. Ein weiterer Vorteil ist, dass korrekt umgesetzte hexagonale Architektur zu loser Kopplung zwischen den einzelnen Teilen der Software führt. Auch ein wichtiger Punkt war die Möglichkeit unser Wissen bezüglich Software Architektur auszuweiten.
+Wir haben uns für eine hexagonale Architektur entschieden, da es diese sehr einfach macht Adapter auszutauschen. Die Architektur macht auch das Testen einzelner Teile der Applikation unkompliziert. Dies erleichtert es uns gute Unit Tests zu schreiben um eine hohe Softwarequalität zu erreichen. Ein weiterer Vorteil ist, dass korrekt umgesetzte hexagonale Architektur zu loser Kopplung zwischen den einzelnen Teilen der Software führt. Auch ein wichtiger Punkt war die Möglichkeit unser Wissen bezüglich Software Architektur auszuweiten.
 
 Aufgeteilt ist der Backend Quellcode auf vier Projekte, welche den Schichten und Adaptern der Hexagonalen Architektur entsprechen:
 

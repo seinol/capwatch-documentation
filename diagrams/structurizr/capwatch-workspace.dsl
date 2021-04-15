@@ -24,7 +24,7 @@ workspace "65674" "Modell für die Software CapWatch." {
         store -> backend "macht API Aufrufe an" "JSON/HTTP"
         store -> storeController "spricht einzelne APIs an" "JSON/HTTP"
 
-        webApplication -> frontend "liefert das CapWatch Frontend and den Browser des Konsumenten"
+        webApplication -> frontend "liefert das CapWatch Frontend an den Browser des Konsumenten"
 
         frontend -> backend "macht API Aufrufe an" "JSON/HTTP"
         frontend -> storeController "spricht einzelne APIs an" "JSON/HTTP"
