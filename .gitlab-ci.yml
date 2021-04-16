@@ -1,11 +1,12 @@
 variables:
-    BUILD_IMAGE: $CI_REGISTRY_IMAGE/sphinx-build:$CI_COMMIT_REF_SLUG
-    GIT_DEPTH: 0
+  BUILD_IMAGE: $CI_REGISTRY/$TEMPLATE_PATH/sphinx-build
+  # If you want to use your own image: comment the previous line, uncomment the next line
+  # BUILD_IMAGE: $CI_REGISTRY_IMAGE/sphinx-build
+  GIT_DEPTH: 0
+  TEMPLATE_PATH: epj/documentation-template
 
-image: $BUILD_IMAGE
-
-services:
-  - docker:stable-dind
+default:
+  image: $BUILD_IMAGE
 
 stages:
   - prebuild
@@ -20,13 +21,27 @@ stages:
 build_image:
   stage: prebuild
   image: docker:latest
-  only:
+  services:
+    - docker:stable-dind
+  rules:
+  - if: $CI_PROJECT_PATH == $TEMPLATE_PATH && $CI_COMMIT_REF_SLUG == "master"
+    # If you want to use your own image: comment the previous line, uncomment the next line
+    #- if: $CI_COMMIT_REF_NAME == "master"
     changes:
       - Dockerfile.build
       - .dockerignore
       - .gitlab-ci.yml
       - requirements.txt
       - conf.py
+  - if: $CI_COMMIT_REF_NAME =~ /^docker\/.*$/
+    changes:
+      - Dockerfile.build
+      - .dockerignore
+      - .gitlab-ci.yml
+      - requirements.txt
+      - conf.py
+    variables:
+      BUILD_IMAGE: $CI_REGISTRY_IMAGE/sphinx-build:$CI_COMMIT_REF_SLUG
   script:
     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
     - docker build --tag $BUILD_IMAGE -f  Dockerfile.build .
@@ -40,6 +55,11 @@ build_latest_html:
   stage: build
   script:
     - make html
+  rules:
+    - if: $CI_COMMIT_REF_NAME =~ /^docker\/.*$/
+      variables:
+        BUILD_IMAGE: $CI_REGISTRY_IMAGE/sphinx-build:$CI_COMMIT_REF_SLUG
+    - when: on_success
   artifacts:
     paths:
       - _build/html
@@ -48,6 +68,11 @@ build_latest_pdf:
   stage: build
   script:
     - make latexpdf
+  rules:
+    - if: $CI_COMMIT_REF_NAME =~ /^docker\/.*$/
+      variables:
+        BUILD_IMAGE: $CI_REGISTRY_IMAGE/sphinx-build:$CI_COMMIT_REF_SLUG
+    - when: on_success
   artifacts:
     paths:
       - _build/latex/*.pdf
@@ -56,6 +81,11 @@ build_latest_epub:
   stage: build
   script:
     - make epub
+  rules:
+    - if: $CI_COMMIT_REF_NAME =~ /^docker\/.*$/
+      variables:
+        BUILD_IMAGE: $CI_REGISTRY_IMAGE/sphinx-build:$CI_COMMIT_REF_SLUG
+    - when: on_success
   artifacts:
     paths:
       - _build/epub/*.epub
@@ -86,6 +116,11 @@ build_tags_html:
   stage: build_tags
   script:
     - make MODE=html versions
+  rules:
+    - if: $CI_COMMIT_REF_NAME =~ /^docker\/.*$/
+      variables:
+        BUILD_IMAGE: $CI_REGISTRY_IMAGE/sphinx-build:$CI_COMMIT_REF_SLUG
+    - when: on_success
   artifacts:
     paths:
       - _versions/*/html
@@ -94,6 +129,11 @@ build_tags_pdf:
   stage: build_tags
   script:
     - make MODE=latexpdf versions
+  rules:
+    - if: $CI_COMMIT_REF_NAME =~ /^docker\/.*$/
+      variables:
+        BUILD_IMAGE: $CI_REGISTRY_IMAGE/sphinx-build:$CI_COMMIT_REF_SLUG
+    - when: on_success
   artifacts:
     paths:
       - _versions/*/latex/*.pdf
@@ -102,6 +142,11 @@ build_tags_epub:
   stage: build_tags
   script:
     - make MODE=epub versions
+  rules:
+    - if: $CI_COMMIT_REF_NAME =~ /^docker\/.*$/
+      variables:
+        BUILD_IMAGE: $CI_REGISTRY_IMAGE/sphinx-build:$CI_COMMIT_REF_SLUG
+    - when: on_success
   artifacts:
     paths:
       - _versions/*/epub/*.epub
@@ -110,9 +155,7 @@ build_tags_epub:
 # Publish Gitlab Pages
 ###############################################################################
 pages:
-  only:
-    - master
-    - tags
+  stage: deploy
   script:
     - mv _build/html/ public
     - mv _build/epub/*.epub public/_static/
@@ -128,7 +171,9 @@ pages:
           rmdir _versions/$tag/html
         done
     - mv _versions public/
-  stage: deploy
+  only:
+    - master
+    - tags
   artifacts:
     paths:
       - public
