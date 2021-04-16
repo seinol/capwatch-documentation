@@ -24,7 +24,7 @@ build_image:
   services:
     - docker:stable-dind
   rules:
-    - if: $CI_PROJECT_PATH == $TEMPLATE_PATH && $CI_COMMIT_REF_SLUG == "master"
+    if: $CI_PROJECT_PATH == $TEMPLATE_PATH && $CI_COMMIT_REF_SLUG == "master"
     # If you want to use your own image: comment the previous line, uncomment the next line
     # - if: $CI_COMMIT_REF_NAME == "master"
     changes:
