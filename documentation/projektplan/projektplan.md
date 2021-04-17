@@ -309,13 +309,6 @@ Risiken welche einen gewichteten Schaden grösser als die geplanten vier Stunden
 Ri5 Zeitmanagement: Im Sprint Planning sollen Tasks, welche im nächsten Sprint eingeplant wurden, von den Entwicklern
 ausführlich analysiert und diskutiert werden. Danach wird gemeinsam eine Aufwandsschätzung vorgenommen, um eine zuverlässige Schätzung zu erhalten.
 
-Ri8 Frontend Technologie: Aktuell ist in der Frontend-Technologie React das Wissen nur von einem einzelnen Teammitglied sichergestellt, wir haben uns aber trotzdem dafür entschieden,
-das Frontend mit React zu implementieren. Um das Risiko zu minimieren, wird von den Teammitgliedern erwartet,
-dass sich jeder in die React Dokumentation einliest, um sich in die Grundlagen einzuarbeiten.
-Zusätzlich wird ein Prototyp in React erstellt, um erste Erfahrungen zu sammeln und Probleme frühzeitig zu erkennen.
-Im Team wurde gemeinsam festgelegt, dass bei erheblichem Mehraufwand durch React der Know-How Aufbau auch in der
-Freizeit erfolgen muss und nicht zulasten der Zeit des Projekts geht.
-
 ## Arbeitspakete
 
 Zur Planung der Arbeit, sowie dem Tracking der aufgewendeten Arbeitszeit haben wir ursprünglich Gitlab angedacht. Für die Auswertung der Zeiterfassung hätte [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz kommen sollen. 

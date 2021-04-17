@@ -107,6 +107,14 @@ Das CapWatch Backend ist zustandslos und kann somit mit geringem Aufwand mehrfac
 
 Falls bei der Datenbank Performance Probleme relevant werden sollten, wären die beiden möglichen Optionen Replication und Sharding. Bei der Replication werden die gesamten Daten der Datenbank auf mehreren Systemen redundant gehalten und die Anfragen werden zwischen diesen Systemen verteilt. Beim Sharding werden die Daten ebenfalls auf mehrere Systeme verteilt, allerdings ist hier auf jedem System nur ein Teil der Daten und Anfragen werden auf das jeweils richtige System geleitet. Mit diesen Lösungen haben wir noch keine Erfahrungen und wir müssten noch einiges an Wissen gewinnen, sollte dies nötig werden. Aus diesem Grund können wir auch keine Aussage dazu machen wie aufwändig das Umsetzen einer dieser beiden Lösungen wäre.
 
+
+
+## Durchlaufene Klassen
+
+Hier folgt noch eine grobe Übersicht über die wichtigsten Klassen / Methoden welche bei einem Aufruf der Webseite durchlaufen werden.
+
+![application_flow](../../images/application_flow.png)
+
 ## Weggelassene Dokumentation
 
 * Wir haben uns dazu entschieden keine Designklassendiagramme zu entwerfen, weil diese uns gegenüber dem Strukturdiagramm im Domainmodell keinen Mehrwert bieten.
