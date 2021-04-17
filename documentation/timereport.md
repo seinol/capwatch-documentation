@@ -1,6 +1,6 @@
 # Zeitauswertung
 
-**Letztes Update:** 3. April 2021, 17:30
+**Letztes Update:** 17. April 2021, 17:30
 
 ## Total
 
