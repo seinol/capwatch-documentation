@@ -1,13 +1,13 @@
 
 <!-- Generator: Widdershins v4.0.1 -->
 
-<h1 id="capwatchbackend-webapi">CapWatchBackend.WebApi v1</h1>
+# CapWatchBackend.WebApi v1
 
 > Scroll down for code samples, example requests and responses. Select a language for code samples from the tabs above or the mobile navigation menu.
 
-<h1 id="capwatchbackend-webapi-stores">Stores</h1>
+## Stores
 
-## get__Stores
+### get__Stores
 
 > Code samples
 
@@ -23,22 +23,19 @@ fetch('/Stores',
 }).then(function(body) {
     console.log(body);
 });
-
 ```
 
 `GET /Stores`
 
-<h3 id="get__stores-responses">Responses</h3>
+#### Responses
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Success|None|
 
-<aside class="success">
 This operation does not require authentication
-</aside>
 
-## patch__Stores
+### patch__Stores
 
 > Code samples
 
@@ -69,7 +66,6 @@ fetch('/Stores',
 }).then(function(body) {
     console.log(body);
 });
-
 ```
 
 `PATCH /Stores`
@@ -90,23 +86,21 @@ fetch('/Stores',
 }
 ```
 
-<h3 id="patch__stores-parameters">Parameters</h3>
+#### Parameters
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |body|body|[StoreModel](#schemastoremodel)|false|none|
 
-<h3 id="patch__stores-responses">Responses</h3>
+#### Responses
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Success|None|
 
-<aside class="success">
 This operation does not require authentication
-</aside>
 
-## post__Stores
+### post__Stores
 
 > Code samples
 
@@ -134,7 +128,6 @@ fetch('/Stores',
 }).then(function(body) {
     console.log(body);
 });
-
 ```
 
 `POST /Stores`
@@ -152,28 +145,25 @@ fetch('/Stores',
 }
 ```
 
-<h3 id="post__stores-parameters">Parameters</h3>
+#### Parameters
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |body|body|[StoreNew](#schemastorenew)|false|none|
 
-<h3 id="post__stores-responses">Responses</h3>
+#### Responses
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Success|None|
 
-<aside class="success">
 This operation does not require authentication
-</aside>
 
-## get__Stores_{id}
+### get__Stores_{id}
 
 > Code samples
 
 ```javascript
-
 fetch('/Stores/{id}',
 {
   method: 'GET'
@@ -184,35 +174,27 @@ fetch('/Stores/{id}',
 }).then(function(body) {
     console.log(body);
 });
-
 ```
 
 `GET /Stores/{id}`
 
-<h3 id="get__stores_{id}-parameters">Parameters</h3>
+#### Parameters
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |id|path|integer(int32)|true|none|
 
-<h3 id="get__stores_{id}-responses">Responses</h3>
+#### Responses
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Success|None|
 
-<aside class="success">
 This operation does not require authentication
-</aside>
 
-# Schemas
+## Schemas
 
-<h2 id="tocS_StoreModel">StoreModel</h2>
-<!-- backwards compatibility -->
-<a id="schemastoremodel"></a>
-<a id="schema_StoreModel"></a>
-<a id="tocSstoremodel"></a>
-<a id="tocsstoremodel"></a>
+### StoreModel
 
 ```json
 {
@@ -226,10 +208,9 @@ This operation does not require authentication
   "logo": "string",
   "secret": "string"
 }
-
 ```
 
-### Properties
+#### Properties
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
@@ -243,12 +224,7 @@ This operation does not require authentication
 |logo|string(byte)¦null|false|none|none|
 |secret|string|true|none|none|
 
-<h2 id="tocS_StoreNew">StoreNew</h2>
-<!-- backwards compatibility -->
-<a id="schemastorenew"></a>
-<a id="schema_StoreNew"></a>
-<a id="tocSstorenew"></a>
-<a id="tocsstorenew"></a>
+### StoreNew
 
 ```json
 {
@@ -262,7 +238,7 @@ This operation does not require authentication
 
 ```
 
-### Properties
+#### Properties
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
@@ -272,4 +248,3 @@ This operation does not require authentication
 |city|string|true|none|none|
 |maxCapacity|integer(int32)¦null|false|none|none|
 |logo|string(byte)¦null|false|none|none|
-
