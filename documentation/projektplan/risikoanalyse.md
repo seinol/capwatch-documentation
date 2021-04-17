@@ -68,8 +68,9 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 |     |                      |                                           |                   |                Summe |            23 |                          |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
 ```
-**Durchschnitt Schadenspotenzial (aufgerundet) = Gewichteter Schaden Projekt / Anzahl Sprints  **
-Gewichteter Schaden = Schadenspotenzial *Eintrittswahrscheinlichkeit*
+
+\* *Durchschnitt Schadenspotenzial (aufgerundet) = Gewichteter Schaden Projekt / Anzahl Sprints*
+** *Gewichteter Schaden = Schadenspotenzial * Eintrittswahrscheinlichkeit*
 
 ## Risikoüberwachung
 

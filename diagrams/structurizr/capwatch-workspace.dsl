@@ -10,6 +10,7 @@ workspace "65674" "Modell für die Software CapWatch." {
 
             backend = container "API Applikation" "Empfängt und liefert Auslastungsinformationen via JSON/HTTP API" "C#" {
                 storeController = component "Store Controller" "Empfängt und liefert Informationen zu Stores inklusive Auslastungsinformationen über individuelle API Endpunkte" "C# REST Controller"
+                storeHandler = component "Store Handler" "Verbindet Datenbank mit API und wendet die nötige Business Logik auf die ein-/ausgehenden Daten an" "C#"
                 storeRepository = component "Store Repository" "Stellt Funktionalität zum lesen und schreiben von Store Informationen zur Verfügung" "C#"
             }
 
@@ -31,7 +32,9 @@ workspace "65674" "Modell für die Software CapWatch." {
 
         backend -> db "liest von und schreibt auf" "C# MongoDB driver"
 
-        storeController -> storeRepository "benutzt"
+        storeController -> storeHandler "benutzt"
+
+        storeHandler -> storeRepository "benutzt"
 
         storeRepository -> db "liest von und schreibt auf" "C# MongoDB driver"
     }

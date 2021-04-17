@@ -15,6 +15,7 @@
     qualitaetsmanagement/qualitaetssicherung.md
     qualitaetsmanagement/systemtestspezifikation.md
     qualitaetsmanagement/systemtestprotokoll-2021-04-02.md
+    qualitaetsmanagement/systemtestprotokoll-2021-04-16.md
     schlussbericht/schlussbericht.md
     administration/eigenstaendigkeitserklaerung.md
     timereport.md

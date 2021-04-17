@@ -304,10 +304,7 @@ Die Risikoanalyse wurde im Dokument risikoanalyse.md detailliert beschreiben.
 Aufgrund der Risikoanalyse wurde ein durchschnittliches Schadenspotenzial von vier Stunden berechnet, desshalb werden
 in jedem Sprint vier Stunden als Reserve eingerechnet um sicherstellen zu können, dass der Projektplan eingehalten werden kann.
 
-Risiken welche einen gewichteten Schaden grösser als die geplanten vier Stunden Reserve aufweisen, werden hier nochmals im Detail angeschaut.
-
-Ri5 Zeitmanagement: Im Sprint Planning sollen Tasks, welche im nächsten Sprint eingeplant wurden, von den Entwicklern
-ausführlich analysiert und diskutiert werden. Danach wird gemeinsam eine Aufwandsschätzung vorgenommen, um eine zuverlässige Schätzung zu erhalten.
+Zum aktuellen Zeitpunkt gibt es keine Risiken mehr, welche einen gewichteten Schaden grösser als die geplanten vier Stunden Reserve aufweisen.
 
 ## Arbeitspakete
 

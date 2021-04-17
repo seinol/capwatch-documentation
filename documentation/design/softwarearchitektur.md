@@ -27,7 +27,7 @@ Wir haben uns entschieden zur Visualisierung unserer Architektur das C4 Modell z
 
 ### Container Diagramm der Software CapWatch (*)
 
-_(*) Das Wort Container wir hier in der Definition nach C4 Modell verwendet und und nicht im Kontext von Docker._
+_(*) Das Wort Container wird hier in der Definition nach C4 Modell verwendet und und nicht im Kontext von Docker._
 
 ![container](../../diagrams/structurizr/images/structurizr-65674-CapWatchContainers.png)
 ![container](../../diagrams/structurizr/images/structurizr-65674-CapWatchContainers-key.png)
@@ -38,9 +38,9 @@ Das Gesamtsystem besteht aus einer MongoDB Datenbankinstanz und einem C# Backend
 
 Das Frontend besteht aus einer Single-Page Applikation welche mit React in TypeScript geschrieben ist. Diese wird von einem Nginx Webserver an den Konsumenten geliefert. Das Frontend ist grob in drei Schichten unterteilt. Zuoberst befindet sich die GUI Schicht, die sich um die Darstellung der Information kümmert. Darunter befinden sich Komponenten welche die Daten für die GUI Schicht bereitstellen. Diese Daten werden von der untersten Schicht, den Services, von der Backend API abgeholt und an die Komponenten weitergeleitet.
 
-Für React haben wir uns entschieden, da Angular unserer Meinung nach zu gross für unseren Projektumfang ist. Bei der Wahl zwischen Vue und React gewann letzteres dann, da das teaminterne Interesse and er Technologie und auch das existierende Vorwissen grösser war. Überdies ist React parallel zum Projekt auch Thema in der _Web Engineering und Design 3_ Vorlesung welche von einem Projektmitarbeiter besucht wird.
-
 ![frontend-overview](../../diagrams/frontend-overview.jpg)
+
+Für React haben wir uns entschieden, da Angular unserer Meinung nach zu gross für unseren Projektumfang ist. Bei der Wahl zwischen Vue und React gewann letzteres dann, da das teaminterne Interesse and er Technologie und auch das existierende Vorwissen grösser war. Überdies ist React parallel zum Projekt auch Thema in der _Web Engineering und Design 3_ Vorlesung welche von einem Projektmitarbeiter besucht wird.
 
 ### Komponenten Diagramm der API Backend Applikation
 
@@ -50,6 +50,10 @@ Für React haben wir uns entschieden, da Angular unserer Meinung nach zu gross f
 #### Store Controller
 
 Der Store Controller bietet klassische REST Schnittstellen an über welche Informationen zu Stores angefragt und aktualisiert werden können. Welche API Schnittstellen im Detail zur Verfügung stehen kann in der [API Dokumentation](../analyse/api-documentation.md) eingesehen werden.
+
+#### Store Handler
+
+Der Store Handler liegt in der Applikationsschicht und verbindet das Store Repository mit dem Store Controller. Der Handler implementiert die Business Logik, welche auf ein- und ausgehende Stores angewendet wird.
 
 #### Store Repository
 
@@ -95,7 +99,7 @@ Zum aktuellen Zeitpunkt können noch keine Aussagen zu Einschränkungen bezügli
 
 ## Ausbau-Szenario
 
-Bezüglich Ausbau-Szenarien haben wir uns bereits bei der Erstellung der [Anforderungsspezifikation](../analyse/anforderungsspezifikation.md) Gedanken gemacht. Mögliche Erweiterungen sind sind in den Tabellen bei den Funktionalen Anforderungen und Qualitätsmerkmalen unter der Kategorie _KANN_ aufgeführt.
+Bezüglich Ausbau-Szenarien haben wir uns bereits bei der Erstellung der [Anforderungsspezifikation](../analyse/anforderungsspezifikation.md) Gedanken gemacht. Mögliche Erweiterungen sind in den Tabellen bei den Funktionalen Anforderungen und Qualitätsmerkmalen unter der Kategorie _KANN_ aufgeführt.
 
 Weiter lädt das Frontend aktuell regelmässig die Liste der Stores und deren Auslastung um aktuelle Daten anzuzeigen. Hier würde sich ein Websocket anbieten, welcher dem Frontend mitteilt, falls es Änderungen gibt. Dieser Ausbau ist bereits für einen der nächsten Sprints geplant.
 
