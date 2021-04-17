@@ -19,7 +19,7 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 - Projekt: CapWatch
 - Erstellt am: 02.03.2021
 - Autor: Christoph Scheiwiller
-- Gewichteter Schaden Projekt gesamt: *28 Stunden*
+- Gewichteter Schaden Projekt gesamt: *23 Stunden*
 - Durchschnitt Schadenspotenzial pro Sprint (gerundet): *6 Stunden** 
 
 ```eval_rst
@@ -46,7 +46,7 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 |     |                      | überarbeitet werden oder in den nächsten  |                   |                      |               |                          |                               |
 |     |                      | Sprint verschoben werden.                 |                   |                      |               |                          |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
-| Ri5 | Zeitmanagement       | Die Geplante Zeit für ein Feature wird    |                 3 |                    2 |             6 | Gemeinsames schätzen     | Verschiebung von Features     |
+| Ri5 | Zeitmanagement       | Die Geplante Zeit für ein Feature wird    |                 3 |                    1 |             3 | Gemeinsames schätzen     | Verschiebung von Features     |
 |     |                      | massiv überschritten.                     |                   |                      |               | der Aufwände             | in späteren Sprint            |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
 | Ri6 | Softwarearchitektur  | Fehler im Designprozess werden erst       |                 1 |                    1 |             1 | Prototyp erstellen       | Fehleranalyse & Überarbeitung |
@@ -65,11 +65,11 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 |     |                      |                                           |                   |                      |               | bereit zur Besprechung   |                               |
 |     |                      |                                           |                   |                      |               | im Team.                 |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
-|     |                      |                                           |                   |                Summe |            26 |                          |                               |
+|     |                      |                                           |                   |                Summe |            23 |                          |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
 ```
-**Durchschnitt Schadenspotenzial (aufgerundet) = Gewichteter Schaden Projekt / Anzahl Sprints* \
-***Gewichteter Schaden = Schadenspotenzial * Eintritts&shy;wahrscheinlichkeit*
+**Durchschnitt Schadenspotenzial (aufgerundet) = Gewichteter Schaden Projekt / Anzahl Sprints  **
+Gewichteter Schaden = Schadenspotenzial *Eintrittswahrscheinlichkeit*
 
 ## Risikoüberwachung
 
@@ -83,5 +83,5 @@ Risikoüberprüfung durchgeführt:
    - Bei Ri6 reduziert sich die Eintrittswahrscheinlichkeit, da wir den Grundstein der Architektur im Prototyp schon umgesetzt haben und es sich bewährt hat.
    - Bei Ri8 reduziert sich die Eintrittswahrscheinlichkeit, da im Prototyp schon viel neues Wissen erlangt worden ist 
 - 15.04.2021 (Pascal Schlumpf): Risiken neu beurteilt
-   - Bei Ri4 reduziert sich die Eintrittswahrscheinlichkeit, da wir nun alle MUSS Anforderungen umgesetzt haben. Bis jetzt wurde noch keine Kritik an den Anforderungen ausgesprochen.
-   - Ri5 bleibt immer noch gleich. Wir haben auch in diesem Sprint die Tasks für Entwicklung zu tief geschätzt. In diesem Punkt müssen wir uns noch verbessern. Erst dann können wir die Eintrittswahrscheinlichkeit reduzieren
+   - Bei Ri4 reduziert sich die Eintrittswahrscheinlichkeit, da wir nun fast alle MUSS Anforderungen umgesetzt haben. Eine Anforderung mussten wir auf den nächsten Sprint verschieben, da der Umfang zu gross wurde. Bis jetzt wurde noch keine Kritik an den Anforderungen ausgesprochen.
+   - Bei Ri5 reduziert sich die Eintrittswahrscheinlichkeit. Wir haben auch in diesem Sprint die Tasks für Entwicklung zu tief geschätzt. In diesem Punkt müssen wir uns noch verbessern. Aber die Gesamtzeit wurde schon zum zweiten Mal sehr genau geschätzt.

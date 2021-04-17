@@ -28,7 +28,19 @@ Die folgende Liste von Tests bezieht sich vorerst auf die Funktionalität des Ar
 +-------------+-------------------------------------------------------+
 | Anforderung | Beschreibung                                          |
 +=============+=======================================================+
-| AL-1-1      | Wird durch Unittests abgedeckt.                       |
+| AL-1-1      | POST Request vorbereiten mit korrektem Body in JSON   |
+|             | Format. Request an URL localhost:8080/Stores          |
+|             | absenden. Antwort muss 200 sein und id und secret     |
+|             | müssen in der Antwort zurückgesendet werden.          |
++-------------+-------------------------------------------------------+
+| AL-1-2      | POST Request vorbereiten mit fehlendem Name im JSON.  |
+|             | Request an URL localhost:8080/Stores absenden.        |
+|             | Antwort muss 400 sein und es muss der Fehler "Name    |
+|             | muss Vorhanden sein" als Antwort zurückkommen.        |
++-------------+-------------------------------------------------------+
+| AL-1-3      | PATCH Request vorbereiten mit korrektem Body im JSON  |
+|             | Format. Request an URL localhost:8080/Stores absenden.|
+|             | Antwort muss 200 sein und es wird kein Body gesendet  |
 +-------------+-------------------------------------------------------+
 | AW-1-1      | Datenbank nicht anbinden. URL des CapWatch Frontend   |
 |             | aufrufen. Es wird eine Meldung angezeigt, dass ein    |

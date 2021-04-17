@@ -111,7 +111,7 @@ Falls bei der Datenbank Performance Probleme relevant werden sollten, wären die
 
 ## Durchlaufene Klassen
 
-Hier haben wir eine grobe Übersicht über die Wichtigsten Klassen bzw. Sourcen welche bei einem Aufruf der Webseite durchlaufen werden.
+Hier folgt noch eine grobe Übersicht über die wichtigsten Klassen / Methoden welche bei einem Aufruf der Webseite durchlaufen werden.
 
 ![application_flow](../../images/application_flow.png)
 
