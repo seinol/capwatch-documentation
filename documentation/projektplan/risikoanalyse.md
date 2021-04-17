@@ -20,7 +20,7 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 - Erstellt am: 02.03.2021
 - Autor: Christoph Scheiwiller
 - Gewichteter Schaden Projekt gesamt: *23 Stunden*
-- Durchschnitt Schadenspotenzial pro Sprint (gerundet): *6 Stunden** 
+- Durchschnitt Schadenspotenzial pro Sprint (gerundet): *6 Stunden**
 
 ```eval_rst
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
@@ -77,12 +77,13 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 Die Risiken sollen nach jedem Sprint überprüft werden.
 
 Risikoüberprüfung durchgeführt:
+
 - 13.03.2021 (Christoph Scheiwiller): Risiken ergänzt / Neuberechnung Schadenspotenzial
 - 02.04.2021 (Pascal Schlumpf): Risiken neu beurteilt  
-   - Ri4 bleibt gleich da im Prototyp die MUSS-Anforderungen nicht vollständig umgesetzt worden sind 
-   - Ri5 bleibt trotz ersten Erfahrungen gleich. Wir müssen unsere Erkenntnisse in den nächsten Sprint einfliessen lassen und schauen ob wir uns verbessert haben. Erst dann können wir die Eintrittswahrscheinlichkeit reduzieren 
-   - Bei Ri6 reduziert sich die Eintrittswahrscheinlichkeit, da wir den Grundstein der Architektur im Prototyp schon umgesetzt haben und es sich bewährt hat.
-   - Bei Ri8 reduziert sich die Eintrittswahrscheinlichkeit, da im Prototyp schon viel neues Wissen erlangt worden ist 
-- 15.04.2021 (Pascal Schlumpf): Risiken neu beurteilt
-   - Bei Ri4 reduziert sich die Eintrittswahrscheinlichkeit, da wir nun fast alle MUSS Anforderungen umgesetzt haben. Eine Anforderung mussten wir auf den nächsten Sprint verschieben, da der Umfang zu gross wurde. Bis jetzt wurde noch keine Kritik an den Anforderungen ausgesprochen.
-   - Bei Ri5 reduziert sich die Eintrittswahrscheinlichkeit. Wir haben auch in diesem Sprint die Tasks für Entwicklung zu tief geschätzt. In diesem Punkt müssen wir uns noch verbessern. Aber die Gesamtzeit wurde schon zum zweiten Mal sehr genau geschätzt.
+- Ri4 bleibt gleich da im Prototyp die MUSS-Anforderungen nicht vollständig umgesetzt worden sind.
+- Ri5 bleibt trotz ersten Erfahrungen gleich. Wir müssen unsere Erkenntnisse in den nächsten Sprint einfliessen lassen und schauen ob wir uns verbessert haben. Erst dann können wir die Eintrittswahrscheinlichkeit reduzieren.
+- Bei Ri6 reduziert sich die Eintrittswahrscheinlichkeit, da wir den Grundstein der Architektur im Prototyp schon umgesetzt haben und es sich bewährt hat.
+- Bei Ri8 reduziert sich die Eintrittswahrscheinlichkeit, da im Prototyp schon viel neues Wissen erlangt worden ist.
+- 15.04.2021 (Pascal Schlumpf): Risiken neu beurteilt.
+- Bei Ri4 reduziert sich die Eintrittswahrscheinlichkeit, da wir nun fast alle MUSS Anforderungen umgesetzt haben. Eine Anforderung mussten wir auf den nächsten Sprint verschieben, da der Umfang zu gross wurde. Bis jetzt wurde noch keine Kritik an den Anforderungen ausgesprochen.
+- Bei Ri5 reduziert sich die Eintrittswahrscheinlichkeit. Wir haben auch in diesem Sprint die Tasks für Entwicklung zu tief geschätzt. In diesem Punkt müssen wir uns noch verbessern. Die Abweichungen bei der Gesamtzeit sind aber soweit im Rahmen, dass wir das Risiko als kleiner einstufen.
