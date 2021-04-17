@@ -14,7 +14,7 @@ Diese Dokumentation kann je nach Situation dem Entwicklungsstand des Codes leich
 
 ## Referenzen
 
-* Die C4 Diagramme wurden mit Structurizr erstellt: https://structurizr.com/
+* Die C4 Diagramme wurden mit Structurizr erstellt: [https://structurizr.com](https://structurizr.com)
 
 ## C4 Modell
 
