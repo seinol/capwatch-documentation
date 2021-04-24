@@ -18,5 +18,5 @@
     qualitaetsmanagement/systemtestprotokoll-2021-04-16.md
     schlussbericht/schlussbericht.md
     administration/eigenstaendigkeitserklaerung.md
-    timereport.md
+    timereport/timereport.md
 ```

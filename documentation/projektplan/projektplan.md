@@ -13,7 +13,8 @@ Rahmen des Engineering Projekts der Fachhochschule Ost erstellt.
 
 ### Vorgehen zur Überarbeitung der Planung
 
-Wenn wir die Planung nachträglich überarbeiten, wird diese Version von allen Zusammen in einem Meeting geprüft und abgenommen. 
+Wenn wir die Planung nachträglich überarbeiten, wird diese Version von allen Zusammen in einem Meeting geprüft und
+abgenommen.
 
 ### Referenzen
 
@@ -24,18 +25,18 @@ Wenn wir die Planung nachträglich überarbeiten, wird diese Version von allen Z
 ## Projekt Übersicht
 
 Eine Webapplikation, in der man seine Lieblingsgeschäfte, Saunas, etc. abonnieren kann. Die Daten werden bei einem
-Abonnement dann in Echtzeit aktualisiert. Die Daten werden von den Dienstleistern über eine API an das Backend geliefert
-und in einer Datenbank abgelegt. Das Backend besteht aus insgesamt zwei zentralen API’s. Die zweite Schnittstelle ist
-für die Datenauslieferung an das Frontend bzw. die Webseite, welche schlussendlich der Benutzer verwendet für die
-Abonnements. Das Frontend ist ein reiner, einseitiger Empfänger ohne Authentifizierung in einer ersten Version.
+Abonnement dann in Echtzeit aktualisiert. Das Backend besteht aus mehreren API’s. Die Daten werden von den
+Dienstleistern über eine API an das Backend geliefert und in einer Datenbank abgelegt. Über eine weitere Schnittstelle
+können die Daten vom Frontend bzw. die Webseite abgefragt werden. Im Frontend kann sich der Benutzer Favoriten
+speichern. Das Frontend ist einer ersten Version ein reiner einseitiger Empfänger ohne Authentifizierung.
 
 ### Zweck und Ziel
 
 Real-time Daten zur Anzahl Personen in einem Raum oder Gebäude, welche eine Personenbeschränkung aufgrund einer Pandemie
-oder einem sonstigen Grund haben, wie z. B. Geschäfte, Saunen, Bäder, Sportanlagen etc. um das persönliche Einkaufs- und
+oder einem sonstigen Grund haben, wie z.B. Geschäfte, Saunen, Bäder, Sportanlagen etc. um das persönliche Einkaufs- und
 Konsumverhalten besser planen bzw. anpassen zu können. Es entstehen dabei sowohl Vorteile für die Anbieter und die
 Konsumenten. Die Anbieter können Dienstleistungsendpässe vermeiden, welche zu einem Besucherverlust führen könnten. Die
-Konsumenten profitieren von kurzen Wartezeiten und somit auch besseren Verkaufsdienstleistung wie z. B. Beratungen.
+Konsumenten profitieren von kurzen Wartezeiten und somit auch besseren Verkaufsdienstleistung wie z.B. Beratungen.
 
 Die Ziele des Teams sind eine allgemein gut funktionierende, erweiterbare, performante und benutzerfreundliche Plattform
 für die Endkunden, wie aber auch für die Datenlieferanten. Die Weblösung soll einfach zu bedien sein und das Leben
@@ -72,11 +73,11 @@ Die Nutzung der folgenden Gitlab Funktionen wurden wegen diverser Probleme (sieh
 - Issues mit Kanban Board
 - Script für den Time Tracking Report (gtt)
 
-Als Ersatz zu den oben erwähnten, gestrichenen Gitlab Funktionen verwenden wir [Youtrack](https://www.jetbrains.com/de-de/youtrack/) von Jetbrains mit den folgenden Funktionen:
+Als Ersatz zu den oben erwähnten, gestrichenen Gitlab Funktionen verwenden
+wir [Youtrack](https://www.jetbrains.com/de-de/youtrack/) von Jetbrains mit den folgenden Funktionen:
 
 - Issues mit Kanban Board
 - Integriertes Timetracking
-
 
 ### Organisationsstruktur
 
@@ -169,8 +170,8 @@ Nach dem Erreichen des ersten Meilensteins beginnen wir iterativ mit Scrum zu ar
 definiert. Jeder Sprint dauert zwei Wochen, mit Ausnahme des fünften Sprints, welcher drei Wochen dauert. Am Ende jedes
 Sprints ist der vorgegebene Meilenstein zu erreichen.
 
-Für die Priorisierung der Tasks im Backlog verwenden wir die MoSCoW Methode.
-Die Aufwandsschätzungen der Taks werden in absoluten Stunden vorgenommen. 
+Für die Priorisierung der Tasks im Backlog verwenden wir die MoSCoW Methode. Die Aufwandsschätzungen der Taks werden in
+absoluten Stunden vorgenommen.
 
 #### Meilensteine
 
@@ -238,7 +239,8 @@ Die Aufwandsschätzungen der Taks werden in absoluten Stunden vorgenommen.
 ### Besprechungen
 
 Hier sind alle fixierten Termine aufgeführt. Falls nötig können auch spontane Besprechungen dazukommen, wobei nicht alle
-Gruppenmitglieder anwesend sein müssen. Diese spontanen Besprechungen können von jedem Gruppenmitglied einberufen werden und ersetzen bei uns das Daily Standup Meeting, da dieses bei uns keinen Sinn machen würde. 
+Gruppenmitglieder anwesend sein müssen. Diese spontanen Besprechungen können von jedem Gruppenmitglied einberufen werden
+und ersetzen bei uns das Daily Standup Meeting, da dieses bei uns keinen Sinn machen würde.
 
 **Ort:** Bis auf Weiteres finden alle Besprechungen digital in Microsoft Teams statt.
 
@@ -267,7 +269,7 @@ Gruppenmitglieder anwesend sein müssen. Diese spontanen Besprechungen können v
 +----------------------+----------------------+----------------------+
 | 22.03.2021 16:00 Uhr | Team / Advisor       | Review 2             |
 +----------------------+----------------------+----------------------+
-| 05.04.2021 16:00 Uhr | Team / Advisor       | Review 3             |
+| 06.04.2021 19:00 Uhr | Team / Advisor       | Review 3             |
 +----------------------+----------------------+----------------------+
 | 19.04.2021 16:00 Uhr | Team / Advisor       | Review 4             |
 +----------------------+----------------------+----------------------+
@@ -277,7 +279,8 @@ Gruppenmitglieder anwesend sein müssen. Diese spontanen Besprechungen können v
 +----------------------+----------------------+----------------------+
 ```
 
-Um zu verhindern, dass unsere Scrum-Events zeitlich aus dem Ruder laufen, haben wir die folgenden Timeboxings für die Events definiert.
+Um zu verhindern, dass unsere Scrum-Events zeitlich aus dem Ruder laufen, haben wir die folgenden Timeboxings für die
+Events definiert.
 
 ```eval_rst
 +----------------------+----------------------+----------------------+
@@ -291,6 +294,11 @@ Um zu verhindern, dass unsere Scrum-Events zeitlich aus dem Ruder laufen, haben 
 | Sprint Retrospektive | 30 Minuten           | variabel, wird evtl. |
 |                      |                      | nochmals angepasst   |
 +----------------------+----------------------+----------------------+
+| Backlogrefinement    | 15 Minuten           | Wird vom PO          |
+|                      |                      | vorbereitet          |
+|                      |                      | Falls notendig im    |
+|                      |                      | Team ergänzt         |
++----------------------+----------------------+----------------------+
 ```
 
 ## Risikomanagement
@@ -301,17 +309,21 @@ Die Risikoanalyse wurde im Dokument risikoanalyse.md detailliert beschreiben.
 
 ### Umgang mit Risiken
 
-Aufgrund der Risikoanalyse wurde ein durchschnittliches Schadenspotenzial von vier Stunden berechnet, desshalb werden
-in jedem Sprint vier Stunden als Reserve eingerechnet um sicherstellen zu können, dass der Projektplan eingehalten werden kann.
+Aufgrund der Risikoanalyse wurde ein durchschnittliches Schadenspotenzial von vier Stunden berechnet, desshalb werden in
+jedem Sprint vier Stunden als Reserve eingerechnet um sicherstellen zu können, dass der Projektplan eingehalten werden
+kann.
 
-Zum aktuellen Zeitpunkt gibt es keine Risiken mehr, welche einen gewichteten Schaden grösser als die geplanten vier Stunden Reserve aufweisen.
+Zum aktuellen Zeitpunkt gibt es keine Risiken mehr, welche einen gewichteten Schaden grösser als die geplanten vier
+Stunden Reserve aufweisen.
 
 ## Arbeitspakete
 
-Zur Planung der Arbeit, sowie dem Tracking der aufgewendeten Arbeitszeit haben wir ursprünglich Gitlab angedacht. Für die Auswertung der Zeiterfassung hätte [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz kommen sollen. 
+Zur Planung der Arbeit, sowie dem Tracking der aufgewendeten Arbeitszeit haben wir ursprünglich Gitlab angedacht. Für
+die Auswertung der Zeiterfassung hätte [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz kommen sollen.
 
-Leider hat sich in der ersten Projektwoche gezeigt, dass die uns von Gitlab zur Verfügung gestellten Tools nur unzureichend funktionieren. Nach einem nicht lösbaren Problem mit dem Timetracking, haben wir nach Absprache mit unserem Advisor den umstieg auf [Youtrack](https://www.jetbrains.com/de-de/youtrack/) beschlossen. 
-
+Leider hat sich in der ersten Projektwoche gezeigt, dass die uns von Gitlab zur Verfügung gestellten Tools nur
+unzureichend funktionieren. Nach einem nicht lösbaren Problem mit dem Timetracking, haben wir nach Absprache mit unserem
+Advisor den umstieg auf [Youtrack](https://www.jetbrains.com/de-de/youtrack/) beschlossen.
 
 ## Infrastruktur
 
@@ -329,14 +341,18 @@ und das Tool [Renovate](https://github.com/renovatebot/renovate) für das automa
 Erstens werden für den Umgang mit Git diverse Richtlinien definiert um eine professionelle und einfache Zusammenarbeit
 im Softwareentwicklungsprozess mit dem ganzen Team zu erreichen. \
 Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzlich keine Änderungen in den Git Repositories verwendet
-werden, welche nicht mindestens von einem weiteren Teammitglied in einem Review validiert und bestätigt wurden. Ausnahmen dabei sind triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen. Drittens werden mit jedem Build und auch mit jedem Deployment der Applikationen Sicherheit- und Integrationchecks durchgeführt durch SonarQube und Renovate.
+werden, welche nicht mindestens von einem weiteren Teammitglied in einem Review validiert und bestätigt wurden.
+Ausnahmen dabei sind triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen.
+Drittens werden mit jedem Build und auch mit jedem Deployment der Applikationen Sicherheit- und Integrationchecks
+durchgeführt durch SonarQube und Renovate.
 
 Um diese Massnahmen für die Verbesserung der Qualität umsetzen zu können, verwenden wir die folgenden Gitlab Features:
 
 - Merge- bzw. Pull-Requests
 - CI / CD
 
-Jedes Product Backlog Item wird ausserdem mit einer Definition of Done versehen, welche dem Bearbeitenden und dem Reviewer dabei hilft, die Vollständigkeit dieses Product Backlog Items zu prüfen. 
+Jedes Product Backlog Item wird ausserdem mit einer Definition of Done versehen, welche dem Bearbeitenden und dem
+Reviewer dabei hilft, die Vollständigkeit dieses Product Backlog Items zu prüfen.
 
 Zusätzlich setzen wir die folgenden Techniken ein, um eine hohe Qualität innerhalb des Projekts zu gewährleisten:
 
@@ -347,7 +363,8 @@ Zusätzlich setzen wir die folgenden Techniken ein, um eine hohe Qualität inner
 Um den erfolgreichen Verlauf des Projekts zu garantieren, ist der Projektleiter dafür verantwortlich, wöchentlich die
 Einhaltung der Qualitätsmassnahmen zu überprüfen und Abweichungen den Teammitgliedern mitzuteilen. Der Projektleiter
 arbeitet nach einer wöchentlichen Checkliste, damit nichts vergessen wird.\
-Das Team arbeitet nach dem Erreichen des ersten Meilensteins nach Scrum und garantiert somit pro Sprint fertige Teile des Produkts vorweisen zu können.
+Das Team arbeitet nach dem Erreichen des ersten Meilensteins nach Scrum und garantiert somit pro Sprint fertige Teile
+des Produkts vorweisen zu können.
 
 ### Dokumentation
 
@@ -360,7 +377,9 @@ letzten Review auf dem Produktionsbranch überprüft.
 
 ### Projektmanagement
 
-Wir wollten ursprünglich die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von GitLab selbst verwenden. Wegen den im Punkt Arbeitspakete beschriebenen Probleme kommt seit der zweiten Projektwoche aber Youtrack zum Einsatz. Die Issues durchlaufen einen klaren Workflow der
+Wir wollten ursprünglich die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von
+GitLab selbst verwenden. Wegen den im Punkt Arbeitspakete beschriebenen Probleme kommt seit der zweiten Projektwoche
+aber Youtrack zum Einsatz. Die Issues durchlaufen einen klaren Workflow der
 als [Kanban Board](https://capwatch.myjetbrains.com/youtrack/agiles/120-2/current) angezeigt wird. Jedes Issue
 durchläuft folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem
 groben Format erstellt und warten dann im Status *open* auf deren Einplanung in einen Sprint, wodurch sie in den Status
@@ -380,10 +399,10 @@ das ganze Projekt definiert.
 #### Vorgehen
 
 Wir entwickeln vollständig nach dem Prinzip der agilen Softwareentwicklung mit Scrum und entwickeln demnach in
-Iterationen nach und nach Teile der Applikationen. Der Sourcecode wird klassisch und nach Features entwickelt, ohne dabei
-zuerst Tests zu schreiben (kein Test Driven Development). Die Logik der Features wird zuerst implementiert und danach
-werden die Unit Tests dazu geschrieben. Im Frontend verzichten wir auf automatisierte Tests, weil der Projektumfang zu
-klein ist und der Aufwand dafür zu gross wäre. Das ganze Frontend wird manuell getestet.
+Iterationen nach und nach Teile der Applikationen. Der Sourcecode wird klassisch und nach Features entwickelt, ohne
+dabei zuerst Tests zu schreiben (kein Test Driven Development). Die Logik der Features wird zuerst implementiert und
+danach werden die Unit Tests dazu geschrieben. Im Frontend verzichten wir auf automatisierte Tests, weil der
+Projektumfang zu klein ist und der Aufwand dafür zu gross wäre. Das ganze Frontend wird manuell getestet.
 
 #### Unit Testing
 
@@ -423,7 +442,8 @@ werden.
 
 ###### .Net
 
-* Wir verwenden nicht die Standard IDE Einstellungen von Microsoft Visual Studio, sondern diejenigen aus dem Einstellungs-Backup  
+* Wir verwenden nicht die Standard IDE Einstellungen von Microsoft Visual Studio, sondern diejenigen aus dem
+  Einstellungs-Backup
 
 ```
 Exported-2021-02-04.vssettings
@@ -471,4 +491,7 @@ jedem Release auf seine Performance getestet. Hierfür verwenden wir [Apache JMe
 
 #### Usability Tests
 
-Um die Benutzerfreundlichkeit unseres Projekts sicherzustellen, werden wir auf manuell durchgeführte Usability Tests setzen, da diese mit vergleichsweise wenig Aufwand sehr viel wertvolles Feedback zur Qualität und zu möglichen Verbesserungen liefern.
+Um die Benutzerfreundlichkeit unseres Projekts sicherzustellen, werden wir auf manuell durchgeführte Usability Tests
+setzen, da diese mit vergleichsweise wenig Aufwand sehr viel wertvolles Feedback zur Qualität und zu möglichen
+Verbesserungen liefern.
+
