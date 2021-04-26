@@ -200,8 +200,7 @@ Im Dokument bzw. Bereich "API Dokumentation" gibt es noch eine genaue Beschreibu
 
 ### Screendesigns
 
-Wir haben direkt Screendesigns entwickelt, weil ein Grobdesign (z.B. Wireframes) für solch einen kleinen Funktionsumfang nicht optimal ist und nur einen unnötigen Mehraufwand bedeuten würde.
-Unsere Plattform wird Mobile First entwickelt, weil wir viel mehr Benutzer unterwegs bzw. auf ihrem Mobiltelefon erwarten.
+Wir haben direkt Screendesigns entwickelt, weil ein Grobdesign (z.B. Wireframes) für solch einen kleinen Funktionsumfang nicht optimal ist und nur einen unnötigen Mehraufwand bedeuten würde. Unsere Plattform wird Mobile First entwickelt, weil wir viel mehr Benutzer unterwegs bzw. auf ihrem Mobiltelefon erwarten.
 
 Nur die Startpage auf Mobile ist relevant für das Minimum Viable Product.
 

@@ -8,8 +8,7 @@ Dieses Dokument gibt eine Übersicht über die Art und Weise wie wir unser Proje
 
 ### Gültigkeitsbereich
 
-Dieses Dokument ist für die Stakeholder dieses Projektes. Dazu gehören die Betreuer, sowie die Entwickler. Es wurde im
-Rahmen des Engineering Projekts der Fachhochschule Ost erstellt.
+Dieses Dokument ist für die Stakeholder dieses Projektes. Dazu gehören die Betreuer, sowie die Entwickler. Es wurde im Rahmen des Engineering Projekts der Fachhochschule Ost erstellt.
 
 ### Vorgehen zur Überarbeitung der Planung
 
@@ -23,23 +22,13 @@ Wenn wir die Planung nachträglich überarbeiten, wird diese Version von allen Z
 
 ## Projekt Übersicht
 
-Eine Webapplikation, in der man seine Lieblingsgeschäfte, Saunas, etc. abonnieren kann. Die Daten werden bei einem 
-Abonnement dann in Echtzeit aktualisiert. Das Backend besteht aus mehreren API Endpoints. Die Daten werden von den
-Dienstleistern über eine API an das Backend geliefert und in einer Datenbank abgelegt. Über eine weitere Schnittstelle
-können die Daten vom Frontend bzw. die Webseite abgefragt werden. Im Frontend kann sich der Benutzer Favoriten
-speichern. Das Frontend ist in der ersten Version ein reiner einseitiger Empfänger ohne Authentifizierung.
+Eine Webapplikation, in der man seine Lieblingsgeschäfte, Saunas, etc. abonnieren kann. Die Daten werden bei einem Abonnement dann in Echtzeit aktualisiert. Das Backend besteht aus mehreren API Endpoints. Die Daten werden von den Dienstleistern über eine API an das Backend geliefert und in einer Datenbank abgelegt. Über eine weitere Schnittstelle können die Daten vom Frontend bzw. die Webseite abgefragt werden. Im Frontend kann sich der Benutzer Favoriten speichern. Das Frontend ist in der ersten Version ein reiner einseitiger Empfänger ohne Authentifizierung.
 
 ### Zweck und Ziel
 
-Real-time Daten zur Anzahl Personen in einem Raum oder Gebäude, welche eine Personenbeschränkung aufgrund einer Pandemie
-oder einem sonstigen Grund haben, wie z.B. Geschäfte, Saunen, Bäder, Sportanlagen etc. um das persönliche Einkaufs- und
-Konsumverhalten besser planen bzw. anpassen zu können. Es entstehen dabei sowohl Vorteile für die Anbieter und die
-Konsumenten. Die Anbieter können Dienstleistungsendpässe vermeiden, welche zu einem Besucherverlust führen könnten. Die
-Konsumenten profitieren von kurzen Wartezeiten und somit auch besseren Verkaufsdienstleistung wie z.B. Beratungen.
+Real-time Daten zur Anzahl Personen in einem Raum oder Gebäude, welche eine Personenbeschränkung aufgrund einer Pandemie oder einem sonstigen Grund haben, wie z.B. Geschäfte, Saunen, Bäder, Sportanlagen etc. um das persönliche Einkaufs- und Konsumverhalten besser planen bzw. anpassen zu können. Es entstehen dabei sowohl Vorteile für die Anbieter und die Konsumenten. Die Anbieter können Dienstleistungsendpässe vermeiden, welche zu einem Besucherverlust führen könnten. Die Konsumenten profitieren von kurzen Wartezeiten und somit auch besseren Verkaufsdienstleistung wie z.B. Beratungen.
 
-Die Ziele des Teams sind eine allgemein gut funktionierende, erweiterbare, performante und benutzerfreundliche Plattform
-für die Endkunden, wie aber auch für die Datenlieferanten. Die Weblösung soll einfach zu bedien sein und das Leben
-vereinfache, vor allem in der Zeit einer Pandemie wo Einschränkungen vom Konsumverhalten der Bevölkerung gefordert wird.
+Die Ziele des Teams sind eine allgemein gut funktionierende, erweiterbare, performante und benutzerfreundliche Plattform für die Endkunden, wie aber auch für die Datenlieferanten. Die Weblösung soll einfach zu bedien sein und das Leben vereinfache, vor allem in der Zeit einer Pandemie wo Einschränkungen vom Konsumverhalten der Bevölkerung gefordert wird.
 
 ### Lieferumfang
 
@@ -49,19 +38,13 @@ vereinfache, vor allem in der Zeit einer Pandemie wo Einschränkungen vom Konsum
 
 ### Annahmen und Einschränkungen
 
-Das Projekt unterliegt keinen speziellen Annahmen oder Einschränkungen. Die Dokumentation wird im Markdown-Format
-erstellt und hat somit in der Erstellung einige Einschränkungen.
+Das Projekt unterliegt keinen speziellen Annahmen oder Einschränkungen. Die Dokumentation wird im Markdown-Format erstellt und hat somit in der Erstellung einige Einschränkungen.
 
 ## Projektorganisation
 
-Das Projekt wird durch fünf Software-Engineering Studenten der Ostschweizer Fachhochschule am Campus Rapperswil
-durchgeführt. Alle Projektbeteiligten studieren im berufsbegleitenden Studienmodell und arbeiten nebenbei bis zu 70
-Prozent für ihre Arbeitgeber. Einige Teammitglieder haben Spezialgebiete, nach welchen auch die Verantwortlichkeiten
-verteilt werden. Betreut wird das Projekt durch den Advisor Herrn Thomas Kälin.
+Das Projekt wird durch fünf Software-Engineering Studenten der Ostschweizer Fachhochschule am Campus Rapperswil durchgeführt. Alle Projektbeteiligten studieren im berufsbegleitenden Studienmodell und arbeiten nebenbei bis zu 70 Prozent für ihre Arbeitgeber. Einige Teammitglieder haben Spezialgebiete, nach welchen auch die Verantwortlichkeiten verteilt werden. Betreut wird das Projekt durch den Advisor Herrn Thomas Kälin.
 
-Wir im Team verwenden Microsoft Teams für die Meetings und die Dateiablage. Microsoft OneNote wird für diverse Notizen,
-Meeting-Protokolle und weiteres genutzt, was nicht direkt in die offizielle Dokumentation muss. Zusätzlich verwenden wir
-alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
+Wir im Team verwenden Microsoft Teams für die Meetings und die Dateiablage. Microsoft OneNote wird für diverse Notizen, Meeting-Protokolle und weiteres genutzt, was nicht direkt in die offizielle Dokumentation muss. Zusätzlich verwenden wir alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
 
 - Repositories in Subgruppen
 - Analytics
@@ -100,8 +83,7 @@ Als Ersatz zu den oben erwähnten, gestrichenen Gitlab Funktionen verwenden wir 
 +-----------------------+---------------------------------------------+
 ```
 
-Alle beteiligten sind gleichberechtigte Teammitglieder und wir verfolgen eine komplett flache Hierarchie untereinander.
-Der Projektleiter ist in keinem Fall ein Mitarbeiter mit höheren Befugnissen oder höherer Entscheidungsmacht.
+Alle beteiligten sind gleichberechtigte Teammitglieder und wir verfolgen eine komplett flache Hierarchie untereinander. Der Projektleiter ist in keinem Fall ein Mitarbeiter mit höheren Befugnissen oder höherer Entscheidungsmacht.
 
 Da wir Scrum als Projektmanagement Methode verwenden, haben wir ausserdem die folgenden Scrum Rollen besetzt.
 
@@ -116,18 +98,13 @@ Pascal Schlumpf Product Owner
 
 ### Externe Schnittstellen
 
-Wir werden unterstützt und betreut durch den Advisor Herrn Thomas Kälin. In einzelnen Fällen ziehen wir die Expertise
-von anderen Studenten, anderen Betreuern und Modulverantwortlichen hinzu oder fragen bestimmte Zielgruppen für manuelle
-Benutzertests an.
+Wir werden unterstützt und betreut durch den Advisor Herrn Thomas Kälin. In einzelnen Fällen ziehen wir die Expertise von anderen Studenten, anderen Betreuern und Modulverantwortlichen hinzu oder fragen bestimmte Zielgruppen für manuelle Benutzertests an.
 
 ## Management Abläufe
 
 ### Kostenvoranschlag
 
-Unser Projekt wird auf 15 Semesterwochen aufgeteilt, was dem Standard der Vorgaben für das Engineering Projekt
-entspricht. Dies bedeutet ein durchschnittliches Arbeitspensum von ungefähr 8 Stunden pro Person pro Woche. Je nach
-Arbeitsaufwand pro Woche kann dieser Wert stark variieren. Der Endwert von mindestens 120 Stunden pro Person nach 15
-Wochen wird aber zwingend eingehalten.
+Unser Projekt wird auf 15 Semesterwochen aufgeteilt, was dem Standard der Vorgaben für das Engineering Projekt entspricht. Dies bedeutet ein durchschnittliches Arbeitspensum von ungefähr 8 Stunden pro Person pro Woche. Je nach Arbeitsaufwand pro Woche kann dieser Wert stark variieren. Der Endwert von mindestens 120 Stunden pro Person nach 15 Wochen wird aber zwingend eingehalten.
 
 ### Zeitliche Planung
 
@@ -137,39 +114,31 @@ Die grobe Zeitplanung wurde nach den Vorgaben von RUP durchgeführt.
 
 #### Phasen / Iterationen
 
-In der Entwicklung wird mit Sprints gearbeitet. Es gibt in jedem Sprint einen Meilenstein, welcher abgeschlossen werden
-muss. Für die grobe Planung beziehungsweise für die Phasen gehen wir nach dem RUP-Modell vor.
+In der Entwicklung wird mit Sprints gearbeitet. Es gibt in jedem Sprint einen Meilenstein, welcher abgeschlossen werden muss. Für die grobe Planung beziehungsweise für die Phasen gehen wir nach dem RUP-Modell vor.
 
 ##### *RUP-Phasen*
 
 ###### *Inception*
 
-In der ersten einwöchigen Phase werden die Anwendungsfälle grob beschrieben, damit haben wir ein klares Ziel für die
-Applikation CapWatch definiert.
+In der ersten einwöchigen Phase werden die Anwendungsfälle grob beschrieben, damit haben wir ein klares Ziel für die Applikation CapWatch definiert.
 
 ###### *Elaboration*
 
-In der Elaboration wird während vier Wochen ein Architekturprototyp erstellt. Die Anwendungsfälle werden detailliert
-beschrieben. Projektplanung sowie Risikoanalyse werden durchgeführt.
+In der Elaboration wird während vier Wochen ein Architekturprototyp erstellt. Die Anwendungsfälle werden detailliert beschrieben. Projektplanung sowie Risikoanalyse werden durchgeführt.
 
 ###### *Construction*
 
-In dieser Phase wird das Produkt CapWatch entwickelt und getestet. Während acht Wochen entsteht die Applikation auf
-Grundlage der vorher definierten Anwendungsfälle.
+In dieser Phase wird das Produkt CapWatch entwickelt und getestet. Während acht Wochen entsteht die Applikation auf Grundlage der vorher definierten Anwendungsfälle.
 
 ###### *Transition*
 
-Die Applikation CapWatch ist in der ersten Version zur Auslieferung bereit. Während zwei Wochen kann die Software
-eingeführt und getestet werden.
+Die Applikation CapWatch ist in der ersten Version zur Auslieferung bereit. Während zwei Wochen kann die Software eingeführt und getestet werden.
 
 ##### *Scrum*
 
-Nach dem Erreichen des ersten Meilensteins beginnen wir iterativ mit Scrum zu arbeiten. Es wurden sechs Sprints
-definiert. Jeder Sprint dauert zwei Wochen, mit Ausnahme des fünften Sprints, welcher drei Wochen dauert. Am Ende jedes
-Sprints ist der vorgegebene Meilenstein zu erreichen.
+Nach dem Erreichen des ersten Meilensteins beginnen wir iterativ mit Scrum zu arbeiten. Es wurden sechs Sprints definiert. Jeder Sprint dauert zwei Wochen, mit Ausnahme des fünften Sprints, welcher drei Wochen dauert. Am Ende jedes Sprints ist der vorgegebene Meilenstein zu erreichen.
 
-Für die Priorisierung der Tasks im Backlog verwenden wir die MoSCoW Methode. Die Aufwandsschätzungen der Taks werden in
-absoluten Stunden vorgenommen.
+Für die Priorisierung der Tasks im Backlog verwenden wir die MoSCoW Methode. Die Aufwandsschätzungen der Taks werden in absoluten Stunden vorgenommen.
 
 #### Meilensteine
 
@@ -236,9 +205,7 @@ absoluten Stunden vorgenommen.
 
 ### Besprechungen
 
-Hier sind alle fixierten Termine aufgeführt. Falls nötig können auch spontane Besprechungen dazukommen, wobei nicht alle
-Gruppenmitglieder anwesend sein müssen. Diese spontanen Besprechungen können von jedem Gruppenmitglied einberufen werden
-und ersetzen bei uns das Daily Standup Meeting, da dieses bei uns keinen Sinn machen würde.
+Hier sind alle fixierten Termine aufgeführt. Falls nötig können auch spontane Besprechungen dazukommen, wobei nicht alle Gruppenmitglieder anwesend sein müssen. Diese spontanen Besprechungen können von jedem Gruppenmitglied einberufen werden und ersetzen bei uns das Daily Standup Meeting, da dieses bei uns keinen Sinn machen würde.
 
 **Ort:** Bis auf Weiteres finden alle Besprechungen digital in Microsoft Teams statt.
 
@@ -277,8 +244,7 @@ und ersetzen bei uns das Daily Standup Meeting, da dieses bei uns keinen Sinn ma
 +----------------------+----------------------+----------------------+
 ```
 
-Um zu verhindern, dass unsere Scrum-Events zeitlich aus dem Ruder laufen, haben wir die folgenden Timeboxings für die
-Events definiert.
+Um zu verhindern, dass unsere Scrum-Events zeitlich aus dem Ruder laufen, haben wir die folgenden Timeboxings für die Events definiert.
 
 ```eval_rst
 +----------------------+----------------------+----------------------+
@@ -307,8 +273,7 @@ Die Risikoanalyse wurde im Dokument risikoanalyse.md detailliert beschreiben.
 
 ### Umgang mit Risiken
 
-Aufgrund der Risikoanalyse wurde ein durchschnittliches Schadenspotenzial von vier Stunden berechnet, desshalb werden
-in jedem Sprint vier Stunden als Reserve eingerechnet um sicherstellen zu können, dass der Projektplan eingehalten werden kann.
+Aufgrund der Risikoanalyse wurde ein durchschnittliches Schadenspotenzial von vier Stunden berechnet, desshalb werden in jedem Sprint vier Stunden als Reserve eingerechnet um sicherstellen zu können, dass der Projektplan eingehalten werden kann.
 
 Zum aktuellen Zeitpunkt gibt es keine Risiken mehr, welche einen gewichteten Schaden grösser als die geplanten vier Stunden Reserve aufweisen.
 
@@ -320,32 +285,21 @@ Leider hat sich in der ersten Projektwoche gezeigt, dass die uns von Gitlab zur 
 
 ## Infrastruktur
 
-Für die Verwaltung des Quellcodes und der Projektdokumentation verwenden wir das von der OST bereitgestellte GitLab,
-inklusive der zur Verfügung gestellten Continuous Integration Lösung. Für das Deployment verwenden wir eine einzelne
-virtuelle Maschine, basierend auf Ubuntu, welche uns ebenfalls von der OST zur Verfügung gestellt wird. Über die CI
-Lösung werden automatisch Docker Images generiert, welche dann auf der Deployment-VM ausgeführt werden können. \
-Die Entwicklung erfolgt auf unseren persönlichen Notebooks oder Desktop-PCs. Weitere spezielle Geräte werden nicht
-benötigt.\
-Zur Unterstützung verwenden wir im CI-Prozess zusätzlich das Codequalitätstool [SonarQube](https://www.sonarqube.org/)
-und das Tool [Renovate](https://github.com/renovatebot/renovate) für das automatisierte Updaten von Dependencies.
+Für die Verwaltung des Quellcodes und der Projektdokumentation verwenden wir das von der OST bereitgestellte GitLab, inklusive der zur Verfügung gestellten Continuous Integration Lösung. Für das Deployment verwenden wir eine einzelne virtuelle Maschine, basierend auf Ubuntu, welche uns ebenfalls von der OST zur Verfügung gestellt wird. Über die CI Lösung werden automatisch Docker Images generiert, welche dann auf der Deployment-VM ausgeführt werden können. \
+Die Entwicklung erfolgt auf unseren persönlichen Notebooks oder Desktop-PCs. Weitere spezielle Geräte werden nicht benötigt.\
+Zur Unterstützung verwenden wir im CI-Prozess zusätzlich das Codequalitätstool [SonarQube](https://www.sonarqube.org/) und das Tool [Renovate](https://github.com/renovatebot/renovate) für das automatisierte Updaten von Dependencies.
 
 ## Qualitätsmassnahmen
 
-Erstens werden für den Umgang mit Git diverse Richtlinien definiert um eine professionelle und einfache Zusammenarbeit
-im Softwareentwicklungsprozess mit dem ganzen Team zu erreichen. \
-Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzlich keine Änderungen in den Git Repositories verwendet
-werden, welche nicht mindestens von einem weiteren Teammitglied in einem Review validiert und bestätigt wurden.
-Ausnahmen dabei sind triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen.
-Drittens werden mit jedem Build und auch mit jedem Deployment der Applikationen Sicherheit- und Integrationchecks
-durchgeführt durch SonarQube und Renovate.
+Erstens werden für den Umgang mit Git diverse Richtlinien definiert um eine professionelle und einfache Zusammenarbeit im Softwareentwicklungsprozess mit dem ganzen Team zu erreichen. \
+Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzlich keine Änderungen in den Git Repositories verwendet werden, welche nicht mindestens von einem weiteren Teammitglied in einem Review validiert und bestätigt wurden. Ausnahmen dabei sind triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen. Drittens werden mit jedem Build und auch mit jedem Deployment der Applikationen Sicherheit- und Integrationchecks durchgeführt durch SonarQube und Renovate. 
 
 Um diese Massnahmen für die Verbesserung der Qualität umsetzen zu können, verwenden wir die folgenden Gitlab Features:
 
 - Merge- bzw. Pull-Requests
 - CI / CD
 
-Jedes Product Backlog Item wird ausserdem mit einer Definition of Done versehen, welche dem Bearbeitenden und dem
-Reviewer dabei hilft, die Vollständigkeit dieses Product Backlog Items zu prüfen.
+Jedes Product Backlog Item wird ausserdem mit einer Definition of Done versehen, welche dem Bearbeitenden und dem Reviewer dabei hilft, die Vollständigkeit dieses Product Backlog Items zu prüfen.
 
 Zusätzlich setzen wir die folgenden Techniken ein, um eine hohe Qualität innerhalb des Projekts zu gewährleisten:
 
@@ -353,75 +307,42 @@ Zusätzlich setzen wir die folgenden Techniken ein, um eine hohe Qualität inner
 - Einsatz von Unit, Usability, Integrations und Performance Tests
 - Nutzung der Report Funktion (Dashboards) von Youtrack zur Informationsgewinnung
 
-Um den erfolgreichen Verlauf des Projekts zu garantieren, ist der Projektleiter dafür verantwortlich, wöchentlich die
-Einhaltung der Qualitätsmassnahmen zu überprüfen und Abweichungen den Teammitgliedern mitzuteilen. Der Projektleiter
-arbeitet nach einer wöchentlichen Checkliste, damit nichts vergessen wird.\
-Das Team arbeitet nach dem Erreichen des ersten Meilensteins nach Scrum und garantiert somit pro Sprint fertige Teile
-des Produkts vorweisen zu können.
+Um den erfolgreichen Verlauf des Projekts zu garantieren, ist der Projektleiter dafür verantwortlich, wöchentlich die Einhaltung der Qualitätsmassnahmen zu überprüfen und Abweichungen den Teammitgliedern mitzuteilen. Der Projektleiter arbeitet nach einer wöchentlichen Checkliste, damit nichts vergessen wird.\
+Das Team arbeitet nach dem Erreichen des ersten Meilensteins nach Scrum und garantiert somit pro Sprint fertige Teile des Produkts vorweisen zu können.
 
 ### Dokumentation
 
-Die Dokumentation wird mit Markdown erstellt, basierend auf dem offiziellen Template der Ost. Der Produktionsbranch (
-master) wird jeweils als Basis für den aktuellen Stand der Dokumentation verwendet. Neue Bereiche oder
-Dokumentationsvorschläge werden über Supportbranches (feature und bugfix) erstellt, validiert und in den
-Produktionsbranch zusammengeführt. Jeder neuer Teil der Dokumentation wird jeweils immer von mindestens einem
-Teammitglied überprüft. Vor jedem Reviewtermin mit dem Advisor werden nochmals erneut alle geänderten Bereiche seit dem
-letzten Review auf dem Produktionsbranch überprüft.
+Die Dokumentation wird mit Markdown erstellt, basierend auf dem offiziellen Template der Ost. Der Produktionsbranch (master) wird jeweils als Basis für den aktuellen Stand der Dokumentation verwendet. Neue Bereiche oder Dokumentationsvorschläge werden über Supportbranches (feature und bugfix) erstellt, validiert und in den Produktionsbranch zusammengeführt. Jeder neuer Teil der Dokumentation wird jeweils immer von mindestens einem Teammitglied überprüft. Vor jedem Reviewtermin mit dem Advisor werden nochmals erneut alle geänderten Bereiche seit dem letzten Review auf dem Produktionsbranch überprüft.
 
 ### Projektmanagement
 
-Wir wollten ursprünglich die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von
-GitLab selbst verwenden. Wegen den im Punkt Arbeitspakete beschriebenen Probleme kommt seit der zweiten Projektwoche
-aber Youtrack zum Einsatz. Die Issues durchlaufen einen klaren Workflow der
-als [Kanban Board](https://capwatch.myjetbrains.com/youtrack/agiles/120-2/current) angezeigt wird. Jedes Issue
-durchläuft folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem
-groben Format erstellt und warten dann im Status *open* auf deren Einplanung in einen Sprint, wodurch sie in den Status
-*planned* wechseln. Das Arbeitspaket wird beim Start in den Status *work in progress* versetzt und vor Beendigung in den
-Status *review*, um einen Review und je nachdem auch Testing durchzuführen. Im Status *closed* ist das Issue dann
-komplett fertig und somit auch auf einem archivierten Stand.
+Wir wollten ursprünglich die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von GitLab selbst verwenden. Wegen den im Punkt Arbeitspakete beschriebenen Probleme kommt seit der zweiten Projektwoche aber Youtrack zum Einsatz. Die Issues durchlaufen einen klaren Workflow der als [Kanban Board](https://capwatch.myjetbrains.com/youtrack/agiles/120-2/current) angezeigt wird. Jedes Issue durchläuft folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem groben Format erstellt und warten dann im Status *open* auf deren Einplanung in einen Sprint, wodurch sie in den Status *planned* wechseln. Das Arbeitspaket wird beim Start in den Status *work in progress* versetzt und vor Beendigung in den Status *review*, um einen Review und je nachdem auch Testing durchzuführen. Im Status *closed* ist das Issue dann komplett fertig und somit auch auf einem archivierten Stand.
 
 ### Entwicklung
 
-Der Sourcecode vom Backend und Frontend befindet sich in einer
-eigenen [Subgruppe](https://gitlab.ost.ch/epj/2021-FS/g03_capwatch/development)
-in unserem GitLab Projekt als jeweils eigene Repositories.
+Der Sourcecode vom Backend und Frontend befindet sich in einer eigenen [Subgruppe](https://gitlab.ost.ch/epj/2021-FS/g03_capwatch/development) in unserem GitLab Projekt als jeweils eigene Repositories.
 
-Spezielle Qualitätsmassnahmen spezifisch für den Sourcecode wurden bereits durch die allgemeinen Qualitätsmassnahmen an
-das ganze Projekt definiert.
+Spezielle Qualitätsmassnahmen spezifisch für den Sourcecode wurden bereits durch die allgemeinen Qualitätsmassnahmen an das ganze Projekt definiert.
 
 #### Vorgehen
 
-Wir entwickeln vollständig nach dem Prinzip der agilen Softwareentwicklung mit Scrum und entwickeln demnach in
-Iterationen nach und nach Teile der Applikationen. Der Sourcecode wird klassisch und nach Features entwickelt, ohne dabei
-zuerst Tests zu schreiben (kein Test Driven Development). Die Logik der Features wird zuerst implementiert und danach
-werden die Unit Tests dazu geschrieben. Im Frontend verzichten wir auf automatisierte Tests, weil der Projektumfang zu
-klein ist und der Aufwand dafür zu gross wäre. Das ganze Frontend wird manuell getestet.
+Wir entwickeln vollständig nach dem Prinzip der agilen Softwareentwicklung mit Scrum und entwickeln demnach in Iterationen nach und nach Teile der Applikationen. Der Sourcecode wird klassisch und nach Features entwickelt, ohne dabei zuerst Tests zu schreiben (kein Test Driven Development). Die Logik der Features wird zuerst implementiert und danach werden die Unit Tests dazu geschrieben. Im Frontend verzichten wir auf automatisierte Tests, weil der Projektumfang zu klein ist und der Aufwand dafür zu gross wäre. Das ganze Frontend wird manuell getestet.
 
 #### Unit Testing
 
-Automatisierte UnitTests werden ausschliesslich im Backend geschrieben. Der Grund hierfür ist, dass jegliche
-Business-Logik, welche auf die Daten angewandt werden muss, bei der Aufbereitung der Daten vor dem Bereitstellen durch
-die jeweiligen API's ausgeführt wird. Das FrontEnd wird lediglich die Rückgaben aus den API’s visuell zur Verfügung
-stellen.
+Automatisierte UnitTests werden ausschliesslich im Backend geschrieben. Der Grund hierfür ist, dass jegliche Business-Logik, welche auf die Daten angewandt werden muss, bei der Aufbereitung der Daten vor dem Bereitstellen durch die jeweiligen API's ausgeführt wird. Das FrontEnd wird lediglich die Rückgaben aus den API’s visuell zur Verfügung stellen.
 
-Die Tests im Backend werden technologisch mit [xUnit](https://www.nuget.org/packages/xunit/)
-, [FluentAssertions](https://www.nuget.org/packages/FluentAssertions/6.0.0-alpha0002)
-und [FakeItEasy](https://www.nuget.org/packages/FakeItEasy/7.0.0-beta.2) umgesetzt.
+Die Tests im Backend werden technologisch mit [xUnit](https://www.nuget.org/packages/xunit/), [FluentAssertions](https://www.nuget.org/packages/FluentAssertions/6.0.0-alpha0002) und [FakeItEasy](https://www.nuget.org/packages/FakeItEasy/7.0.0-beta.2) umgesetzt.
 
-Um sicherzustellen, dass die Testabdeckung ausreichend ist, wird die in Visual Studio Enterprise verfügbare
-Funktionalität "Analyze Code Coverage for All Tests" verwendet.
+Um sicherzustellen, dass die Testabdeckung ausreichend ist, wird die in Visual Studio Enterprise verfügbare Funktionalität "Analyze Code Coverage for All Tests" verwendet.
 
 #### Code Reviews
 
-Wie bereits im Kapitel zu den allgemeinen Qualitätsmassnahmen beschrieben, erstellen wir grundsätzlich immer Pull
-Requests die von mindestens einem weiteren Teammitglied überprüft wird. Es wird immer mit Supportbranches gearbeitet und
-nach dem Code Review erst die Zusammenführung auf einen Mainbranch gemacht.
+Wie bereits im Kapitel zu den allgemeinen Qualitätsmassnahmen beschrieben, erstellen wir grundsätzlich immer Pull Requests die von mindestens einem weiteren Teammitglied überprüft wird. Es wird immer mit Supportbranches gearbeitet und nach dem Code Review erst die Zusammenführung auf einen Mainbranch gemacht.
 
 #### Code Style Guidelines
 
-Die folgenden Guidelines gelten als Ausgangspunkt, wie der Quellcode im Front- und Backend formatiert werden soll.
-Etwaige Abweichungen, welche sich als sinnvoll herausstellen, müssen im Team besprochen und von diesem abgenommen
-werden.
+Die folgenden Guidelines gelten als Ausgangspunkt, wie der Quellcode im Front- und Backend formatiert werden soll. Etwaige Abweichungen, welche sich als sinnvoll herausstellen, müssen im Team besprochen und von diesem abgenommen werden.
 
 | Programmiersprache | Grundlage |
 | ------------------ | --------- |
@@ -461,8 +382,7 @@ Exported-2021-02-04.vssettings
 
 #### Software-Engineering Prinzipien
 
-Um Maintainability und Qualität der Code Basis zu gewährleisten werden gängige Software-Engineering Prinzipien stets
-berücksichtigt. Diese umfassen KISS, YAGNI, DRY, BDUF und S.O.L.I.D.
+Um Maintainability und Qualität der Code Basis zu gewährleisten werden gängige Software-Engineering Prinzipien stets berücksichtigt. Diese umfassen KISS, YAGNI, DRY, BDUF und S.O.L.I.D.
 
 ### Testen
 
@@ -472,14 +392,11 @@ Siehe Kapitel *Unit Testing* unter *Entwicklung*.
 
 #### Integrationstests
 
-Integrationstests werden manuell nach Fertigstellung jedes Sprintumfangs durchgeführt. Hierfür wird beim Erstellen der
-Detailspezifikationen eine Liste an benötigten Tests erstellt, welche in eine Gesamtliste an durchzuführenden
-Integrationstests eingepflegt wird.
+Integrationstests werden manuell nach Fertigstellung jedes Sprintumfangs durchgeführt. Hierfür wird beim Erstellen der Detailspezifikationen eine Liste an benötigten Tests erstellt, welche in eine Gesamtliste an durchzuführenden Integrationstests eingepflegt wird.
 
 #### Performancetests
 
-Da beim Backend über die Update API der Geschäfte theoretisch relativ viel Traffic eingehen kann, wird das Backend vor
-jedem Release auf seine Performance getestet. Hierfür verwenden wir [Apache JMeter](https://jmeter.apache.org/).
+Da beim Backend über die Update API der Geschäfte theoretisch relativ viel Traffic eingehen kann, wird das Backend vor jedem Release auf seine Performance getestet. Hierfür verwenden wir [Apache JMeter](https://jmeter.apache.org/).
 
 #### Usability Tests
 
