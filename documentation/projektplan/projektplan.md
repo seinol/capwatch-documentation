@@ -13,8 +13,7 @@ Rahmen des Engineering Projekts der Fachhochschule Ost erstellt.
 
 ### Vorgehen zur Überarbeitung der Planung
 
-Wenn wir die Planung nachträglich überarbeiten, wird diese Version von allen Zusammen in einem Meeting geprüft und
-abgenommen.
+Wenn wir die Planung nachträglich überarbeiten, wird diese Version von allen Zusammen in einem Meeting geprüft und abgenommen.
 
 ### Referenzen
 
@@ -24,11 +23,11 @@ abgenommen.
 
 ## Projekt Übersicht
 
-Eine Webapplikation, in der man seine Lieblingsgeschäfte, Saunas, etc. abonnieren kann. Die Daten werden bei einem
-Abonnement dann in Echtzeit aktualisiert. Das Backend besteht aus mehreren API’s. Die Daten werden von den
+Eine Webapplikation, in der man seine Lieblingsgeschäfte, Saunas, etc. abonnieren kann. Die Daten werden bei einem 
+Abonnement dann in Echtzeit aktualisiert. Das Backend besteht aus mehreren API Endpoints. Die Daten werden von den
 Dienstleistern über eine API an das Backend geliefert und in einer Datenbank abgelegt. Über eine weitere Schnittstelle
 können die Daten vom Frontend bzw. die Webseite abgefragt werden. Im Frontend kann sich der Benutzer Favoriten
-speichern. Das Frontend ist einer ersten Version ein reiner einseitiger Empfänger ohne Authentifizierung.
+speichern. Das Frontend ist in der ersten Version ein reiner einseitiger Empfänger ohne Authentifizierung.
 
 ### Zweck und Ziel
 
@@ -73,8 +72,7 @@ Die Nutzung der folgenden Gitlab Funktionen wurden wegen diverser Probleme (sieh
 - Issues mit Kanban Board
 - Script für den Time Tracking Report (gtt)
 
-Als Ersatz zu den oben erwähnten, gestrichenen Gitlab Funktionen verwenden
-wir [Youtrack](https://www.jetbrains.com/de-de/youtrack/) von Jetbrains mit den folgenden Funktionen:
+Als Ersatz zu den oben erwähnten, gestrichenen Gitlab Funktionen verwenden wir [Youtrack](https://www.jetbrains.com/de-de/youtrack/) von JetBrains mit den folgenden Funktionen:
 
 - Issues mit Kanban Board
 - Integriertes Timetracking
@@ -294,9 +292,9 @@ Events definiert.
 | Sprint Retrospektive | 30 Minuten           | variabel, wird evtl. |
 |                      |                      | nochmals angepasst   |
 +----------------------+----------------------+----------------------+
-| Backlogrefinement    | 15 Minuten           | Wird vom PO          |
-|                      |                      | vorbereitet          |
-|                      |                      | Falls notendig im    |
+| BacklogRefinement    | 15 Minuten           | Wird vom PO          |
+|                      |                      | vorbereitet und      |
+|                      |                      | falls notendig im    |
 |                      |                      | Team ergänzt         |
 +----------------------+----------------------+----------------------+
 ```
@@ -309,21 +307,16 @@ Die Risikoanalyse wurde im Dokument risikoanalyse.md detailliert beschreiben.
 
 ### Umgang mit Risiken
 
-Aufgrund der Risikoanalyse wurde ein durchschnittliches Schadenspotenzial von vier Stunden berechnet, desshalb werden in
-jedem Sprint vier Stunden als Reserve eingerechnet um sicherstellen zu können, dass der Projektplan eingehalten werden
-kann.
+Aufgrund der Risikoanalyse wurde ein durchschnittliches Schadenspotenzial von vier Stunden berechnet, desshalb werden
+in jedem Sprint vier Stunden als Reserve eingerechnet um sicherstellen zu können, dass der Projektplan eingehalten werden kann.
 
-Zum aktuellen Zeitpunkt gibt es keine Risiken mehr, welche einen gewichteten Schaden grösser als die geplanten vier
-Stunden Reserve aufweisen.
+Zum aktuellen Zeitpunkt gibt es keine Risiken mehr, welche einen gewichteten Schaden grösser als die geplanten vier Stunden Reserve aufweisen.
 
 ## Arbeitspakete
 
-Zur Planung der Arbeit, sowie dem Tracking der aufgewendeten Arbeitszeit haben wir ursprünglich Gitlab angedacht. Für
-die Auswertung der Zeiterfassung hätte [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz kommen sollen.
+Zur Planung der Arbeit, sowie dem Tracking der aufgewendeten Arbeitszeit haben wir ursprünglich Gitlab angedacht. Für die Auswertung der Zeiterfassung hätte [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz kommen sollen.
 
-Leider hat sich in der ersten Projektwoche gezeigt, dass die uns von Gitlab zur Verfügung gestellten Tools nur
-unzureichend funktionieren. Nach einem nicht lösbaren Problem mit dem Timetracking, haben wir nach Absprache mit unserem
-Advisor den umstieg auf [Youtrack](https://www.jetbrains.com/de-de/youtrack/) beschlossen.
+Leider hat sich in der ersten Projektwoche gezeigt, dass die uns von Gitlab zur Verfügung gestellten Tools nur unzureichend funktionieren. Nach einem nicht lösbaren Problem mit dem Timetracking, haben wir nach Absprache mit unserem Advisor den umstieg auf [Youtrack](https://www.jetbrains.com/de-de/youtrack/) beschlossen.
 
 ## Infrastruktur
 
@@ -399,10 +392,10 @@ das ganze Projekt definiert.
 #### Vorgehen
 
 Wir entwickeln vollständig nach dem Prinzip der agilen Softwareentwicklung mit Scrum und entwickeln demnach in
-Iterationen nach und nach Teile der Applikationen. Der Sourcecode wird klassisch und nach Features entwickelt, ohne
-dabei zuerst Tests zu schreiben (kein Test Driven Development). Die Logik der Features wird zuerst implementiert und
-danach werden die Unit Tests dazu geschrieben. Im Frontend verzichten wir auf automatisierte Tests, weil der
-Projektumfang zu klein ist und der Aufwand dafür zu gross wäre. Das ganze Frontend wird manuell getestet.
+Iterationen nach und nach Teile der Applikationen. Der Sourcecode wird klassisch und nach Features entwickelt, ohne dabei
+zuerst Tests zu schreiben (kein Test Driven Development). Die Logik der Features wird zuerst implementiert und danach
+werden die Unit Tests dazu geschrieben. Im Frontend verzichten wir auf automatisierte Tests, weil der Projektumfang zu
+klein ist und der Aufwand dafür zu gross wäre. Das ganze Frontend wird manuell getestet.
 
 #### Unit Testing
 
@@ -442,8 +435,7 @@ werden.
 
 ###### .Net
 
-* Wir verwenden nicht die Standard IDE Einstellungen von Microsoft Visual Studio, sondern diejenigen aus dem
-  Einstellungs-Backup
+* Wir verwenden nicht die Standard IDE Einstellungen von Microsoft Visual Studio, sondern diejenigen aus dem Einstellungs-Backup
 
 ```
 Exported-2021-02-04.vssettings
@@ -491,7 +483,5 @@ jedem Release auf seine Performance getestet. Hierfür verwenden wir [Apache JMe
 
 #### Usability Tests
 
-Um die Benutzerfreundlichkeit unseres Projekts sicherzustellen, werden wir auf manuell durchgeführte Usability Tests
-setzen, da diese mit vergleichsweise wenig Aufwand sehr viel wertvolles Feedback zur Qualität und zu möglichen
-Verbesserungen liefern.
+Um die Benutzerfreundlichkeit unseres Projekts sicherzustellen, werden wir auf manuell durchgeführte Usability Tests setzen, da diese mit vergleichsweise wenig Aufwand sehr viel wertvolles Feedback zur Qualität und zu möglichen Verbesserungen liefern.
 
