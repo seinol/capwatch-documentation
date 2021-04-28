@@ -24,7 +24,7 @@ Im Abschnitt "Allgemeine Beschreibung" werden allgemeine Informationen zum Produ
 
 ### Produkt Perspektive
 
-Im Zuge der Corona Pandemie ist es plötzlich an sehr vielen Orten zu Einschränkungen der erlaubten Anzahl Personen innerhalb eines definierten Bereichs gekommen. Das führte dazu, dass man einkaufen gehen wollte und die Eintrittsbegrenzungssystem auf Rot (Eintritt verweigert) war. Dadurch war man gezwungen zu warten und hat Zeit verloren. Dieses Problem kann gemindert werden, indem man sich zuhause im Voraus darüber informieren kann, ob es gerade ein guter Zeitpunkt ist, einkaufen zu gehen. Da die Systeme zur Personenzählung nun fest installiert sind, ist es gut möglich, dass sie auch in Zukunft bleiben werden. Hier setzt unser Produkt an, indem es die ganzen gesammelten Daten konsolidiert und auf einer einfachen Benutzeroberfläche abrufbar macht. Dies hilft sowohl den Geschäften, wie auch den Konsumenten. 
+Im Zuge der Corona Pandemie ist es plötzlich an sehr vielen Orten zu Einschränkungen der erlaubten Anzahl Personen innerhalb eines definierten Bereichs gekommen. Das führte dazu, dass man einkaufen gehen wollte und die Eintrittsbegrenzungssystem auf Rot (Eintritt verweigert) war. Dadurch war man gezwungen zu warten und hat Zeit verloren. Dieses Problem kann gemindert werden, indem man sich zuhause im Voraus darüber informieren kann, ob es gerade ein guter Zeitpunkt ist, einkaufen zu gehen. Da die Systeme zur Personenzählung nun fest installiert sind, ist es gut möglich, dass sie auch in Zukunft bleiben werden. Hier setzt unser Produkt an, indem es die ganzen gesammelten Daten konsolidiert und auf einer einfachen Benutzeroberfläche abrufbar macht. Dies hilft sowohl den Geschäften, wie auch den Konsumenten.
 
 ### Produkt Funktion
 
@@ -93,7 +93,7 @@ Wir haben uns aufgrund des einfachen Geschäftsfalles dagegen entschieden Use Ca
 |                 |           | angezeigt werden.                    |
 +-----------------+-----------+--------------------------------------+
 | AW-4            | KANN      | Als Konsument kann ich mir eine      |
-|                 |           | Liste der nächsten Läden in meiner   |
+|                 |           | Liste von Geschäften in meiner       |
 |                 |           | Umgebung nach Distanz sortiert       |
 |                 |           | anzeigen lassen.                     |
 +-----------------+-----------+--------------------------------------+
@@ -145,7 +145,7 @@ Die Nicht Funktionalen Anforderungen, aufgeteilt in MUSS und KANN Anforderungen,
 +-----------------+-----------+--------------------------------------+
 | Anforderungs-ID | Kategorie | Beschreibung                         |
 +=================+===========+======================================+
-| NF-1            | MUSS      | In Benutzerumfragen wollen wir eine  |
+| NF-1            | KANN      | In Benutzerumfragen wollen wir eine  |
 |                 |           | durchschnittliche Bewertung von      |
 |                 |           | mindestens 4 von 5 Sternen erreichen |
 |                 |           | in den Punkten: Attraktivität,       |
@@ -185,23 +185,22 @@ Die Nicht Funktionalen Anforderungen, aufgeteilt in MUSS und KANN Anforderungen,
 Im Dokument bzw. Bereich "API Dokumentation" gibt es noch eine genaue Beschreibung der Schnittstellen.
 
 - **Webapplikation**
-  - Schnittstelle zu Backend um Besucherdaten abzufragen (1. Schritt)
-  - Schnittstelle zu Backend für Authentifizierung und Autorisierung (2. Schritt)
+    - Schnittstelle zum Backend um Besucherdaten abzufragen (1. Schritt)
+    - Schnittstelle zum Backend für Authentifizierung und Autorisierung (2. Schritt)
 
 - **Backend**
-  - Schnittstelle zu Frontend um Besucherdaten zu liefern (1. Schritt)
-  - Schnittstelle zu Frontend für Authentifizierung und Autorisierung (2. Schritt)
-  - Schnittstelle zu Datenbank um Daten abzulegen und zu lesen (1. Schritt)
-  - Schnittstelle um Daten von den Firmen anliefern zu lassen (1. Schritt)
-  - Schnittstelle um Firmen Registrierung zu ermöglichen (2. Schritt)
+    - Schnittstelle zum Frontend um Besucherdaten zu liefern (1. Schritt)
+    - Schnittstelle zum Datenbank um Daten abzulegen und zu lesen (1. Schritt)
+    - Schnittstelle um Daten von den Firmen anliefern auszulassen (1. Schritt)
+    - Schnittstelle um die Firmenregistrierung zu ermöglichen (2. Schritt)
+    - Schnittstelle zum Frontend für die Authentifizierung und Autorisierung (2. Schritt)
 
 - **Datenbank**
-  - Schnittstelle zu Backend um Daten entgegenzunehmen oder zu liefern
+    - Schnittstelle zu Backend um Daten entgegenzunehmen oder zu liefern
 
 ### Screendesigns
 
-Wir haben direkt Screendesigns entwickelt, weil ein Grobdesign (z.B. Wireframes) für solch einen kleinen Funktionsumfang nicht optimal ist und nur einen unnötigen Mehraufwand bedeuten würde.
-Unsere Plattform wird Mobile First entwickelt, weil wir viel mehr Benutzer unterwegs bzw. auf ihrem Mobiltelefon erwarten. 
+Wir haben direkt Screendesigns entwickelt, weil ein Grobdesign (z.B. Wireframes) für solch einen kleinen Funktionsumfang nicht optimal ist und nur einen unnötigen Mehraufwand bedeuten würde. Unsere Plattform wird Mobile First entwickelt, weil wir viel mehr Benutzer unterwegs bzw. auf ihrem Mobiltelefon erwarten.
 
 Nur die Startpage auf Mobile ist relevant für das Minimum Viable Product.
 

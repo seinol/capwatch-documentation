@@ -30,7 +30,7 @@ Die Klasse Consumer wird für den Login und das Speichern von Favoriten des Kons
 
 #### CapacityHistory
 
-Um die erwartete und durchschnittliche Auslastung zu berechnen, wird die Auslastung mit einem Zeitstempel als History abgelegt.  
+Um die erwartete und durchschnittliche Auslastung zu berechnen, wird die Auslastung mit einem Zeitstempel als History abgelegt.
 
 #### Reservation
 

@@ -32,15 +32,15 @@ _(*) Das Wort Container wird hier in der Definition nach C4 Modell verwendet und
 ![container](../../diagrams/structurizr/images/structurizr-65674-CapWatchContainers.png)
 ![container](../../diagrams/structurizr/images/structurizr-65674-CapWatchContainers-key.png)
 
-Das Gesamtsystem besteht aus einer MongoDB Datenbankinstanz und einem C# Backend, welches über eine REST-Schnittstelle mit dem React Frontend und externen Systemen der Stores kommuniziert.
+Das Gesamtsystem besteht aus einer MongoDB Datenbankinstanz und einem C# Backend, welches über eine WebAPI (REST) mit dem React Frontend und externen Systemen der Stores kommuniziert.
 
 #### Architektur Frontend
 
-Das Frontend besteht aus einer Single-Page Applikation welche mit React in TypeScript geschrieben ist. Diese wird von einem Nginx Webserver an den Konsumenten geliefert. Das Frontend ist grob in drei Schichten unterteilt. Zuoberst befindet sich die GUI Schicht, die sich um die Darstellung der Information kümmert. Darunter befinden sich Komponenten welche die Daten für die GUI Schicht bereitstellen. Diese Daten werden von der untersten Schicht, den Services, von der Backend API abgeholt und an die Komponenten weitergeleitet.
+Das Frontend besteht aus einer Single-Page Applikation welche in React und TypeScript geschrieben wurde. Die Applikation wird auf einem Nginx Webserver betrieben. Das Frontend ist in drei Schichten gegliedert. Zuoberst befindet sich die GUI Schicht, welche die Informationen darstellt. Auf der nächsten Schicht befinden sich die Komponenten und [Hooks](https://reactjs.org/docs/hooks-overview.html). Die Komponenten stellen die Daten für die GUI Schicht bereit. Die Komponenten werden duch Hooks erweitert, diese verantworten die States und stellen weitere React Features zur Verfügung. Die Service Schicht ist für die Kommunikation und Datenverarbeitung mit dem Backend zuständig.
 
 ![frontend-overview](../../diagrams/frontend-overview.jpg)
 
-Für React haben wir uns entschieden, da Angular unserer Meinung nach zu gross für unseren Projektumfang ist. Bei der Wahl zwischen Vue und React gewann letzteres dann, da das teaminterne Interesse and er Technologie und auch das existierende Vorwissen grösser war. Überdies ist React parallel zum Projekt auch Thema in der _Web Engineering und Design 3_ Vorlesung welche von einem Projektmitarbeiter besucht wird.
+Als Frontend Frameworks standen Angular, React und Vue zur Auswahl. Die Entscheidung fiel auf React, da Angular für dieses Projekt zu gross ist. React wurde Vue bevorzugt, da wir hier auf existierendes Vorwissen zurückgreifen können und vom Team Interesse das React-Framework zu erlernen. Ein Projektmitarbeiter besucht parallel zum EPJ das Modul _Web Engineering und Design 3_ und kann somit das gelernte wissen direkt umsetzen.
 
 ### Komponenten Diagramm der API Backend Applikation
 
@@ -49,11 +49,11 @@ Für React haben wir uns entschieden, da Angular unserer Meinung nach zu gross f
 
 #### Store Controller
 
-Der Store Controller bietet klassische REST Schnittstellen an über welche Informationen zu Stores angefragt und aktualisiert werden können. Welche API Schnittstellen im Detail zur Verfügung stehen kann in der [API Dokumentation](../analyse/api-documentation.md) eingesehen werden.
+Der Store Controller bietet klassische WebAPI an über welche Informationen zu Stores angefragt und aktualisiert werden können. Welche API Schnittstellen im Detail zur Verfügung stehen kann in der [API Dokumentation](../analyse/api-documentation.md) eingesehen werden.
 
 #### Store Handler
 
-Der Store Handler liegt in der Applikationsschicht und verbindet das Store Repository mit dem Store Controller. Der Handler implementiert die Business Logik, welche auf ein- und ausgehende Stores angewendet wird.
+Der Store Handler liegt in der Applikationsschicht und verbindet das Store Repository mit dem Store Controller. Der Handler implementiert die Businesslogik, welche auf ein- und ausgehende Stores angewendet wird.
 
 #### Store Repository
 
@@ -61,8 +61,7 @@ Das Store Repository wird von der Applikationsschicht definiert und vom MongoDB 
 
 #### Architektur Backend
 
-Das Backend ist nach hexagonaler Architektur in C# konzipiert. Hierbei steht die Domain im Zentrum und beinhaltet die Entitäten, um welche sich das System dreht. Nach der Domainschicht liegt die Application, welche die Businesslogik beinhaltet und Interfaces definiert, welche von den umliegenden Schichten implementiert und genutzt werden.
-Ganz aussen ist auf der einen Seite ein Adapter für die Datenbankanbindung unserer MongoDB Instanz, welche die CRUD Operationen mithilfe eines ORM implementiert. Auf der anderen Seite die REST API, welche die nötigen Web-Schnittstellen zur Verfügung stellt.
+Das Backend ist nach hexagonaler Architektur in C# konzipiert. Hierbei steht die Domain im Zentrum und beinhaltet die Entitäten, um welche sich das System dreht. Nach der Domainschicht liegt die Application, welche die Businesslogik beinhaltet und Interfaces definiert, welche von den umliegenden Schichten implementiert und genutzt werden. Ganz aussen ist auf der einen Seite ein Adapter für die Datenbankanbindung unserer MongoDB Instanz, welche die CRUD Operationen mithilfe eines ORM implementiert. Auf der anderen Seite die WebAPI, welche die nötigen Web-Schnittstellen zur Verfügung stellt.
 
 Unsere Entscheidung fiel auf C#, da der Mehrheit des Teams die Technologie besser liegt als Java. Dazu kommt, dass unser Architekt aus seiner Berufstätigkeit viel Wissen in dieser Technologie, insbesondere im Bezug auf Web API Applikationen, mitbringt.
 
@@ -81,9 +80,7 @@ Um sicherzustellen, dass diese Projekte nur lose gekoppelt sind, sind Klassen we
 
 ## Deployment
 
-Die Software wird auf einen einzelnen Linux Server deployt. Dieser wird von der OST zur Verfügung gestellt und befindet sich im dafür vorgesehenen DMZ Netzwerk der OST. Das Deployment selber wird mittels Docker Images umgesetzt, die über die Registry auf dem Gitlab direkt bezogen werden. 
-Zur einfachen Verwaltung des Docker basierten Setups wird auf dem Host Docker-Compose eingesetzt. Vorerst ist ein manuelles Deployment und Updaten der Software vorgesehen. Falls es die Umstände während des Projekts später zulassen, wird das Setup um eine dann noch zu definierende Komponente für das automatische Deployment erweitert.
-Die Container werden jeweils ab dem Master- und dem Develop-Branch mittels CI Pipeline automatisch gebaut und direkt der Registry hinzugefügt.
+Die Software wird auf einen einzelnen Linux Server deployt. Dieser wird von der OST zur Verfügung gestellt und befindet sich im dafür vorgesehenen DMZ Netzwerk der OST. Das Deployment selber wird mittels Docker Images umgesetzt, die über die Registry auf dem Gitlab direkt bezogen werden. Zur einfachen Verwaltung des Docker basierten Setups wird auf dem Host Docker-Compose eingesetzt. Vorerst ist ein manuelles Deployment und Updaten der Software vorgesehen. Falls es die Umstände während des Projekts später zulassen, wird das Setup um eine dann noch zu definierende Komponente für das automatische Deployment erweitert. Die Container werden jeweils ab dem Master- und dem Develop-Branch mittels CI Pipeline automatisch gebaut und direkt der Registry hinzugefügt.
 
 Aufgrund der Trivialität des Setup verzichten wir in an dieser Stelle auf ein Deployment Diagramm.
 
@@ -101,8 +98,6 @@ Zum aktuellen Zeitpunkt können noch keine Aussagen zu Einschränkungen bezügli
 
 Bezüglich Ausbau-Szenarien haben wir uns bereits bei der Erstellung der [Anforderungsspezifikation](../analyse/anforderungsspezifikation.md) Gedanken gemacht. Mögliche Erweiterungen sind in den Tabellen bei den Funktionalen Anforderungen und Qualitätsmerkmalen unter der Kategorie _KANN_ aufgeführt.
 
-Weiter lädt das Frontend aktuell regelmässig die Liste der Stores und deren Auslastung um aktuelle Daten anzuzeigen. Hier würde sich ein Websocket anbieten, welcher dem Frontend mitteilt, falls es Änderungen gibt. Dieser Ausbau ist bereits für einen der nächsten Sprints geplant.
-
 ## Performance-Szenario
 
 Das Frontend braucht unsererseits nur Performance bis die React Applikation einmal beim Konsumenten in den Browser geladen ist. Danach läuft diese dort als Single-Page Applikation und es ist nur noch die Performance der API relevant. Nichtsdestotrotz wird das Frontend natürlich so performant wie möglich geschrieben, damit auch Anwender mit weniger starken Systemen ein gutes Erlebnis haben. Dazu wird der Virtual DOM so sinnvoll wie möglich eingesetzt und es werden nur Komponenten gezeichnet die sich verändert haben.
@@ -111,7 +106,9 @@ Das CapWatch Backend ist zustandslos und kann somit mit geringem Aufwand mehrfac
 
 Falls bei der Datenbank Performance Probleme relevant werden sollten, wären die beiden möglichen Optionen Replication und Sharding. Bei der Replication werden die gesamten Daten der Datenbank auf mehreren Systemen redundant gehalten und die Anfragen werden zwischen diesen Systemen verteilt. Beim Sharding werden die Daten ebenfalls auf mehrere Systeme verteilt, allerdings ist hier auf jedem System nur ein Teil der Daten und Anfragen werden auf das jeweils richtige System geleitet. Mit diesen Lösungen haben wir noch keine Erfahrungen und wir müssten noch einiges an Wissen gewinnen, sollte dies nötig werden. Aus diesem Grund können wir auch keine Aussage dazu machen wie aufwändig das Umsetzen einer dieser beiden Lösungen wäre.
 
+## Technische Schulden
 
+Weiter lädt das Frontend aktuell regelmässig die Liste der Stores und deren Auslastung um aktuelle Daten anzuzeigen. Hier würde sich ein Websocket anbieten, welcher dem Frontend mitteilt, falls es Änderungen gibt. Dieser Ausbau ist bereits für einen der nächsten Sprints geplant. Bas Backen bietet bereits WebSockets an, diese müssen im Frontend noch implementiert werden.
 
 ## Durchlaufene Klassen
 
