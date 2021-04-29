@@ -4,7 +4,7 @@
 
 ### Zweck
 
-Dieses Dokument ist eine Übersicht, welche alle Massnahmen zur Qualitätssicherung im Projekt CapWatch auflistet.
+Dieses Dokument ist eine Übersicht, aller Massnahmen zur Qualitätssicherung im Projekt CapWatch.
 
 ### Gültigkeitsbereich
 
@@ -12,23 +12,23 @@ Dieses Dokument ist für die Stakeholder dieses Projektes, sowie die Entwickler 
 
 ### Referenzen
 
-Git Conventional Commits: https://www.conventionalcommits.org/en/v1.0.0/
+Git Conventional Commits: [https://www.conventionalcommits.org/en/v1.0.0/](https://www.conventionalcommits.org/en/v1.0.0/)
 
-## Q-Massnahmen
+## Qualitätsmassnahmen
 
-Die Qualitätssichernden Massnahmen wurden bereits im Kapitel Qualitätsmassnahmen in [Projektplan](./../projektplan/projektplan.md) beschrieben. Nachfolgend werden einzelne wichtige Punkte noch genauer ergänzt.
+Die qualitätssichernden Massnahmen wurden bereits im Kapitel Qualitätsmassnahmen im [Projektplan](./../projektplan/projektplan.md) beschrieben. Nachfolgend werden einzelne wichtige Punkte noch genauer ergänzt.
 
 ### Conventional Commits
 
-Alle Commits welche auf GitLab gemacht werden müssen dem Pattern von Conventional Commits folgen, dadurch wird sichergestellt, dass die Commit Messages einheitlich sind und die Erweiterungen und Anpassungen genau beschreiben.
+Alle Commits welche auf GitLab gemacht werden, müssen dem Pattern von Conventional Commits folgen, dadurch wird sichergestellt, dass die Commit Messages einheitlich sind und die Erweiterungen und Anpassungen genau beschreiben.
 
 ### Frontend Tests mit Lighthouse
 
-Mit Lighthouse werden im Frontend die Kategorien Performance, Best practices und Accessibility getestet. Die Tests haben als primäre Zielplattform Mobile Endgeräte.
+Mit Lighthouse werden im Frontend die Kategorien Performance, Best Practices und Accessibility getestet. Die Tests haben als primäre Zielplattform mobile Endgeräte.
 
 ### Konfiguration Renovate
 
-Renovate erkennt, wenn eingesetzt Libraries nicht mehr aktuell sind und erstellt für die Aktualisierung automatisch einen Merge Request, welcher nur noch von einem Teammitglied bestätigt werden muss.
+Renovate erkennt, wenn eingesetzt Libraries nicht mehr aktuell sind und erstellt für die Aktualisierung automatisch einen Merge Request, welcher nur noch von einem Teammitglied begutachtet und bestätigt werden muss.
 
 #### Renovate im Frontend
 
@@ -36,7 +36,7 @@ Renovate überprüft das Frontend einmal in der Woche am Dienstag um 06:00.
 
 #### Renovate Backend
 
-Renovate kann aktuell im Backend nicht eingesetzt werden da die verwendete DotNet Nuget Version, welche wir verwenden, noch nicht unterstützt wird.
+Renovate kann aktuell im Backend nicht eingesetzt werden da die verwendete NuGet Version, welche wir verwenden, noch nicht unterstützt wird.
 
 ### SonarQube
 
@@ -48,48 +48,44 @@ Mit SonarQube wird fürs Frontend und Backend eine Codeanalyse durchgeführt, da
 * Code Coverage
 * Duplications
 
-Die Analysen schlagen in der Code Coverage fehl, da wir die verwendete [SonarQuebe Instanz](https://se1-sonarqube.dev.ifs.hsr.ch/dashboard?id=CapwatchBackend) nicht für unsere Bedürfnisse anpassen können. Aus diesem Grund läuft die Build Pipeline auch erfolgreich, wenn SonarQube fehlschlägt.
+Die Analysen schlagen in der Code Coverage fehl, da wir die verwendete [SonarQube Instanz](https://se1-sonarqube.dev.ifs.hsr.ch/dashboard?id=CapwatchBackend) nicht auf unsere Bedürfnisse anpassen können. Aus diesem Grund läuft die Build Pipeline auch erfolgreich durch, wenn SonarQube fehlschlägt.
 
 #### SonarQube Frontend
 
-Da wir im Frontend keine Tests schreiben können wir die vorgegebene Codecoverage von 80% nicht erreichen.
+Da wir im Frontend keine automatisierten Tests schreiben können wir die vorgegebene Codecoverage von 80% nicht erreichen.
 
 #### SonarQube Backend
 
-In der Pipeline des Backends können die Unittests, welche auf die Datenbank angewiesen sind, nicht ausgeführt werden. Es ist desshalb auch hier nicht möglich die vorgegebene Codecoverage von 80% nicht erreichen.
+In der Pipeline des Backends können die Unittests, welche auf die Datenbank angewiesen sind, nicht ausgeführt werden. Es ist desshalb auch hier nicht möglich die vorgegebene Codecoverage von 80% zu erreichen.
 
 ### DoD - Definition of Done
 
-Est gibt verschiedene DoDs. Zur Qualitätssicherung können die Tickets mit einer Entsprechender DoD versehenen werden. Die DoD dient den Entwicklern auch als Leitfaden für die Umsetzung. Es gibt Standard DoDs für das Backend, Frontend und die Dokumentation, diese können für jeden Auftrag individuell ergänzt werden.
+Es gibt verschiedene DoDs. Zur Qualitätssicherung können die Tickets mit einer entsprechenden DoD versehenen werden. Die DoD dient den Entwicklern als Leitfaden für die Umsetzung. Es gibt standardisierte DoDs für das Backend, Frontend und die Dokumentation. Diese können für jeden Auftrag individuell ergänzt werden.
 
 #### Standard DoD
 
 -[ ] Auftrag gelesen und verstanden
--[ ] Alle teile des Auftrags umgesetzt
--[ ] Anforderungen mit Lösung vergleichen
+-[ ] Alle Teile des Auftrags umgesetzt
+-[ ] Anforderungen mit Lösung verglichen
 -[ ] Ergebnisse im Team besprochen oder alle informiert
--[ ] Review erstellen, Review umsetzen und Merge durchgeführt (Merge Request)
+-[ ] Review erstellt, umgesetzt und Merge durchgeführt (Merge Request)
 
 #### Backend DoD
 
--[ ] Auftrag gelesen und verstanden
--[ ] Alle teile des Auftrags umgesetzt
--[ ] Coding Guidelines und Formatierung überprüfen
+Die standard DoD wird für das Backend um folgende Punkte ergänzt.
+
+-[ ] Coding Guidelines und Formatierung überprüft
 -[ ] Unit Tests erstellt
--[ ] Anforderungen mit Lösung vergleichen
--[ ] Ergebnisse im Team besprochen oder alle informiert
 -[ ] Code Review erstellen, Review umsetzen und Merge durchgeführt (Merge Request)
 
 #### Frontend DoD
 
--[ ] Auftrag gelesen und verstanden
--[ ] Alle teile des Auftrags umgesetzt
--[ ] Coding Guidelines und Formatierung überprüfen
--[ ] Anforderungen mit Lösung vergleichen
--[ ] Ergebnisse im Team besprochen oder alle informiert
+Die standard DoD wird für das Frontend um folgende Punkte ergänzt.
+
+-[ ] Coding Guidelines und Formatierung überprüft
 -[ ] Code Review erstellen, Review umsetzen und Merge durchgeführt (Merge Request)
 
-### Technische Schulen in der Qualitätssicherung
+### Technische Schulden in der Qualitätssicherung
 
 * Renovate im Backend einsetzten, sobald dies unterstützt wird.
 * SonarQube für Anforderungen durch CapWatch konfigurieren.
@@ -99,8 +95,8 @@ Est gibt verschiedene DoDs. Zur Qualitätssicherung können die Tickets mit eine
 
 ### Code und Dokumentation
 
-Entwicklung und Dokumentation werden in einem GitLab Repository welches von der HSR zur verfügung gestellt wird bearbeitet, somit eine Versionierung und Sicherung dieser Daten vorhanden. Eine weitere Sicherung ist hier nicht notwendig.
+Entwicklung und Dokumentation geschieht in einem Git Repository, welches auf dem OST GitLab gehostet wird. Somit ist eine Versionierung und Sicherung dieser Daten vorhanden. Durch die dezentrale Natur von Git ist sämtliche Arbeit auch bei allen Entwicklern lokal vollständig vorhanden.
 
 ### Zeitauswertung / Tickets
 
-Um die Arbeitszeit jederzeit nachweisen zu können wird am Ende jedes Sprints die Auswertungen `Time Report per Milestone` und `Time Report per work item` erstellt und in der Dokumentation abgelegt.
+Um die Arbeitszeit jederzeit nachweisen zu können, werden am Ende jedes Sprints die Auswertungen `Time Report per Milestone` und `Time Report per work item` erstellt und in der Dokumentation abgelegt.
