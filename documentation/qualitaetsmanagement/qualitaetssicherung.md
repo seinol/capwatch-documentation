@@ -34,7 +34,7 @@ Renovate erkennt, wenn eingesetzt Libraries nicht mehr aktuell sind und erstellt
 
 Renovate überprüft das Frontend einmal in der Woche am Dienstag um 06:00.
 
-#### Renovate Backen
+#### Renovate Backend
 
 Renovate kann aktuell im Backend nicht eingesetzt werden da die verwendete DotNet Nuget Version, welche wir verwenden, noch nicht unterstützt wird.
 
@@ -50,19 +50,27 @@ Mit SonarQube wird fürs Frontend und Backend eine Codeanalyse durchgeführt, da
 
 Die Analysen schlagen in der Code Coverage fehl, da wir die verwendete [SonarQuebe Instanz](https://se1-sonarqube.dev.ifs.hsr.ch/dashboard?id=CapwatchBackend) nicht für unsere Bedürfnisse anpassen können. Aus diesem Grund läuft die Build Pipeline auch erfolgreich, wenn SonarQube fehlschlägt.
 
-#### SonarQueb Frontend
+#### SonarQube Frontend
 
-Da wir im Frontend keine Tests schreiben können wir die vorgegebene CodeCoverage von 80% nicht erreichen.
+Da wir im Frontend keine Tests schreiben können wir die vorgegebene Codecoverage von 80% nicht erreichen.
 
-#### SonarQube Backen
+#### SonarQube Backend
 
-In der Pipeline des Backends können die Unittests, welche auf die Datenbank angewiesen sind, nicht ausgeführt werden. Es ist desshalb auch hier nicht möglich die vorgegebene CodeCoverage von 80% nicht erreichen.
+In der Pipeline des Backends können die Unittests, welche auf die Datenbank angewiesen sind, nicht ausgeführt werden. Es ist desshalb auch hier nicht möglich die vorgegebene Codecoverage von 80% nicht erreichen.
 
-### DOD - Definition of Done
+### DoD - Definition of Done
 
-Für jedes Ticket wird eine DOD erstellt, um sicherzustellen, dass alle Anforderungen korrekt umgesetzt wurden. Die DOD dient den Entwicklern auch als Leitfaden für die Umsetzung. Es gibt Standard DODs für das Backend, Frontend und die Dokumentation, diese können für jeden Auftrag individuell ergänzt werden.
+Est gibt verschiedene DoDs. Zur Qualitätssicherung können die Tickets mit einer Entsprechender DoD versehenen werden. Die DoD dient den Entwicklern auch als Leitfaden für die Umsetzung. Es gibt Standard DoDs für das Backend, Frontend und die Dokumentation, diese können für jeden Auftrag individuell ergänzt werden.
 
-#### Standard DOD Backend
+#### Standard DoD
+
+-[ ] Auftrag gelesen und verstanden
+-[ ] Alle teile des Auftrags umgesetzt
+-[ ] Anforderungen mit Lösung vergleichen
+-[ ] Ergebnisse im Team besprochen oder alle informiert
+-[ ] Review erstellen, Review umsetzen und Merge durchgeführt (Merge Request)
+
+#### Backend DoD
 
 -[ ] Auftrag gelesen und verstanden
 -[ ] Alle teile des Auftrags umgesetzt
@@ -72,10 +80,20 @@ Für jedes Ticket wird eine DOD erstellt, um sicherzustellen, dass alle Anforder
 -[ ] Ergebnisse im Team besprochen oder alle informiert
 -[ ] Code Review erstellen, Review umsetzen und Merge durchgeführt (Merge Request)
 
+#### Frontend DoD
+
+-[ ] Auftrag gelesen und verstanden
+-[ ] Alle teile des Auftrags umgesetzt
+-[ ] Coding Guidelines und Formatierung überprüfen
+-[ ] Anforderungen mit Lösung vergleichen
+-[ ] Ergebnisse im Team besprochen oder alle informiert
+-[ ] Code Review erstellen, Review umsetzen und Merge durchgeführt (Merge Request)
+
 ### Technische Schulen in der Qualitätssicherung
 
 * Renovate im Backend einsetzten, sobald dies unterstützt wird.
 * SonarQube für Anforderungen durch CapWatch konfigurieren.
+* Linter für Backend in Pipeline integrieren
 
 ## Sicherung der Geschichte
 
