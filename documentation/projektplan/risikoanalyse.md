@@ -34,11 +34,11 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 |     |                      | Internetverbindung angewiesen.            |                   |                      |               |                          |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
 | Ri2 | Ausfall Teammitglied | Ein Teammitglied fällt für eine bestimme/ |                 3 |                    1 |             3 | keine Massnahmen         | Aufgaben auf andere           |
-|     |                      | unbestimmte Zeit aus.                     |                   |                      |               |                          | Teammitglieder verteilen oder |    
+|     |                      | unbestimmte Zeit aus.                     |                   |                      |               |                          | Teammitglieder verteilen oder |
 |     |                      |                                           |                   |                      |               |                          | Sprint Umfang kürzen.         |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
 | Ri3 | Ausfall der von der  | Die durch die Ost bereitgestellte         |                 3 |                    1 |             3 | Spiegeln des Repository  | Wechsel auf das Github        |
-|     | Ost bereitgestellten | Infrastruktur (z.B. Gitlab) fällt aus und |                   |                      |               | auf Github               | Repository                    |    
+|     | Ost bereitgestellten | Infrastruktur (z.B. Gitlab) fällt aus und |                   |                      |               | auf Github               | Repository                    |
 |     | Infrastruktur        | es kommt zu Datenverlust.                 |                   |                      |               |                          |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
 | Ri4 | Ungenügende          | Anforderungen wurden nicht klar definiert |                 2 |                    1 |             2 | Anforderung reviewen     | Anforderungsanalyse           |
@@ -52,7 +52,7 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 | Ri6 | Softwarearchitektur  | Fehler im Designprozess werden erst       |                 1 |                    1 |             1 | Prototyp erstellen       | Fehleranalyse & Überarbeitung |
 |     |                      | während der Umsetzung bemerkt.            |                   |                      |               |                          | der Softwarearchitektur       |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
-| Ri7 | Backend Technologie  | Das Backend wird in C# geschrieben,       |                 3 |                    1 |             3 | keine Massnahmen         |                               |
+| Ri7 | Backend Technologie  | Das Backend wird in C# geschrieben,       |                 1 |                    1 |             3 | keine Massnahmen         |                               |
 |     |                      | es kann auf viel bestehendes Wissen       |                   |                      |               |                          |                               |
 |     |                      | zurückgegriffen werden.                   |                   |                      |               |                          |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
@@ -65,7 +65,10 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 |     |                      |                                           |                   |                      |               | bereit zur Besprechung   |                               |
 |     |                      |                                           |                   |                      |               | im Team.                 |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
-|     |                      |                                           |                   |                Summe |            23 |                          |                               |
+| Ri10| Pipeline             | Die Pipline funktioniert nicht und ver-   |                 3 |                    2 |             6 | Solange es läuft wenn    | Höchste Prio um es wieder zum |
+|     |                      | zögert die Umsetzung.                     |                   |                      |               | möglich nicht verändern. | laufen zu bringen.            |
++-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
+|     |                      |                                           |                   |                Summe |            27 |                          |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
 ```
 
@@ -88,3 +91,6 @@ Risikoüberprüfung durchgeführt:
 - 15.04.2021 (Pascal Schlumpf): Risiken neu beurteilt.
   - Bei Ri4 reduziert sich die Eintrittswahrscheinlichkeit, da wir nun fast alle MUSS Anforderungen umgesetzt haben. Eine Anforderung mussten wir auf den nächsten Sprint verschieben, da der Umfang zu gross wurde. Bis jetzt wurde noch keine Kritik an den Anforderungen ausgesprochen.
   - Bei Ri5 reduziert sich die Eintrittswahrscheinlichkeit. Wir haben auch in diesem Sprint die Tasks für Entwicklung zu tief geschätzt. In diesem Punkt müssen wir uns noch verbessern. Die Abweichungen bei der Gesamtzeit sind aber soweit im Rahmen, dass wir das Risiko als kleiner einstufen.
+- 29.04.2021 (Pascal Schlumpf): Risiken neu beurteilt.
+  - Bei Ri7 reduziert sich das Schadenspotential um 2 auf 1, da alle wichtigen Komponenten in einer guten Qualität umgesetzt worden sind und das Team eingespielt ist. Alle KANN Anforderungen können nun mit tieferem Druck umgesetzt werden.
+  - Es wurde das Risiko Ri10 erfasst. Aufgrund der Erfahrungen der letzten Wochen hat sich dieses Risiko aufgedrängt. Es stellte sich heraus, dass es zentral ist in der Erfüllung unseres Auftrags und dass es ein sehr diffiziles System ist. 
