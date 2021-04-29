@@ -108,7 +108,7 @@ Falls bei der Datenbank Performance Probleme relevant werden sollten, wären die
 
 ## Technische Schulden
 
-Weiter lädt das Frontend aktuell regelmässig die Liste der Stores und deren Auslastung um aktuelle Daten anzuzeigen. Hier würde sich ein Websocket anbieten, welcher dem Frontend mitteilt, falls es Änderungen gibt. Dieser Ausbau ist bereits für einen der nächsten Sprints geplant. Bas Backen bietet bereits WebSockets an, diese müssen im Frontend noch implementiert werden.
+Um das Frontend aktuell zu halten, muss regelmässig die Liste der Stores und deren Auslastung geladen werden, um aktuelle Daten anzuzeigen. Hier würde sich ein Websocket anbieten, welcher dem Frontend mitteilt, falls es Änderungen gibt. Dieser Ausbau ist bereits für einen der nächsten Sprints geplant. Bas Backen bietet bereits WebSockets an, diese müssen im Frontend noch implementiert werden.
 
 ## Durchlaufene Klassen
 

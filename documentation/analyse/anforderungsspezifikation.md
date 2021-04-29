@@ -190,8 +190,8 @@ Im Dokument bzw. Bereich "API Dokumentation" gibt es noch eine genaue Beschreibu
 
 - **Backend**
     - Schnittstelle zum Frontend um Besucherdaten zu liefern (1. Schritt)
-    - Schnittstelle zum Datenbank um Daten abzulegen und zu lesen (1. Schritt)
-    - Schnittstelle um Daten von den Firmen anliefern auszulassen (1. Schritt)
+    - Schnittstelle zur Datenbank um Daten abzulegen und zu lesen (1. Schritt)
+    - Schnittstelle um Daten von den Firmen entgegenzunehmen (1. Schritt)
     - Schnittstelle um die Firmenregistrierung zu ermöglichen (2. Schritt)
     - Schnittstelle zum Frontend für die Authentifizierung und Autorisierung (2. Schritt)
 

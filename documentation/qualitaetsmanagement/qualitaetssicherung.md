@@ -4,58 +4,99 @@
 
 ### Zweck
 
-*Zweck des Dokumentes*
+Dieses Dokument ist eine Übersicht, aller Massnahmen zur Qualitätssicherung im Projekt CapWatch.
 
 ### Gültigkeitsbereich
 
-*Gültigkeitsbereich des Dokumentes*
+Dieses Dokument ist für die Stakeholder dieses Projektes, sowie die Entwickler erstellt worden. Es wurde im Rahmen des Engineering Projekts der Fachhochschule Ost erarbeitet.
 
 ### Referenzen
 
-*Liste aller verwendeten und referenzierten Dokumente, Bücher, Links, usw.*
+Git Conventional Commits: [https://www.conventionalcommits.org/en/v1.0.0/](https://www.conventionalcommits.org/en/v1.0.0/)
 
-*Referenz auf ein Glossar Dokument, wo alle Abkürzungen und unklaren Begriffe erklärt werden*
+## Qualitätsmassnahmen
 
-*Die Quellen / Referenzen sollten (falls möglich) automatisch erstellt werden*
+Die qualitätssichernden Massnahmen wurden bereits im Kapitel Qualitätsmassnahmen im [Projektplan](./../projektplan/projektplan.md) beschrieben. Nachfolgend werden einzelne wichtige Punkte noch genauer ergänzt.
 
-## Q-Massnahmen
+### Conventional Commits
 
-*Auflisten, was alles geplant und durchgeführt wurde. Je nach Projekt und Teamgrösse/-fähigkeiten kann nicht alles abgehakt werden. Beschreiben Sie bitte genau, was Sie im Bereich Qualitätssicherung alles unternommen haben*
+Alle Commits welche auf GitLab gemacht werden, müssen dem Pattern von Conventional Commits folgen, dadurch wird sichergestellt, dass die Commit Messages einheitlich sind und die Erweiterungen und Anpassungen genau beschreiben.
 
-- Festlegen der Coding Guidelines
+### Frontend Tests mit Lighthouse
 
-- Festlegen der Definition of Done
+Mit Lighthouse werden im Frontend die Kategorien Performance, Best Practices und Accessibility getestet. Die Tests haben als primäre Zielplattform mobile Endgeräte.
 
-- Bugs immer in Redmine oder JIRA eingetragen
+### Konfiguration Renovate
 
-- Stunden-Erfassung auf den Arbeitspaketen (damit man besser Soll und Ist vergleichen kann)
+Renovate erkennt, wenn eingesetzt Libraries nicht mehr aktuell sind und erstellt für die Aktualisierung automatisch einen Merge Request, welcher nur noch von einem Teammitglied begutachtet und bestätigt werden muss.
 
-- Code-Reviews geplant und durchgeführt? (am besten vor jedem grösseren Meilenstein)
+#### Renovate im Frontend
 
-- Unit Tests (Microtesting und Integration Tests) von guter Aussagekraft? mit guter Abdeckung?
+Renovate überprüft das Frontend einmal in der Woche am Dienstag um 06:00.
 
-- Metriken laufen bei jedem Build auf CI Server? (und natürlich vernünftige Grenzwerte definiert)
+#### Renovate Backend
 
-- Static Code Analysis Tools laufen immer auf CI Server? (findbugs, Lint, checkstyle, ReSharper, ...)
+Renovate kann aktuell im Backend nicht eingesetzt werden da die verwendete NuGet Version, welche wir verwenden, noch nicht unterstützt wird.
 
-- github Workflow mit Feature Branches und Pull Requests als minimales Vier-Augen-Prinzip
+### SonarQube
 
-- Usability Testing gemacht? (früh als Paper Prototype, später mit richtiger Software). Erkenntnisse daraus? Resultierende (Umbau-)Arbeiten?
+Mit SonarQube wird fürs Frontend und Backend eine Codeanalyse durchgeführt, dabei werden folgende Kriterien ausgewertet:
+* Bugs
+* Vulnerabilities
+* Security Hotspots
+* Code Smells
+* Code Coverage
+* Duplications
 
-- Händische Systemtests gemacht? (z.B. mit Umbau von Use Cases zu Test Cases) Testdurchführungen protokolliert?
+Die Analysen schlagen in der Code Coverage fehl, da wir die verwendete [SonarQube Instanz](https://se1-sonarqube.dev.ifs.hsr.ch/dashboard?id=CapwatchBackend) nicht auf unsere Bedürfnisse anpassen können. Aus diesem Grund läuft die Build Pipeline auch erfolgreich durch, wenn SonarQube fehlschlägt.
 
-- Tests möglichst automatisiert? (Android: Espresso, Web Browser: Selenium, cypress.io)
+#### SonarQube Frontend
 
-- Dashboard wie z.B. SonarQube eingesetzt?
+Da wir im Frontend keine automatisierten Tests schreiben können wir die vorgegebene Codecoverage von 80% nicht erreichen.
+
+#### SonarQube Backend
+
+In der Pipeline des Backends können die Unittests, welche auf die Datenbank angewiesen sind, nicht ausgeführt werden. Es ist desshalb auch hier nicht möglich die vorgegebene Codecoverage von 80% zu erreichen.
+
+### DoD - Definition of Done
+
+Es gibt verschiedene DoDs. Zur Qualitätssicherung können die Tickets mit einer entsprechenden DoD versehenen werden. Die DoD dient den Entwicklern als Leitfaden für die Umsetzung. Es gibt standardisierte DoDs für das Backend, Frontend und die Dokumentation. Diese können für jeden Auftrag individuell ergänzt werden.
+
+#### Standard DoD
+
+-[ ] Auftrag gelesen und verstanden
+-[ ] Alle Teile des Auftrags umgesetzt
+-[ ] Anforderungen mit Lösung verglichen
+-[ ] Ergebnisse im Team besprochen oder alle informiert
+-[ ] Review erstellt, umgesetzt und Merge durchgeführt (Merge Request)
+
+#### Backend DoD
+
+Die standard DoD wird für das Backend um folgende Punkte ergänzt.
+
+-[ ] Coding Guidelines und Formatierung überprüft
+-[ ] Unit Tests erstellt
+-[ ] Code Review erstellen, Review umsetzen und Merge durchgeführt (Merge Request)
+
+#### Frontend DoD
+
+Die standard DoD wird für das Frontend um folgende Punkte ergänzt.
+
+-[ ] Coding Guidelines und Formatierung überprüft
+-[ ] Code Review erstellen, Review umsetzen und Merge durchgeführt (Merge Request)
+
+### Technische Schulden in der Qualitätssicherung
+
+* Renovate im Backend einsetzten, sobald dies unterstützt wird.
+* SonarQube für Anforderungen durch CapWatch konfigurieren.
+* Linter für Backend in Pipeline integrieren
 
 ## Sicherung der Geschichte
 
-*Welche Daten wurden wann gesichert, um später die Projekt-Histoy nachvollziehen zu können*
+### Code und Dokumentation
 
-- Kompletter Export der Arbeitspakete/Tickets aus Redmine oder JIRA bei jedem Meilenstein (als CSV Datei)
+Entwicklung und Dokumentation geschieht in einem Git Repository, welches auf dem OST GitLab gehostet wird. Somit ist eine Versionierung und Sicherung dieser Daten vorhanden. Durch die dezentrale Natur von Git ist sämtliche Arbeit auch bei allen Entwicklern lokal vollständig vorhanden.
 
-- Metrik- und Code Analysis-Auswertungen bei jedem Meilenstein sichern (z.B. als HTML oder PDF, auch CSV Datei)
+### Zeitauswertung / Tickets
 
-- Stunden-Buchhaltung bei jedem Meilenstein sichern (z.B. als CSV Datei)
-
-- Dokumente (auch Wiki) bei jedem Meilenstein sichern (z.B. als PDF Dateien)
+Um die Arbeitszeit jederzeit nachweisen zu können, werden am Ende jedes Sprints die Auswertungen `Time Report per Milestone` und `Time Report per work item` erstellt und in der Dokumentation abgelegt.
