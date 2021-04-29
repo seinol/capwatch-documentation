@@ -3,7 +3,7 @@ Glossary
 .. glossary::
   Anbieter
     Unternehmen welche Daten an CapWatch liefern.
-  `BDUF`_
+  BDUF_
     Big Design Up Front
   `C4 Modell`_
     Software Architektur Modell: Context, Containers, Components, Code
@@ -11,19 +11,19 @@ Glossary
     aktuelle oder maximale Personenanzahl in einem Store
   CapWatch
     Produktname und Abkürzung für capacity watcher
-  `DRY`_
+  DRY_
     Don't Repeat Yourself
-  `DoD`_
+  DoD_
     Definition of Done
   EPJ
     Abkürzung für Engineering Projekt
-  `KISS`_
+  KISS_
     Keep It Simple, Stupid
   Konsument
     User der App CapWatch und Kunde der in CapWatch registrierten Unternehmen
-  `MVP`_
+  MVP_
     Minimal Viable Product
-  `OWASP`_
+  OWASP_
     Open Web Application Security Project
   Secret
     Dient zur Identifikation der Registrierten Unternehmen
@@ -36,15 +36,15 @@ Glossary
     L - Liskov Substitution Principle
     I - Interface Segregation Principle
     D - Dependency Inversion Principle
-  `YAGNI`_
+  YAGNI_
     You Aren’t Gonna Need It
 
 .. _BDUF: https://en.wikipedia.org/wiki/Big_Design_Up_Front
-.. _C4 Modell: https://en.wikipedia.org/wiki/C4_model
-.. _DRY: https://en.wikipedia.org/wiki/Don't_repeat_yourself
+.. _`C4 Modell`: https://en.wikipedia.org/wiki/C4_model
+.. _DRY: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 .. _DoD: https://en.wikipedia.org/wiki/Scrum_(software_development)#Definition_of_done_(DoD)
 .. _KISS: https://en.wikipedia.org/wiki/KISS_principle
 .. _MVP: https://en.wikipedia.org/wiki/Minimum_viable_product
 .. _OWASP: https://owasp.org
-.. _S.O.L.I.D.: https://en.wikipedia.org/wiki/SOLID
-.. _YAGNI: https://en.wikipedia.org/wiki/You_aren't_gonna_need_it
+.. _`S.O.L.I.D.`: https://en.wikipedia.org/wiki/SOLID
+.. _YAGNI: https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it
