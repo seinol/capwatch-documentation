@@ -93,4 +93,5 @@ Risikoüberprüfung durchgeführt:
   - Bei Ri5 reduziert sich die Eintrittswahrscheinlichkeit. Wir haben auch in diesem Sprint die Tasks für Entwicklung zu tief geschätzt. In diesem Punkt müssen wir uns noch verbessern. Die Abweichungen bei der Gesamtzeit sind aber soweit im Rahmen, dass wir das Risiko als kleiner einstufen.
 - 29.04.2021 (Pascal Schlumpf): Risiken neu beurteilt.
   - Bei Ri7 reduziert sich das Schadenspotential um 2 auf 1, da alle wichtigen Komponenten in einer guten Qualität umgesetzt worden sind und das Team eingespielt ist. Alle KANN Anforderungen können nun mit tieferem Druck umgesetzt werden.
-  - Es wurde das Risiko Ri10 erfasst. Aufgrund der Erfahrungen der letzten Wochen hat sich dieses Risiko aufgedrängt. Es stellte sich heraus, dass es zentral ist in der Erfüllung unseres Auftrags und dass es ein sehr diffiziles System ist. 
+  - Es wurde das Risiko Ri10 erfasst. Aufgrund der Erfahrungen der letzten Wochen hat sich dieses Risiko aufgedrängt. Es hat sich herausgestellt, dass die Pipeline sehr diffizil und gleichwohl für die Erfüllung unseres Auftrags zentral ist.
+  

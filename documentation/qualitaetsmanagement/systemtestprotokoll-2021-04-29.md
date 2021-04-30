@@ -69,7 +69,7 @@ Wenn die Anzahl aktueller Besucher zu tief ist, überlappt der Picker den Titel.
 
 ## Test der NF-Anforderungen /Performance- und Lasttests
 
-Soweit möglich und Sinnvoll wurden die nicht Funktionalen Anforderungen getestet. Das Backend wurde mit JMeter getestet. Die Ergebnisse sind mit Vorsicht zu betrachten, da es nicht auf einem isolierten System getestet worden ist. Trotzdem kann man sagen, dass man fürs erste nicht mit Performanceproblemen rechnen muss.
+Soweit möglich und sinnvoll wurden die Nicht-Funktionalen Anforderungen getestet. Das Backend wurde mit JMeter getestet. Die Ergebnisse sind mit Vorsicht zu betrachten, da nicht auf einem isolierten System getestet wurde. Trotzdem kann man sagen, dass man fürs erste nicht mit Performanceproblemen rechnen muss.
 
 ```eval_rst
 +-------------+----------+--------------------+----------------+
@@ -115,4 +115,4 @@ Soweit möglich und Sinnvoll wurden die nicht Funktionalen Anforderungen geteste
 
 ### Bekannte Einschränkungen
 
-Eine MUSS Anforderung, die Suche, wurde aus Zeitgründen erst im Backend umgesetzt und wird im nächsten Sprint implementiert.
+Eine MUSS Anforderung, die Suche, wurde aus Zeitgründen erst im Backend umgesetzt und wird im nächsten Sprint im Frontend noch ergänzt.

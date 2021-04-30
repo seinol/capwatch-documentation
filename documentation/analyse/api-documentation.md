@@ -51,7 +51,7 @@ const inputBody = '{
     "logo": "string",
     "secret": "string",
     "storeType": {
-    "id": "string",
+        "id": "string",
         "description": "string"
   }
 }';
@@ -121,7 +121,7 @@ const inputBody = '{
   "maxCapacity": 1,
   "logo": "string",
     "storeType": {
-    "id": "string",
+        "id": "string",
         "description": "string"
     }
 }';
