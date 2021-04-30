@@ -275,7 +275,7 @@ Die Risikoanalyse wurde im Dokument risikoanalyse.md detailliert beschreiben.
 
 Aufgrund der Risikoanalyse wurde ein durchschnittliches Schadenspotenzial von vier Stunden berechnet, desshalb werden in jedem Sprint vier Stunden als Reserve eingerechnet um sicherstellen zu können, dass der Projektplan eingehalten werden kann.
 
-Zum aktuellen Zeitpunkt gibt es keine Risiken mehr, welche einen gewichteten Schaden grösser als die geplanten vier Stunden Reserve aufweisen.
+Wir haben neu das Risiko Ri10 Pipeline aufgenommen. Diese Komponente hat sich als sehr zentral und anfällig herausgestellt. Daher wollen wir einen besonderen Fokus darauf legen.
 
 ## Arbeitspakete
 

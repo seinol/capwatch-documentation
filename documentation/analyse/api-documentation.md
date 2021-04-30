@@ -41,15 +41,19 @@ This operation does not require authentication
 
 ```javascript
 const inputBody = '{
-  "id": 0,
-  "name": "string",
-  "street": "string",
-  "zipCode": "string",
-  "city": "string",
-  "maxCapacity": 1,
-  "currentCapacity": 0,
-  "logo": "string",
-  "secret": "string"
+"id": "string",
+    "name": "string",
+    "street": "string",
+    "zipCode": "string",
+    "city": "string",
+    "maxCapacity": 1,
+    "currentCapacity": 0,
+    "logo": "string",
+    "secret": "string",
+    "storeType": {
+        "id": "string",
+        "description": "string"
+  }
 }';
 const headers = {
   'Content-Type':'application/json'
@@ -74,7 +78,7 @@ fetch('/Stores',
 
 ```json
 {
-  "id": 0,
+  "id": "string",
   "name": "string",
   "street": "string",
   "zipCode": "string",
@@ -82,7 +86,11 @@ fetch('/Stores',
   "maxCapacity": 1,
   "currentCapacity": 0,
   "logo": "string",
-  "secret": "string"
+  "secret": "string",
+  "storeType": {
+    "id": "string",
+    "description": "string"
+  }
 }
 ```
 
@@ -111,7 +119,11 @@ const inputBody = '{
   "zipCode": "string",
   "city": "string",
   "maxCapacity": 1,
-  "logo": "string"
+  "logo": "string",
+    "storeType": {
+        "id": "string",
+        "description": "string"
+    }
 }';
 const headers = {
   'Content-Type':'application/json'
@@ -141,7 +153,11 @@ fetch('/Stores',
   "zipCode": "string",
   "city": "string",
   "maxCapacity": 1,
-  "logo": "string"
+  "logo": "string",
+  "storeType": {
+    "id": "string",
+    "description": "string"
+  }
 }
 ```
 
@@ -194,11 +210,11 @@ This operation does not require authentication
 
 ## Schemas
 
-### StoreModel
+### NewStoreModel
 
 ```json
 {
-  "id": 0,
+  "id": "string",
   "name": "string",
   "street": "string",
   "zipCode": "string",
@@ -206,7 +222,10 @@ This operation does not require authentication
   "maxCapacity": 1,
   "currentCapacity": 0,
   "logo": "string",
-  "secret": "string"
+  "storeType": {
+    "id": "string",
+    "description": "string"
+  }
 }
 ```
 
@@ -224,16 +243,23 @@ This operation does not require authentication
 |logo|string(byte)¦null|false|none|none|
 |secret|string|true|none|none|
 
-### StoreNew
+### StoreModel
 
 ```json
 {
+  "id": "string",
   "name": "string",
   "street": "string",
   "zipCode": "string",
   "city": "string",
   "maxCapacity": 1,
-  "logo": "string"
+  "currentCapacity": 0,
+  "logo": "string",
+  "secret": "string",
+  "storeType": {
+    "id": "string",
+    "description": "string"
+  }
 }
 
 ```
