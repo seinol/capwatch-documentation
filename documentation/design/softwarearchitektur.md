@@ -36,11 +36,11 @@ Das Gesamtsystem besteht aus einer MongoDB Datenbankinstanz und einem C# Backend
 
 #### Architektur Frontend
 
-Das Frontend besteht aus einer Single-Page Applikation welche in React und TypeScript geschrieben wurde. Die Applikation wird auf einem Nginx Webserver betrieben. Das Frontend ist in drei Schichten gegliedert. Zuoberst befindet sich die GUI Schicht, welche die Informationen darstellt. Auf der nächsten Schicht befinden sich die Komponenten und [Hooks](https://reactjs.org/docs/hooks-overview.html). Die Komponenten stellen die Daten für die GUI Schicht bereit. Die Komponenten werden duch Hooks erweitert, diese verantworten die States und stellen weitere React Features zur Verfügung. Die Service Schicht ist für die Kommunikation und Datenverarbeitung mit dem Backend zuständig.
+Das Frontend besteht aus einer Single-Page Applikation welche in React und TypeScript geschrieben wurde. Die Applikation wird auf einem Nginx Webserver betrieben. Das Frontend ist in drei Schichten gegliedert. Zuoberst befindet sich die GUI Schicht, welche die Informationen darstellt. Auf der nächsten Schicht befinden sich die Komponenten und [Hooks](https://reactjs.org/docs/hooks-overview.html). Die Komponenten stellen die Daten für die GUI Schicht bereit. Die Hooks verantworten die States und stellen weitere React Features zur Verfügung. Die Service Schicht ist für die Kommunikation und Datenverarbeitung mit dem Backend zuständig.
 
 ![frontend-overview](../../diagrams/frontend-overview.jpg)
 
-Als Frontend Frameworks standen Angular, React und Vue zur Auswahl. Die Entscheidung fiel auf React, da Angular für dieses Projekt zu gross ist. React wurde Vue bevorzugt, da wir hier auf existierendes Vorwissen zurückgreifen können und vom Team Interesse das React-Framework zu erlernen. Ein Projektmitarbeiter besucht parallel zum EPJ das Modul _Web Engineering und Design 3_ und kann somit das gelernte wissen direkt umsetzen.
+Als Frontend Frameworks standen Angular, React und Vue zur Auswahl. Die Entscheidung fiel auf React, da Angular für dieses Projekt zu gross ist. React wurde Vue bevorzugt, da wir hier auf existierendes Vorwissen zurückgreifen können und im Team Interesse bestand das React-Framework zu erlernen. Ein Projektmitarbeiter besucht parallel zum EPJ das Modul _Web Engineering und Design 3_ und kann somit das gelernte Wissen direkt umsetzen.
 
 ### Komponenten Diagramm der API Backend Applikation
 
@@ -49,7 +49,7 @@ Als Frontend Frameworks standen Angular, React und Vue zur Auswahl. Die Entschei
 
 #### Store Controller
 
-Der Store Controller bietet klassische WebAPI an über welche Informationen zu Stores angefragt und aktualisiert werden können. Welche API Schnittstellen im Detail zur Verfügung stehen kann in der [API Dokumentation](../analyse/api-documentation.md) eingesehen werden.
+Der Store Controller bietet eine klassische WebAPI an, über welche Informationen zu Stores angefragt und aktualisiert werden kann. Welche API Schnittstellen im Detail zur Verfügung stehen kann in der [API Dokumentation](../analyse/api-documentation.md) eingesehen werden.
 
 #### Store Handler
 
@@ -108,7 +108,7 @@ Falls bei der Datenbank Performance Probleme relevant werden sollten, wären die
 
 ## Technische Schulden
 
-Um das Frontend aktuell zu halten, muss regelmässig die Liste der Stores und deren Auslastung geladen werden, um aktuelle Daten anzuzeigen. Hier würde sich ein Websocket anbieten, welcher dem Frontend mitteilt, falls es Änderungen gibt. Dieser Ausbau ist bereits für einen der nächsten Sprints geplant. Bas Backen bietet bereits WebSockets an, diese müssen im Frontend noch implementiert werden.
+Um das Frontend aktuell zu halten, muss regelmässig die Liste der Stores und deren Auslastung geladen werden um aktuelle Daten anzuzeigen. Hier würde sich ein Websocket anbieten, welcher dem Frontend mitteilt, falls es Änderungen gibt. Dieser Ausbau ist bereits für einen der nächsten Sprints geplant. Bas Backen bietet bereits WebSockets an, diese müssen im Frontend noch implementiert werden.
 
 ## Durchlaufene Klassen
 

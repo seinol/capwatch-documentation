@@ -16,7 +16,7 @@ Wenn wir die Planung nachträglich überarbeiten, wird diese Version von allen Z
 
 ### Referenzen
 
-[Gitlab Dokumentation](https://docs.gitlab.com/ee/) \
+[GitLab Dokumentation](https://docs.gitlab.com/ee/) \
 [GitLab Time Tracker (gtt)](https://github.com/kriskbx/gitlab-time-tracker) \
 [Youtrack](https://www.jetbrains.com/de-de/youtrack/)
 
@@ -28,7 +28,7 @@ Eine Webapplikation, in der man seine Lieblingsgeschäfte, Saunas, etc. abonnier
 
 Real-time Daten zur Anzahl Personen in einem Raum oder Gebäude, welche eine Personenbeschränkung aufgrund einer Pandemie oder einem sonstigen Grund haben, wie z.B. Geschäfte, Saunen, Bäder, Sportanlagen etc. um das persönliche Einkaufs- und Konsumverhalten besser planen bzw. anpassen zu können. Es entstehen dabei sowohl Vorteile für die Anbieter und die Konsumenten. Die Anbieter können Dienstleistungsendpässe vermeiden, welche zu einem Besucherverlust führen könnten. Die Konsumenten profitieren von kurzen Wartezeiten und somit auch besseren Verkaufsdienstleistung wie z.B. Beratungen.
 
-Die Ziele des Teams sind eine allgemein gut funktionierende, erweiterbare, performante und benutzerfreundliche Plattform für die Endkunden, wie aber auch für die Datenlieferanten. Die Weblösung soll einfach zu bedien sein und das Leben vereinfache, vor allem in der Zeit einer Pandemie wo Einschränkungen vom Konsumverhalten der Bevölkerung gefordert wird.
+Die Ziele des Teams sind eine allgemein gut funktionierende, erweiterbare, performante und benutzerfreundliche Plattform für die Endkunden, wie aber auch für die Datenlieferanten. Die Weblösung soll einfach zu bedienen sein und das Leben vereinfachen, vor allem in der Zeit einer Pandemie wo Einschränkungen vom Konsumverhalten der Bevölkerung gefordert wird.
 
 ### Lieferumfang
 
@@ -50,12 +50,12 @@ Wir im Team verwenden Microsoft Teams für die Meetings und die Dateiablage. Mic
 - Analytics
 - Integration von diversen Tools (SonarQube und Renovate)
 
-Die Nutzung der folgenden Gitlab Funktionen wurden wegen diverser Probleme (siehe Abschnitt Arbeitspakete) verworfen:
+Die Nutzung der folgenden GitLab Funktionen wurden wegen diverser Probleme (siehe Abschnitt Arbeitspakete) verworfen:
 
 - Issues mit Kanban Board
 - Script für den Time Tracking Report (gtt)
 
-Als Ersatz zu den oben erwähnten, gestrichenen Gitlab Funktionen verwenden wir [Youtrack](https://www.jetbrains.com/de-de/youtrack/) von JetBrains mit den folgenden Funktionen:
+Als Ersatz zu den oben erwähnten, gestrichenen GitLab Funktionen verwenden wir [Youtrack](https://www.jetbrains.com/de-de/youtrack/) von JetBrains mit den folgenden Funktionen:
 
 - Issues mit Kanban Board
 - Integriertes Timetracking
@@ -214,7 +214,7 @@ Hier sind alle fixierten Termine aufgeführt. Falls nötig können auch spontane
 | Wann                 | Wer                  | Grund                |
 +======================+======================+======================+
 | Jeden Montag 16:00   | Team / Advisor bei   | Fragen zu            |
-| Uhr                  | bedarf               | Projektablauf oder   |
+| Uhr                  | Bedarf               | Projektablauf oder   |
 |                      |                      | Vorgehen             |
 +----------------------+----------------------+----------------------+
 | Jeden Donnerstag     | Alle im Team         | Aktueller Stand,     |
@@ -279,9 +279,9 @@ Wir haben neu das Risiko Ri10 Pipeline aufgenommen. Diese Komponente hat sich al
 
 ## Arbeitspakete
 
-Zur Planung der Arbeit, sowie dem Tracking der aufgewendeten Arbeitszeit haben wir ursprünglich Gitlab angedacht. Für die Auswertung der Zeiterfassung hätte [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz kommen sollen.
+Zur Planung der Arbeit, sowie dem Tracking der aufgewendeten Arbeitszeit haben wir ursprünglich GitLab angedacht. Für die Auswertung der Zeiterfassung hätte [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz kommen sollen.
 
-Leider hat sich in der ersten Projektwoche gezeigt, dass die uns von Gitlab zur Verfügung gestellten Tools nur unzureichend funktionieren. Nach einem nicht lösbaren Problem mit dem Timetracking, haben wir nach Absprache mit unserem Advisor den umstieg auf [Youtrack](https://www.jetbrains.com/de-de/youtrack/) beschlossen.
+Leider hat sich in der ersten Projektwoche gezeigt, dass die uns von GitLab zur Verfügung gestellten Tools nur unzureichend funktionieren. Nach einem nicht lösbaren Problem mit dem Timetracking, haben wir nach Absprache mit unserem Advisor den Umstieg auf [Youtrack](https://www.jetbrains.com/de-de/youtrack/) beschlossen.
 
 ## Infrastruktur
 
@@ -292,14 +292,15 @@ Zur Unterstützung verwenden wir im CI-Prozess zusätzlich das Codequalitätstoo
 ## Qualitätsmassnahmen
 
 Erstens werden für den Umgang mit Git diverse Richtlinien definiert um eine professionelle und einfache Zusammenarbeit im Softwareentwicklungsprozess mit dem ganzen Team zu erreichen. \
-Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzlich keine Änderungen in den Git Repositories verwendet werden, welche nicht mindestens von einem weiteren Teammitglied in einem Review validiert und bestätigt wurden. Ausnahmen dabei sind triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen. Drittens werden mit jedem Build und auch mit jedem Deployment der Applikationen Sicherheit- und Integrationchecks durchgeführt durch SonarQube und Renovate. 
+Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzlich keine Änderungen in den Git Repositories verwendet werden, welche nicht mindestens von einem weiteren Teammitglied in einem Review validiert und bestätigt wurden. Ausnahmen dabei sind triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen. \
+Drittens werden mit jedem Build und auch mit jedem Deployment der Applikationen Sicherheit- und Integrationchecks durchgeführt durch SonarQube und Renovate.
 
-Um diese Massnahmen für die Verbesserung der Qualität umsetzen zu können, verwenden wir die folgenden Gitlab Features:
+Um diese Massnahmen für die Verbesserung der Qualität umsetzen zu können, verwenden wir die folgenden GitLab Features:
 
 - Merge- bzw. Pull-Requests
 - CI / CD
 
-Jedes Product Backlog Item wird ausserdem mit einer Definition of Done versehen, welche dem Bearbeitenden und dem Reviewer dabei hilft, die Vollständigkeit dieses Product Backlog Items zu prüfen.
+Jedes Product Backlog Item, bei dem es Sinn macht, wird ausserdem mit einer Definition of Done versehen, welche dem Bearbeitenden und dem Reviewer dabei hilft, die Vollständigkeit dieses Product Backlog Items zu prüfen.
 
 Zusätzlich setzen wir die folgenden Techniken ein, um eine hohe Qualität innerhalb des Projekts zu gewährleisten:
 
@@ -316,11 +317,11 @@ Die Dokumentation wird mit Markdown erstellt, basierend auf dem offiziellen Temp
 
 ### Projektmanagement
 
-Wir wollten ursprünglich die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von GitLab selbst verwenden. Wegen den im Punkt Arbeitspakete beschriebenen Probleme kommt seit der zweiten Projektwoche aber Youtrack zum Einsatz. Die Issues durchlaufen einen klaren Workflow der als [Kanban Board](https://capwatch.myjetbrains.com/youtrack/agiles/120-2/current) angezeigt wird. Jedes Issue durchläuft folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem groben Format erstellt und warten dann im Status *open* auf deren Einplanung in einen Sprint, wodurch sie in den Status *planned* wechseln. Das Arbeitspaket wird beim Start in den Status *work in progress* versetzt und vor Beendigung in den Status *review*, um einen Review und je nachdem auch Testing durchzuführen. Im Status *closed* ist das Issue dann komplett fertig und somit auch auf einem archivierten Stand.
+Wir wollten ursprünglich die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von GitLab selbst verwenden. Wegen den im Punkt Arbeitspakete beschriebenen Probleme kommt seit der zweiten Projektwoche aber Youtrack zum Einsatz. Die Issues durchlaufen einen klaren Workflow der als [Kanban Board](https://capwatch.myjetbrains.com/youtrack/agiles/120-2/current) angezeigt wird. Jedes Issue durchläuft folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem groben Format erstellt und warten dann im Status *open* auf deren Einplanung in einen Sprint, wodurch sie in den Status *planned* wechseln. Das Arbeitspaket wird beim Start in den Status *work in progress* und vor Beendigung in den Status *review* versetzt, um ein Review und je nachdem auch ein Testing durchzuführen. Im Status *closed* ist das Issue dann komplett fertig und somit auch auf einem archivierten Stand.
 
 ### Entwicklung
 
-Der Sourcecode vom Backend und Frontend befindet sich in einer eigenen [Subgruppe](https://gitlab.ost.ch/epj/2021-FS/g03_capwatch/development) in unserem GitLab Projekt als jeweils eigene Repositories.
+Der Sourcecode vom Backend und Frontend befindet sich in einer eigenen [Untergruppe](https://gitlab.ost.ch/epj/2021-FS/g03_capwatch/development) in unserem GitLab Projekt als jeweils eigene Repositories.
 
 Spezielle Qualitätsmassnahmen spezifisch für den Sourcecode wurden bereits durch die allgemeinen Qualitätsmassnahmen an das ganze Projekt definiert.
 
@@ -330,7 +331,7 @@ Wir entwickeln vollständig nach dem Prinzip der agilen Softwareentwicklung mit 
 
 #### Unit Testing
 
-Automatisierte UnitTests werden ausschliesslich im Backend geschrieben. Der Grund hierfür ist, dass jegliche Business-Logik, welche auf die Daten angewandt werden muss, bei der Aufbereitung der Daten vor dem Bereitstellen durch die jeweiligen API's ausgeführt wird. Das FrontEnd wird lediglich die Rückgaben aus den API’s visuell zur Verfügung stellen.
+Automatisierte UnitTests werden ausschliesslich im Backend geschrieben. Der Grund hierfür ist, dass jegliche Business-Logik, welche auf die Daten angewandt werden muss, bei der Aufbereitung der Daten vor dem Bereitstellen durch die jeweiligen API's ausgeführt wird. Das Frontend wird lediglich die Rückgaben aus den API’s visuell zur Verfügung stellen.
 
 Die Tests im Backend werden technologisch mit [xUnit](https://www.nuget.org/packages/xunit/), [FluentAssertions](https://www.nuget.org/packages/FluentAssertions/6.0.0-alpha0002) und [FakeItEasy](https://www.nuget.org/packages/FakeItEasy/7.0.0-beta.2) umgesetzt.
 
@@ -338,7 +339,7 @@ Um sicherzustellen, dass die Testabdeckung ausreichend ist, wird die in Visual S
 
 #### Code Reviews
 
-Wie bereits im Kapitel zu den allgemeinen Qualitätsmassnahmen beschrieben, erstellen wir grundsätzlich immer Pull Requests die von mindestens einem weiteren Teammitglied überprüft wird. Es wird immer mit Supportbranches gearbeitet und nach dem Code Review erst die Zusammenführung auf einen Mainbranch gemacht.
+Wie bereits im Kapitel zu den allgemeinen Qualitätsmassnahmen beschrieben, erstellen wir grundsätzlich immer Merge Requests die von mindestens einem weiteren Teammitglied überprüft werden. Es wird immer mit Supportbranches gearbeitet und nach dem Code Review erst die Zusammenführung auf einen Mainbranch gemacht.
 
 #### Code Style Guidelines
 
@@ -350,7 +351,7 @@ Die folgenden Guidelines gelten als Ausgangspunkt, wie der Quellcode im Front- u
 | HTML / CSS         | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) |
 | TypeScript         | [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html) |
 | React              | [React + Typescript Cheatsheets](https://github.com/typescript-cheatsheets/react) |
-| JSX                | [React JSX](https://reactjs.org/docs/introducing-jsx.html)
+| JSX                | [React JSX](https://reactjs.org/docs/introducing-jsx.html) |
 
 ##### Abweichungen von den Grundlagen
 
@@ -401,4 +402,3 @@ Da beim Backend über die Update API der Geschäfte theoretisch relativ viel Tra
 #### Usability Tests
 
 Um die Benutzerfreundlichkeit unseres Projekts sicherzustellen, werden wir auf manuell durchgeführte Usability Tests setzen, da diese mit vergleichsweise wenig Aufwand sehr viel wertvolles Feedback zur Qualität und zu möglichen Verbesserungen liefern.
-

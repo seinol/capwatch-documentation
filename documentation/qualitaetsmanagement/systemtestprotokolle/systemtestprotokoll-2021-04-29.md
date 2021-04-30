@@ -55,21 +55,21 @@ Um den Test durchzuführen wurde in beiden Repositories über Docker-Compose die
 
 ## Manuelle Frontend Tests
 
-![frontend-test-favorites-empty](../../images/frontend-test-favorites-empty.png)
+![frontend-test-favorites-empty](../../../images/frontend-test-favorites-empty.png)
 
-Wenn in der Liste (Alle) Daten vorhanden sind, wird in den Favoriten nicht angezeigt, dass keine Favoriten ausgewählt sind.
+Wenn in der Liste aller Stores Daten vorhanden sind, wird in den Favoriten nicht angezeigt, dass keine Favoriten ausgewählt sind.
 
-![frontend-test-navigation-current-location](../../images/frontend-test-navigation-current-location.png)
+![frontend-test-navigation-current-location](../../../images/frontend-test-navigation-current-location.png)
 
 In der Navigation ist nicht ersichtlich, wo man sich aktuell befindet.
 
-![frontend-test-picker-overlapping-title](../../images/frontend-test-picker-overlapping-title.png)
+![frontend-test-picker-overlapping-title](../../../images/frontend-test-picker-overlapping-title.png)
 
 Wenn die Anzahl aktueller Besucher zu tief ist, überlappt der Picker den Titel.
 
 ## Test der NF-Anforderungen /Performance- und Lasttests
 
-Soweit möglich und sinnvoll wurden die Nicht-Funktionalen Anforderungen getestet. Das Backend wurde mit JMeter getestet. Die Ergebnisse sind mit Vorsicht zu betrachten, da nicht auf einem isolierten System getestet wurde. Trotzdem kann man sagen, dass man fürs erste nicht mit Performanceproblemen rechnen muss.
+Soweit möglich und sinnvoll wurden die nicht funktionalen Anforderungen getestet. Das Backend wurde mit JMeter getestet. Die Ergebnisse sind mit Vorsicht zu betrachten, da nicht auf einem isolierten System getestet wurde. Trotzdem kann man sagen, dass man fürs erste nicht mit Performanceproblemen rechnen muss.
 
 ```eval_rst
 +-------------+----------+--------------------+----------------+
@@ -107,7 +107,7 @@ Soweit möglich und sinnvoll wurden die Nicht-Funktionalen Anforderungen geteste
 +-------------+----------+--------------------+----------------+
 ```
 
-![response-time-graph](../../images/response-time-graph.png)
+![response-time-graph](../../../images/response-time-graph.png)
 
 ## Verbesserungsmöglichkeiten
 

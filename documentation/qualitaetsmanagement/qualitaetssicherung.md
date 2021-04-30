@@ -4,7 +4,7 @@
 
 ### Zweck
 
-Dieses Dokument ist eine Übersicht, aller Massnahmen zur Qualitätssicherung im Projekt CapWatch.
+Dieses Dokument ist eine Übersicht aller Massnahmen zur Qualitätssicherung im Projekt CapWatch.
 
 ### Gültigkeitsbereich
 
@@ -20,11 +20,11 @@ Die qualitätssichernden Massnahmen wurden bereits im Kapitel Qualitätsmassnahm
 
 ### Conventional Commits
 
-Alle Commits welche auf GitLab gemacht werden, müssen dem Pattern von Conventional Commits folgen, dadurch wird sichergestellt, dass die Commit Messages einheitlich sind und die Erweiterungen und Anpassungen genau beschreiben.
+Alle Commits welche auf GitLab gemacht werden, müssen dem Pattern von Conventional Commits folgen. Dadurch wird sichergestellt, dass die Commit Messages einheitlich sind und die Erweiterungen und Anpassungen genau beschreiben.
 
 ### Frontend Tests mit Lighthouse
 
-Mit Lighthouse werden im Frontend die Kategorien Performance, Best Practices und Accessibility getestet. Die Tests haben als primäre Zielplattform mobile Endgeräte.
+Mit Lighthouse werden im Frontend die Kategorien Performance, Best Practices und Accessibility getestet. Die Tests haben mobile Endgeräte als primäre Zielplattform.
 
 ### Konfiguration Renovate
 
@@ -32,15 +32,16 @@ Renovate erkennt, wenn eingesetzt Libraries nicht mehr aktuell sind und erstellt
 
 #### Renovate im Frontend
 
-Renovate überprüft das Frontend einmal in der Woche am Dienstag um 06:00.
+Renovate überprüft das Frontend einmal die Woche am Dienstag um 06:00.
 
 #### Renovate Backend
 
-Renovate kann aktuell im Backend nicht eingesetzt werden da die verwendete NuGet Version, welche wir verwenden, noch nicht unterstützt wird.
+Renovate kann aktuell im Backend nicht eingesetzt werden, da die verwendete NuGet Version noch nicht unterstützt wird.
 
 ### SonarQube
 
-Mit SonarQube wird fürs Frontend und Backend eine Codeanalyse durchgeführt, dabei werden folgende Kriterien ausgewertet:
+Mit SonarQube wird fürs Frontend und Backend eine Codeanalyse durchgeführt. Dabei werden folgende Kriterien ausgewertet:
+
 * Bugs
 * Vulnerabilities
 * Security Hotspots
@@ -56,11 +57,11 @@ Da wir im Frontend keine automatisierten Tests schreiben können wir die vorgege
 
 #### SonarQube Backend
 
-In der Pipeline des Backends können die Unittests, welche auf die Datenbank angewiesen sind, nicht ausgeführt werden. Es ist desshalb auch hier nicht möglich die vorgegebene Codecoverage von 80% zu erreichen.
+In der Pipeline des Backends können diejenigen Unittests, welche auf die Datenbank angewiesen sind, nicht ausgeführt werden. Es ist desshalb auch hier nicht möglich die vorgegebene Codecoverage von 80% zu erreichen.
 
 ### DoD - Definition of Done
 
-Es gibt verschiedene DoDs. Zur Qualitätssicherung können die Tickets mit einer entsprechenden DoD versehenen werden. Die DoD dient den Entwicklern als Leitfaden für die Umsetzung. Es gibt standardisierte DoDs für das Backend, Frontend und die Dokumentation. Diese können für jeden Auftrag individuell ergänzt werden.
+Es gibt verschiedene DoDs. Zur Qualitätssicherung können die Tickets mit einer entsprechenden DoD versehen werden. Die DoD dient den Entwicklern als Leitfaden für die Umsetzung. Es gibt standardisierte DoDs für das Backend, Frontend und die Dokumentation. Diese können für jeden Auftrag individuell ergänzt werden.
 
 #### Standard DoD
 
@@ -76,14 +77,14 @@ Die standard DoD wird für das Backend um folgende Punkte ergänzt.
 
 -[ ] Coding Guidelines und Formatierung überprüft
 -[ ] Unit Tests erstellt
--[ ] Code Review erstellen, Review umsetzen und Merge durchgeführt (Merge Request)
+-[ ] Code Review erstellt, umgesetzt und Merge durchgeführt (Merge Request)
 
 #### Frontend DoD
 
 Die standard DoD wird für das Frontend um folgende Punkte ergänzt.
 
 -[ ] Coding Guidelines und Formatierung überprüft
--[ ] Code Review erstellen, Review umsetzen und Merge durchgeführt (Merge Request)
+-[ ] Code Review erstellt, umgesetzt und Merge durchgeführt (Merge Request)
 
 ### Technische Schulden in der Qualitätssicherung
 

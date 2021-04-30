@@ -1,11 +1,11 @@
 # Zeitauswertung
 
-**Letztes Update:** 17. April 2021, 17:30
+**Letztes Update:** 30. April 2021, 18:00
 
 ## Total
 
-* **total estimate**: 340h
-* **total spent**: 349h 30m
+* **total estimate**: 423h
+* **total spent**: 447h 25m
 
 ## Pro Projektteilnehmer
 
@@ -13,15 +13,15 @@
 +-----------------------+---------+
 | Projektteilnehmer     | Zeit    |
 +=======================+=========+
-| Christoph Scheiwiller | 63h 55m |
+| Christoph Scheiwiller | 84h 35m |
 +-----------------------+---------+
-| Jonas Hauser          | 77h 30m |
+| Jonas Hauser          | 95h 55m |
 +-----------------------+---------+
-| Pascal Schlumpf       | 64h 25m |
+| Pascal Schlumpf       | 84h 55m |
 +-----------------------+---------+
-| Pascal Schneider      | 71h 20m |
+| Pascal Schneider      | 91h 15m |
 +-----------------------+---------+
-| Rafael Fuhrer         | 72h 20m |
+| Rafael Fuhrer         | 90h 45m |
 +-----------------------+---------+
 ```
 

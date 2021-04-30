@@ -41,7 +41,7 @@ This operation does not require authentication
 
 ```javascript
 const inputBody = '{
-"id": "string",
+    "id": "string",
     "name": "string",
     "street": "string",
     "zipCode": "string",
