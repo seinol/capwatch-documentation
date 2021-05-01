@@ -38,19 +38,19 @@ Mit Lighthouse werden im Frontend die Kategorien Performance, Best Practices und
 
 ### Konfiguration Renovate
 
-Renovate erkennt, wenn eingesetzt Libraries nicht mehr aktuell sind und erstellt für die Aktualisierung automatisch einen Merge Request, welcher nur noch von einem Teammitglied begutachtet und bestätigt werden muss.
+Renovate erkennt, wenn eingesetzte Libraries nicht mehr aktuell sind und erstellt für die Aktualisierung automatisch einen Merge Request, welcher dann nur noch von einem Teammitglied begutachtet und zusammengeführt werden muss.
 
 #### Renovate im Frontend
 
 Renovate überprüft das Frontend einmal die Woche am Dienstag um 06:00.
 
-#### Renovate Backend
+#### Renovate im Backend
 
-Renovate kann aktuell im Backend nicht eingesetzt werden, da die verwendete NuGet Version noch nicht unterstützt wird.
+Renovate kann aktuell im Backend nicht eingesetzt werden, weil die verwendete NuGet-Version noch nicht unterstützt wird.
 
 ### SonarQube
 
-Mit SonarQube wird fürs Frontend und Backend eine Codeanalyse durchgeführt. Dabei werden folgende Kriterien ausgewertet:
+Mit SonarQube wird für das Frontend und Backend eine Codeanalyse durchgeführt. Dabei werden folgende Kriterien ausgewertet:
 
 * Bugs
 * Vulnerabilities
@@ -59,19 +59,20 @@ Mit SonarQube wird fürs Frontend und Backend eine Codeanalyse durchgeführt. Da
 * Code Coverage
 * Duplications
 
-Die Analysen schlagen in der Code Coverage fehl, da wir die verwendete [SonarQube Instanz](https://se1-sonarqube.dev.ifs.hsr.ch/dashboard?id=CapwatchBackend) nicht auf unsere Bedürfnisse anpassen können. Aus diesem Grund läuft die Build Pipeline auch erfolgreich durch, wenn SonarQube fehlschlägt.
+Die Analysen schlagen in der Code Coverage fehl, da wir die verwendete [SonarQube Instanz](https://se1-sonarqube.dev.ifs.hsr.ch/dashboard?id=CapwatchBackend) noch nicht auf unsere Bedürfnisse anpassen können. Aus diesem Grund läuft die Build-Pipeline auch erfolgreich durch, wenn SonarQube fehlschlägt.
+Jeder Entwickler ist selbst verantwortlich, die SonarQube checks manuell zu analysieren in jedem Merge Request.
 
-#### SonarQube Frontend
+#### SonarQube im Frontend
 
-Da wir im Frontend keine automatisierten Tests schreiben können wir die vorgegebene Codecoverage von 80% nicht erreichen.
+Da wir im Frontend keine automatisierten Tests schreiben, können wir die vorgegebene Code-Coverage von 80 Prozent nicht erreichen.
 
-#### SonarQube Backend
+#### SonarQube im Backend
 
-In der Pipeline des Backends können diejenigen Unittests, welche auf die Datenbank angewiesen sind, nicht ausgeführt werden. Es ist desshalb auch hier nicht möglich die vorgegebene Codecoverage von 80% zu erreichen.
+In der Pipeline des Backends können diejenigen Unittests, welche auf die Datenbank angewiesen sind, nicht ausgeführt werden. Es ist desshalb auch hier nicht möglich die vorgegebene Code-Coverage von 80% zu erreichen.
 
 ### DoD - Definition of Done
 
-Es gibt verschiedene DoDs. Zur Qualitätssicherung können die Tickets mit einer entsprechenden DoD versehen werden. Die DoD dient den Entwicklern als Leitfaden für die Umsetzung. Es gibt standardisierte DoDs für das Backend, Frontend und die Dokumentation. Diese können für jeden Auftrag individuell ergänzt werden.
+Es gibt verschiedene DoD's. Zur Qualitätssicherung können die Tickets mit einer entsprechenden DoD versehen werden. Die DoD dient den Entwicklern als Leitfaden für die Umsetzung. Es gibt standardisierte DoD's für das Backend, Frontend und die Dokumentation. Diese können für jeden Auftrag individuell ergänzt werden.
 
 #### Standard DoD
 
@@ -98,15 +99,15 @@ Die standard DoD wird für das Frontend um folgende Punkte ergänzt.
 
 ### Technische Schulden in der Qualitätssicherung
 
-* Renovate im Backend einsetzten, sobald dies unterstützt wird.
-* SonarQube für Anforderungen durch CapWatch konfigurieren.
-* Linter für Backend in Pipeline integrieren
+* Renovate im Backend einsetzten, sobald dies unterstützt wird
+* SonarQube für die Anforderungen durch CapWatch konfigurieren
+* Linter für das Backend in die CI/CD Pipeline integrieren
 
 ## Sicherung der Geschichte
 
 ### Code und Dokumentation
 
-Entwicklung und Dokumentation geschieht in einem Git Repository, welches auf dem OST GitLab gehostet wird. Somit ist eine Versionierung und Sicherung dieser Daten vorhanden. Durch die dezentrale Natur von Git ist sämtliche Arbeit auch bei allen Entwicklern lokal vollständig vorhanden.
+Entwicklung und Dokumentation geschieht in je einem GitLab Projekt mit Repositories, welches auf dem OST GitLab gehostet wird. Somit ist eine Versionierung und Sicherung dieser Daten vorhanden. Durch die dezentrale Natur von Git ist sämtliche Arbeit auch bei allen Entwicklern lokal meistens fast vollständig vorhanden.
 
 ### Zeitauswertung / Tickets
 
