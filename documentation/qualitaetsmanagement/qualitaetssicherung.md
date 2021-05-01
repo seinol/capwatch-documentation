@@ -12,15 +12,25 @@ Dieses Dokument ist für die Stakeholder dieses Projektes, sowie die Entwickler 
 
 ### Referenzen
 
-[Git Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Git Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Git Flow - GitHub](https://github.com/petervanderdoes/gitflow-avh)
+- [Git Flow - Flow Graphs](https://git.logikum.hu/graph/feature)
+- [Semantic Versioning](https://semver.org/lang/de/)
 
 ## Qualitätsmassnahmen
 
-Die qualitätssichernden Massnahmen wurden bereits im Kapitel Qualitätsmassnahmen im [Projektplan](./../projektplan/projektplan.md) beschrieben. Nachfolgend werden einzelne wichtige Punkte noch genauer ergänzt.
+Die qualitätssichernde Massnahmen wurden bereits im Kapitel Qualitätsmassnahmen im [Projektplan](./../projektplan/projektplan.md) beschrieben. Nachfolgend werden einzelne wichtige Punkte noch genauer ergänzt.
 
-### Conventional Commits
+### Git
 
-Alle Commits welche auf GitLab gemacht werden, müssen dem Pattern von Conventional Commits folgen. Dadurch wird sichergestellt, dass die Commit Messages einheitlich sind und die Erweiterungen und Anpassungen genau beschreiben.
+#### Branching
+
+Die Branches werden mit den Konzepten und dem Tooling von Git Flow (AVH Edition) erstellt und verwendet. Wir verwenden `feature`, `bugfix`, `release` und `hotfix` Branches mit den beiden Hauptbranches `develop` für die Entwicklungsumgebung und `master` für die Produktionsumgebung. \
+Wir brauchen in diesem Projekt keine `support` Branches. Alle Branchnamen werden in `kebab-case` verfasst, ausser die `release` und `hotfix` Branches, welche in Semantischen Versionsnummern verfasst werden ohne Prefix.
+
+#### Commits
+
+Alle Commits müssen den Vorgaben zu Conventional Commits folgen. Dadurch wird sichergestellt, dass die Commit Messages einheitlich sind, die Erweiterungen und Anpassungen genau beschreiben und die Änderungsgeschichte schnell nachvollziehbar ist.
 
 ### Frontend Tests mit Lighthouse
 
