@@ -160,7 +160,7 @@ Die Nicht Funktionalen Anforderungen, aufgeteilt in MUSS und KANN Anforderungen,
 |                 |           | Kundensicht keine Einschränkungen    |
 |                 |           | bemerkt.                             |
 +-----------------+-----------+--------------------------------------+
-| NF-4            | MUSS      | Die Webseite soll mit 50 Shops noch  |
+| NF-4            | MUSS      | Die Webseite soll mit 50 Stores noch |
 |                 |           | flüssig laufen.                      |
 +-----------------+-----------+--------------------------------------+
 | NF-5            | MUSS      | Wir stellen die Anforderungen des    |
@@ -206,7 +206,7 @@ Wir haben direkt Screendesigns entwickelt, weil ein Grobdesign (z.B. Wireframes)
 
 Nur die Startpage auf Mobile ist relevant für das Minimum Viable Product.
 
-Alle Screendesigns werden unter [diesem Link in Figma](https://www.figma.com/file/0vTe4KLJXtXvXXM7i5plLx/CapWatch?node-id=0%3A1) produziert und abgelegt.
+Alle Screendesigns werden unter [diesem Link in Figma](https://www.figma.com/file/0vTe4KLJXtXvXXM7i5plLx/CapWatch) produziert und abgelegt.
 
 ### Randbedingungen
 

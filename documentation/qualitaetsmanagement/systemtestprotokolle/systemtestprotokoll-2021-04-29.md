@@ -43,7 +43,7 @@ Um den Test durchzuführen wurde in beiden Repositories über Docker-Compose die
 +----------------+---------------+--------------------------------------------------------+----------------------------------+
 | AW-1-3         | ja            |                                                        | erfüllt                          |
 +----------------+---------------+--------------------------------------------------------+----------------------------------+
-| AW-2-1         | nein          | Wurde nicht umgesetzt da Umfang zu Gross               | nicht getestet                   |
+| AW-2-1         | nein          | Wurde nicht umgesetzt, weil Umfang zu Gross            | nicht getestet                   |
 +----------------+---------------+--------------------------------------------------------+----------------------------------+
 | AW-3-1         | ja            |                                                        | erfüllt                          |
 +----------------+---------------+--------------------------------------------------------+----------------------------------+
@@ -67,7 +67,7 @@ In der Navigation ist nicht ersichtlich, wo man sich aktuell befindet.
 
 Wenn die Anzahl aktueller Besucher zu tief ist, überlappt der Picker den Titel.
 
-## Test der NF-Anforderungen /Performance- und Lasttests
+## Test der NF-Anforderungen, Performance- und Lasttests
 
 Soweit möglich und sinnvoll wurden die nicht funktionalen Anforderungen getestet. Das Backend wurde mit JMeter getestet. Die Ergebnisse sind mit Vorsicht zu betrachten, da nicht auf einem isolierten System getestet wurde. Trotzdem kann man sagen, dass man fürs erste nicht mit Performanceproblemen rechnen muss.
 
@@ -111,8 +111,8 @@ Soweit möglich und sinnvoll wurden die nicht funktionalen Anforderungen geteste
 
 ## Verbesserungsmöglichkeiten
 
- Der Umfang wurde unterschätzt und aufgrund von Problemen mit der Pipeline, wurde auf eine Funktionalität verzichtet. Mit einer besseren Planung wollen wir dieses Problem im nächsten Sprint vermeiden.
+Der Umfang wurde unterschätzt und aufgrund von sehr vielen Problemen mit der CI/CD Pipeline, wurde auf eine Funktionalität verzichtet. Mit einer detaillierteren Planung wollen wir dieses Problem im nächsten Sprint vermeiden.
 
 ### Bekannte Einschränkungen
 
-Eine MUSS Anforderung, die Suche, wurde aus Zeitgründen erst im Backend umgesetzt und wird im nächsten Sprint im Frontend noch ergänzt.
+Eine MUSS-Anforderung, die Suche, wurde aus Zeitgründen erst im Backend umgesetzt und wird im nächsten Sprint im Frontend implementiert.

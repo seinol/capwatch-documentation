@@ -14,7 +14,7 @@ Diese Dokumentation kann je nach Situation dem Entwicklungsstand des Codes leich
 
 ## Referenzen
 
-* Die C4 Diagramme wurden mit Structurizr erstellt: [https://structurizr.com](https://structurizr.com)
+Die C4 Diagramme wurden mit [Structurizr](https://structurizr.com) erstellt.
 
 ## C4 Modell
 
@@ -27,7 +27,7 @@ Wir haben uns entschieden zur Visualisierung unserer Architektur das C4 Modell z
 
 ### Container Diagramm der Software CapWatch (*)
 
-_(*) Das Wort Container wird hier in der Definition nach C4 Modell verwendet und und nicht im Kontext von Docker._
+_(*) Das Wort Container wird hier in der Definition nach C4 Modell verwendet und nicht im Kontext von Docker._
 
 ![container](../../diagrams/structurizr/images/structurizr-65674-CapWatchContainers.png)
 ![container](../../diagrams/structurizr/images/structurizr-65674-CapWatchContainers-key.png)
@@ -86,7 +86,7 @@ Aufgrund der Trivialität des Setup verzichten wir in an dieser Stelle auf ein D
 
 ## Datenspeicherung
 
-Zur Speicherung der Daten benutzen wir MongoDB. Wir haben uns für einen NoSQL Dokumentspeicher entschieden, da CapWatch auch mit optionalen Erweiterungen kaum relationale Abhängigkeiten besitzt. Des weiteren war bereits ein Grundwissen zur Technologie vorhanden und durch die existierende sehr umfangreiche Dokumentation ist sichergestellt, dass wir bei möglichen Problemen eine gute Informationsquelle haben.
+Zur Speicherung der Daten benutzen wir MongoDB. Wir haben uns für einen NoSQL Dokumentspeicher entschieden, da CapWatch auch mit optionalen Erweiterungen kaum relationale Abhängigkeiten besitzt. Des Weiteren war bereits ein Grundwissen zur Technologie vorhanden und durch die existierende sehr umfangreiche Dokumentation ist sichergestellt, dass wir bei möglichen Problemen eine gute Informationsquelle haben.
 
 Zum aktuellen Zeitpunkt umfasst die Datenbank nur eine Collection in welcher Store Dokumente verwaltet werden. Die Felder der Dokumente entsprechen den Properties der Store Entitäten.
 
@@ -112,7 +112,7 @@ Um das Frontend aktuell zu halten, muss regelmässig die Liste der Stores und de
 
 ## Durchlaufene Klassen
 
-Hier folgt noch eine grobe Übersicht über die wichtigsten Klassen / Methoden welche bei einem Aufruf der Webseite durchlaufen werden.
+Hier folgt noch eine grobe Übersicht über die wichtigsten Klassen / Methoden, welche bei einem Aufruf der Webseite durchlaufen werden.
 
 ![application_flow](../../images/application_flow.png)
 
@@ -120,4 +120,4 @@ Hier folgt noch eine grobe Übersicht über die wichtigsten Klassen / Methoden w
 
 * Wir haben uns dazu entschieden keine Designklassendiagramme zu entwerfen, weil diese uns gegenüber dem Strukturdiagramm im Domainmodell keinen Mehrwert bieten.
 
-* Wir sind bei der Dokumentation der Architektur bewusst nicht bis auf die Ebene Code (nach C4) / Klassendiagramme hinunter gegangen, da diese in den wenigsten Fällen wirklich hilfreich sind. Sollte trotzdem irgendwann ein Klassendiagramm von Nöten sein, kann dieses aus dem Code generiert werden, was dann auch garantiert, dass es die aktuellsten Informationen enthält.
+* Wir sind bei der Dokumentation der Architektur bewusst nicht bis auf die Ebene Code (nach C4) / Klassendiagramme hinuntergegangen, da diese in den wenigsten Fällen wirklich hilfreich sind. Sollte trotzdem irgendwann ein Klassendiagramm nötig sein, kann dieses aus dem Code generiert werden, was dann auch garantiert, dass es die aktuellsten Informationen enthält.

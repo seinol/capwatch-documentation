@@ -12,7 +12,7 @@ Dieses Dokument ist für die Stakeholder dieses Projektes, sowie die Entwickler 
 
 ### Referenzen
 
-Git Conventional Commits: [https://www.conventionalcommits.org/en/v1.0.0/](https://www.conventionalcommits.org/en/v1.0.0/)
+[Git Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ## Qualitätsmassnahmen
 
@@ -100,4 +100,4 @@ Entwicklung und Dokumentation geschieht in einem Git Repository, welches auf dem
 
 ### Zeitauswertung / Tickets
 
-Um die Arbeitszeit jederzeit nachweisen zu können, werden am Ende jedes Sprints die Auswertungen `Time Report per Milestone` und `Time Report per work item` erstellt und in der Dokumentation abgelegt.
+Um die Arbeitszeit jederzeit nachweisen zu können, werden am Ende jedes Meilensteins die Auswertungen `Time Report per Milestone` und `Time Report per work item` erstellt und in der Dokumentation abgelegt. Die Zeitauflösung in den Auswertungen ist in Minuten angegeben.

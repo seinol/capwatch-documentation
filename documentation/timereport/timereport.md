@@ -28,3 +28,7 @@
 ## Aufgewendete Zeit
 
 [Zeiterfassung auf YouTrack](https://capwatch.myjetbrains.com/youtrack/reports/time/133-5)
+
+### YouTrack Zeitauswertung Export
+
+Um die Arbeitszeit jederzeit nachweisen zu können, werden am Ende jedes Meilensteins die Auswertungen `Time Report per Milestone` und `Time Report per work item` erstellt und in der Dokumentation abgelegt. Die Zeitauflösung in den Auswertungen ist in Minuten angegeben.

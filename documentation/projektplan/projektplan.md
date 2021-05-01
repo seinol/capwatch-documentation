@@ -79,7 +79,7 @@ Als Ersatz zu den oben erwähnten, gestrichenen GitLab Funktionen verwenden wir 
 | Christoph Scheiwiller | Allgemeine Codequalität (Guidelines und     |
 |                       | Testing)                                    |
 +-----------------------+---------------------------------------------+
-| Pascal Schlumpf       | Daten- bzw. Datenbank-spezialist            |
+| Pascal Schlumpf       | Daten- bzw. Datenbank-Spezialist            |
 +-----------------------+---------------------------------------------+
 ```
 

@@ -16,7 +16,7 @@ Dieses Dokument ist für die Stakeholder dieses Projektes, sowie die Entwickler 
 
 ![domain-model](../../images/domain-model.png)
 
-Da C# bereits als Backendtechnologie festgelegt wurde, werden im Domain Model Technologiespezifische Datentypen verwendet.
+Da C# bereits als Backendtechnologie festgelegt wurde, werden im Domain Model technologiespezifische Datentypen verwendet.
 
 ### Wichtige Konzepte
 
