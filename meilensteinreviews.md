@@ -19,17 +19,14 @@ Dieses Dokument enthält eine Auflistung der Meilensteine mit den Links zu den z
 ## MS3: Review End of Elaboration
 
 - Dokumente
-    - *Zeitauswertung*
-- Protokoll
-    - *Protokoll DD.MM.YYYY*
+    - [API-Dokumentation](./documentation/analyse/api-documentation.md)
+    - [Zeitauswertung](./documentation/timereport.md)
 
 ## MS4: Review Architekturdesign
 
 - Dokumente
     - [Softwarearchitektur](../documentation/design/softwarearchitektur.md)
-    - *Zeitauswertung*
-- Protokoll
-    - *Protokoll DD.MM.YYYY*
+    - [Zeitauswertung](./documentation/timereport.md)
 
 ## MS5: Review Qualitätsmassnahmen
 
@@ -37,9 +34,7 @@ Dieses Dokument enthält eine Auflistung der Meilensteine mit den Links zu den z
     - [Qualitätssicherung](../documentation/qualitaetsmanagement/qualitaetssicherung.md)
     - [Systemtestspezifikation](../documentation/qualitaetsmanagement/systemtestspezifikation.md)
     - [Systemtestprotokoll](../documentation/qualitaetsmanagement/systemtestprotokoll.md)
-    - *Zeitauswertung*
-- Protokoll
-    - *Protokoll DD.MM.YYYY*
+    - [Zeitauswertung](./documentation/timereport.md)
 
 ## Schlusspräsentation
 
