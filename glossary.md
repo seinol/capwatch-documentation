@@ -1,5 +1,6 @@
-Glossary
-========
+# Glossary
+
+```eval_rst
 .. glossary::
   Anbieter_
     Unternehmen welche Daten an CapWatch liefern.
@@ -48,3 +49,4 @@ Glossary
 .. _OWASP: https://owasp.org
 .. _S-O-L-I-D: https://en.wikipedia.org/wiki/SOLID
 .. _YAGNI: https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it
+```

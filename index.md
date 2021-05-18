@@ -1,6 +1,7 @@
 Project overview |project|
 ======================================================
 
+```eval_rst
 :Abbreviation: |project_abbreviation|
 :Description: |project_description|
 :Authors: |author| (`email to all <author_email_>`_)
@@ -15,3 +16,5 @@ Project overview |project|
   minutes/index.md
   glossary.rst
   meilensteinreviews.rst
+```
+
