@@ -1,42 +1,59 @@
 # Glossary
 
 ```eval_rst
+
 .. glossary::
+
   Anbieter_
     Unternehmen welche Daten an CapWatch liefern.
+    
   BDUF_
     Big Design Up Front
+    
   C4-Modell_
     Software Architekturmodell: Context, Containers, Components und Code
+    
   Capacity_
     Aktuelle oder maximale Personenanzahl in einem Store.
+    
   CapWatch_
     Produktname und Abkürzung für Capacity Watcher.
+    
   DRY_
     Don't Repeat Yourself
+    
   DoD_
     Definition of Done
+    
   EPJ_
     Abkürzung für Engineering Projekt.
+    
   KISS_
     Keep It Simple, Stupid
+    
   Konsument_
     Benutzer der Applikation CapWatch und Kunde der in CapWatch registrierten Unternehmen.
+    
   MVP_
     Minimal Viable Product
+    
   OWASP_
     Open Web Application Security Project
+    
   Secret_
     Dient zur Identifikation der Registrierten Unternehmen.
+    
   Store_
     Fachlich: Ein Geschäftsstelle, über welche wir mit Daten beliefert werden.
     Technisch: Objekt welches eine Geschäftsstelle repräsentiert.
+    
   S-O-L-I-D_
     S - Single-responsibility Principle
     O - Open-closed Principle
     L - Liskov Substitution Principle
     I - Interface Segregation Principle
     D - Dependency Inversion Principle
+    
   YAGNI_
     You Aren’t Gonna Need It
 
