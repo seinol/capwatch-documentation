@@ -1,3 +1,9 @@
+******
+
+Glossar
+
+******
+
 .. glossary::
 
   Anbieter
