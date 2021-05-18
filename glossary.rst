@@ -1,5 +1,3 @@
-.. rst:directive:: .. glossary::
-
 .. glossary::
 
   Anbieter

@@ -14,7 +14,7 @@
     design/softwarearchitektur.md
     qualitaetsmanagement/qualitaetssicherung.md
     qualitaetsmanagement/systemtestspezifikation.md
-    qualitaetsmanagement/systemtestprotokolle
+    qualitaetsmanagement/systemtestprotokolle.md
     schlussbericht/schlussbericht.md
     administration/eigenstaendigkeitserklaerung.md
     timereport/timereport.md
