@@ -1,8 +1,7 @@
-Project overview |project|
+Project overview Capwatch
 ======================================================
 
-```eval_rst
-:Abbreviation: |project_abbreviation|
+:Abbreviation: Capwatch
 :Description: |project_description|
 :Authors: |author| (`email to all <author_email_>`_)
 :Version: |version|
@@ -16,5 +15,5 @@ Project overview |project|
   minutes/index.md
   glossary.rst
   meilensteinreviews.rst
-```
+
 
