@@ -2,7 +2,7 @@
 
 ```eval_rst
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :titlesonly:
 
     projektantrag/projektantrag.md

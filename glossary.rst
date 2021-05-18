@@ -1,69 +1,66 @@
-# Glossary
-
-```eval_rst
+.. rst:directive:: .. glossary::
 
 .. glossary::
 
-  Anbieter_
+  Anbieter
     Unternehmen welche Daten an CapWatch liefern.
     
-  BDUF_
+  BDUF
     Big Design Up Front
     
-  C4-Modell_
+  C4-Modell
     Software Architekturmodell: Context, Containers, Components und Code
     
-  Capacity_
+  Capacity
     Aktuelle oder maximale Personenanzahl in einem Store.
     
-  CapWatch_
+  CapWatch
     Produktname und Abkürzung für Capacity Watcher.
     
-  DRY_
+  DRY
     Don't Repeat Yourself
     
-  DoD_
+  DoD
     Definition of Done
     
-  EPJ_
+  EPJ
     Abkürzung für Engineering Projekt.
     
-  KISS_
+  KISS
     Keep It Simple, Stupid
     
-  Konsument_
+  Konsument
     Benutzer der Applikation CapWatch und Kunde der in CapWatch registrierten Unternehmen.
     
-  MVP_
+  MVP
     Minimal Viable Product
     
-  OWASP_
+  OWASP
     Open Web Application Security Project
     
-  Secret_
+  Secret
     Dient zur Identifikation der Registrierten Unternehmen.
     
-  Store_
+  Store
     Fachlich: Ein Geschäftsstelle, über welche wir mit Daten beliefert werden.
     Technisch: Objekt welches eine Geschäftsstelle repräsentiert.
     
-  S-O-L-I-D_
+  S-O-L-I-D
     S - Single-responsibility Principle
     O - Open-closed Principle
     L - Liskov Substitution Principle
     I - Interface Segregation Principle
     D - Dependency Inversion Principle
     
-  YAGNI_
+  YAGNI
     You Aren’t Gonna Need It
 
-.. _BDUF: https://en.wikipedia.org/wiki/Big_Design_Up_Front
-.. _C4-Modell: https://en.wikipedia.org/wiki/C4_model
-.. _DRY: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
-.. _DoD: https://en.wikipedia.org/wiki/Scrum_(software_development)#Definition_of_done_(DoD)
-.. _KISS: https://en.wikipedia.org/wiki/KISS_principle
-.. _MVP: https://en.wikipedia.org/wiki/Minimum_viable_product
-.. _OWASP: https://owasp.org
-.. _S-O-L-I-D: https://en.wikipedia.org/wiki/SOLID
-.. _YAGNI: https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it
-```
+.. BDUF: https://en.wikipedia.org/wiki/BigDesignUpFront
+.. C4-Modell: https://en.wikipedia.org/wiki/C4model
+.. DRY: https://en.wikipedia.org/wiki/Don%27trepeatyourself
+.. DoD: https://en.wikipedia.org/wiki/Scrum(softwaredevelopment)#Definitionofdone(DoD)
+.. KISS: https://en.wikipedia.org/wiki/KISSprinciple
+.. MVP: https://en.wikipedia.org/wiki/Minimumviableproduct
+.. OWASP: https://owasp.org
+.. S-O-L-I-D: https://en.wikipedia.org/wiki/SOLID
+.. YAGNI: https://en.wikipedia.org/wiki/Youaren%27tgonnaneedit
