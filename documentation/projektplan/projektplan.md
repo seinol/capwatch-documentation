@@ -196,11 +196,14 @@ Für die Priorisierung der Tasks im Backlog verwenden wir die MoSCoW Methode. Di
 - Manuelle Tests durchgeführt
 - Vorhandene Bugs identifiziert
 
-**M7 Final Submission** (29.05.2021)
+**M7.1 Final Submission (Project)** (26.05.2021, 12:00)
 
 - Code-Repositories in abgabefähigem Zustand
 - Dokumentations-Repository in abgabefähigem Zustand
 - Fehler aus Betaversion behoben
+
+**M7.2 Final Submission (Presentation)** (28.05.2021, 12:00)
+
 - Projekt- und Produktpräsentation vorbereitet
 
 ### Besprechungen
@@ -240,7 +243,7 @@ Hier sind alle fixierten Termine aufgeführt. Falls nötig können auch spontane
 +----------------------+----------------------+----------------------+
 | 03.05.2021 16:00 Uhr | Team / Advisor       | Review 5             |
 +----------------------+----------------------+----------------------+
-| 31.05.2021 16:00 Uhr | Team / Advisor       | Review 6             |
+| 31.05.2021 16:00 Uhr | Team / Advisor       | Schlusspräsentation  |
 +----------------------+----------------------+----------------------+
 ```
 
@@ -357,29 +360,29 @@ Die folgenden Guidelines gelten als Ausgangspunkt, wie der Quellcode im Front- u
 
 ###### .Net
 
-* Wir verwenden nicht die Standard IDE Einstellungen von Microsoft Visual Studio, sondern diejenigen aus dem Einstellungs-Backup
+- Wir verwenden nicht die Standard IDE Einstellungen von Microsoft Visual Studio, sondern diejenigen aus dem Einstellungs-Backup
 
-```
+```generic
 Exported-2021-02-04.vssettings
 ```
 
-* Wir verwenden LINQ ausschliesslich in der Methoden-Syntax
+- Wir verwenden LINQ ausschliesslich in der Methoden-Syntax
 
 ###### HTML / CSS
 
-* Wir verwenden die Standard IDE Einstellungen von JetBrains Webstorm (auch die Standardformatierung)
-* Bei HTML und CSS haben wir keine spezifischen Abweichungen von den Code Guidelines definiert
+- Wir verwenden die Standard IDE Einstellungen von JetBrains Webstorm (auch die Standardformatierung)
+- Bei HTML und CSS haben wir keine spezifischen Abweichungen von den Code Guidelines definiert
 
 ###### TypeScript
 
-* Wir verwenden die Standard IDE Einstellungen von JetBrains Webstorm (auch die Standardformatierung)
-* Bei der Aufsetzung vom Frontend-Repository wird TSLint installiert und konfiguriert
+- Wir verwenden die Standard IDE Einstellungen von JetBrains Webstorm (auch die Standardformatierung)
+- Bei der Aufsetzung vom Frontend-Repository wird TSLint installiert und konfiguriert
 
 ###### React + Typescript und JSX
 
-* Wir verwenden die Standard IDE Einstellungen von JetBrains Webstorm (auch die Standardformatierung)
-* Bei React, zusammen mit TypeScript, haben wir keine spezifischen Abweichungen von den Cheatsheets definiert
-* Bei JSX haben wir keine spezifischen Abweichungen von der offiziellen React JSX Dokumentation definiert
+- Wir verwenden die Standard IDE Einstellungen von JetBrains Webstorm (auch die Standardformatierung)
+- Bei React, zusammen mit TypeScript, haben wir keine spezifischen Abweichungen von den Cheatsheets definiert
+- Bei JSX haben wir keine spezifischen Abweichungen von der offiziellen React JSX Dokumentation definiert
 
 #### Software-Engineering Prinzipien
 
@@ -391,9 +394,9 @@ Um Maintainability und Qualität der Code Basis zu gewährleisten werden gängig
 
 Siehe Kapitel *Unit Testing* unter *Entwicklung*.
 
-#### Integrationstests
+#### Systemtests
 
-Integrationstests werden manuell nach Fertigstellung jedes Sprintumfangs durchgeführt. Hierfür wird beim Erstellen der Detailspezifikationen eine Liste an benötigten Tests erstellt, welche in eine Gesamtliste an durchzuführenden Integrationstests eingepflegt wird.
+Systemtests werden manuell nach Fertigstellung jedes Sprintumfangs durchgeführt. Hierfür wird beim Erstellen der Detailspezifikationen eine Liste an benötigten Tests erstellt, welche in eine Gesamtliste an durchzuführenden Systemtests eingepflegt wird.
 
 #### Performancetests
 
