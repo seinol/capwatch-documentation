@@ -17,8 +17,8 @@ Christoph Scheiwiller
 Winterthur, 23. Mai 2021\
 Pascal Schneider
 
-Ort, Datum\
-Name
+Schwerzenbach, 23. Mai 2021\
+Rafael Fuhrer
 
 Ort, Datum\
 Name
