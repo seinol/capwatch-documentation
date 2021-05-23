@@ -72,7 +72,15 @@ Der Einsatz von Lintern, Formattern und Coding Conventions hat sich sehr bewähr
 
 ### DevOps
 
+Der Einsatz der Gitlab Pipelines für das CI hat sich gut bewährt und die Produktivität des Teams spürbar erhöht, da sich die einzelnen Teammitglieder ganz auf das schreiben von Code konzentrieren konnten und sich nicht um das bauen und integrieren des neuen Codes sorgen mussten. Der Einsatz von SonarQube in der Pipeline hat uns ausserdem stets mit aktuellen Codequalitäts-Metriken versorgt und die Qualitäät des Codes insgesamt nochmals weiter verbessert. Im Backend wurden die geschriebenen Unittests durch die Pipelinies ausgeführt und ein Merge eines Feature Branches in den develop Branch konnte nur vorgenommen werden, wenn die Unittests erfolgreich ausgeführt werden konnten. 
+
+Es gab aber auch Probleme im DevOps Bereich vor allem mit der Infrastruktur (siehe unten) und dem CD Teil. Das Thema CD konnten wir am Ende leider gar nicht mehr umsetzen, da die Infrastruktur in der letzten Projektphase oft nicht erreichbar und generell sehr langsam war. Da die OST IT uns ausserdem von den Gitlab Runners her keinen Zugriff via SSH (Port 22) auf unseren Deploymentserver geben wollte, hätten wir aber ohnehin kein richtiges CD implementieren können. 
+
 ### Pipeline und Infrastruktur
+
+Die von der OST zur Verfügung gestellte Infrastruktur war oft von Problemen und Ausfällen betroffen. Dies war vor allem in den letzten Wochen des Projekts immer häufiger das Problem. Diese Probleme haben zum Teil zu starken Verzögerungen geführt und am Ende haben sie dann auch dazu geführt, dass wir das Deployment auf unseren Server nicht korrekt fertigstellen konnten. Wir mussten schliesslich ein manuelles lokales Deployment vornehmen, um das Projektdeployment demonstrieren zu können.
+
+Die Pipeline selber war generell langsam und eher schwerfällig. Vermutlich lag das daran, dass allen Projekten zusammen nur ein einzelner Gitlab Runner zugeteilt war. Leider konnten wir das nicht weiter beeinflussen. Es hat aber dazu geführt, dass wir bei der Arbeit oft unnötig ausgebremst wurden, weil unnötig lange Wartezeiten entstanden sind. 
 
 ## Persönliche Erfahrungen
 
