@@ -14,8 +14,8 @@ Name, Unterschrift:
 Bronschhofen, 23. Mai 2021\
 Christoph Scheiwiller
 
-Ort, Datum\
-Name
+Winterthur, 23. Mai 2021\
+Pascal Schneider
 
 Ort, Datum\
 Name
