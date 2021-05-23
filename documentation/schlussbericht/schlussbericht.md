@@ -68,9 +68,7 @@ Es war vor allem zu beginn schwierig, die Arbeit aufzuteilen, da alle auf den gl
 
 ### Entwicklung
 
-Der Einsatz von Lintern, Formattern und Coding Conventions hat sich sehr bewährt und die Qualität des Codes massiv erhöht. Mit den Werkzeugen die Git zur Verfügung stellt haben wir regen gebrauch gemacht. Wir haben mit Git Flow, Branching, vordefinierten Commitmessagestrukturen und anschliessenden Merge Requests eine gute Struktur erstellt, welche es uns erlaubte Code Reviews einzubauen, die die Qualität ebenfalls gesteigert haben. Im Frontend wurden sogar die Branch Namen sowie die Commit Messages per Linter geprüft.
-
-
+Der Einsatz von Lintern, Formattern und Coding Conventions hat sich sehr bewährt und die Qualität des Codes massiv erhöht. Mit den Werkzeugen die Git zur Verfügung stellt haben wir regen gebrauch gemacht. Wir haben mit Git Flow, Branching, vordefinierten Commitmessagestrukturen und anschliessenden Merge Requests eine gute Struktur erstellt, welche es uns erlaubte Code Reviews einzubauen, die die Qualität ebenfalls gesteigert haben. Im Frontend wurden sogar die Branch Namen sowie die Commit Messages per Linter geprüft. Allgemein lief die Entwicklung im Backend recht flüssig, da schon viel Wissen vorhanden war. Mit Mongo DB und C# gab es zu beginn ein paar Hürden. Und später war es schwerer mit .NET SonarQube korrekt zu konfigurieren als mit Node.js. Im Frontend war es zu beginn sehr Zeitaufwendig, da vieles im Pairprogramming gemacht werden musste und auch sonst viel Wissen aufgebaut werden musste. Dies hat einige Issues weit über die geschätzte Zeit gebracht. Dies wurde mit der Zeit jedoch auch besser, nachdem wir uns mehr Wissen und Erfahrung angeeignet hatten.
 
 ### DevOps
 
@@ -78,9 +76,37 @@ Der Einsatz von Lintern, Formattern und Coding Conventions hat sich sehr bewähr
 
 ## Persönliche Erfahrungen
 
-*Pro Teammitglied ein Kapitel*
+### Pascal Schlumpf
 
-### *Name des Teammitgliedes*
+Für mich war das Projekt sehr lehrreich, da ich das erste Mal ein Projekt von Anfang bis Ende durchgeführt habe. Auch kam ich in Kontakt mit neuen Technologien, Methoden und Arbeitsweisen, die ich so in meinem Arbeitsalltag noch nie verwendet habe. Ich hatte am Anfang eine Weile gebraucht, bis ich die Mongo DB in C# integriert hatte. Als dies dann funktioniert hat, habe ich auch andere Bereiche im Backend umgesetzt. Am Ende konnte ich auch noch ein paar Aufträge im Frontend umsetzen, so dass ich alles einmal gesehen habe. Meine Rolle als Product Owner war für mich zu Beginn sehr ungewohnt und ich hatte auch nicht wirklich eine Wahl, was das Bestimmen der umzusetzenden Tasks anging. Es war auch schwierig alle nötigen Issues zu erfassen, da nicht alle Anforderungen über die Checkliste und die Vorlage abgedeckt waren. Für mich als Berufsbegleitender Student war die zusätzliche Belastung durch das EPJ Projekt sehr gross, so dass ich für viele Module nur das Nötigste tun konnte. Nichts desto trotz verlief das Projekt erfolgreich und es war eine grosse Teamleistung.
 
-*Die Erfahrungen eines Teammitgliedes während der gesamten Projektdauer*
+### Christoph Scheiwiller
+
+Das EPJ war für mich eine super Erfahrung. Da das Projekt auf einer grünen Wiese startete, konnten wir interessante Technologien und moderne Tools einsetzen, welche uns ideal im Entwicklungsprozess unterstützten.
+Da ich in meiner täglichen Arbeit SVN verwende, kämpfte ich am Anfang stark mit der Verwendung von GitLab, GitFlow und Conventional Commits. Auch wenn ich diese Tools und Prozesse noch nicht vollständig beherrsche sehe ich viele Vorteile und möchte Git weiterhin verwenden.
+Gefordert war ich bei der Entwicklung des Frontends, da ich React noch nicht kannte. Das React Freamework ist sehr umfangreich und fordert deshalb eine längere Einarbeitungszeit.
+Im Team hatten wir eine gute Zusammenarbeit, damit konnten wir jede Herausforderung gemeinsam meistern. Dabei halfen uns auch unsere Berufserfahrung und Interessen in verschiedenen Fachbereichen, mit welchen wir uns ideal ergänzten.
+Insgesamt ziehe ich für mich ein positives Feedback und kann viele Erfahrungen für die Studienarbeit und die Bachelor-Arbeit mitnehmen.
+
+### Rafael Fuhrer
+
+Das Engineering Projekt war für mich eine besondere Herausforderung. Ich habe bis zu diesem Projekt, trotz Berufstätigkeit neben dem Studium, nie an einem richtigen Softwareprojekt mitgearbeitet. Entsprechend gab es hier für mich viel zu lernen. Vor allem was die Themen Git, Git flow, Clean Code, Best Practices und Debugging angeht, habe ich in den letzten 3 Monaten sehr viel dazu gelernt. Ich durfte aber auch Aufgaben übernehmen, in denen ich um einiges routinierter bin, wie z.B. das Schreiben von Docker & Docker-Compose Files und das Setup der CI-Pipelines. Leider waren diese Tasks in diesem Projekt mit vielen Schwierigkeiten verbunden. Dies lag vor allem an der unzuverlässigen Infrastruktur und den Vorlagen, die uns die OST bereitstellte. Aber auch der Einsatz von C# im Zusammenhang mit Open Source Tools wie SonarQube und Renovate war am Ende eine grössere Herausforderung als ich ursprünglich gedacht hätte. Das Projekt hat mir aber trotzdem meistens viel Spass, da ich all diese interessanten neuen Dinge gelernt habe, die ich später sicher einmal gebrauchen kann. Alles in allem bin ich sehr froh, dass wir trotz all dieser Probleme unsere Projektziele erreicht und das Projekt erfolgreich abgeschlossen haben.
+
+### Jonas Hauser
+
+Ich habe mich persönlich sehr gefreut, dass ich bei der ersten grösseren Gruppenarbeit an der OST direkt die Funktion als Projektleiter und Scrum Master übernehmen durfte. Meine Passion ist es, Projekte zu organisieren und zu leiten und darum habe ich sehr viel Engagement und Erfahrungen in das Engineering Projekt gesteckt. Dies hat sich soweit wir als Team das beurteilen können, sehr gelohnt. Jeder Sprint ist nahezu problemlos von statten gegangen und die Resultate sind allesamt auf sehr hohem Niveau und im Vergleich zu Projekten auf dem Markt wahrscheinlich überdurchschnittlich.
+ Dennoch gab es einige Schwierigkeiten zu meistern. Mitunter einer der grössten Dorne im Auge war der stetige Zeitdruck, ausgelöst durch die sehr kurze Zeitspanne, an dem am Projekt gearbeitet werden sollte. Viel Zeit wurde für die Dokumentation, dem allgemeinen Projektmanagement und der mangelnden Infrastruktur der OST aufgewendet, wodurch ich immer versucht habe, quantitativ voranzukommen, aber dennoch in möglichst hoher Qualität.
+ Mir hat das Projekt viel Freude bereitet und ich habe persönlich viele praktische Erfahrungen dabei sammeln können.
+
+### Pascal Schneider
+
+Das Engineering Projekt war eine interessante Erfahrung. Neben Arbeit, restlichem Studium und sonstigen Verpflichtungen war es aber zeitweise auch sehr anstrengend.
+
+Die Zusammenarbeit im Team hat zwischenmenschlich sehr gut funktioniert und die Sitzungen waren immer sehr positiv und motivierend.
+
+Einen negativen Nachgeschmack hinterlassen hat hingegen die Infrastruktur der OST, welche uns des Öfteren Probleme bereitet hat. Die Unzulänglichkeiten von GitLab bezüglich Issue Tracking und Zeiterfassung konnten wir glücklicherweise früh mit YouTrack umgehen, die mangelnde Qualität / Anzahl GitLab Runner welche vor allem gegen Ende des Projekts bemerkbar wurde kostete hingegen sehr viel Zeit und Nerven.
+
+Im Backend war für mich vor allem das Implementieren der hexagonalen Architektur spannend, auch wenn diese für unseren Projektumfang etwas übertrieben ist. Auf der negativen Seite ist das Zusammenspiel zwischen .NET und den open-source Werkzeugen, welche wir eingesetzt haben, aufgefallen. Da wir auf der Arbeit Team Foundation Server im Einsatz haben war mir nicht bewusst wie viele Stolpersteine hier existieren und wie oft .NET anders integriert werden muss als andere Technologien. Für zukünftige Projekte nehme ich definitive mit, dass ich bei der Auswahl von Tools besser recherchieren muss, wie gut sich diese mit .NET integrieren lassen.
+
+Alles in Allem war das EPJ ein lehrreiches Projekt mit positiven und negativen Höhepunkten.
 
