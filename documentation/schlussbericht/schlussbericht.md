@@ -8,17 +8,17 @@ Dieses Dokument fasst unsere Erfahrungen und Ergebnisse des Projektes zusammen.
 
 ### Gültigkeitsbereich
 
-Dieses Dokument ist gültig für das Engineering Projekt im Frühlingssemester 2021 an der Fachhochschule OST. Es ist für die Betreuer und Entwickler dieses Projektes ausgelegt.
+Dieses Dokument ist gültig für das Engineering Projekt CapWatch, welches im Frühlingssemester 2021 an der Fachhochschule OST Rapperswil-Jona durchgeführt wurde. Es ist für die Betreuer und Entwickler des Projekts ausgelegt.
 
 ## Zielerreichung
 
-Wir konnten das Projekt erfolgreich abschliessen, da wir alle unsere MUSS-Ziele erreicht haben. Da unser Fokus auf Qualität gerichtet war, lag es nicht mehr drin, ein KANN-Ziel umzusetzen. Sofern man einen Laden findet, der Daten anliefert, kann man unsere Applikation einwandfrei verwenden. Das Design sieht ansprechend aus und sieht sowohl auf Mobile wie auch auf Desktopsystemen gut aus. Der Code und die ganze Architektur haben eine sehr hohe Qualität und es wurden auch viele Qualitätssichernde Massnahmen umgesetzt.
+Durch das Erreichen aller Minimalanforderungen, konnten wir das Projekt erfolgreich abschliessen. Da unser Fokus auf Qualität gerichtet war, lag es nicht mehr drin, optionale Anforderungen umzusetzen. Sofern man eine Geschäftsstelle findet, welche Daten anliefert, kann man die Informationen über CapWatch abfragen. Das Design sieht ansprechend aus, sowohl auf Mobile wie auch auf Desktopsystemen. Durch die gute Softwarearchitektur und viele qualitätssichernde Massnahmen erreichten wir eine qualitativ hochwertige Software.
 
 ## Allgemeiner Erfahrungsbericht
 
 ### Projektmanagement
 
-Unsere Zusammenarbeit mit SCRUM funktionierte ziemlich gut und es hat uns sehr gut unterstützt im Projekt. Unsere Schätzgenauigkeit war bei unseren zwei Wöchigen Sprints, schon von Beginn weg, erstaunlich genau. Wir haben jeweils pro Sprint ein Backlog Refinement, Sprint Planning, Sprint Review und als Abschluss eine Sprint Retrospektive gemacht. Auf die Daily Standup Meetings haben wir verzichtet, da es für uns nicht möglich war mit unserem Teilzeitpensum einen täglichen Termin einzuplanen. Bei den Retrospektiven haben wir verschiedene Formen ausprobiert. Diese haben uns geholfen die Problem in der Zusammenarbeit früh anzusprechen und so jeden Sprint besser zu werden. Da wir uns nicht physisch treffen konnten, haben wir uns auf einer virtuellen Kollaborationsplattform ausgetauscht. Nachfolgend zwei der verschiedenen Formen die wir ausprobiert haben:
+Die Verwendung von SCRUM hat uns im Entwicklungsprozess ideal unterstützt. Unsere Schätzgenauigkeit war bei unseren zwei Wöchigen Sprints, schon von Beginn weg, erstaunlich genau. Wir haben jeweils pro Sprint ein Backlog Refinement, Sprint Planning, Sprint Review und als Abschluss eine Sprint Retrospektive gemacht. Auf die Daily Standup Meetings haben wir verzichtet, da es für uns nicht möglich war mit unserem Teilzeitpensum einen täglichen Termin einzuplanen. Die Abhängigkeit von einzelnen Tickets wurde uns oft zu spät erkannt. Deshalb führten wir ein zusätzliches Meeting ein, welches wir jeweils am ersten Donnerstag des Sprints durchführten. Bei den Retrospektiven haben wir verschiedene Formen ausprobiert. Diese haben uns geholfen die Problem in der Zusammenarbeit früh anzusprechen und so jeden Sprint besser zu werden. Da wir uns nicht physisch treffen konnten, haben wir uns auf einer virtuellen Kollaborationsplattform ausgetauscht. Nachfolgend zwei der verschiedenen Formen die wir ausprobiert haben:
 
 
 
@@ -54,33 +54,39 @@ K.A.L.M. steht für:
 
 Wir hatten die Projektrollen Scrum Master und Product Owner. Unser Scrum Master hat ebenfalls die Rolle des Projektleiters wahrgenommen. Diese Zentrale Rolle war sehr wichtig, da sie einerseits die zentrale Ansprechstelle war für unser Team und andererseits den Fortschritt des Sprints genau verfolgte und auf einzelne Teammitglieder zuging, wenn noch nicht so viel umgesetzt worden ist. Zusätzlich hat er die Meetings moderiert und geschaut, dass wir keine Zeit verschwenden. Dadurch konnten wir den Umfang des Sprints bis auf kleine Ausnahmen jeweils Umsetzen. 
 
-Unsere informelle zentrale Dokumentation wurde in OneNote geführt. Dort haben wir alle Meeting Protokolle mit Entscheidungen und Aufträgen dokumentiert, unsere Definition of Done definiert und andere Wichtige Punkte, welche wichtig waren für das Projekt, niedergeschrieben. Dies hat gut funktioniert und auch garantiert, dass alle Informationen nur an einem Ort gesammelt wurden. Und durch das führen von Protokollen konnte man immer nochmals nachlesen was besprochen worden ist.
+Unsere teaminterne zentrale Dokumentation wurde in OneNote geführt. In den Meeting Protokollen wurden Entscheidungen und Besprechungsdetails festgehalten. Zusätzlich haben wir hier unsere Definition of Done, ausführlichen Richtlinien und Links strukturiert abgelegt. 
 
-Unsere Kommunikation wurde über die Kanäle Whatsapp, für Ankündigungen und Informationen, sowie MS Teams, für Meetings und bilaterale Besprechungen, geführt. Zu Beginn hat die Information von Teammitgliedern noch nicht so gut funktioniert. Dies hat sich im Verlauf des Projektes aber verbessert.
+Wir haben die Kommunikationskanäle  Whatsapp und MS Teams verwendet. Ankündigungen und Informationen wurden über unseren Whatsapp Chat kommuniziert. Für Meetings und bilaterale Besprechungen trafen wir uns auf MS Teams. Zu Beginn hatte der Informationsfluss zwischen den Teammitgliedern noch Verbesserungspotential. Durch die Rückmeldungen aus den Retrospektiven konnten wir das Kommunikation fortlaufend verbessern.
 
-Wir haben am Anfang Gitlab benutzt als Tracking System, dieses aber aufgrund verschiedenen Gründen, welches wir im Dokument Projektplan genauer beschrieben haben, durch YouTrack ersetzt. Gitlab verwendeten wir nur noch für die Sourcen Verwaltung und Generierung der Dokumente und  Container über die Pipeline. Die Verfügbarkeit von Gitlab und der Pipeline liess sehr zu wünschen übrig und war Zeitweise sehr Frustrierend, so dass wir sogar hier überlegt haben, die Plattform zu wechseln.
+ GitLab bezüglich Issue Tracking und Zeiterfassung
+
+Wir haben am Anfang Gitlab als Ticket System und für die Zeiterfassung benutzt. Verschiedene Gründe, welche wir im Dokument [Projektplan](../projektplan/projektplan.md) genauer beschrieben haben, bewogen uns zur Umstellung auf YouTrack. Gitlab verwendeten wir nur noch für die Sourcen Verwaltung, Generierung der Dokumente und  Container über die Pipeline. Die Verfügbarkeit von Gitlab und der Pipeline liess sehr zu wünschen übrig. Dies war zeitweise sehr Frustrierend, so dass wir auch hier überlegt haben, die Plattform zu wechseln.
 
 ### Dokumentation
 
-Die Dokumentationsvorlage war für uns zuerst sehr Verwirrend, da wir es so verstanden haben, dass man alle Punkte, welche aufgeführt sind, auch dokumentieren muss. Da aber viele Punkte keinen Sinn machten für unsere Grösse des Projektes, haben wir am Anfang einige Zeit aufgewendet für Punkte, welche wir nicht in die Dokumentation genommen haben. Ein weiterer Punkt, welcher sehr mühsam war, war der Workaround mit den Markdown-Tabellen, welche alle in Restructured Text-Tabellen umgewandelt werden mussten. Dies machte das Bearbeiten von Tabellen aufwendiger. Es war auch nicht immer klar, was nun wirklich erwartet wurde basierend auf den Checklisten. Dazu kam, dass in der Anleitung wichtige Details nicht korrekt waren, was uns mehrere Stunden an Aufwand beschert hat mit Nutzlosen Fehlersuchen, welche mit einer korrekten Anleitung nicht angefallen wären.
+Die Dokumentationsvorlage war für uns zuerst irreführend. Wir habe es so verstanden, dass man alle aufgeführten Vorgaben auch dokumentieren muss. Viele Vorgaben in der Vorlage brachten für die Grösse unsere Projektes keinen Mehrwert. Trotzdem haben wir zu Beginn alle Vorgaben dokumentiert. Diese wurden aber zu einem späteren Zeitpunkt wieder entfernt. Dadurch wurde die Zeit nicht effizient genutzt. 
+
+Da Markdown-Tabellen nicht korrekt zu PDF konvertiert werden konnten, mussten alle Markdown-Tabellen in Restructured Text-Tabellen umgewandelt werden. Dies hat uns auch wieder viel Zeit gekostet und machte das Bearbeiten von Tabellen aufwendiger. 
+
+Die Checklisten sind nicht mehr zeitgemäss und brauchen eine Überarbeitung. Gerade das definieren von fully dressed Use Cases ist für kleinere Projekte viel zu aufwendig und bringt keinen Mehrwert. In der Anleitung des EPJ Handbooks waren wichtige Details nicht korrekt, was uns mehrere Stunden an Aufwand beschert hat mit fruchtlosen Fehlersuchen, welche mit einer korrekten Anleitung nicht angefallen wären.
 
 Es war vor allem zu beginn schwierig, die Arbeit aufzuteilen, da alle auf den gleichen zwei Dokumenten gearbeitet haben. Dieses Problem hat sich später gemindert, da wir mehr unterschiedliche Arbeiten hatten.
 
 ### Entwicklung
 
-Der Einsatz von Lintern, Formattern und Coding Conventions hat sich sehr bewährt und die Qualität des Codes massiv erhöht. Mit den Werkzeugen die Git zur Verfügung stellt haben wir regen gebrauch gemacht. Wir haben mit Git Flow, Branching, vordefinierten Commitmessagestrukturen und anschliessenden Merge Requests eine gute Struktur erstellt, welche es uns erlaubte Code Reviews einzubauen, die die Qualität ebenfalls gesteigert haben. Im Frontend wurden sogar die Branch Namen sowie die Commit Messages per Linter geprüft. Allgemein lief die Entwicklung im Backend recht flüssig, da schon viel Wissen vorhanden war. Mit Mongo DB und C# gab es zu beginn ein paar Hürden. Und später war es schwerer mit .NET SonarQube korrekt zu konfigurieren als mit Node.js. Im Frontend war es zu beginn sehr Zeitaufwendig, da vieles im Pairprogramming gemacht werden musste und auch sonst viel Wissen aufgebaut werden musste. Dies hat einige Issues weit über die geschätzte Zeit gebracht. Dies wurde mit der Zeit jedoch auch besser, nachdem wir uns mehr Wissen und Erfahrung angeeignet hatten.
+Der Einsatz von Lintern, Formattern und Coding Conventions hat sich sehr bewährt und konnte eine konstant hohe Codequalität sicherstellen. Von den Werkzeugen, die Git zur Verfügung stellt, haben wir regen gebrauch gemacht. Wir haben mit Git Flow, Branching, Conventional Commits und anschliessenden Merge Requests eine gute Struktur erstellt, in welcher Code Reviews eine zentrale Rolle spielten. Im Frontend wurden sogar die Branch Namen sowie die Commit Messages per Linter geprüft. Allgemein lief die Entwicklung im Backend recht flüssig, da schon viel Wissen vorhanden war. Mit Mongo DB und C# gab es zu beginn ein paar Hürden. Die SonarQube Konfiguration war mit .Net um einiges komplizierter als mit  Node.js. Im Frontend war zu beginn noch nicht so viel Wissen vorhanden. Dadurch musste vieles im Pairprogramming entwickelt werden und weitere Zeit ausserhalb des Projektes für den Wissensaufbau aufgewendet werden. Dies hat einige Issues weit über die geschätzte Zeit gebracht. Dies wurde mit der Zeit jedoch auch besser, nachdem wir uns mehr Wissen und Erfahrung angeeignet hatten.
 
 ### DevOps
 
-Der Einsatz der Gitlab Pipelines für das CI hat sich gut bewährt und die Produktivität des Teams spürbar erhöht, da sich die einzelnen Teammitglieder ganz auf das schreiben von Code konzentrieren konnten und sich nicht um das bauen und integrieren des neuen Codes sorgen mussten. Der Einsatz von SonarQube in der Pipeline hat uns ausserdem stets mit aktuellen Codequalitäts-Metriken versorgt und die Qualitäät des Codes insgesamt nochmals weiter verbessert. Im Backend wurden die geschriebenen Unittests durch die Pipelinies ausgeführt und ein Merge eines Feature Branches in den develop Branch konnte nur vorgenommen werden, wenn die Unittests erfolgreich ausgeführt werden konnten. 
+Der Einsatz der Gitlab Pipelines für das CI hat sich gut bewährt und die Produktivität des Teams spürbar erhöht, da sich die einzelnen Teammitglieder ganz auf das schreiben von Code konzentrieren konnten und sich nicht um das bauen und integrieren des neuen Codes sorgen mussten. Der Einsatz von SonarQube in der Pipeline hat uns ausserdem stets mit aktuellen Codequalitäts-Metriken versorgt und die Qualität des Codes insgesamt nochmals weiter verbessert. Im Backend wurden die geschriebenen Unittests durch die Pipelinies ausgeführt und ein Merge eines Feature Branches in den develop Branch konnte nur vorgenommen werden, wenn die Unittests erfolgreich ausgeführt werden konnten. 
 
 Es gab aber auch Probleme im DevOps Bereich vor allem mit der Infrastruktur (siehe unten) und dem CD Teil. Das Thema CD konnten wir am Ende leider gar nicht mehr umsetzen, da die Infrastruktur in der letzten Projektphase oft nicht erreichbar und generell sehr langsam war. Da die OST IT uns ausserdem von den Gitlab Runners her keinen Zugriff via SSH (Port 22) auf unseren Deploymentserver geben wollte, hätten wir aber ohnehin kein richtiges CD implementieren können. 
 
 ### Pipeline und Infrastruktur
 
-Die von der OST zur Verfügung gestellte Infrastruktur war oft von Problemen und Ausfällen betroffen. Dies war vor allem in den letzten Wochen des Projekts immer häufiger das Problem. Diese Probleme haben zum Teil zu starken Verzögerungen geführt und am Ende haben sie dann auch dazu geführt, dass wir das Deployment auf unseren Server nicht korrekt fertigstellen konnten. Wir mussten schliesslich ein manuelles lokales Deployment vornehmen, um das Projektdeployment demonstrieren zu können.
+Die von der OST zur Verfügung gestellte Infrastruktur war oft von Problemen und Ausfällen betroffen. Dies war vor allem in den letzten Wochen des Projekts immer häufiger das Problem. Diese Probleme haben zum Teil starken Verzögerungen verursacht und am Ende haben sie dann auch dazu geführt, dass wir das Deployment auf unseren Server nicht korrekt fertigstellen konnten. Wir mussten schliesslich ein manuelles lokales Deployment vornehmen, um das Projektdeployment demonstrieren zu können.
 
-Die Pipeline selber war generell langsam und eher schwerfällig. Vermutlich lag das daran, dass allen Projekten zusammen nur ein einzelner Gitlab Runner zugeteilt war. Leider konnten wir das nicht weiter beeinflussen. Es hat aber dazu geführt, dass wir bei der Arbeit oft unnötig ausgebremst wurden, weil unnötig lange Wartezeiten entstanden sind. 
+Die Pipeline selber war generell langsam und eher schwerfällig. Vermutlich lag das daran, dass allen Projekten zusammen nur ein einzelner Gitlab Runner zugeteilt war. Leider konnten wir das nicht weiter beeinflussen. Es hat aber dazu geführt, dass wir bei der Arbeit oft unnötig ausgebremst wurden, weil lange Wartezeiten entstanden sind. 
 
 ## Persönliche Erfahrungen
 
@@ -92,8 +98,9 @@ Für mich war das Projekt sehr lehrreich, da ich das erste Mal ein Projekt von A
 
 Das EPJ war für mich eine super Erfahrung. Da das Projekt auf einer grünen Wiese startete, konnten wir interessante Technologien und moderne Tools einsetzen, welche uns ideal im Entwicklungsprozess unterstützten.
 Da ich in meiner täglichen Arbeit SVN verwende, kämpfte ich am Anfang stark mit der Verwendung von GitLab, GitFlow und Conventional Commits. Auch wenn ich diese Tools und Prozesse noch nicht vollständig beherrsche sehe ich viele Vorteile und möchte Git weiterhin verwenden.
-Gefordert war ich bei der Entwicklung des Frontends, da ich React noch nicht kannte. Das React Freamework ist sehr umfangreich und fordert deshalb eine längere Einarbeitungszeit.
+Gefordert war ich bei der Entwicklung des Frontends, da ich React noch nicht kannte. Das React Framemework ist sehr umfangreich und fordert deshalb eine längere Einarbeitungszeit.
 Im Team hatten wir eine gute Zusammenarbeit, damit konnten wir jede Herausforderung gemeinsam meistern. Dabei halfen uns auch unsere Berufserfahrung und Interessen in verschiedenen Fachbereichen, mit welchen wir uns ideal ergänzten.
+Als Verantwortlicher für die Code Qualität war ich nicht sehr gefordert, da sich alle Teammitglieder an die vereinbarten Richtlinien gehalten haben. Viele Unschönheiten wurden bereits durch die eingesetzten Tools und den Reviewprozess erkannt und behoben.
 Insgesamt ziehe ich für mich ein positives Feedback und kann viele Erfahrungen für die Studienarbeit und die Bachelor-Arbeit mitnehmen.
 
 ### Rafael Fuhrer
@@ -109,12 +116,8 @@ Ich habe mich persönlich sehr gefreut, dass ich bei der ersten grösseren Grupp
 ### Pascal Schneider
 
 Das Engineering Projekt war eine interessante Erfahrung. Neben Arbeit, restlichem Studium und sonstigen Verpflichtungen war es aber zeitweise auch sehr anstrengend.
-
 Die Zusammenarbeit im Team hat zwischenmenschlich sehr gut funktioniert und die Sitzungen waren immer sehr positiv und motivierend.
-
 Einen negativen Nachgeschmack hinterlassen hat hingegen die Infrastruktur der OST, welche uns des Öfteren Probleme bereitet hat. Die Unzulänglichkeiten von GitLab bezüglich Issue Tracking und Zeiterfassung konnten wir glücklicherweise früh mit YouTrack umgehen, die mangelnde Qualität / Anzahl GitLab Runner welche vor allem gegen Ende des Projekts bemerkbar wurde kostete hingegen sehr viel Zeit und Nerven.
-
 Im Backend war für mich vor allem das Implementieren der hexagonalen Architektur spannend, auch wenn diese für unseren Projektumfang etwas übertrieben ist. Auf der negativen Seite ist das Zusammenspiel zwischen .NET und den open-source Werkzeugen, welche wir eingesetzt haben, aufgefallen. Da wir auf der Arbeit Team Foundation Server im Einsatz haben war mir nicht bewusst wie viele Stolpersteine hier existieren und wie oft .NET anders integriert werden muss als andere Technologien. Für zukünftige Projekte nehme ich definitive mit, dass ich bei der Auswahl von Tools besser recherchieren muss, wie gut sich diese mit .NET integrieren lassen.
-
 Alles in Allem war das EPJ ein lehrreiches Projekt mit positiven und negativen Höhepunkten.
 
