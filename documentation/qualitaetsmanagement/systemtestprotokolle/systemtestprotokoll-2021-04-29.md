@@ -12,7 +12,7 @@ Dieses Dokument ist gültig für das Engineering Projekt CapWatch, welches im Fr
 
 ### Referenzen
 
-[Systemtestspezifikation](./systemtestspezifikation.md)
+[Systemtestspezifikation](../systemtestspezifikation.md)
 
 ## Angaben zur Durchführung
 
