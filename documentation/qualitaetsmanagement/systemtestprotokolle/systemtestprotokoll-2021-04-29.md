@@ -12,7 +12,7 @@ Dieses Dokument ist für die Stakeholder dieses Projektes, sowie die Entwickler 
 
 ### Referenzen
 
-[Systemtestspezifikation](./systemtestspezifikation.md)
+[Systemtestspezifikation](../systemtestspezifikation.md)
 
 ## Angaben zur Durchführung
 

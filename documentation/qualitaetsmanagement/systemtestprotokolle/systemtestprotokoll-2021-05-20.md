@@ -8,11 +8,11 @@ Dieses Dokument dient dazu, eine Übersicht zu geben welche Systemtests wann dur
 
 ### Gültigkeitsbereich
 
-Dieses Dokument ist für die Stakeholder dieses Projektes, sowie die Entwickler erstellt worden. Es wurde im Rahmen des Engineering Projekts der Fachhochschule Ost erarbeitet.
+Dieses Dokument ist gültig für das Engineering Projekt CapWatch, welches im Frühlingssemester 2021 an der Fachhochschule OST Rapperswil-Jona durchgeführt wurde. Es ist für die Betreuer und Entwickler des Projekts ausgelegt.
 
 ### Referenzen
 
-[Systemtestspezifikation](./systemtestspezifikation.md)
+[Systemtestspezifikation](../systemtestspezifikation.md)
 
 ## Angaben zur Durchführung
 
@@ -61,7 +61,7 @@ Wenn in der Liste aller Stores Daten vorhanden sind, wird in den Favoriten nicht
 
 ## Test der NF-Anforderungen, Performance- und Lasttests
 
-Soweit möglich und sinnvoll wurden die nicht funktionalen Anforderungen getestet. Das Backend wurde mit JMeter getestet. Die Ergebnisse sind mit Vorsicht zu betrachten, da nicht auf einem isolierten System getestet wurde. Trotzdem kann man sagen, dass man fürs erste nicht mit Performanceproblemen rechnen muss.
+Soweit möglich und sinnvoll wurden die nicht funktionalen Anforderungen getestet. Das Backend wurde mit JMeter getestet. Die Ergebnisse sind mit Vorsicht zu betrachten, da nicht auf einem isolierten System getestet wurde. Trotzdem kann man sagen, dass wir fürs Erste nicht mit Performanceproblemen rechnen müssen.
 
 ```eval_rst
 +-------------+----------+--------------------+----------------+
@@ -107,7 +107,7 @@ Es wurde ein Usability Test mit zwei Personen durchgeführt. Dabei lag der Fokus
 
 Die Testpersonen finden die angezeigten Informationen übersichtlich dargestellt und finden sich im Frontend schnell zurecht.
 
-- Der Slider welcher das aktuelle Besucheraufkommen anzeigt wird vom User als Eingabeelement wahrgenommen. Als alternative wäre hier eine Progressbar geeignet.
+- Der Slider welcher das aktuelle Besucheraufkommen anzeigt wird vom User als Eingabeelement wahrgenommen. Als Alternative wäre hier eine Progressbar geeignet.
 - Die nicht implementierten Menüitems (In der Nähe und Einstellungen) geben dem User kein Feedback. Hier wäre es ratsam eine Infopage anzuzeigen oder mit einem Popup darauf hinzuweisen, dass diese Funktionen noch nicht zur Verfügung stehen.
-- Auf der Desktopversion sind die Menüitems am unteren rand des Browsers, diese werden vom Benutzer somit nicht sofort erkannt. Die App wurde nach dem Prinzip Mobile first entwickelt, dies sollte aber bei einer optimierung für Desktop beachtet werden.
-- Ebenfalls in der Desktopversion werden die Cards unterschiedlich gross dargestellt, sofern ein Card einen viel längeren Namen hat. Dies sollte bei optimierung für Desktop ebenfalls beachtet werden.
+- Auf der Desktopversion sind die Menüitems am unteren Rand des Browsers, diese werden vom Benutzer somit nicht sofort erkannt. Die App wurde nach dem Prinzip Mobile first entwickelt, dies sollte aber bei einer Optimierung für Desktop beachtet werden.
+- Ebenfalls in der Desktopversion werden die Cards unterschiedlich gross dargestellt, sofern eine Card einen viel längeren Namen hat. Dies sollte bei einer Optimierung für Desktop ebenfalls beachtet werden.
