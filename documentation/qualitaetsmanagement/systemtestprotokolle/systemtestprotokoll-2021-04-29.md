@@ -20,8 +20,8 @@ Dieses Dokument ist gültig für das Engineering Projekt CapWatch, welches im Fr
 
 Getestet wurde auf folgendem Stand der jeweiligen Git Repositories.
 
-- **Frontend:** d6063e72
-- **Backend:** e0fcdadf
+- **Frontend:** 6c603d3e
+- **Backend:** a732acce
 
 Um den Test durchzuführen wurde in beiden Repositories über Docker-Compose die Software gestartet.
 
