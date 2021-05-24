@@ -39,14 +39,11 @@ Die Mitglieder des Scrum-Teams notieren auf Post-its eine Antwort zu jeder der f
 K.A.L.M. steht für:
 
 - Keep – Etwas, das vom Team gut gemacht wird und fortgesetzt werden muss
-
 - Add – Eine neue Idee, die der Verbesserung dient
-
 - Less – Etwas, das gegenwärtig gemacht wird, jedoch nicht zum Erreichen des Ziels beiträgt
-
 - More – Etwas, das gegenwärtig gemacht wird und zum Erreichen des Ziels beitragen kann, wenn es intensiviert wird.
 
-  ![KALM.png](../../images/KALM.png)
+![KALM.png](../../images/KALM.png)
 
 Wir hatten die Projektrollen Scrum Master und Product Owner. Unser Scrum Master hat ebenfalls die Rolle des Projektleiters wahrgenommen. Diese Zentrale Rolle war sehr wichtig, da sie einerseits die zentrale Ansprechstelle für unser Team war und andererseits den Fortschritt des Sprints genau verfolgte und auf einzelne Teammitglieder zuging, wenn noch nicht so viel umgesetzt worden war. Zusätzlich moderierte er die Meetings und schaute, dass wir keine Zeit verschwenden. Dadurch konnten wir den Umfang des Sprints bis auf kleine Ausnahmen jeweils Umsetzen.
 
@@ -58,7 +55,7 @@ Wir haben am Anfang GitLab als Ticket System und für die Zeiterfassung benutzt.
 
 ### Dokumentation
 
-Die Dokumentationsvorlage war für uns zuerst irreführend. Wir hatten es so verstanden, dass man für alle aufgeführten Vorgaben etwas dokumentieren muss. Viele Vorgaben in der Vorlage brachten für die Grösse unsere Projektes keinen Mehrwert. Trotzdem dokumentierten wir zu Beginn alle Vorgaben etwas. Diese Teile der Dokumentation wurden aber zu einem späteren Zeitpunkt wieder entfernt. Dadurch wurde unsere Zeit nicht effizient genutzt.
+Die Dokumentationsvorlage war für uns zuerst irreführend. Wir hatten es so verstanden, dass man für alle aufgeführten Vorgaben etwas dokumentieren muss. Viele Vorgaben in der Vorlage brachten für die Grösse unsere Projektes keinen Mehrwert. Trotzdem dokumentierten wir zu Beginn für alle Vorgaben etwas. Diese Teile der Dokumentation wurden aber zu einem späteren Zeitpunkt wieder entfernt. Dadurch wurde unsere Zeit nicht effizient genutzt.
 
 Da Markdown-Tabellen nicht korrekt zu PDF konvertiert werden können, mussten alle Markdown-Tabellen in Restructured Text-Tabellen umgewandelt werden. Dies hat uns auch wieder viel Zeit gekostet und machte das Bearbeiten von Tabellen aufwendiger.
 
@@ -72,7 +69,7 @@ Der Einsatz von Lintern, Formattern und Coding Conventions hat sich sehr bewähr
 
 ### DevOps
 
-Der Einsatz der GitLab Pipelines für das CI hat sich gut bewährt und die Produktivität des Teams spürbar erhöht, da sich die einzelnen Teammitglieder ganz auf das schreiben von Code konzentrieren konnten und sich nicht um das bauen und integrieren des neuen Codes sorgen mussten. Der Einsatz von SonarQube in der Pipeline hat uns ausserdem stets mit aktuellen Codequalitäts-Metriken versorgt und die Qualität des Codes insgesamt nochmals weiter verbessert. Im Backend wurden die geschriebenen Unit Tests durch die Pipelinies ausgeführt und ein Merge eines Feature Branches in den develop Branch konnte nur vorgenommen werden, wenn die Unit Tests erfolgreich ausgeführt werden konnten und die SonarQube Metriken erfüllt werden.
+Der Einsatz der GitLab Pipelines für das CI hat sich gut bewährt und die Produktivität des Teams spürbar erhöht, da sich die einzelnen Teammitglieder ganz auf das schreiben von Code konzentrieren konnten und sich nicht um das bauen und integrieren des neuen Codes sorgen mussten. Der Einsatz von SonarQube in der Pipeline hat uns ausserdem stets mit aktuellen Codequalitäts-Metriken versorgt und die Qualität des Codes insgesamt nochmals weiter verbessert. Im Backend wurden die geschriebenen Unit Tests durch die Pipelinies ausgeführt und ein Merge eines Feature Branches in den develop Branch konnte nur vorgenommen werden, wenn die Unit Tests erfolgreich ausgeführt werden konnten und die SonarQube Metriken erfüllt wurden.
 
 Es gab aber auch Probleme im DevOps Bereich vor allem mit der Infrastruktur (siehe unten) und dem CD Teil. Das Thema CD konnten wir am Ende leider gar nicht mehr umsetzen, da die Infrastruktur in der letzten Projektphase oft nicht erreichbar und generell sehr langsam war. Da die OST IT uns ausserdem von den GitLab Runners her keinen Zugriff via SSH (Port 22) auf unseren Deploymentserver geben wollte, hätten wir aber ohnehin kein richtiges CD implementieren können.
 
@@ -114,3 +111,6 @@ Die Zusammenarbeit im Team hat zwischenmenschlich sehr gut funktioniert und die 
 Einen negativen Nachgeschmack hinterlassen hat hingegen die Infrastruktur der OST, welche uns des Öfteren Probleme bereitet hat. Die Unzulänglichkeiten von GitLab bezüglich Issue Tracking und Zeiterfassung konnten wir glücklicherweise früh mit YouTrack umgehen, die mangelnde Qualität / Anzahl GitLab Runner welche vor allem gegen Ende des Projekts bemerkbar wurde kostete hingegen sehr viel Zeit und Nerven.
 Im Backend war für mich vor allem das Implementieren der hexagonalen Architektur spannend, auch wenn diese für unseren Projektumfang etwas übertrieben ist. Auf der negativen Seite ist das Zusammenspiel zwischen .NET und den open-source Werkzeugen, welche wir eingesetzt haben, aufgefallen. Da wir auf der Arbeit Team Foundation Server im Einsatz haben war mir nicht bewusst wie viele Stolpersteine hier existieren und wie oft .NET anders integriert werden muss als andere Technologien. Für zukünftige Projekte nehme ich definitive mit, dass ich bei der Auswahl von Tools besser recherchieren muss, wie gut sich diese mit .NET integrieren lassen.
 Alles in Allem war das EPJ ein lehrreiches Projekt mit positiven und negativen Höhepunkten.
+
+
+
