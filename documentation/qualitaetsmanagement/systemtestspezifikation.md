@@ -8,9 +8,7 @@ Dieses Dokument beschreibt in welcher Form Systemtests an der CapWatch Software 
 
 ### Gültigkeitsbereich
 
-Dieses Dokument ist für die Stakeholder dieses Projektes, sowie die Entwickler erstellt worden. Es wurde im Rahmen des Engineering Projekts der Fachhochschule Ost erarbeitet.
-
-Die beschriebenen Systemtests reflektieren was auf dem aktuellen Entwicklungsstand der Software möglich ist.
+Dieses Dokument ist gültig für das Engineering Projekt CapWatch, welches im Frühlingssemester 2021 an der Fachhochschule OST Rapperswil-Jona durchgeführt wurde. Es ist für die Betreuer und Entwickler des Projekts ausgelegt.
 
 ### Referenzen
 
@@ -22,7 +20,7 @@ Vollumfängliches Deployment der Software CapWatch muss vorhanden sein.
 
 ## Systemtest
 
-Die folgende Liste von Tests bezieht sich vorerst auf die Funktionalität des Architekturprototypen und wird parallel zur Software entsprechend weiterentwickelt.
+Die folgende Liste von Tests deckt alle Funktionalitäten der Beta Version von CapWatch ab.
 
 ```eval_rst
 +-------------+-------------------------------------------------------+
@@ -71,7 +69,7 @@ Die folgende Liste von Tests bezieht sich vorerst auf die Funktionalität des Ar
 |             | wechseln. Das ausgewählte Geschäft wird nun           |
 |             | angezeigt.                                            |
 +-------------+-------------------------------------------------------+
-| AW-3-3      | Aufbauen auf AW-3-2. In der Favoritenansicht das      |
+| AW-3-3      | Aufbauend auf AW-3-2. In der Favoritenansicht das     |
 |             | Geschäft wieder als Favorit entfernen durch           |
 |             | nochmaliges klicken auf das Herzsymbol. Das Geschäft  |
 |             | verschwindet aus der Ansicht und es wird die Meldung  |

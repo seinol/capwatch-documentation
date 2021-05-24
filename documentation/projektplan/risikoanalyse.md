@@ -8,7 +8,7 @@ In diesem Dokument werden Risiken identifiziert und beurteilt. Aufgrund dieser B
 
 ### Gültigkeitsbereich
 
-Dieses Dokument ist für das EPJ CapWatch gültig. Eine Überprüfung der Risiken ist während des Projektes mehrfach durchzuführen.
+Dieses Dokument ist gültig für das Engineering Projekt CapWatch, welches im Frühlingssemester 2021 an der Fachhochschule OST Rapperswil-Jona durchgeführt wurde. Es ist für die Betreuer und Entwickler des Projekts ausgelegt.
 
 ### Referenzen
 
@@ -38,7 +38,7 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 |     |                      |                                           |                   |                      |               |                          | Sprint Umfang kürzen.         |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
 | Ri3 | Ausfall der von der  | Die durch die Ost bereitgestellte         |                 3 |                    1 |             3 | Spiegeln des Repository  | Wechsel auf das Github        |
-|     | Ost bereitgestellten | Infrastruktur (z.B. Gitlab) fällt aus und |                   |                      |               | auf Github               | Repository                    |
+|     | Ost bereitgestellten | Infrastruktur (z.B. GitLab) fällt aus und |                   |                      |               | auf Github               | Repository                    |
 |     | Infrastruktur        | es kommt zu Datenverlust.                 |                   |                      |               |                          |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
 | Ri4 | Ungenügende          | Anforderungen wurden nicht klar definiert |                 2 |                    1 |             2 | Anforderung reviewen     | Anforderungsanalyse           |
@@ -65,8 +65,8 @@ Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
 |     |                      |                                           |                   |                      |               | bereit zur Besprechung   |                               |
 |     |                      |                                           |                   |                      |               | im Team.                 |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
-| Ri10| Pipeline             | Die Pipline funktioniert nicht und ver-   |                 3 |                    2 |             6 | Solange es läuft wenn    | Höchste Prio um es wieder zum |
-|     |                      | zögert die Umsetzung.                     |                   |                      |               | möglich nicht verändern. | laufen zu bringen.            |
+| Ri10| Pipeline             | Die Pipeline funktioniert nicht und ver-  |                 3 |                    2 |             6 | Solange es läuft wenn    | Höchste Priorität um es       |
+|     |                      | zögert die Umsetzung.                     |                   |                      |               | möglich nicht verändern. | wieder zum laufen zu bringen. |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
 |     |                      |                                           |                   |                Summe |            27 |                          |                               |
 +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
@@ -87,11 +87,11 @@ Risikoüberprüfung durchgeführt:
   - Ri4 bleibt gleich da im Prototyp die MUSS-Anforderungen nicht vollständig umgesetzt worden sind.
   - Ri5 bleibt trotz ersten Erfahrungen gleich. Wir müssen unsere Erkenntnisse in den nächsten Sprint einfliessen lassen und schauen ob wir uns verbessert haben. Erst dann können wir die Eintrittswahrscheinlichkeit reduzieren.
   - Bei Ri6 reduziert sich die Eintrittswahrscheinlichkeit, da wir den Grundstein der Architektur im Prototyp schon umgesetzt haben und es sich bewährt hat.
-  - Bei Ri8 reduziert sich die Eintrittswahrscheinlichkeit, da im Prototyp schon viel neues Wissen erlangt worden ist.
+  - Bei Ri8 reduziert sich die Eintrittswahrscheinlichkeit, da im Prototyp schon viel neues Wissen erlangt wurde.
 - 15.04.2021 (Pascal Schlumpf): Risiken neu beurteilt.
   - Bei Ri4 reduziert sich die Eintrittswahrscheinlichkeit, da wir nun fast alle MUSS Anforderungen umgesetzt haben. Eine Anforderung mussten wir auf den nächsten Sprint verschieben, da der Umfang zu gross wurde. Bis jetzt wurde noch keine Kritik an den Anforderungen ausgesprochen.
   - Bei Ri5 reduziert sich die Eintrittswahrscheinlichkeit. Wir haben auch in diesem Sprint die Tasks für Entwicklung zu tief geschätzt. In diesem Punkt müssen wir uns noch verbessern. Die Abweichungen bei der Gesamtzeit sind aber soweit im Rahmen, dass wir das Risiko als kleiner einstufen.
 - 29.04.2021 (Pascal Schlumpf): Risiken neu beurteilt.
-  - Bei Ri7 reduziert sich das Schadenspotential um 2 auf 1, da alle wichtigen Komponenten in einer guten Qualität umgesetzt worden sind und das Team eingespielt ist. Alle KANN Anforderungen können nun mit tieferem Druck umgesetzt werden.
+  - Bei Ri7 reduziert sich das Schadenspotential um 2 auf 1, da alle wichtigen Komponenten in einer guten Qualität umgesetzt worden sind und das Team eingespielt ist. KANN Anforderungen können nun mit tieferem Druck umgesetzt werden.
   - Es wurde das Risiko Ri10 erfasst. Aufgrund der Erfahrungen der letzten Wochen hat sich dieses Risiko aufgedrängt. Es hat sich herausgestellt, dass die Pipeline sehr diffizil und gleichwohl für die Erfüllung unseres Auftrags zentral ist.
   

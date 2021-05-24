@@ -8,7 +8,7 @@ Dieses Dokument gibt eine Übersicht über die Art und Weise wie wir unser Proje
 
 ### Gültigkeitsbereich
 
-Dieses Dokument ist für die Stakeholder dieses Projektes. Dazu gehören die Betreuer, sowie die Entwickler. Es wurde im Rahmen des Engineering Projekts der Fachhochschule Ost erstellt.
+Dieses Dokument ist gültig für das Engineering Projekt CapWatch, welches im Frühlingssemester 2021 an der Fachhochschule OST Rapperswil-Jona durchgeführt wurde. Es ist für die Betreuer und Entwickler des Projekts ausgelegt.
 
 ### Vorgehen zur Überarbeitung der Planung
 
@@ -18,23 +18,23 @@ Wenn wir die Planung nachträglich überarbeiten, wird diese Version von allen Z
 
 [GitLab Dokumentation](https://docs.gitlab.com/ee/) \
 [GitLab Time Tracker (gtt)](https://github.com/kriskbx/gitlab-time-tracker) \
-[Youtrack](https://www.jetbrains.com/de-de/youtrack/)
+[YouTrack](https://www.jetbrains.com/de-de/youtrack/)
 
 ## Projekt Übersicht
 
-Eine Webapplikation, in der man seine Lieblingsgeschäfte, Saunas, etc. abonnieren kann. Die Daten werden bei einem Abonnement dann in Echtzeit aktualisiert. Das Backend besteht aus mehreren API Endpoints. Die Daten werden von den Dienstleistern über eine API an das Backend geliefert und in einer Datenbank abgelegt. Über eine weitere Schnittstelle können die Daten vom Frontend bzw. die Webseite abgefragt werden. Im Frontend kann sich der Benutzer Favoriten speichern. Das Frontend ist in der ersten Version ein reiner einseitiger Empfänger ohne Authentifizierung.
+Eine Webapplikation, in der man seine Lieblingsgeschäfte, Saunas, etc. abonnieren kann. Die Daten werden bei einem Abonnement dann in Echtzeit aktualisiert. Das Backend besteht aus mehreren API Endpoints. Die Daten werden von den Dienstleistern über eine API an das Backend geliefert und in einer Datenbank abgelegt. Über eine weitere Schnittstelle können die Daten vom Frontend bzw. der Webseite abgefragt werden. Im Frontend kann sich der Benutzer Favoriten speichern. Das Frontend ist in der ersten Version ein reiner einseitiger Empfänger ohne Authentifizierung.
 
 ### Zweck und Ziel
 
-Real-time Daten zur Anzahl Personen in einem Raum oder Gebäude, welche eine Personenbeschränkung aufgrund einer Pandemie oder einem sonstigen Grund haben, wie z.B. Geschäfte, Saunen, Bäder, Sportanlagen etc. um das persönliche Einkaufs- und Konsumverhalten besser planen bzw. anpassen zu können. Es entstehen dabei sowohl Vorteile für die Anbieter und die Konsumenten. Die Anbieter können Dienstleistungsendpässe vermeiden, welche zu einem Besucherverlust führen könnten. Die Konsumenten profitieren von kurzen Wartezeiten und somit auch besseren Verkaufsdienstleistung wie z.B. Beratungen.
+Real-time Daten zur Anzahl Personen in einem Raum oder Gebäude, welche eine Personenbeschränkung aufgrund einer Pandemie oder einem sonstigen Grund haben, wie z.B. Geschäfte, Saunen, Bäder, Sportanlagen etc. um das persönliche Einkaufs- und Konsumverhalten besser planen bzw. anpassen zu können. Es entstehen dabei Vorteile für die Anbieter und die Konsumenten. Die Anbieter können Dienstleistungsengpässe vermeiden, welche zu einem Besucherverlust führen könnten. Die Konsumenten profitieren von kurzen Wartezeiten und somit auch besseren Verkaufsdienstleistung wie z.B. Beratungen.
 
-Die Ziele des Teams sind eine allgemein gut funktionierende, erweiterbare, performante und benutzerfreundliche Plattform für die Endkunden, wie aber auch für die Datenlieferanten. Die Weblösung soll einfach zu bedienen sein und das Leben vereinfachen, vor allem in der Zeit einer Pandemie wo Einschränkungen vom Konsumverhalten der Bevölkerung gefordert wird.
+Die Ziele des Teams sind eine allgemein gut funktionierende, erweiterbare, performante und benutzerfreundliche Plattform für die Endkunden, wie auch für die Datenlieferanten. Die Weblösung soll einfach zu bedienen sein und das Leben vereinfachen, vor allem in Zeiten einer Pandemie wo Einschränkungen vom Konsumverhalten der Bevölkerung gefordert wird.
 
 ### Lieferumfang
 
 - Offizielle Dokumentation des Projektes in Form des Templates der OST
 - Frontend für den Endbenutzer
-- Backend-API bestehend aus zwei logisch getrennten API’s
+- Backend-API bestehend aus zwei logisch getrennten APIs
 
 ### Annahmen und Einschränkungen
 
@@ -42,9 +42,9 @@ Das Projekt unterliegt keinen speziellen Annahmen oder Einschränkungen. Die Dok
 
 ## Projektorganisation
 
-Das Projekt wird durch fünf Software-Engineering Studenten der Ostschweizer Fachhochschule am Campus Rapperswil durchgeführt. Alle Projektbeteiligten studieren im berufsbegleitenden Studienmodell und arbeiten nebenbei bis zu 70 Prozent für ihre Arbeitgeber. Einige Teammitglieder haben Spezialgebiete, nach welchen auch die Verantwortlichkeiten verteilt werden. Betreut wird das Projekt durch den Advisor Herrn Thomas Kälin.
+Das Projekt wird durch fünf Software-Engineering Studenten der Ostschweizer Fachhochschule am Campus Rapperswil-Jona durchgeführt. Alle Projektbeteiligten studieren im berufsbegleitenden Studienmodell und arbeiten nebenbei bis zu 70 Prozent für ihre Arbeitgeber. Einige Teammitglieder haben Spezialgebiete, nach welchen auch die Verantwortlichkeiten verteilt werden. Betreut wird das Projekt durch den Advisor Herrn Thomas Kälin.
 
-Wir im Team verwenden Microsoft Teams für die Meetings und die Dateiablage. Microsoft OneNote wird für diverse Notizen, Meeting-Protokolle und weiteres genutzt, was nicht direkt in die offizielle Dokumentation muss. Zusätzlich verwenden wir alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
+Im Team verwenden wir Microsoft Teams für die Meetings und die Dateiablage. Microsoft OneNote wird für diverse Notizen, Meeting-Protokolle und weiteres genutzt, was nicht direkt in die offizielle Dokumentation muss. Zusätzlich verwenden wir alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
 
 - Repositories in Subgruppen
 - Analytics
@@ -52,13 +52,13 @@ Wir im Team verwenden Microsoft Teams für die Meetings und die Dateiablage. Mic
 
 Die Nutzung der folgenden GitLab Funktionen wurden wegen diverser Probleme (siehe Abschnitt Arbeitspakete) verworfen:
 
-- Issues mit Kanban Board
+- Issue Tracking mit Kanban Board
 - Script für den Time Tracking Report (gtt)
 
-Als Ersatz zu den oben erwähnten, gestrichenen GitLab Funktionen verwenden wir [Youtrack](https://www.jetbrains.com/de-de/youtrack/) von JetBrains mit den folgenden Funktionen:
+Als Ersatz zu den oben erwähnten, gestrichenen GitLab Funktionen verwenden wir [YouTrack](https://www.jetbrains.com/de-de/youtrack/) von JetBrains mit den folgenden Funktionen:
 
-- Issues mit Kanban Board
-- Integriertes Timetracking
+- Issue Tracking mit Kanban Board
+- Integriertes Time Tracking
 
 ### Organisationsstruktur
 
@@ -68,13 +68,13 @@ Als Ersatz zu den oben erwähnten, gestrichenen GitLab Funktionen verwenden wir 
 +=======================+=============================================+
 | Jonas Hauser          | Projektleitung, Kommunikation,              |
 |                       | Arbeitsorganisation, Qualitätssicherung und |
-|                       | Meeting-Moderator                           |
+|                       | Meeting-Moderation                          |
 +-----------------------+---------------------------------------------+
 | Rafael Fuhrer         | Alles rund um Systemumgebungen wie z. B.    |
-|                       | CI/CD, GitLab und Deploy-Server             |
+|                       | CI/CD, GitLab und Deployment-Server         |
 +-----------------------+---------------------------------------------+
 | Pascal Schneider      | Lead für Software-Architektur und -Design   |
-|                       | und API-Design, GitLab Issue Time-Tracking  |
+|                       | und API-Design, Issue- und Time-Tracking    |
 +-----------------------+---------------------------------------------+
 | Christoph Scheiwiller | Allgemeine Codequalität (Guidelines und     |
 |                       | Testing)                                    |
@@ -83,17 +83,18 @@ Als Ersatz zu den oben erwähnten, gestrichenen GitLab Funktionen verwenden wir 
 +-----------------------+---------------------------------------------+
 ```
 
-Alle beteiligten sind gleichberechtigte Teammitglieder und wir verfolgen eine komplett flache Hierarchie untereinander. Der Projektleiter ist in keinem Fall ein Mitarbeiter mit höheren Befugnissen oder höherer Entscheidungsmacht.
+Alle Beteiligten sind gleichberechtigte Teammitglieder und wir verfolgen eine komplett flache Hierarchie untereinander. Der Projektleiter ist in keinem Fall ein Mitarbeiter mit höheren Befugnissen oder höherer Entscheidungsmacht.
 
 Da wir Scrum als Projektmanagement Methode verwenden, haben wir ausserdem die folgenden Scrum Rollen besetzt.
 
 ```eval_rst
-=============== =============
-Name            Scrum Rolle
-=============== =============
-Jonas Hauser    Scrum Master
-Pascal Schlumpf Product Owner
-=============== =============
++-----------------+---------------+
+| Name            | Scrum Rolle   |
++=================+===============+
+| Jonas Hauser    | Scrum Master  |
++-----------------+---------------+
+| Pascal Schlumpf | Product Owner |
++-----------------+---------------+
 ```
 
 ### Externe Schnittstellen
@@ -104,7 +105,7 @@ Wir werden unterstützt und betreut durch den Advisor Herrn Thomas Kälin. In ei
 
 ### Kostenvoranschlag
 
-Unser Projekt wird auf 15 Semesterwochen aufgeteilt, was dem Standard der Vorgaben für das Engineering Projekt entspricht. Dies bedeutet ein durchschnittliches Arbeitspensum von ungefähr 8 Stunden pro Person pro Woche. Je nach Arbeitsaufwand pro Woche kann dieser Wert stark variieren. Der Endwert von mindestens 120 Stunden pro Person nach 15 Wochen wird aber zwingend eingehalten.
+Unser Projekt wird auf 15 Semesterwochen aufgeteilt, was dem Standard der Vorgaben für das Engineering Projekt entspricht. Dies bedeutet ein durchschnittliches Arbeitspensum von ungefähr 8 Stunden pro Person pro Woche. Je nach Arbeitsaufwand pro Woche kann dieser Wert stark variieren. Der Endwert von etwa 120 Stunden pro Person nach 15 Wochen wird aber zwingend eingehalten.
 
 ### Zeitliche Planung
 
@@ -138,7 +139,7 @@ Die Applikation CapWatch ist in der ersten Version zur Auslieferung bereit. Wäh
 
 Nach dem Erreichen des ersten Meilensteins beginnen wir iterativ mit Scrum zu arbeiten. Es wurden sechs Sprints definiert. Jeder Sprint dauert zwei Wochen, mit Ausnahme des fünften Sprints, welcher drei Wochen dauert. Am Ende jedes Sprints ist der vorgegebene Meilenstein zu erreichen.
 
-Für die Priorisierung der Tasks im Backlog verwenden wir die MoSCoW Methode. Die Aufwandsschätzungen der Taks werden in absoluten Stunden vorgenommen.
+Für die Priorisierung der Tasks im Backlog verwenden wir die MoSCoW Methode. Die Aufwandsschätzungen der Tasks werden in absoluten Stunden vorgenommen.
 
 #### Meilensteine
 
@@ -186,7 +187,7 @@ Für die Priorisierung der Tasks im Backlog verwenden wir die MoSCoW Methode. Di
 **M5 Quality** (01.05.2021)
 
 - Dokumentationsreview
-- Testcases geplant, dokumentiert und umgesetzt
+- Test cases geplant, dokumentiert und umgesetzt
 - Verwendung von Tools zur Sicherstellung der Codequalität (Bsp. Coderichtlinien)
 
 **M6 Beta Version** (15.05.2021)
@@ -255,15 +256,13 @@ Um zu verhindern, dass unsere Scrum-Events zeitlich aus dem Ruder laufen, haben 
 +======================+======================+======================+
 | Sprint Planning      | 1 Stunde             | -                    |
 +----------------------+----------------------+----------------------+
-| Sprint Review        | 1 Stunde             | variabel, wird evtl. |
-|                      |                      | nochmals angepasst   |
+| Sprint Review        | 1 Stunde             | -                    |
 +----------------------+----------------------+----------------------+
-| Sprint Retrospektive | 30 Minuten           | variabel, wird evtl. |
-|                      |                      | nochmals angepasst   |
+| Sprint Retrospektive | 30 Minuten           | -                    |
 +----------------------+----------------------+----------------------+
-| BacklogRefinement    | 15 Minuten           | Wird vom PO          |
+| Backlog Refinement   | 15 Minuten           | Wird vom PO          |
 |                      |                      | vorbereitet und      |
-|                      |                      | falls notendig im    |
+|                      |                      | falls notwendig im   |
 |                      |                      | Team ergänzt         |
 +----------------------+----------------------+----------------------+
 ```
@@ -272,19 +271,19 @@ Um zu verhindern, dass unsere Scrum-Events zeitlich aus dem Ruder laufen, haben 
 
 ### Risiken
 
-Die Risikoanalyse wurde im Dokument risikoanalyse.md detailliert beschreiben.
+Die Risikoanalyse wird im Dokument risikoanalyse.md detailliert beschreiben.
 
 ### Umgang mit Risiken
 
-Aufgrund der Risikoanalyse wurde ein durchschnittliches Schadenspotenzial von vier Stunden berechnet, desshalb werden in jedem Sprint vier Stunden als Reserve eingerechnet um sicherstellen zu können, dass der Projektplan eingehalten werden kann.
+Aufgrund der Risikoanalyse wurde ein durchschnittliches Schadenspotenzial von vier Stunden berechnet, deshalb werden in jedem Sprint vier Stunden als Reserve eingerechnet um sicherstellen zu können, dass der Projektplan eingehalten werden kann.
 
 Wir haben neu das Risiko Ri10 Pipeline aufgenommen. Diese Komponente hat sich als sehr zentral und anfällig herausgestellt. Daher wollen wir einen besonderen Fokus darauf legen.
 
 ## Arbeitspakete
 
-Zur Planung der Arbeit, sowie dem Tracking der aufgewendeten Arbeitszeit haben wir ursprünglich GitLab angedacht. Für die Auswertung der Zeiterfassung hätte [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz kommen sollen.
+Zur Planung der Arbeit, sowie dem Tracking der aufgewendeten Arbeitszeit hatten wir ursprünglich GitLab angedacht. Für die Auswertung der Zeiterfassung hätte [gtt](https://github.com/kriskbx/gitlab-time-tracker) zum Einsatz kommen sollen.
 
-Leider hat sich in der ersten Projektwoche gezeigt, dass die uns von GitLab zur Verfügung gestellten Tools nur unzureichend funktionieren. Nach einem nicht lösbaren Problem mit dem Timetracking, haben wir nach Absprache mit unserem Advisor den Umstieg auf [Youtrack](https://www.jetbrains.com/de-de/youtrack/) beschlossen.
+Leider hat sich in der ersten Projektwoche gezeigt, dass die uns von GitLab zur Verfügung gestellten Tools nur unzureichend funktionieren. Nach einem nicht lösbaren Problem mit dem Time Tracking, haben wir in Absprache mit unserem Advisor den Umstieg auf [YouTrack](https://www.jetbrains.com/de-de/youtrack/) beschlossen.
 
 ## Infrastruktur
 
@@ -295,8 +294,8 @@ Zur Unterstützung verwenden wir im CI-Prozess zusätzlich das Codequalitätstoo
 ## Qualitätsmassnahmen
 
 Erstens werden für den Umgang mit Git diverse Richtlinien definiert um eine professionelle und einfache Zusammenarbeit im Softwareentwicklungsprozess mit dem ganzen Team zu erreichen. \
-Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzlich keine Änderungen in den Git Repositories verwendet werden, welche nicht mindestens von einem weiteren Teammitglied in einem Review validiert und bestätigt wurden. Ausnahmen dabei sind triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen. \
-Drittens werden mit jedem Build und auch mit jedem Deployment der Applikationen Sicherheit- und Integrationchecks durchgeführt durch SonarQube und Renovate.
+Zweitens wird nach einem Vorgehen gearbeitet, bei dem grundsätzlich keine Änderungen in die Git Repositories einfliessen, welche nicht mindestens von einem weiteren Teammitglied in einem Review validiert und bestätigt wurden. Ausnahmen hiervon sind triviale Konfigurationsarbeiten und Fehlerbehebungen, die sofort eingebracht werden müssen. \
+Drittens werden mit jedem Build und auch mit jedem Deployment der Applikationen Sicherheit- und Integrationchecks durchgeführt durch SonarQube.
 
 Um diese Massnahmen für die Verbesserung der Qualität umsetzen zu können, verwenden wir die folgenden GitLab Features:
 
@@ -308,19 +307,19 @@ Jedes Product Backlog Item, bei dem es Sinn macht, wird ausserdem mit einer Defi
 Zusätzlich setzen wir die folgenden Techniken ein, um eine hohe Qualität innerhalb des Projekts zu gewährleisten:
 
 - Spezifikation von funktionalen und nicht funktionalen Requirements
-- Einsatz von Unit, Usability, Integrations und Performance Tests
-- Nutzung der Report Funktion (Dashboards) von Youtrack zur Informationsgewinnung
+- Einsatz von Unit, Usability, System und Performance Tests
+- Nutzung der Report Funktion (Dashboards) von YouTrack zur Informationsgewinnung
 
 Um den erfolgreichen Verlauf des Projekts zu garantieren, ist der Projektleiter dafür verantwortlich, wöchentlich die Einhaltung der Qualitätsmassnahmen zu überprüfen und Abweichungen den Teammitgliedern mitzuteilen. Der Projektleiter arbeitet nach einer wöchentlichen Checkliste, damit nichts vergessen wird.\
 Das Team arbeitet nach dem Erreichen des ersten Meilensteins nach Scrum und garantiert somit pro Sprint fertige Teile des Produkts vorweisen zu können.
 
 ### Dokumentation
 
-Die Dokumentation wird mit Markdown erstellt, basierend auf dem offiziellen Template der Ost. Der Produktionsbranch (master) wird jeweils als Basis für den aktuellen Stand der Dokumentation verwendet. Neue Bereiche oder Dokumentationsvorschläge werden über Supportbranches (feature und bugfix) erstellt, validiert und in den Produktionsbranch zusammengeführt. Jeder neuer Teil der Dokumentation wird jeweils immer von mindestens einem Teammitglied überprüft. Vor jedem Reviewtermin mit dem Advisor werden nochmals erneut alle geänderten Bereiche seit dem letzten Review auf dem Produktionsbranch überprüft.
+Die Dokumentation wird mit Markdown erstellt, basierend auf dem offiziellen Template der Ost. Der Produktionsbranch (master) wird jeweils als Basis für den aktuellen Stand der Dokumentation verwendet. Neue Bereiche oder Dokumentationsvorschläge werden über Supportbranches (feature und bugfix) erstellt, validiert und in den Produktionsbranch zusammengeführt. Jeder neue Teil der Dokumentation wird jeweils immer von mindestens einem Teammitglied überprüft. Vor jedem Reviewtermin mit dem Advisor werden nochmals erneut alle geänderten Bereiche seit dem letzten Review auf dem Produktionsbranch überprüft.
 
 ### Projektmanagement
 
-Wir wollten ursprünglich die [Issues Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von GitLab selbst verwenden. Wegen den im Punkt Arbeitspakete beschriebenen Probleme kommt seit der zweiten Projektwoche aber Youtrack zum Einsatz. Die Issues durchlaufen einen klaren Workflow der als [Kanban Board](https://capwatch.myjetbrains.com/youtrack/agiles/120-2/current) angezeigt wird. Jedes Issue durchläuft folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem groben Format erstellt und warten dann im Status *open* auf deren Einplanung in einen Sprint, wodurch sie in den Status *planned* wechseln. Das Arbeitspaket wird beim Start in den Status *work in progress* und vor Beendigung in den Status *review* versetzt, um ein Review und je nachdem auch ein Testing durchzuführen. Im Status *closed* ist das Issue dann komplett fertig und somit auch auf einem archivierten Stand.
+Wir wollten ursprünglich die [Issue Integration](https://gitlab.ost.ch/groups/epj/2021-FS/g03_capwatch/-/issues) von GitLab selbst verwenden. Wegen den im Punkt Arbeitspakete beschriebenen Probleme kommt seit der zweiten Projektwoche aber YouTrack zum Einsatz. Die Issues durchlaufen einen klaren Workflow der als [Kanban Board](https://capwatch.myjetbrains.com/youtrack/agiles/120-2/current) angezeigt wird. Jedes Issue durchläuft folgende Schritte: open, planned, work in progress, review und closed. Die Issues werden am Anfang in einem groben Format erstellt und warten dann im Status *open* auf deren Einplanung in einen Sprint, wodurch sie in den Status *planned* wechseln. Das Arbeitspaket wird beim Start in den Status *work in progress* und vor Beendigung in den Status *review* versetzt, um ein Review und je nachdem auch ein Testing durchzuführen. Im Status *closed* ist das Issue dann komplett fertig und somit auch auf einem archivierten Stand.
 
 ### Entwicklung
 
@@ -330,15 +329,15 @@ Spezielle Qualitätsmassnahmen spezifisch für den Sourcecode wurden bereits dur
 
 #### Vorgehen
 
-Wir entwickeln vollständig nach dem Prinzip der agilen Softwareentwicklung mit Scrum und entwickeln demnach in Iterationen nach und nach Teile der Applikationen. Der Sourcecode wird klassisch und nach Features entwickelt, ohne dabei zuerst Tests zu schreiben (kein Test Driven Development). Die Logik der Features wird zuerst implementiert und danach werden die Unit Tests dazu geschrieben. Im Frontend verzichten wir auf automatisierte Tests, weil der Projektumfang zu klein ist und der Aufwand dafür zu gross wäre. Das ganze Frontend wird manuell getestet.
+Wir entwickeln vollständig nach dem Prinzip der agilen Softwareentwicklung mit Scrum und entwickeln demnach in Iterationen nach und nach Teile der Applikation. Der Sourcecode wird klassisch nach Features entwickelt, ohne dabei zuerst Tests zu schreiben (kein Test Driven Development). Die Logik der Features wird zuerst implementiert und danach werden die Unit Tests dazu geschrieben. Im Frontend verzichten wir auf automatisierte Tests, weil der Projektumfang zu klein ist und der Aufwand dafür zu gross wäre. Das ganze Frontend wird manuell getestet.
 
 #### Unit Testing
 
-Automatisierte UnitTests werden ausschliesslich im Backend geschrieben. Der Grund hierfür ist, dass jegliche Business-Logik, welche auf die Daten angewandt werden muss, bei der Aufbereitung der Daten vor dem Bereitstellen durch die jeweiligen API's ausgeführt wird. Das Frontend wird lediglich die Rückgaben aus den API’s visuell zur Verfügung stellen.
+Automatisierte UnitTests werden ausschliesslich im Backend geschrieben. Der Grund hierfür ist, dass jegliche Business-Logik, welche auf die Daten angewandt werden muss, bei der Aufbereitung der Daten vor dem Bereitstellen durch die jeweiligen APIs ausgeführt wird. Das Frontend wird lediglich die Rückgaben aus den APIs visuell zur Verfügung stellen.
 
 Die Tests im Backend werden technologisch mit [xUnit](https://www.nuget.org/packages/xunit/), [FluentAssertions](https://www.nuget.org/packages/FluentAssertions/6.0.0-alpha0002) und [FakeItEasy](https://www.nuget.org/packages/FakeItEasy/7.0.0-beta.2) umgesetzt.
 
-Um sicherzustellen, dass die Testabdeckung ausreichend ist, wird die in Visual Studio Enterprise verfügbare Funktionalität "Analyze Code Coverage for All Tests" verwendet.
+Um sicherzustellen, dass die Testabdeckung ausreichend ist, werden Merge Requests mit weniger als 80% Code Coverage von SonarQube automatisch abgelehnt.
 
 #### Code Reviews
 
@@ -348,13 +347,21 @@ Wie bereits im Kapitel zu den allgemeinen Qualitätsmassnahmen beschrieben, erst
 
 Die folgenden Guidelines gelten als Ausgangspunkt, wie der Quellcode im Front- und Backend formatiert werden soll. Etwaige Abweichungen, welche sich als sinnvoll herausstellen, müssen im Team besprochen und von diesem abgenommen werden.
 
-| Programmiersprache | Grundlage |
-| ------------------ | --------- |
-| .NET               | [C# Coding Conventions von Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) |
-| HTML / CSS         | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) |
-| TypeScript         | [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html) |
-| React              | [React + Typescript Cheatsheets](https://github.com/typescript-cheatsheets/react) |
-| JSX                | [React JSX](https://reactjs.org/docs/introducing-jsx.html) |
+```eval_rst
++--------------------+-------------------------------------+------------------------------------------------------------------------------------------------------+
+| Programmiersprache | Grundlage                           | Link                                                                                                 |
++====================+=====================================+======================================================================================================+
+| .NET               | C# Coding Conventions von Microsoft | https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions |
++--------------------+-------------------------------------+------------------------------------------------------------------------------------------------------+
+| HTML / CSS         | Google HTML/CSS Style Guide         | https://google.github.io/styleguide/htmlcssguide.html                                                |
++--------------------+-------------------------------------+------------------------------------------------------------------------------------------------------+
+| TypeScript         | Google TypeScript Style Guide       | https://google.github.io/styleguide/tsguide.html                                                     |
++--------------------+-------------------------------------+------------------------------------------------------------------------------------------------------+
+| React              | React + Typescript Cheatsheets      | https://github.com/typescript-cheatsheets/react                                                      |
++--------------------+-------------------------------------+------------------------------------------------------------------------------------------------------+
+| JSX                | React JSX                           |https://reactjs.org/docs/introducing-jsx.html                                                         |
++--------------------+-------------------------------------+------------------------------------------------------------------------------------------------------+
+```
 
 ##### Abweichungen von den Grundlagen
 

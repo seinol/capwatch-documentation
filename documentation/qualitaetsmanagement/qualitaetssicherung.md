@@ -8,7 +8,7 @@ Dieses Dokument ist eine Übersicht aller Massnahmen zur Qualitätssicherung im 
 
 ### Gültigkeitsbereich
 
-Dieses Dokument ist für die Stakeholder dieses Projektes, sowie die Entwickler erstellt worden. Es wurde im Rahmen des Engineering Projekts der Fachhochschule Ost erarbeitet.
+Dieses Dokument ist gültig für das Engineering Projekt CapWatch, welches im Frühlingssemester 2021 an der Fachhochschule OST Rapperswil-Jona durchgeführt wurde. Es ist für die Betreuer und Entwickler des Projekts ausgelegt.
 
 ### Referenzen
 
@@ -19,14 +19,14 @@ Dieses Dokument ist für die Stakeholder dieses Projektes, sowie die Entwickler 
 
 ## Qualitätsmassnahmen
 
-Die qualitätssichernde Massnahmen wurden bereits im Kapitel Qualitätsmassnahmen im [Projektplan](./../projektplan/projektplan.md) beschrieben. Nachfolgend werden einzelne wichtige Punkte noch genauer ergänzt.
+Die qualitätssichernden Massnahmen wurden bereits im Kapitel Qualitätsmassnahmen im [Projektplan](./../projektplan/projektplan.md) beschrieben. Nachfolgend werden einzelne wichtige Punkte noch genauer ergänzt.
 
 ### Git
 
 #### Branching
 
 Die Branches werden mit den Konzepten und dem Tooling von Git Flow (AVH Edition) erstellt und verwendet. Wir verwenden `feature`, `bugfix`, `release` und `hotfix` Branches mit den beiden Hauptbranches `develop` für die Entwicklungsumgebung und `master` für die Produktionsumgebung. \
-Wir brauchen in diesem Projekt keine `support` Branches. Alle Branchnamen werden in `kebab-case` verfasst, ausser die `release` und `hotfix` Branches, welche in Semantischen Versionsnummern verfasst werden ohne Prefix.
+Wir brauchen in diesem Projekt keine `support` Branches. Alle Branches werden in `kebab-case` benannt, ausser die `release` und `hotfix` Branches, welche in Semantischen Versionsnummern verfasst werden ohne Prefix.
 
 #### Commits
 
@@ -38,7 +38,7 @@ Mit Lighthouse werden im Frontend die Kategorien Performance, Best Practices und
 
 ### Konfiguration Renovate
 
-Renovate erkennt, wenn eingesetzte Libraries nicht mehr aktuell sind und erstellt für die Aktualisierung automatisch einen Merge Request, welcher dann nur noch von einem Teammitglied begutachtet und zusammengeführt werden muss.
+Renovate erkennt, wenn eingesetzte Bibliotheken nicht mehr aktuell sind und erstellt für die Aktualisierung automatisch einen Merge Request, welcher dann nur noch von einem Teammitglied begutachtet und zusammengeführt werden muss.
 
 #### Renovate im Frontend
 
@@ -52,23 +52,20 @@ Renovate kann aktuell im Backend nicht eingesetzt werden, weil die verwendete Nu
 
 Mit SonarQube wird für das Frontend und Backend eine Codeanalyse durchgeführt. Dabei werden folgende Kriterien ausgewertet:
 
-* Bugs
-* Vulnerabilities
-* Security Hotspots
-* Code Smells
-* Code Coverage
-* Duplications
-
-Die Analysen schlagen in der Code Coverage fehl, da wir die verwendete [SonarQube Instanz](https://se1-sonarqube.dev.ifs.hsr.ch/dashboard?id=CapwatchBackend) noch nicht auf unsere Bedürfnisse anpassen können. Aus diesem Grund läuft die Build-Pipeline auch erfolgreich durch, wenn SonarQube fehlschlägt.
-Jeder Entwickler ist selbst verantwortlich, die SonarQube checks manuell zu analysieren in jedem Merge Request.
+- Bugs
+- Vulnerabilities
+- Security Hotspots
+- Code Smells
+- Code Coverage
+- Duplication
 
 #### SonarQube im Frontend
 
-Da wir im Frontend keine automatisierten Tests schreiben, können wir die vorgegebene Code-Coverage von 80 Prozent nicht erreichen.
+Da wir im Frontend keine automatisierten Tests schreiben, können wir die vorgegebene Code-Coverage von 80 Prozent nicht erreichen. Die Analyse schlägt deshalb in der Code Coverage fehl, da wir die verwendete [SonarQube Instanz](https://se1-sonarqube.dev.ifs.hsr.ch/dashboard?id=CapwatchFrontend) nicht auf unsere Bedürfnisse anpassen können. Aus diesem Grund läuft die Build-Pipeline auch erfolgreich durch, wenn SonarQube fehlschlägt. Jeder Entwickler ist selbst verantwortlich, die SonarQube checks in jedem Merge Request manuell zu analysieren.
 
 #### SonarQube im Backend
 
-In der Pipeline des Backends können diejenigen Unittests, welche auf die Datenbank angewiesen sind, nicht ausgeführt werden. Es ist desshalb auch hier nicht möglich die vorgegebene Code-Coverage von 80% zu erreichen.
+In der Pipeline des Backends ist SonarQube in der Pipeline aktiv. Wenn ein SonarQube check fehlschlägt wird ein Merge Request automatisch abgelehnt.
 
 ### DoD - Definition of Done
 
@@ -99,15 +96,14 @@ Die standard DoD wird für das Frontend um folgende Punkte ergänzt.
 
 ### Technische Schulden in der Qualitätssicherung
 
-* Renovate im Backend einsetzten, sobald dies unterstützt wird
-* SonarQube für die Anforderungen durch CapWatch konfigurieren
-* Linter für das Backend in die CI/CD Pipeline integrieren
+- Renovate im Backend einsetzten, sobald dies unterstützt wird
+- SonarQube für die Anforderungen durch CapWatch konfigurieren
 
 ## Sicherung der Geschichte
 
 ### Code und Dokumentation
 
-Entwicklung und Dokumentation geschieht in je einem GitLab Projekt mit Repositories, welches auf dem OST GitLab gehostet wird. Somit ist eine Versionierung und Sicherung dieser Daten vorhanden. Durch die dezentrale Natur von Git ist sämtliche Arbeit auch bei allen Entwicklern lokal meistens fast vollständig vorhanden.
+Entwicklung und Dokumentation geschieht in je einem GitLab Projekt mit Repositories, welche auf dem OST GitLab gehostet werden. Somit ist eine Versionierung und Sicherung dieser Daten vorhanden. Durch die dezentrale Natur von Git ist sämtliche Arbeit auch bei allen Entwicklern lokal meistens fast vollständig vorhanden.
 
 ### Zeitauswertung / Tickets
 

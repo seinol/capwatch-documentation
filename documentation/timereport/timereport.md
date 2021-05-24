@@ -4,8 +4,8 @@
 
 ## Total
 
-* **total estimate**: 423h
-* **total spent**: 447h 25m
+* **Total geschätzt**: 423h
+* **Total gearbeitet**: 447h 25m
 
 ## Pro Projektteilnehmer
 
