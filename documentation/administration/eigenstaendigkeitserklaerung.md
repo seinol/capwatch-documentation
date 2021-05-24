@@ -20,8 +20,9 @@ Pascal Schneider
 Schwerzenbach, 23. Mai 2021\
 Rafael Fuhrer
 
-Ort, Datum\
-Name
+Rapperswil, 24. Mai 2021\
+Pascal Schlumpf
 
 Ort, Datum\
 Name
+
