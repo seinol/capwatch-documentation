@@ -100,3 +100,14 @@ Soweit möglich und sinnvoll wurden die nicht funktionalen Anforderungen geteste
 ```
 
 ![response-time-graph](../../../images/response-time-graph-r6.png)
+
+## Usability Tests
+
+Es wurde ein Usability Test mit zwei Personen durchgeführt. Dabei lag der Fokus auf der Benutzerführung und Anwenderfreundlichkeit. Dabei wurden folgende Punkte festgestellt/bemängelt:
+
+Die Testpersonen finden die angezeigten Informationen übersichtlich dargestellt und finden sich im Frontend schnell zurecht.
+
+- Der Slider welcher das aktuelle Besucheraufkommen anzeigt wird vom User als Eingabeelement wahrgenommen. Als alternative wäre hier eine Progressbar geeignet.
+- Die nicht implementierten Menüitems (In der Nähe und Einstellungen) geben dem User kein Feedback. Hier wäre es ratsam eine Infopage anzuzeigen oder mit einem Popup darauf hinzuweisen, dass diese Funktionen noch nicht zur Verfügung stehen.
+- Auf der Desktopversion sind die Menüitems am unteren rand des Browsers, diese werden vom Benutzer somit nicht sofort erkannt. Die App wurde nach dem Prinzip Mobile first entwickelt, dies sollte aber bei einer optimierung für Desktop beachtet werden.
+- Ebenfalls in der Desktopversion werden die Cards unterschiedlich gross dargestellt, sofern ein Card einen viel längeren Namen hat. Dies sollte bei optimierung für Desktop ebenfalls beachtet werden.
