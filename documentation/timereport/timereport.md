@@ -34,4 +34,4 @@ Um die Arbeitszeit jederzeit nachweisen zu können, werden am Ende jedes Meilens
 
 ## Anmerkungen zur Zeitauswertung
 
-*Aufgrund der Umstellung auf YouTrack in der dritten Projektwoche sind im Time Report bis dahin keine Schätzungen vorhanden, jedoch wurde der Aufwand in YouTrack nachgeführt. Aus diesem Grund ist die geschätzte Zeit tiefer. Eine grobe Übersicht dazu liefert die Zeitplanung mit RUP im Dokument [Projektplan](../projektplan/projektplan.md).
+*Aufgrund der Umstellung auf YouTrack in der dritten Projektwoche, sind im Time Report bis zu diesem Zeitpunkt keine Schätzungen vorhanden, jedoch wurde der Aufwand in YouTrack nachgeführt. Aus diesem Grund ist die geschätzte Zeit tiefer. Eine grobe Übersicht dazu liefert die Zeitplanung mit RUP im Dokument [Projektplan](../projektplan/projektplan.md).
