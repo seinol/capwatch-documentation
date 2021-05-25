@@ -36,7 +36,7 @@ Dieses Dokument enthält eine Auflistung der Meilensteine mit den Links zu den z
     - [Systemtestprotokoll](../documentation/qualitaetsmanagement/systemtestprotokoll.md)
     - [Zeitauswertung](./documentation/timereport.md)
 
-## M6: Review Qualitätsmassnahmen
+## M6: Beta Version
 
 - Dokumente
     - [Schlussbericht](../documentation/schlussbericht/schlussbericht.md)
