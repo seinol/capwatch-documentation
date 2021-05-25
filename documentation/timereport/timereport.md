@@ -3,7 +3,7 @@
 **Letztes Update:** 25. Mai 2021, 21:15
 ## Total
 
-* **Total geschätzt**: 401h 30m
+* **Total geschätzt**: 401h 30m*
 * **Total gearbeitet**: 560h 40m
 
 ## Pro Projektteilnehmer
@@ -33,4 +33,5 @@
 Um die Arbeitszeit jederzeit nachweisen zu können, werden am Ende jedes Meilensteins die Auswertungen `Time Report per Milestone`, `Time Report`, `Time Report per User` und `Arbeitszeittabelle` erstellt und in der Dokumentation abgelegt. Die Zeitauflösung in den Auswertungen ist in Minuten angegeben.
 
 ## Anmerkungen zur Zeitauswertung
-Aufgrund der Umstellung auf YouTrack in der dritten Projektwoche sind im Time Report bis dahin keine Schätzungen vorhanden, jedoch wurde der Aufwand in YouTrack nachgeführt. Aus diesem Grund ist die geschätzte Zeit relativ tief. Eine grobe Übersicht dazu liefert die Zeitplanung mit RUP im Dokument [Projektplan](../projektplan/projektplan.md).
+
+*Aufgrund der Umstellung auf YouTrack in der dritten Projektwoche sind im Time Report bis dahin keine Schätzungen vorhanden, jedoch wurde der Aufwand in YouTrack nachgeführt. Aus diesem Grund ist die geschätzte Zeit tiefer. Eine grobe Übersicht dazu liefert die Zeitplanung mit RUP im Dokument [Projektplan](../projektplan/projektplan.md).
