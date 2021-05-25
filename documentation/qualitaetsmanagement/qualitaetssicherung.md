@@ -12,10 +12,10 @@ Dieses Dokument ist gültig für das Engineering Projekt CapWatch, welches im Fr
 
 ### Referenzen
 
-- [Git Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-- [Git Flow - GitHub](https://github.com/petervanderdoes/gitflow-avh)
-- [Git Flow - Flow Graphs](https://git.logikum.hu/graph/feature)
-- [Semantic Versioning](https://semver.org/lang/de/)
+[Git Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)\
+[Git Flow - GitHub](https://github.com/petervanderdoes/gitflow-avh)\
+[Git Flow - Flow Graphs](https://git.logikum.hu/graph/feature)\
+[Semantic Versioning](https://semver.org/lang/de/)
 
 ## Qualitätsmassnahmen
 
@@ -65,7 +65,7 @@ Da wir im Frontend keine automatisierten Tests schreiben, können wir die vorgeg
 
 #### SonarQube im Backend
 
-In der Pipeline des Backends ist SonarQube in der Pipeline aktiv. Wenn ein SonarQube check fehlschlägt wird ein Merge Request automatisch abgelehnt.
+In der Pipeline des Backends ist SonarQube aktiv. Wenn eine SonarQube Überprüfung fehlschlägt, wird ein Merge Request automatisch zur Zusammenführung gesperrt.
 
 ### DoD - Definition of Done
 

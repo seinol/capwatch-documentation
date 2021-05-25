@@ -55,10 +55,6 @@ Um den Test durchzuführen wurde in beiden Repositories über Docker-Compose die
 
 ## Manuelle Frontend Tests
 
-![frontend-test-favorites-empty](../../../images/frontend-test-favorites-empty.png)
-
-Wenn in der Liste aller Stores Daten vorhanden sind, wird in den Favoriten nicht angezeigt, dass keine Favoriten ausgewählt sind.
-
 ![frontend-test-navigation-current-location](../../../images/frontend-test-navigation-current-location.png)
 
 In der Navigation ist nicht ersichtlich, wo man sich aktuell befindet.
