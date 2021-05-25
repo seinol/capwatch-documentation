@@ -20,7 +20,7 @@ Wenn wir die Planung nachträglich überarbeiten, wird diese Version von allen Z
 [GitLab Time Tracker (gtt)](https://github.com/kriskbx/gitlab-time-tracker) \
 [YouTrack](https://www.jetbrains.com/de-de/youtrack/)
 
-## Projekt Übersicht
+## Projektübersicht
 
 Eine Webapplikation, in der man seine Lieblingsgeschäfte, Saunas, etc. abonnieren kann. Die Daten werden bei einem Abonnement dann in Echtzeit aktualisiert. Das Backend besteht aus mehreren API Endpoints. Die Daten werden von den Dienstleistern über eine API an das Backend geliefert und in einer Datenbank abgelegt. Über eine weitere Schnittstelle können die Daten vom Frontend bzw. der Webseite abgefragt werden. Im Frontend kann sich der Benutzer Favoriten speichern. Das Frontend ist in der ersten Version ein reiner einseitiger Empfänger ohne Authentifizierung.
 
@@ -47,6 +47,9 @@ Das Projekt wird durch fünf Software-Engineering Studenten der Ostschweizer Fac
 Im Team verwenden wir Microsoft Teams für die Meetings und die Dateiablage. Microsoft OneNote wird für diverse Notizen, Meeting-Protokolle und weiteres genutzt, was nicht direkt in die offizielle Dokumentation muss. Zusätzlich verwenden wir alle, für unser Projekt sinnvolle, Funktionen von GitLab. Die Nutzung von folgenden Funktionen ist geplant:
 
 - Repositories in Subgruppen
+- Merge Requests
+- GitLab CI/CD
+- Packages & Registries
 - Analytics
 - Integration von diversen Tools (SonarQube und Renovate)
 
@@ -85,7 +88,7 @@ Als Ersatz zu den oben erwähnten, gestrichenen GitLab Funktionen verwenden wir 
 
 Alle Beteiligten sind gleichberechtigte Teammitglieder und wir verfolgen eine komplett flache Hierarchie untereinander. Der Projektleiter ist in keinem Fall ein Mitarbeiter mit höheren Befugnissen oder höherer Entscheidungsmacht.
 
-Da wir Scrum als Projektmanagement Methode verwenden, haben wir ausserdem die folgenden Scrum Rollen besetzt.
+Da wir Scrum als Projektmanagementmethode verwenden, haben wir ausserdem die folgenden Scrum Rollen besetzt.
 
 ```eval_rst
 +-----------------+---------------+
@@ -190,7 +193,7 @@ Für die Priorisierung der Tasks im Backlog verwenden wir die MoSCoW Methode. Di
 - Test cases geplant, dokumentiert und umgesetzt
 - Verwendung von Tools zur Sicherstellung der Codequalität (Bsp. Coderichtlinien)
 
-**M6 Beta Version** (15.05.2021)
+**M6 Beta Version** (22.05.2021)
 
 - Gesamter Funktionsumfang implementiert
 - Funktionale Anforderungen getestet
@@ -206,6 +209,7 @@ Für die Priorisierung der Tasks im Backlog verwenden wir die MoSCoW Methode. Di
 **M7.2 Final Submission (Presentation)** (28.05.2021, 12:00)
 
 - Projekt- und Produktpräsentation vorbereitet
+- Präsentation als PDF abgegeben
 
 ### Besprechungen
 
@@ -219,20 +223,24 @@ Hier sind alle fixierten Termine aufgeführt. Falls nötig können auch spontane
 +======================+======================+======================+
 | Jeden Montag 16:00   | Team / Advisor bei   | Fragen zu            |
 | Uhr                  | Bedarf               | Projektablauf oder   |
-|                      |                      | Vorgehen             |
+|                      |                      | Vorgehen, Reviews    |
 +----------------------+----------------------+----------------------+
 | Jeden Donnerstag     | Alle im Team         | Aktueller Stand,     |
-| 16:00 Uhr            |                      | Offene Fragen        |
+| Nachmittag           |                      | Offene Fragen        |
 |                      |                      | besprechen, Weiteres |
 |                      |                      | Vorgehen             |
 +----------------------+----------------------+----------------------+
-| Jeweils zu Beginn    | Alle im Team         | Sprint Planning      |
-| des Sprints 10:00    |                      |                      |
+| Jeweils zu Beginn    | Alle im Team         | Backlog Refinement & |
+| des Sprints 10:00    |                      | Sprint Planning      |
 | Uhr                  |                      |                      |
 +----------------------+----------------------+----------------------+
-| Jeweils am Ende des  | Alle im Team         | Sprint Review und    |
-| Sprints 17:00 Uhr    |                      | anschliessend        |
-|                      |                      | Retrospektive        |
+| Jeweils am Ende des  | Alle im Team         | Sprint Review        |
+| Sprints 16:00 Uhr    |                      |                      |
+|                      |                      |                      |
++----------------------+----------------------+----------------------+
+| Jeweils am Ende des  | Alle im Team         | Retrospektive        |
+| Sprints 17:00 Uhr    |                      |                      |
+|                      |                      |                      |
 +----------------------+----------------------+----------------------+
 | 08.03.2021 16:00 Uhr | Team / Advisor       | Review 1             |
 +----------------------+----------------------+----------------------+
@@ -300,7 +308,7 @@ Drittens werden mit jedem Build und auch mit jedem Deployment der Applikationen 
 Um diese Massnahmen für die Verbesserung der Qualität umsetzen zu können, verwenden wir die folgenden GitLab Features:
 
 - Merge- bzw. Pull-Requests
-- CI / CD
+- GitLab CI/CD
 
 Jedes Product Backlog Item, bei dem es Sinn macht, wird ausserdem mit einer Definition of Done versehen, welche dem Bearbeitenden und dem Reviewer dabei hilft, die Vollständigkeit dieses Product Backlog Items zu prüfen.
 
@@ -359,7 +367,7 @@ Die folgenden Guidelines gelten als Ausgangspunkt, wie der Quellcode im Front- u
 +--------------------+-------------------------------------+------------------------------------------------------------------------------------------------------+
 | React              | React + Typescript Cheatsheets      | https://github.com/typescript-cheatsheets/react                                                      |
 +--------------------+-------------------------------------+------------------------------------------------------------------------------------------------------+
-| JSX                | React JSX                           |https://reactjs.org/docs/introducing-jsx.html                                                         |
+| JSX                | React JSX                           | https://reactjs.org/docs/introducing-jsx.html                                                        |
 +--------------------+-------------------------------------+------------------------------------------------------------------------------------------------------+
 ```
 

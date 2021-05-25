@@ -12,8 +12,7 @@ Dieses Dokument ist gültig für das Engineering Projekt CapWatch, welches im Fr
 
 ### Referenzen
 
-[ISO/IEC 9126](https://de.wikipedia.org/wiki/ISO/IEC_9126)
-
+[ISO/IEC 9126](https://de.wikipedia.org/wiki/ISO/IEC_9126)\
 [OWASP Threat Modeling](https://owasp.org/www-community/Threat_Modeling)
 
 ### Übersicht
