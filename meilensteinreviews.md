@@ -1,6 +1,6 @@
 # Review Meilensteine
 
-Dieses Dokument enthält eine Auflistung der Meilensteine mit den Links zu den zugehörigen Dokumenten, Checklisten und Sitzungsprotokollen.
+Dieses Dokument enthält eine Auflistung der Meilensteine mit den Links zu den zugehörigen Dokumenten und Checklisten.
 
 ## MS1: Review Projektplanung
 
@@ -36,10 +36,11 @@ Dieses Dokument enthält eine Auflistung der Meilensteine mit den Links zu den z
     - [Systemtestprotokoll](../documentation/qualitaetsmanagement/systemtestprotokoll.md)
     - [Zeitauswertung](./documentation/timereport.md)
 
-## Schlusspräsentation
+## Schlussabgabe
 
 Siehe Moodle
 
-## Schlussabgabe
+
+## Schlusspräsentation
 
 Siehe Moodle

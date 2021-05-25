@@ -12,7 +12,6 @@ Project overview Capwatch
   :maxdepth: 3
 
   documentation/index.md
-  minutes/index.md
   glossary.rst
   meilensteinreviews.rst
 
