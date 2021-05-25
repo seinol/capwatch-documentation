@@ -8,9 +8,7 @@ Dieses Dokument dient als Übersicht über die Architektur des Softwareprojekts 
 
 ### Gültigkeitsbereich
 
-Dieses Dokument ist gültig für das Engineering Projekt im Frühlingssemester 2021 an der Fachhochschule OST. Es ist für die Betreuer und Entwickler dieses Projektes ausgelegt.
-
-Diese Dokumentation kann je nach Situation dem Entwicklungsstand des Codes leicht voraus sein oder leicht hinterherhinken, da dokumentieren und entwickeln abwechslungsweise geschieht.
+Dieses Dokument ist gültig für das Engineering Projekt CapWatch, welches im Frühlingssemester 2021 an der Fachhochschule OST Rapperswil-Jona durchgeführt wurde. Es ist für die Betreuer und Entwickler des Projekts ausgelegt.
 
 ## Referenzen
 
@@ -18,7 +16,7 @@ Die C4 Diagramme wurden mit [Structurizr](https://structurizr.com) erstellt.
 
 ## C4 Modell
 
-Wir haben uns entschieden zur Visualisierung unserer Architektur das C4 Modell zu verwenden, da dieses mit übersichtlichen und einfach zu verstehenden Diagrammen sehr viel Information über ein System übermittelt. Dies hilft insbesondere Personen, die sich neu in das Projekt einlesen, sich schnell zurecht zu finden.
+Wir haben uns entschieden zur Visualisierung unserer Architektur das C4 Modell zu verwenden, da dieses mit übersichtlichen und einfach zu verstehenden Diagrammen sehr viel Information über ein System vermittelt. Dies hilft insbesondere Personen, die sich neu in das Projekt einlesen, sich schnell zurecht zu finden.
 
 ### System Kontext Diagramm der Software CapWatch
 
@@ -36,7 +34,7 @@ Das Gesamtsystem besteht aus einer MongoDB Datenbankinstanz und einem C# Backend
 
 #### Architektur Frontend
 
-Das Frontend besteht aus einer Single-Page Applikation welche in React und TypeScript geschrieben wurde. Die Applikation wird auf einem Nginx Webserver betrieben. Das Frontend ist in drei Schichten gegliedert. Zuoberst befindet sich die GUI Schicht, welche die Informationen darstellt. Auf der nächsten Schicht befinden sich die Komponenten und [Hooks](https://reactjs.org/docs/hooks-overview.html). Die Komponenten stellen die Daten für die GUI Schicht bereit. Die Hooks verantworten die States und stellen weitere React Features zur Verfügung. Die Service Schicht ist für die Kommunikation und Datenverarbeitung mit dem Backend zuständig.
+Das Frontend besteht aus einer Single-Page Applikation, welche in React und TypeScript geschrieben wurde. Die Applikation wird auf einem Nginx Webserver betrieben. Das Frontend ist in drei Schichten gegliedert. Zuoberst befindet sich die GUI Schicht, welche die Informationen darstellt. Auf der nächsten Schicht befinden sich die Komponenten und [Hooks](https://reactjs.org/docs/hooks-overview.html). Die Komponenten stellen die Daten für die GUI Schicht bereit. Die Hooks verantworten die States und stellen weitere React Features zur Verfügung. Die Service Schicht ist für die Kommunikation und Datenverarbeitung mit dem Backend zuständig.
 
 ![frontend-overview](../../diagrams/frontend-overview.jpg)
 
@@ -61,7 +59,7 @@ Das Store Repository wird von der Applikationsschicht definiert und vom MongoDB 
 
 #### Architektur Backend
 
-Das Backend ist nach hexagonaler Architektur in C# konzipiert. Hierbei steht die Domain im Zentrum und beinhaltet die Entitäten, um welche sich das System dreht. Nach der Domainschicht liegt die Application, welche die Businesslogik beinhaltet und Interfaces definiert, welche von den umliegenden Schichten implementiert und genutzt werden. Ganz aussen ist auf der einen Seite ein Adapter für die Datenbankanbindung unserer MongoDB Instanz, welche die CRUD Operationen mithilfe eines ORM implementiert. Auf der anderen Seite die WebAPI, welche die nötigen Web-Schnittstellen zur Verfügung stellt.
+Das Backend ist nach hexagonaler Architektur in C# konzipiert. Hierbei steht die Domain im Zentrum und beinhaltet die Entitäten, um welche sich das System dreht. Nach der Domainschicht liegt die Application, welche die Businesslogik beinhaltet und Interfaces definiert, die von den umliegenden Schichten implementiert und genutzt werden. Ganz aussen ist auf der einen Seite ein Adapter für die Datenbankanbindung unserer MongoDB Instanz. Diese implementiert die CRUD Operationen mithilfe eines ORM. Auf der anderen Seite liegt die WebAPI, welche die nötigen Web-Schnittstellen zur Verfügung stellt.
 
 Unsere Entscheidung fiel auf C#, da der Mehrheit des Teams die Technologie besser liegt als Java. Dazu kommt, dass unser Architekt aus seiner Berufstätigkeit viel Wissen in dieser Technologie, insbesondere im Bezug auf Web API Applikationen, mitbringt.
 
@@ -80,7 +78,7 @@ Um sicherzustellen, dass diese Projekte nur lose gekoppelt sind, sind Klassen we
 
 ## Deployment
 
-Die Software wird auf einen einzelnen Linux Server deployt. Dieser wird von der OST zur Verfügung gestellt und befindet sich im dafür vorgesehenen DMZ Netzwerk der OST. Das Deployment selber wird mittels Docker Images umgesetzt, die über die Registry auf dem Gitlab direkt bezogen werden. Zur einfachen Verwaltung des Docker basierten Setups wird auf dem Host Docker-Compose eingesetzt. Vorerst ist ein manuelles Deployment und Updaten der Software vorgesehen. Falls es die Umstände während des Projekts später zulassen, wird das Setup um eine dann noch zu definierende Komponente für das automatische Deployment erweitert. Die Container werden jeweils ab dem Master- und dem Develop-Branch mittels CI Pipeline automatisch gebaut und direkt der Registry hinzugefügt.
+Die Software wird auf einen einzelnen Linux Server deployt. Dieser wird von der OST zur Verfügung gestellt und befindet sich im dafür vorgesehenen DMZ Netzwerk der OST. Das Deployment selber wird mittels Docker Images umgesetzt, die über die Registry auf dem GitLab direkt bezogen werden. Zur einfachen Verwaltung des Docker basierten Setups wird auf dem Host Docker-Compose eingesetzt. Vorerst ist ein manuelles Deployment und Updaten der Software vorgesehen. Falls es die Umstände während des Projekts später zulassen, wird das Setup um eine dann noch zu definierende Komponente für das automatische Deployment erweitert. Die Container werden jeweils ab dem Master- und dem Develop-Branch mittels CI Pipeline automatisch gebaut und direkt der Registry hinzugefügt.
 
 Aufgrund der Trivialität des Setup verzichten wir in an dieser Stelle auf ein Deployment Diagramm.
 
@@ -92,7 +90,9 @@ Zum aktuellen Zeitpunkt umfasst die Datenbank nur eine Collection in welcher Sto
 
 ## Grössen und Leistung
 
-Zum aktuellen Zeitpunkt können noch keine Aussagen zu Einschränkungen bezüglich benötigter Hardware und Leistung der Software gemacht werden.
+Aus den Performance Tests mit JMeter können wir bestätigen, dass die Applikation serverseitig sehr performant ist. CapWatch kann daher auf beliebigen Systemen, auf denen mindestens Docker betrieben werden können, deployt werden.
+
+Bei übermässig vielen Einträgen in der Store Tabelle benötigt das Frontend auf dem Zielsystem des Anwenders sehr viel Leistung. Die User Experience wird dadurch stark eingeschränkt. Dieses Problem könnte durch Paging der Store Einträge jedoch relativ einfach behoben werden und zählt zu den KANN- bzw. den Ausbauanforderungen.
 
 ## Ausbau-Szenario
 
@@ -108,7 +108,7 @@ Falls bei der Datenbank Performance Probleme relevant werden sollten, wären die
 
 ## Technische Schulden
 
-Um das Frontend aktuell zu halten, muss regelmässig die Liste der Stores und deren Auslastung geladen werden um aktuelle Daten anzuzeigen. Hier würde sich ein Websocket anbieten, welcher dem Frontend mitteilt, falls es Änderungen gibt. Dieser Ausbau ist bereits für einen der nächsten Sprints geplant. Bas Backen bietet bereits WebSockets an, diese müssen im Frontend noch implementiert werden.
+Um das Frontend aktuell zu halten, muss regelmässig die Liste der Stores und deren Auslastung geladen werden. Hier würde sich ein Websocket anbieten, welcher dem Frontend mitteilt, falls es Änderungen gibt. Bas Backend bietet bereits einen Websocket an, welcher diese Information zur Verfügung stellt. Dieser wird in der Beta Version allerdings vom Frontend noch nicht berücksichtigt, weil unterwartete grössere Restriktionen vorgekommen sind.
 
 ## Durchlaufene Klassen
 
@@ -118,6 +118,5 @@ Hier folgt noch eine grobe Übersicht über die wichtigsten Klassen / Methoden, 
 
 ## Weggelassene Dokumentation
 
-* Wir haben uns dazu entschieden keine Designklassendiagramme zu entwerfen, weil diese uns gegenüber dem Strukturdiagramm im Domainmodell keinen Mehrwert bieten.
-
-* Wir sind bei der Dokumentation der Architektur bewusst nicht bis auf die Ebene Code (nach C4) / Klassendiagramme hinuntergegangen, da diese in den wenigsten Fällen wirklich hilfreich sind. Sollte trotzdem irgendwann ein Klassendiagramm nötig sein, kann dieses aus dem Code generiert werden, was dann auch garantiert, dass es die aktuellsten Informationen enthält.
+- Wir haben uns dazu entschieden keine Designklassendiagramme zu entwerfen, weil diese uns gegenüber dem Strukturdiagramm im Domainmodell keinen Mehrwert bieten.
+- Wir sind bei der Dokumentation der Architektur bewusst nicht bis auf die Ebene Code (nach C4) / Klassendiagramme hinuntergegangen, da diese in den wenigsten Fällen wirklich hilfreich sind. Sollte trotzdem irgendwann ein Klassendiagramm nötig sein, kann dieses aus dem Code generiert werden, was dann auch garantiert, dass es die aktuellsten Informationen enthält.

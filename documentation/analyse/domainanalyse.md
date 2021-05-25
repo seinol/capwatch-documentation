@@ -8,7 +8,7 @@ Dieses Projekt gibt eine Übersicht über die Domain des Projektes CapWatch.
 
 ### Gültigkeitsbereich
 
-Dieses Dokument ist für die Stakeholder dieses Projektes, sowie die Entwickler erstellt worden. Es wurde im Rahmen des Engineering Projekts der Fachhochschule Ost im Frühlingssemester 2021 erarbeitet.
+Dieses Dokument ist gültig für das Engineering Projekt CapWatch, welches im Frühlingssemester 2021 an der Fachhochschule OST Rapperswil-Jona durchgeführt wurde. Es ist für die Betreuer und Entwickler des Projekts ausgelegt.
 
 ## Domain Modell
 
@@ -26,17 +26,16 @@ Store ist die einzige Klasse, welche für den MVP relevant ist. In dieser Klasse
 
 #### Consumer
 
-Die Klasse Consumer wird für den Login und das Speichern von Favoriten des Konsumenten verwendet.
+Die Klasse Consumer wird für das Login und das Speichern von Favoriten des Konsumenten verwendet.
 
 #### CapacityHistory
 
-Um die erwartete und durchschnittliche Auslastung zu berechnen, wird die Auslastung mit einem Zeitstempel als History abgelegt.
+Um die erwartete und durchschnittliche Auslastung zu berechnen, wird die Auslastung mit einem Zeitstempel als Verlauf abgelegt.
 
 #### Reservation
 
-Der Konsument kann sich bei einem Store einen Timeslot reservieren und erhält dafür eine Reservations-ID.
+Der Konsument kann sich bei einem Store ein Zeitfenster reservieren und erhält dafür eine Reservations-ID.
 
 ## Systemsequenzdiagramme
 
 Die aktuell geplanten Funktionalitäten sind einfach im Aufbau, Systemsequenzdiagramme bringen daher keinen Mehrwert. Aus diesem Grund werden sie in dieser Dokumentation bewusst weggelassen.
-

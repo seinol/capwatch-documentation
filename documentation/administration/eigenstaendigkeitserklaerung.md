@@ -25,4 +25,3 @@ Pascal Schlumpf
 
 Rorschach, 25. Mai 2021\
 Jonas Hauser
-

@@ -25,12 +25,12 @@ _gitlab_team_namespace_url = 'https://gitlab.ost.ch/epj/2021-FS/g03_capwatch'
 _gitlab_code_project_url = f'{_gitlab_team_namespace_url}/development'  # No slash at the end!
 
 # The URL of the GitLab project hosting the source of THIS documentation:
-_gitlab_docs_project_url = 'https://gitlab.ost.ch/epj/2021-FS/g03_capwatch/documentation-and-various/documentation/-/pipelines'  # No slash at the end!
+_gitlab_docs_project_url = f'{_gitlab_team_namespace_url}/documentation-and-various/documentation'  # No slash at the end!
 
 _project_links = {
-    'Task List': f'https://capwatch.myjetbrains.com/youtrack/projects/f28d89fe-6545-4dfd-87fb-283c2bc605a3',
-    'Code Repository': _gitlab_code_project_url,
-    'Continuous Integration': f'{_gitlab_code_project_url}/documentation-and-various/documentation/-/pipelines',
+    'Code Repositories': _gitlab_code_project_url,
+    'Documentation Repository': _gitlab_docs_project_url,
+    'YouTrack': f'https://capwatch.myjetbrains.com/youtrack/projects/f28d89fe-6545-4dfd-87fb-283c2bc605a3',
 }
 
 ###############################################################################

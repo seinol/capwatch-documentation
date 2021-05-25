@@ -8,23 +8,22 @@ Dieses Dokument gibt einen groben Überblick über das Produkt CapWatch, sowie d
 
 ### Gültigkeitsbereich
 
-Dieses Dokument ist gültig für das Engineering Projekt im Frühlingssemester 2021 an der Fachhochschule OST. Es ist für die Betreuer und Entwickler dieses Projektes ausgelegt.
+Dieses Dokument ist gültig für das Engineering Projekt CapWatch, welches im Frühlingssemester 2021 an der Fachhochschule OST Rapperswil-Jona durchgeführt wurde. Es ist für die Betreuer und Entwickler des Projekts ausgelegt.
 
 ### Referenzen
 
-[ISO/IEC 9126](https://de.wikipedia.org/wiki/ISO/IEC_9126)
-
+[ISO/IEC 9126](https://de.wikipedia.org/wiki/ISO/IEC_9126)\
 [OWASP Threat Modeling](https://owasp.org/www-community/Threat_Modeling)
 
 ### Übersicht
 
-Im Abschnitt "Allgemeine Beschreibung" werden allgemeine Informationen zum Produkt erläutert. Anschliessend werden im Abschnitt "Funktionale Anforderungen" die geplanten Funktionalitäten beschrieben. Im letzten Abschnitt werden die nicht Funktionalen Anforderungen genauer umschrieben und nicht kategorisierbare Themen zusammengefasst.
+Im Abschnitt "Allgemeine Beschreibung" werden allgemeine Informationen zum Produkt gegeben. Anschliessend werden im Abschnitt "Funktionale Anforderungen" die geplanten Funktionalitäten beschrieben. Im letzten Abschnitt werden die nicht Funktionalen Anforderungen genauer umschrieben und nicht kategorisierbare Themen zusammengefasst.
 
 ## Allgemeine Beschreibung
 
 ### Produkt Perspektive
 
-Im Zuge der Corona Pandemie ist es plötzlich an sehr vielen Orten zu Einschränkungen der erlaubten Anzahl Personen innerhalb eines definierten Bereichs gekommen. Das führte dazu, dass man einkaufen gehen wollte und die Eintrittsbegrenzungssystem auf Rot (Eintritt verweigert) war. Dadurch war man gezwungen zu warten und hat Zeit verloren. Dieses Problem kann gemindert werden, indem man sich zuhause im Voraus darüber informieren kann, ob es gerade ein guter Zeitpunkt ist, einkaufen zu gehen. Da die Systeme zur Personenzählung nun fest installiert sind, ist es gut möglich, dass sie auch in Zukunft bleiben werden. Hier setzt unser Produkt an, indem es die ganzen gesammelten Daten konsolidiert und auf einer einfachen Benutzeroberfläche abrufbar macht. Dies hilft sowohl den Geschäften, wie auch den Konsumenten.
+Im Zuge der Corona Pandemie ist es plötzlich an sehr vielen Orten zu Einschränkungen der erlaubten Anzahl Personen innerhalb eines definierten Bereichs gekommen. Das führte dazu, dass man einkaufen gehen wollte und die Eintrittsbegrenzungssystem auf Rot (Eintritt verweigert) war. Dadurch war man gezwungen zu warten und hat Zeit verloren. Dieses Problem könnte gemindert werden, wenn man sich Zuhause im Voraus darüber informieren kann, ob es gerade ein guter Zeitpunkt ist, einkaufen zu gehen. Da die Systeme zur Personenzählung nun fest installiert sind, ist es gut möglich, dass sie auch in Zukunft vorhanden sein werden. Hier setzt unser Produkt an, indem es die ganzen gesammelten Daten konsolidiert und auf einer einfachen Benutzeroberfläche abrufbar macht. Dies hilft sowohl den Geschäften, wie auch den Konsumenten.
 
 ### Produkt Funktion
 
@@ -74,7 +73,7 @@ Wir haben uns aufgrund des einfachen Geschäftsfalles dagegen entschieden Use Ca
 
 ### Konsument
 
-***Als Konsument möchte ich mich über das aktuelle Besuchsaufkommen informieren können.***
+***Als Konsument möchte ich mich über das aktuelle Besucheraufkommen informieren können.***
 
 ```eval_rst
 +-----------------+-----------+--------------------------------------+
@@ -119,7 +118,7 @@ Wir haben uns aufgrund des einfachen Geschäftsfalles dagegen entschieden Use Ca
 +-----------------+-----------+--------------------------------------+
 ```
 
-Für das Minimal Viable Product (MVP) sind die MUSS-Anforderungen relevant. Falls Kapazität vorhanden ist, können aber auch noch KANN-Anforderungen umgesetzt werden. Es ist möglich, dass nicht alle KANN-Anforderungen umgesetzt werden können.
+Für das Minimal Viable Product (MVP) sind die MUSS-Anforderungen relevant. Falls Kapazität vorhanden ist, können aber auch noch KANN-Anforderungen umgesetzt werden. Es ist möglich, dass nicht alle KANN-Anforderungen umgesetzt werden.
 
 ## Weitere Anforderungen
 
@@ -127,13 +126,13 @@ Für das Minimal Viable Product (MVP) sind die MUSS-Anforderungen relevant. Fall
 
 ![threat_model_diagram](../../images/threat_model_diagram.png)
 
-Da wir neben dem Engineering-Projekt gerade das Modul Secure Software besuchen, bot es sich zu Übungszwecken an ein Threat Model für CapWatch zu erstellen. Dieses Threat Model hilft um das Produkt bestmöglich gegen Gefahren von ausserhalb abzusichern. Es wird laufend aktualisiert und es können neue nicht Funktionale Anforderungen daraus entstehen. Hierzu machen wir uns Gedanken zu folgenden Punkten:
+Da wir neben dem Engineering-Projekt gerade das Modul Secure Software besuchen, bot es sich zu Übungszwecken an ein Threat Model für CapWatch zu erstellen. Dieses Threat Model hilft, um das Produkt bestmöglich gegen Gefahren von ausserhalb abzusichern. Es wird laufend aktualisiert und es können neue nicht Funktionale Anforderungen daraus entstehen. Hierzu machen wir uns Gedanken zu folgenden Punkten:
 
-- **Was sind unsere Assets:** In unserem MVP sind in unserem System nur Daten vorhanden die uneingeschränkt über unsere Webseite einsehbar sind. In der Datenbank sind nur regelmässigen Einträge mit Timestamp, Anzahl Personen  und maximal erlaubter Anzahl Personen vorhanden. Diese Metriken sind völlig anonym und werden als Zahlen angeliefert, Rückschlüsse auf einzelne Personen sind unmöglich. Zusätzlich speichern wir noch die Secrets der Firmen, die uns Daten anliefern. Diese Daten sind schützenswert, da es als Angreifer mit dem Secret möglich wäre unser System zu überlasten. In der späteren Ausbaustufe, in der wir Kundendaten erfassen und speichern, ist die Datenbank mit Kundendaten ein wichtiges Asset.
-- **Threat Agents und mögliche Angriffe:** Interne Angriffe können die Kundendaten abgreifen um die gespeicherten E-Mailadressen weiterzuverwenden. Dies wäre möglich über einen Zugriff auf die Kundendatenbank, die nicht genügend gut per Zugriffsrechte abgesichert worden ist. Ein externer Angreifer, welcher eine Organisierte Verbrecherbande oder ein einzelner Hacker sein kann, müsste sich die Zugangsdaten der Datenbank beschaffen um direkt darauf zuzugreifen oder er schafft es über die API an mehr Daten als eigentlich vorgesehen zu kommen.
-- **Mögliche Schwachstellen:** Bei der Entwicklung unseres Produktes können mehrere Schwachstellen entstehen. Dazu gehören unsauber aufgesetzte Berechtigungen, fehlende Inputsäuberung und Inputvalidierung, überdimensionierte Schnittstellen mit zu vielen Feldern sowie schwache Passwörter und fehlende Passwortverwaltung.
-- **Gegenmassnahmen:** Den internen Angriff kann man mit einem Berechtigungsmodell, welches nach dem Prinzip so wenig wie nötig aufgesetzt ist, mitigieren. Den Zugriff auf eine Kundendatenbank wird über einen Supportuser gelöst, welcher nur mit Begründung und Dokumentation der Tätigkeiten benutzt werden kann. Um die externen Angriffe zu erschweren kommen sichere Passwörter und klar definierte Schnittstellen zum Einsatz. Die Schnittstellen dürfen nur die klar definierten Felder verwenden und der Inhalt der Anfragen wird vor der Verarbeitung gesäubert um unerwünschte Effekte zu vermeiden.
-- **Aktuelle Schwachstellen:** Bei der Generierung der Datenbank wird aktuell das Passwort des Benutzers im Klartext in das Init-Script reingeschrieben. Da ansonsten die Entwicklung mühsam ist und das automatische Aufsetzen der Entwicklungsumgebung nicht möglich ist. Für den späteren Projektverlauf  gibt es die Möglichkeit, die Passwörter erst in der Pipeline einzufügen. Zusätzlich gibt es die Möglichkeit, Data-at-Rest in der Datenbank zu verschlüsseln, was aktuell auch noch nicht umgesetzt worden ist.
+- **Was sind unsere Assets:** In unserem MVP sind in unserem System nur Daten vorhanden die uneingeschränkt über unsere Webseite einsehbar sind. In der Datenbank sind nur regelmässige Einträge mit Timestamp, Anzahl Personen  und maximal erlaubter Anzahl Personen vorhanden. Diese Metriken sind völlig anonym und werden als Zahlen angeliefert, Rückschlüsse auf einzelne Personen sind unmöglich. Zusätzlich speichern wir noch die Secrets der Firmen, die uns Daten anliefern. Diese Daten sind schützenswert, da es als Angreifer mit dem Secret möglich wäre unser System zu überlasten. In der späteren Ausbaustufe, in der wir Kundendaten erfassen und speichern, ist die Datenbank mit Kundendaten ein wichtiges Asset.
+- **Threat Agents und mögliche Angriffe:** Interne Angriffe könnten die Kundendaten abgreifen um die gespeicherten E-Mailadressen weiterzuverwenden. Dies wäre möglich über einen Zugriff auf die Kundendatenbank, wenn sie nicht genügend gut per Zugriffsrechte abgesichert wird. Ein externer Angreifer, welcher eine Organisierte Verbrecherbande oder ein einzelner Hacker sein kann, müsste sich die Zugangsdaten der Datenbank beschaffen um direkt darauf zuzugreifen oder er schafft es über die API an mehr Daten als eigentlich vorgesehen zu kommen.
+- **Mögliche Schwachstellen:** Bei der Entwicklung unseres Produktes können mehrere Schwachstellen entstehen. Dazu gehören unsauber aufgesetzte Berechtigungen, fehlende Inputsäuberung und Inputvalidierung, überdimensionierte Schnittstellen mit zu vielen Feldern, sowie schwache Passwörter und fehlende Passwortverwaltung.
+- **Gegenmassnahmen:** Den internen Angriff kann man mit einem Berechtigungsmodell, welches nach dem Prinzip *so wenig wie nötig* aufgesetzt ist, mitigieren. Der Zugriff auf die Kundendatenbank wird über einen Supportuser gelöst, welcher nur mit Begründung und Dokumentation der Tätigkeiten benutzt werden kann. Um die externen Angriffe zu erschweren kommen sichere Passwörter und klar definierte Schnittstellen zum Einsatz. Die Schnittstellen dürfen nur die klar definierten Felder verwenden und der Inhalt der Anfragen wird vor der Verarbeitung gesäubert um unerwünschte Effekte zu vermeiden.
+- **Aktuelle Schwachstellen:** Bei der Generierung der Datenbank wird aktuell das Passwort des Benutzers im Klartext in das Init-Script reingeschrieben. Da ansonsten die Entwicklung mühsam ist und das automatische Aufsetzen der Entwicklungsumgebung nicht möglich ist. Für den späteren Projektverlauf  gibt es die Möglichkeit, die Passwörter erst in der Pipeline einzufügen. Zusätzlich gibt es die Möglichkeit, Data-at-Rest in der Datenbank zu verschlüsseln, was aktuell auch noch nicht umgesetzt worden ist. Dies wäre insbesondere für die Secrets der Stores Pflicht bevor das Produkt live eingesetzt werden könnte.
 
 ### Qualitätsmerkmale
 
@@ -176,29 +175,28 @@ Die Nicht Funktionalen Anforderungen, aufgeteilt in MUSS und KANN Anforderungen,
 |                 |           | innerhalb von 15min die betroffene   |
 |                 |           | Codestelle gefunden haben.           |
 +-----------------+-----------+--------------------------------------+
-| NF-8            | KANN      | Die Ergebnisse sollte nicht älter    |
+| NF-8            | KANN      | Die Ergebnisse sollten nicht älter   |
 |                 |           | als 15min sein.                      |
 +-----------------+-----------+--------------------------------------+
 ```
-
 
 ### Schnittstellen
 
 Im Dokument bzw. Bereich "API Dokumentation" gibt es noch eine genaue Beschreibung der Schnittstellen.
 
 - **Webapplikation**
-    - Schnittstelle zum Backend um Besucherdaten abzufragen (1. Schritt)
-    - Schnittstelle zum Backend für Authentifizierung und Autorisierung (2. Schritt)
+  - Schnittstelle zum Backend um Besucherdaten abzufragen (1. Schritt)
+  - Schnittstelle zum Backend für Authentifizierung und Autorisierung (2. Schritt)
 
 - **Backend**
-    - Schnittstelle zum Frontend um Besucherdaten zu liefern (1. Schritt)
-    - Schnittstelle zur Datenbank um Daten abzulegen und zu lesen (1. Schritt)
-    - Schnittstelle um Daten von den Firmen entgegenzunehmen (1. Schritt)
-    - Schnittstelle um die Firmenregistrierung zu ermöglichen (2. Schritt)
-    - Schnittstelle zum Frontend für die Authentifizierung und Autorisierung (2. Schritt)
+  - Schnittstelle zum Frontend um Besucherdaten zu liefern (1. Schritt)
+  - Schnittstelle zur Datenbank um Daten abzulegen und zu lesen (1. Schritt)
+  - Schnittstelle um Daten von den Firmen entgegenzunehmen (1. Schritt)
+  - Schnittstelle um die Firmenregistrierung zu ermöglichen (2. Schritt)
+  - Schnittstelle zum Frontend für die Authentifizierung und Autorisierung (2. Schritt)
 
 - **Datenbank**
-    - Schnittstelle zu Backend um Daten entgegenzunehmen oder zu liefern
+  - Schnittstelle zu Backend um Daten entgegenzunehmen oder zu liefern
 
 ### Screendesigns
 
@@ -206,7 +204,7 @@ Wir haben direkt Screendesigns entwickelt, weil ein Grobdesign (z.B. Wireframes)
 
 Nur die Startpage auf Mobile ist relevant für das Minimum Viable Product.
 
-Alle Screendesigns werden unter [diesem Link in Figma](https://www.figma.com/file/0vTe4KLJXtXvXXM7i5plLx/CapWatch) produziert und abgelegt.
+Alle Screendesigns werden unter [diesem Link zu Figma](https://www.figma.com/file/0vTe4KLJXtXvXXM7i5plLx/CapWatch) produziert und abgelegt.
 
 ### Randbedingungen
 
