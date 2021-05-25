@@ -204,7 +204,7 @@ Wir haben direkt Screendesigns entwickelt, weil ein Grobdesign (z.B. Wireframes)
 
 Nur die Startpage auf Mobile ist relevant für das Minimum Viable Product.
 
-Alle Screendesigns werden unter [diesem Link in Figma](https://www.figma.com/file/0vTe4KLJXtXvXXM7i5plLx/CapWatch) produziert und abgelegt.
+Alle Screendesigns werden unter [diesem Link zu Figma](https://www.figma.com/file/0vTe4KLJXtXvXXM7i5plLx/CapWatch) produziert und abgelegt.
 
 ### Randbedingungen
 
