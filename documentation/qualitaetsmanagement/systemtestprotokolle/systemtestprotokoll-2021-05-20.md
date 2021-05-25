@@ -55,9 +55,7 @@ Um den Test durchzuführen wurde in beiden Repositories über Docker-Compose die
 
 ## Manuelle Frontend Tests
 
-Wenn in der Liste aller Stores Daten vorhanden sind, wird in den Favoriten nicht angezeigt, dass keine Favoriten ausgewählt sind.
-
-![frontend-test-navigation-current-location](../../../images/frontend-test-navigation-current-location.png)
+Es wurden keine Fehler entdeckt. Alles funktioniert mit diesem Funktionsumfang einwandfrei.
 
 ## Test der NF-Anforderungen, Performance- und Lasttests
 
@@ -103,11 +101,9 @@ Soweit möglich und sinnvoll wurden die nicht funktionalen Anforderungen geteste
 
 ## Usability Tests
 
-Es wurde ein Usability Test mit zwei Personen durchgeführt. Dabei lag der Fokus auf der Benutzerführung und Anwenderfreundlichkeit. Dabei wurden folgende Punkte festgestellt/bemängelt:
-
-Die Testpersonen finden die angezeigten Informationen übersichtlich dargestellt und finden sich im Frontend schnell zurecht.
-
+Es wurden Usability Tests mit zwei Personen durchgeführt. Dabei lag der Fokus auf der Benutzerführung und Anwenderfreundlichkeit. Dabei wurden folgende Punkte festgestellt/bemängelt:
+- Die Testpersonen finden die angezeigten Informationen übersichtlich dargestellt und finden sich im Frontend sehr schnell zurecht.
 - Der Slider welcher das aktuelle Besucheraufkommen anzeigt wird vom User als Eingabeelement wahrgenommen. Als Alternative wäre hier eine Progressbar geeignet.
-- Die nicht implementierten Menüitems (In der Nähe und Einstellungen) geben dem User kein Feedback. Hier wäre es ratsam eine Infopage anzuzeigen oder mit einem Popup darauf hinzuweisen, dass diese Funktionen noch nicht zur Verfügung stehen.
-- Auf der Desktopversion sind die Menüitems am unteren Rand des Browsers, diese werden vom Benutzer somit nicht sofort erkannt. Die App wurde nach dem Prinzip Mobile first entwickelt, dies sollte aber bei einer Optimierung für Desktop beachtet werden.
+- Die nicht implementierten Navigationspunkte ("In der Nähe" und "Einstellungen") geben dem User kein Feedback. Hier wäre es ratsam eine Infopage anzuzeigen oder mit einem Popup darauf hinzuweisen, dass diese Funktionen noch nicht zur Verfügung stehen.
+- Auf der Desktopversion sind die Navigationspunkte am unteren Rand des Browsers, diese werden vom Benutzer somit nicht sofort erkannt. Die App wurde bewusst nach dem Prinzip Mobile-first entwickelt, dies sollte aber bei einer Optimierung für Desktop beachtet werden.
 - Ebenfalls in der Desktopversion werden die Cards unterschiedlich gross dargestellt, sofern eine Card einen viel längeren Namen hat. Dies sollte bei einer Optimierung für Desktop ebenfalls beachtet werden.
