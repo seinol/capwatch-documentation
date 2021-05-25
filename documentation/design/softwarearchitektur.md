@@ -90,9 +90,9 @@ Zum aktuellen Zeitpunkt umfasst die Datenbank nur eine Collection in welcher Sto
 
 ## Grössen und Leistung
 
-Aus den Performance Tests mit JMeter können wir sagen, dass die Applikation serverseitig sehr performant ist. CapWatch kann daher auf beliebigen Systemen, auf denen Docker läuft, deployt werden.
+Aus den Performance Tests mit JMeter können wir bestätigen, dass die Applikation serverseitig sehr performant ist. CapWatch kann daher auf beliebigen Systemen, auf denen mindestens Docker betrieben werden können, deployt werden.
 
-Bei übermässig vielen Einträgen in der Store Tabelle benötigt das Frontend auf dem Zielsystem des Anwenders sehr viel Leistung. Die User Experience wird dadurch stark eingeschränkt. Dieses Problem könnte durch paging der Store Daten jedoch relativ einfach behoben werden.
+Bei übermässig vielen Einträgen in der Store Tabelle benötigt das Frontend auf dem Zielsystem des Anwenders sehr viel Leistung. Die User Experience wird dadurch stark eingeschränkt. Dieses Problem könnte durch Paging der Store Einträge jedoch relativ einfach behoben werden und zählt zu den KANN- bzw. den Ausbauanforderungen.
 
 ## Ausbau-Szenario
 
@@ -108,7 +108,7 @@ Falls bei der Datenbank Performance Probleme relevant werden sollten, wären die
 
 ## Technische Schulden
 
-Um das Frontend aktuell zu halten, muss regelmässig die Liste der Stores und deren Auslastung geladen werden um aktuelle Daten anzuzeigen. Hier würde sich ein Websocket anbieten, welcher dem Frontend mitteilt, falls es Änderungen gibt. Bas Backend bietet bereits einen WebSocket an, welcher diese Information zur Verfügung stellt. Dieser wird in der Beta Version allerdings vom Frontend noch nicht berücksichtigt.
+Um das Frontend aktuell zu halten, muss regelmässig die Liste der Stores und deren Auslastung geladen werden. Hier würde sich ein Websocket anbieten, welcher dem Frontend mitteilt, falls es Änderungen gibt. Bas Backend bietet bereits einen Websocket an, welcher diese Information zur Verfügung stellt. Dieser wird in der Beta Version allerdings vom Frontend noch nicht berücksichtigt, weil unterwartete grössere Restriktionen vorgekommen sind.
 
 ## Durchlaufene Klassen
 
@@ -118,6 +118,5 @@ Hier folgt noch eine grobe Übersicht über die wichtigsten Klassen / Methoden, 
 
 ## Weggelassene Dokumentation
 
-* Wir haben uns dazu entschieden keine Designklassendiagramme zu entwerfen, weil diese uns gegenüber dem Strukturdiagramm im Domainmodell keinen Mehrwert bieten.
-
-* Wir sind bei der Dokumentation der Architektur bewusst nicht bis auf die Ebene Code (nach C4) / Klassendiagramme hinuntergegangen, da diese in den wenigsten Fällen wirklich hilfreich sind. Sollte trotzdem irgendwann ein Klassendiagramm nötig sein, kann dieses aus dem Code generiert werden, was dann auch garantiert, dass es die aktuellsten Informationen enthält.
+- Wir haben uns dazu entschieden keine Designklassendiagramme zu entwerfen, weil diese uns gegenüber dem Strukturdiagramm im Domainmodell keinen Mehrwert bieten.
+- Wir sind bei der Dokumentation der Architektur bewusst nicht bis auf die Ebene Code (nach C4) / Klassendiagramme hinuntergegangen, da diese in den wenigsten Fällen wirklich hilfreich sind. Sollte trotzdem irgendwann ein Klassendiagramm nötig sein, kann dieses aus dem Code generiert werden, was dann auch garantiert, dass es die aktuellsten Informationen enthält.
