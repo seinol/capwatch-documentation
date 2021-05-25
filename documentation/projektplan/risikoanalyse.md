@@ -1,27 +1,27 @@
 - - # Risikoanalyse
-  
+
     ## Einführung
-  
+
     ### Zweck
-  
+
     In diesem Dokument werden Risiken identifiziert und beurteilt. Aufgrund dieser Beurteilung wird definiert wie mit den Risiken zu verfahren ist.
-  
+
     ### Gültigkeitsbereich
-  
+
     Dieses Dokument ist für das EPJ CapWatch gültig. Eine Überprüfung der Risiken ist während des Projektes mehrfach durchzuführen.
-  
+
     ### Referenzen
-  
+
     Vorlesung SE1 FS2021: Woche 1 - W01 - Introduction and Project Planning
-  
+
     ## Risikomanagement
-  
+
     - Projekt: CapWatch
     - Erstellt am: 02.03.2021
     - Autor: Christoph Scheiwiller
-    - Gewichteter Schaden Projekt gesamt: *20 Stunden*
-    - Durchschnitt Schadenspotenzial pro Sprint (gerundet): *6 Stunden**
-  
+    - Gewichteter Schaden Projekt gesamt: _20 Stunden_
+    - Durchschnitt Schadenspotenzial pro Sprint (gerundet): \*6 Stunden\*\*
+
     ```eval_rst
     +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
     | Nr  | Titel                | Beschreibung                              | Schadenspotenzial | Eintrittswahrschein- | Gewichteter   | Vorbeugung               | Verhalten beim Eintreten      |
@@ -71,19 +71,19 @@
     |     |                      |                                           |                   |                Summe |            20 |                          |                               |
     +-----+----------------------+-------------------------------------------+-------------------+----------------------+---------------+--------------------------+-------------------------------+
     ```
-  
-    \* *Durchschnitt Schadenspotenzial (aufgerundet) = Gewichteter Schaden Projekt / Anzahl Sprints*
-  
-    ** *Gewichteter Schaden = Schadenspotenzial * Eintrittswahrscheinlichkeit*
-  
+
+    \* _Durchschnitt Schadenspotenzial (aufgerundet) = Gewichteter Schaden Projekt / Anzahl Sprints_
+
+    \*\* _Gewichteter Schaden = Schadenspotenzial _ Eintrittswahrscheinlichkeit\*
+
     ## Risikoüberwachung
-  
+
     Die Risiken sollen nach jedem Sprint überprüft werden.
-  
+
     Risikoüberprüfung durchgeführt:
-  
+
     - 13.03.2021 (Christoph Scheiwiller): Risiken ergänzt / Neuberechnung Schadenspotenzial
-    - 02.04.2021 (Pascal Schlumpf): Risiken neu beurteilt  
+    - 02.04.2021 (Pascal Schlumpf): Risiken neu beurteilt
       - Ri4 bleibt gleich da im Prototyp die MUSS-Anforderungen nicht vollständig umgesetzt worden sind.
       - Ri5 bleibt trotz ersten Erfahrungen gleich. Wir müssen unsere Erkenntnisse in den nächsten Sprint einfliessen lassen und schauen ob wir uns verbessert haben. Erst dann können wir die Eintrittswahrscheinlichkeit reduzieren.
       - Bei Ri6 reduziert sich die Eintrittswahrscheinlichkeit, da wir den Grundstein der Architektur im Prototyp schon umgesetzt haben und es sich bewährt hat.
