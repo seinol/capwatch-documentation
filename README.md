@@ -1,8 +1,3 @@
 # CapWatch Documentation
 
-For information on how to use this template,
-take a look at the [EPJ Handbook](http://epj.pages.gitlab.ost.ch/handbook/handbook/documentation-template/).
-
-- [Gitlab Pages](http://epj.pages.gitlab.ost.ch/2021-FS/g03_capwatch/documentation-and-various/documentation/index.html)
-- [PDF build](http://epj.pages.gitlab.ost.ch/2021-FS/g03_capwatch/documentation-and-various/documentation/_static/doccapwatch.pdf)
-- [EPUB build](http://epj.pages.gitlab.ost.ch/2021-FS/g03_capwatch/documentation-and-various/documentation/_static/doccapwatch.epub)
+- [PDF build](https://github.com/seinol/capwatch-documentation/tree/master/_static/doccapwatch.pdf)
