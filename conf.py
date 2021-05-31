@@ -9,11 +9,11 @@ project = 'Doc CapWatch'
 _abbreviation = 'CapWatch'
 _description = 'Dokumentation für das CapWatch Projekt'
 _authors = [
-  {'name': 'Rafael Fuhrer', 'email': 'rafael.fuhrer@ost.ch'},
-  {'name': 'Jonas Hauser',  'email': 'jonas.hauser@ost.ch' },
-  {'name': 'Christoph Scheiwiller',  'email': 'christoph.scheiwiller@ost.ch' },
-  {'name': 'Pascal Schlumpf',  'email': 'pascal.schlumpf@ost.ch' },
-  {'name': 'Pascal Schneider',  'email': 'pascal.schneider@ost.ch' },
+  {'name': 'Rafael Fuhrer', 'email': ''},
+  {'name': 'Jonas Hauser',  'email': '' },
+  {'name': 'Christoph Scheiwiller',  'email': '' },
+  {'name': 'Pascal Schlumpf',  'email': '' },
+  {'name': 'Pascal Schneider',  'email': '' },
 ]
 
 language = 'de'

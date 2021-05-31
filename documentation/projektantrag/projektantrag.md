@@ -10,11 +10,11 @@
 
 ## Team
 
-- Pascal Schlumpf pascal.schlumpf@ost.ch
-- Christoph Scheiwiller christoph.scheiwiller@ost.ch
-- Jonas Hauser jonas.hauser@ost.ch
-- Rafael Fuhrer rafael.fuhrer@ost.ch
-- Pascal Schneider pascal.schneider@ost.ch
+- Pascal Schlumpf
+- Christoph Scheiwiller
+- Jonas Hauser
+- Rafael Fuhrer
+- Pascal Schneider
 
 ## Beratungs- und Review-Zeitslots
 
